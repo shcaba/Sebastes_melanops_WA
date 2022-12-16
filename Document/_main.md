@@ -28,11 +28,11 @@ author:
     first: T
     middle: '-'
     family: Tsou
-  - name: Lisa Hillier
+  - name: Lisa K. Hillier
     code: 2
-    first: K
-    middle: ''
-    family: Hinton
+    first: L
+    middle: K
+    family: Hillier
   - name: Kristen M. Hinton
     code: 2
     first: K
@@ -43,7 +43,7 @@ author:
     first: C
     middle: B
     family: Niles
-author_list: Cope, J.M., T.-. Tsou, L. Hillier, K.M. Hinton, C.B. Niles
+author_list: Cope, J.M., T.-. Tsou, L.K. Hillier, K.M. Hinton, C.B. Niles
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
