@@ -5,10 +5,10 @@
   library(r4ss)
 
 # Specify the directory for the document
-setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document")
+setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document")
 
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document")
-setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/temp")
+setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document")
+setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/temp")
 
 # Create the needed items to generate the "right" template that would be based on the inputs here:
  sa4ss::draft(authors = c("Jason M. Cope", "Alison D. Whitman"),
@@ -29,12 +29,12 @@ setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/temp")
 
  base_name = "Reference model"
  mod_loc = file.path(
-   "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models",
+   "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models",
    base_name)
 
 base_name = "Reference model"
 mod_loc = file.path(
-   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models",
+   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/models",
    base_name)
 
 sa4ss::read_model(

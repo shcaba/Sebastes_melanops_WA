@@ -29,12 +29,12 @@ setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/temp")
 
  base_name = "Reference model"
  mod_loc = file.path(
-   "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models",
+   "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models",
    base_name)
 
 base_name = "Reference model"
 mod_loc = file.path(
-   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models",
+   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/models",
    base_name)
 
 sa4ss::read_model(

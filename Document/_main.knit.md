@@ -23,31 +23,41 @@ author:
     first: J
     middle: M
     family: Cope
-  - name: Alison D. Whitman
+  - name: Tien-Shui Tsou
     code: 2
-    first: A
-    middle: D
-    family: Whitman
-  - name: Aaron M. Berger
-    code: 1
-    first: A
-    middle: D
-    family: Whitman
-author_list: Cope, J.M., A.D. Whitman, A.M. Berger
+    first: T
+    middle: '-'
+    family: Tsou
+  - name: Lisa Hillier
+    code: 2
+    first: K
+    middle: ''
+    family: Hinton
+  - name: Kristen M. Hinton
+    code: 2
+    first: K
+    middle: M
+    family: Hinton
+  - name: Corey B. Niles
+    code: 2
+    first: C
+    middle: B
+    family: Niles
+author_list: Cope, J.M., T.-. Tsou, L. Hillier, K.M. Hinton, C.B. Niles
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
       Oceanic and Atmospheric Administration, National Marine Fisheries Service, 2725
       Montlake Boulevard East, Seattle, Washington 98112
   - code: 2
-    address: Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science
-      Drive, Newport, Oregon 97365
+    address: Washington Department of Fish and Wildlife, 600 Capital Way North, Olympia,
+      Washington 98501
 address:
   - ^1^Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic
     and Atmospheric Administration, National Marine Fisheries Service, 2725 Montlake
     Boulevard East, Seattle, Washington 98112
-  - ^2^Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science Drive,
-    Newport, Oregon 97365
+  - ^2^Washington Department of Fish and Wildlife, 600 Capital Way North, Olympia,
+    Washington 98501
 ---
 
 <!--chapter:end:00authors.Rmd-->
@@ -60,7 +70,7 @@ bibliography:
 <!--chapter:end:00bibliography.Rmd-->
 
 ---
-title: Status of Black Rockfish (_Sebastes melanops_) off Oregon and federal waters in 2023
+title: Status of Black Rockfish (_Sebastes melanops_) off Washington and federal waters in 2023
 ---
 
 <!--chapter:end:00title.Rmd-->
@@ -110,7 +120,7 @@ Because of their nearshore distribution and low abundance compared to other rock
 
 
 
-![Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:es-catch}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png){width=100% height=100% alt="."}
+![Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:es-catch}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -138,10 +148,10 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 \input{tex_tables/b_SSB_ES.tex}
 
 
-![Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
 
 
-![Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -154,7 +164,7 @@ Informative recruitment begins in the 1960s and peaks in the 1990s (Table \ref{t
 \input{tex_tables/c_Recr_ES.tex}
 
 
-![Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
 #```{r, results = 'asis'}
 #add_figure(
@@ -172,7 +182,7 @@ Trends in fishing intensity (1 - SPR) largely mirrored that of landings until th
 \input{tex_tables/d_SPR_ES.tex}
 
 
-![Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+![Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -190,11 +200,11 @@ The 2021 spawning biomass relative to unfished equilibrium spawning biomass is w
 Reference points were calculated using the estimated selectivities and catch distributions among fleets in the most recent year of the model, 2014 (Table \ref{tab:e_ReferencePoints_ES}). Sustainable total yield, removals, using an $\text{SPR}_{50\%}$ is 514 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 633.7 meggs. Recent removals have been close to the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point and the population size has been relatively decreasing toward the target over the past few years.
 
 
-![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
 
 
 ![Equilibrium yield curve for the base case model. Values are based on the 2020
-fishery selectivities and with steepness fixed at 0.80.\label{fig:es-yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+fishery selectivities and with steepness fixed at 0.80.\label{fig:es-yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
 \input{tex_tables/e_ReferencePoints_ES.tex}
 
@@ -300,7 +310,7 @@ _**These materials do not constitute a formal publication and are for informatio
 ## Basic Information
 Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
-A previous assessment of Black Rockfish off Oregon and California [@ralston_status_2003] reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
+A first assessment of Black Rockfish off considered the population off Oregon and California [@ralston_status_2003] and reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
 
 Although a stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae, the 2007 assessment of Black Rockfish off Oregon and California [@sampson_status_2007] differed slightly from Ralston and Dick [-@ralston_status_2003] in placing the northern boundary at Cape Falcon rather than at the Columbia River.  The boundary was changed to avoid overlap with the separate northern assessment [@wallace_status_2007] and to simplify the process of assembling historical commercial landings data, which are largely available in terms of Pacific Marine Fisheries Commission (PMFC) statistical areas.  The northern boundary of PMFC Area 2C is at Cape Falcon (Figure 1).  Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
 
@@ -388,7 +398,7 @@ A description of each data source is provided below (Figure \ref{fig:data-plot})
 
 The systems along the U.S. West Coast for monitoring commercial fishery landings in the past did not keep track of the landings of individual rockfish species, largely because many rockfish species have similar market characteristics and therefore were landed as an unsorted mix of species.  Black rockfish in particular, which are a nearshore species and much less abundant than many of the offshore rockfish species, were generally landed in mixed-species categories.  As a consequence, the historical records do not provide a detailed accounting of the landings of black rockfish.  The basic approach taken to develop the landings series in this assessment (as in past assessments) was to apply values for the proportion of black rockfish sampled in mixed-rockfish landings.  Data on the proportions of black rockfish are sparse, with the consequence that the landings reconstructions are highly uncertain.
 
-All three regional assessments use data for the modern era (for 1981 to 2014) from the Pacific Fishery Information system (PacFIN), which is a central repository for U.S. West Coast groundfish landings and auxiliary information collected by the three state fishery agencies and other agencies.  A description of basic state data collection systems and overview of PacFIN is provided in Sampson and Crone (1997).  Updated dockside sampling protocols and data processing procedures for Washington are described in Tsou et al. [-@tsou_etal_2015] and Tsou and Weyland [-@tsou_weyland_2015].  A variety of sources were used to reconstruct regional landings histories for years earlier than 1981. Comparisons of the commercial catch in each fishery for the current and previous assessments are in Figure 20 (CA), Figure 81 (OR), and Figure 179 (WA).
+Commercial landings data for the modern era (1981 to present) are taken from the Pacific Fishery Information system (PacFIN), which is a central repository for U.S. West Coast groundfish landings and auxiliary information collected by the three state fishery agencies and other agencies.  A description of basic state data collection systems and overview of PacFIN is provided in Sampson and Crone (1997).  Updated dockside sampling protocols and data processing procedures for Washington are described in Tsou et al. [-@tsou_etal_2015] and Tsou and Weyland [-@tsou_weyland_2015].  A variety of sources were used to reconstruct regional landings histories for years earlier than 1981. Comparisons of the commercial catch in each fishery for the current and previous assessments Figure 81.
 
 
 ##### The PacFIN Era: 1981 to 2014
@@ -1243,7 +1253,7 @@ Here are all the mad props!
 <!-- ====================================================================== --> 
 
 
-![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
+![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
 
 <!--chapter:end:53figures.Rmd-->
 

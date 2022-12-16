@@ -15,17 +15,17 @@ author:
     first: K
     middle: ''
     family: Hinton
-  - name: Kristen M. Hinton
+  - name: Kristen Hinton
     code: 2
     first: K
-    middle: M
+    middle: ''
     family: Hinton
-  - name: Corey B. Niles
+  - name: Corey Niles
     code: 2
     first: C
-    middle: B
+    middle: ''
     family: Niles
-author_list: Cope, J.M., T.-. Tsou, L. Hillier, K.M. Hinton, C.B. Niles
+author_list: Cope, J.M., T.-. Tsou, L. Hillier, K. Hinton, C. Niles
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National

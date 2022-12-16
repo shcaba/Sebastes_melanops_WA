@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.2)  16 DEC 2022 14:58
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.2)  16 DEC 2022 15:27
  restricted system commands enabled.
 **_main.tex
 (./_main.tex
@@ -1364,77 +1364,77 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
 
 
 ]
-Package marginnote Info: Using workaround for absolute page number on input line 225.
+Package marginnote Info: Using workaround for absolute page number on input line 227.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.ii'
 [2] (./tex_tables/a_Catches_ES.tex)
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png, id=459, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png  used on input line 232.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png, id=459, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png  used on input line 234.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.iii'
 [3
 
-<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/catch2 landings stacked.png>]
+<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.iv'
 [4
 
 ] (./tex_tables/b_SSB_ES.tex)
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png, id=479, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png  used on input line 268.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png, id=479, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png  used on input line 270.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png, id=480, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png  used on input line 274.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png, id=480, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png  used on input line 276.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.v'
-[5] [6<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png><c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png>]
+[5] [6<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png><c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png>]
 
-LaTeX Warning: Reference `fig:es-rec-devs' on page vii undefined on input line 286.
+LaTeX Warning: Reference `fig:es-rec-devs' on page vii undefined on input line 288.
 
 (./tex_tables/c_Recr_ES.tex)
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png, id=498, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png  used on input line 292.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png, id=498, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png  used on input line 294.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 []\TU/lmr/m/n/10 #\TU/lmtt/m/n/10 {r, results = 'asis'} #add_figure( #filein = file.path(mod_loc, "plots",
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \TU/lmtt/m/n/10 "recdevs2_withbars.png"),  #caption = "Estimated time series of recruitment
  []
 
 [7
 
-] (./tex_tables/d_SPR_ES.tex [8<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>])
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png, id=518, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png  used on input line 310.
+] (./tex_tables/d_SPR_ES.tex [8<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png>])
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png, id=518, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png  used on input line 312.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
-[9<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR2_minusSPRseries.png>]
+[9<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png>]
 
-LaTeX Warning: Reference `tab:e_ReferencePoints_ES' on page x undefined on input line 330.
+LaTeX Warning: Reference `tab:e_ReferencePoints_ES' on page x undefined on input line 332.
 
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png, id=526, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png  used on input line 334.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png, id=526, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png  used on input line 336.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png, id=527, 469.755pt x 289.08pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png  used on input line 340.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png, id=527, 469.755pt x 289.08pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png  used on input line 342.
 (luatex.def)             Requested size: 398.34032pt x 245.13249pt.
 (./tex_tables/e_ReferencePoints_ES.tex
 Overfull \hbox (41.71796pt too wide) in alignment at lines 4--9
@@ -1463,7 +1463,7 @@ Overfull \hbox (41.71796pt too wide) in alignment at lines 18--39
 
 [10
 
-] [11<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/SPR4_phase.png><c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png>]) [12] [13
+] [11<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png><c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png>]) [12] [13
 
 ] (./tex_tables/project_ES.tex [14]) [15] (./tex_tables/decision_table_es.tex
 Overfull \hbox (242.18054pt too wide) in alignment at lines 4--50
@@ -1475,94 +1475,94 @@ Overfull \hbox (242.18054pt too wide) in alignment at lines 4--50
 ] [17
 
 ] [1]
-Package marginnote Info: Using workaround for absolute page number on input line 465.
+Package marginnote Info: Using workaround for absolute page number on input line 467.
 [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
 
-LaTeX Warning: Reference `tab:OR_vermilion_ORBSindex' on page 40 undefined on input line 1185.
+LaTeX Warning: Reference `tab:OR_vermilion_ORBSindex' on page 40 undefined on input line 1187.
 
 [40] [41]
 
-LaTeX Warning: Reference `fig:jitter_001' on page 42 undefined on input line 1214.
+LaTeX Warning: Reference `fig:jitter_001' on page 42 undefined on input line 1216.
 
 [42]
 
-LaTeX Warning: Reference `tab:model-param' on page 43 undefined on input line 1235.
+LaTeX Warning: Reference `tab:model-param' on page 43 undefined on input line 1237.
 
 
-LaTeX Warning: Reference `tab:likes' on page 43 undefined on input line 1235.
+LaTeX Warning: Reference `tab:likes' on page 43 undefined on input line 1237.
 
 [43]
 
-LaTeX Warning: Reference `tab:model-param' on page 44 undefined on input line 1239.
+LaTeX Warning: Reference `tab:model-param' on page 44 undefined on input line 1241.
 
 
-LaTeX Warning: Reference `fig:len-age-ss' on page 44 undefined on input line 1239.
+LaTeX Warning: Reference `fig:len-age-ss' on page 44 undefined on input line 1241.
 
 
-LaTeX Warning: Reference `fig:len-age-ss' on page 44 undefined on input line 1239.
+LaTeX Warning: Reference `fig:len-age-ss' on page 44 undefined on input line 1241.
 
 
-LaTeX Warning: Reference `fig:fleet_selectivity' on page 44 undefined on input line 1241.
+LaTeX Warning: Reference `fig:fleet_selectivity' on page 44 undefined on input line 1243.
 
 
-LaTeX Warning: Reference `fig:recruits' on page 44 undefined on input line 1243.
+LaTeX Warning: Reference `fig:recruits' on page 44 undefined on input line 1245.
 
 
-LaTeX Warning: Reference `fig:rec-devs' on page 44 undefined on input line 1243.
+LaTeX Warning: Reference `fig:rec-devs' on page 44 undefined on input line 1245.
 
 
-LaTeX Warning: Reference `fig:bh-curve' on page 44 undefined on input line 1243.
+LaTeX Warning: Reference `fig:bh-curve' on page 44 undefined on input line 1245.
 
 
-LaTeX Warning: Reference `fig:bias-adj' on page 44 undefined on input line 1243.
+LaTeX Warning: Reference `fig:bias-adj' on page 44 undefined on input line 1245.
 
 
-LaTeX Warning: Reference `tab:timeseries' on page 44 undefined on input line 1250.
+LaTeX Warning: Reference `tab:timeseries' on page 44 undefined on input line 1252.
 
 
-LaTeX Warning: Reference `fig:ssb' on page 44 undefined on input line 1250.
+LaTeX Warning: Reference `fig:ssb' on page 44 undefined on input line 1252.
 
 
-LaTeX Warning: Reference `fig:tot-bio' on page 44 undefined on input line 1250.
+LaTeX Warning: Reference `fig:tot-bio' on page 44 undefined on input line 1252.
 
 
-LaTeX Warning: Reference `fig:depl' on page 44 undefined on input line 1252.
+LaTeX Warning: Reference `fig:depl' on page 44 undefined on input line 1254.
 
 
-LaTeX Warning: Reference `fig:recruits' on page 44 undefined on input line 1252.
+LaTeX Warning: Reference `fig:recruits' on page 44 undefined on input line 1254.
 
 [44] [45] [46] [47] [48]
 
-LaTeX Warning: Reference `fig:depl' on page 49 undefined on input line 1388.
+LaTeX Warning: Reference `fig:depl' on page 49 undefined on input line 1390.
 
 
-LaTeX Warning: Reference `tab:timeseries' on page 49 undefined on input line 1388.
+LaTeX Warning: Reference `tab:timeseries' on page 49 undefined on input line 1390.
 
 
-LaTeX Warning: Reference `fig:1-spr' on page 49 undefined on input line 1388.
+LaTeX Warning: Reference `fig:1-spr' on page 49 undefined on input line 1390.
 
 
-LaTeX Warning: Reference `fig:yield' on page 49 undefined on input line 1388.
+LaTeX Warning: Reference `fig:yield' on page 49 undefined on input line 1390.
 
 [49]
 
-LaTeX Warning: Reference `tab:project' on page 50 undefined on input line 1396.
+LaTeX Warning: Reference `tab:project' on page 50 undefined on input line 1398.
 
 [50] [51
 
 ] [52] [53] [54] [55] [56
 
 ]
-<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png, id=1114, 469.755pt x 469.755pt>
-File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png Graphic file (type png)
-<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png>
-Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png  used on input line 1591.
+<C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png, id=1114, 469.755pt x 469.755pt>
+File: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png Graphic file (type png)
+<use C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png>
+Package luatex.def Info: C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png  used on input line 1593.
 (luatex.def)             Requested size: 398.34032pt x 398.34032pt.
 
 AED: lastpage setting LastPage
 [57
 
-<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models/Reference model/plots/data_plot.png>] (./_main.aux)
+<c:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png>] (./_main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1580,7 +1580,7 @@ Here is how much of LuaTeX's memory you used:
  69 fonts using 13952403 bytes
  115i,12n,128p,2284b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf><c:/Users/Jason.Cope/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf>
-Output written on _main.pdf (79 pages, 528530 bytes).
+Output written on _main.pdf (79 pages, 528711 bytes).
 
 PDF statistics: 1208 PDF objects out of 1440 (max. 8388607)
  1068 compressed objects within 11 object streams
