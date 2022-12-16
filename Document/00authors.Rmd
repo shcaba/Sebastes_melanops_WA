@@ -1,0 +1,33 @@
+---
+author:
+  - name: Jason M. Cope
+    code: 1
+    first: J
+    middle: M
+    family: Cope
+  - name: Alison D. Whitman
+    code: 2
+    first: A
+    middle: D
+    family: Whitman
+  - name: Aaron M. Berger
+    code: 1
+    first: A
+    middle: D
+    family: Whitman
+author_list: Cope, J.M., A.D. Whitman, A.M. Berger
+affiliation:
+  - code: 1
+    address: Northwest Fisheries Science Center, U.S. Department of Commerce, National
+      Oceanic and Atmospheric Administration, National Marine Fisheries Service, 2725
+      Montlake Boulevard East, Seattle, Washington 98112
+  - code: 2
+    address: Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science
+      Drive, Newport, Oregon 97365
+address:
+  - ^1^Northwest Fisheries Science Center, U.S. Department of Commerce, National Oceanic
+    and Atmospheric Administration, National Marine Fisheries Service, 2725 Montlake
+    Boulevard East, Seattle, Washington 98112
+  - ^2^Oregon Department of Fish and Wildlife, 2040 Southeast Marine Science Drive,
+    Newport, Oregon 97365
+---

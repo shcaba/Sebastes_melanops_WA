@@ -1,0 +1,52 @@
+
+Initial statistics: 1 variables; iteration 0; function evaluation 0; phase 1
+Function value 1.3410258e+03; maximum gradient component mag 1.2744e+03
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11466  1.27440e+03 |
+
+ - final statistics:
+1 variables; iteration 2; function evaluation 3
+Function value 1.3408e+03; maximum gradient component mag -3.0853e+00
+Exit code = 1;  converg criter 1.0000e+01
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11499 -3.08532e+00 |
+
+ - final statistics:
+1 variables; iteration 0; function evaluation 0
+Function value 1.3408e+03; maximum gradient component mag -3.0853e+00
+Exit code = 0;  converg criter 1.0000e+01
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11499 -3.08532e+00 |
+
+Initial statistics: 1 variables; iteration 0; function evaluation 0; phase 3
+Function value 1.3408117e+03; maximum gradient component mag -3.0853e+00
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11499 -3.08532e+00 |
+
+ - final statistics:
+1 variables; iteration 1; function evaluation 2
+Function value 1.3408e+03; maximum gradient component mag 1.8047e-02
+Exit code = 1;  converg criter 1.0000e+00
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11499  1.80474e-02 |
+
+Initial statistics: 2 variables; iteration 0; function evaluation 0; phase 4
+Function value 1.3408117e+03; maximum gradient component mag -4.8024e+00
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11499  1.80474e-02 |  2 -0.96957 -4.80239e+00 |
+Warning: the following parameters had issues
+  selparm[21] is within 1% of lower bound: -2.00000e+00 < -1.93290e+00 < 6.00000e+00
+
+
+ - final statistics:
+2 variables; iteration 7; function evaluation 13
+Function value 1.3403e+03; maximum gradient component mag -5.1743e-06
+Exit code = 1;  converg criter 1.0000e-04
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.11504 -5.17428e-06 |  2 -0.88323  4.06238e-08 |
+Estimating row 1 out of 2 for hessian
+Estimating row 2 out of 2 for hessian
+size of file gradfil1.tmp = 186480000
+size of file gradfil2.tmp = 0
+size of file varssave.tmp = 0
+size of file cmpdiff.tmp = 0

@@ -1,0 +1,9 @@
+Note 1 Information: Max data length bin: 64  < max pop len bins: 68; so will accumulate larger pop len bins
+Note 2 Information: Max harvest rate typically is >1.0 for F_method 2, 3 or 4 0.9
+Warning 1 : Setting in starter does not request all priors, and 5 parameters have priors and are not estimated, so their prior not included in obj_fun.
+Note 3 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
+Note 4 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
+Note 5 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
+Note 6 Suggestion: Selectivity 2 is a back-compatible (SS 3.30.18 and earlier) version of selectivity 24. Recommend using 24.
+Note 7 Information:  N parameters that are on or within 1% of min-max bound: 1; check results, variance may be suspect
+ 1 warning  and 7 notes 

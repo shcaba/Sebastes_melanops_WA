@@ -1,0 +1,57 @@
+## Model Diagnostics
+
+
+### Model Convergence and Acceptability
+
+While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (`r model$maximum_gradient_component`), inversion of the Hessian (passed), reasonable parameter values (passed), and acceptable fits to data (passed). 
+
+An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 12 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter_001}). A better fit, lower negative log-likelihood model was not found in any of remaining 96 runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
+
+Models were considered converged if they meet low gradient requirements (<0.001) and produced asymptotic standard deviations. Additional explorations for a consistent likelihood minimum was performed using jittered (0.1) starting values. A total of 100 jittered runs were performed for each model. Across all jittered runs, the lowest likelihoods of each respective model matched the base case likelihood (Figure 99 (OR); Figure 195 (WA)).
+
+
+## Base Model Results
+
+
+### Parameter Estimates
+
+The final base model incorporated aspects of both models proposed to the Mop-up STAR Panel. Below is a list of the more salient specifications (See also Section 2.4.1.2 for comparisons with the California and Washington models, of which the Oregon model shares many similar specifications when not listed below):
+* Female M fixed at 0.17, with a step at age 10 to 0.2.
+* Male M fixed at 0.17 for all ages.
+* Tag Q fixed at 0.25.
+* Selectivity for the trawl fishery was logistic and length-based, but allowed to be sex-specific. 
+* Selectivity for the ocean-boat recreational fishery was estimated as age-based with dome-shaped parameters for females.
+* Conditional age-at-length was weighted using harmonic means.
+* Recruitment deviations were not estimated.	
+
+
+### Fits to the Data
+
+The Oregon base case model shows the indices trending upward in the last three years, with the exception of the Commercial Logbook index.  Fits to the indices were generally poor, with mostly straight-line fits to most of them (Figure 100 to Figure 104).  
+
+Length composition fits are good for the live and dead non-trawl fisheries and for the recreational ocean-boat fishery, which represent the bulk of the data, but poor for the trawl and small fish research study, both of which had small samples sizes (Figure 105  to Figure 119).  Francis weighting are shown in Figure 120 to Figure 124. Fits to the weighted conditional age-at-length compositions show generally good agreement between observed and expected values (Figure 125 to Figure 132).  Estimated selectivity curves show that the trawl fishery is asymptotic in length for males and females, dome-shaped for both sexes in the live and dead fish fishery and the small fish for research survey, and dome-shaped and age-based for females in the recreational ocean fishery (Figure 147 to Figure 149).
+
+Sex-specific growth was estimated in the base model (Figure 150, Table 40).  Females grew bigger than males (Figure 149) and both were similar to the values estimated when the data was fit outside the model.
+
+A total of sixteen primary parameters were estimated, along with sixty recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
+
+The natural mortality for females and males was estimated at `r round(model$parameters[model$parameters$Label == "NatM_p_1_Fem_GP_1", 3],3)` and `r round(model$parameters[model$parameters$Label == "NatM_p_1_Mal_GP_1", 3],3)` yr^-1^, respectively. These values are below the mean prior value, but not unreasonable given the corresponding longevities would be between 67 and 75 years old and the sampled maximum age of 68 came from a fished population.
+
+The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). While $L_{\infty}$ was similar to the external estimates, the model estimated $k$ for female and male fish were greater than the values estimated externally (`r round(model$parameters[model$parameters$Label == "VonBert_K_Fem_GP_1", 3],3)`  for females and `r round(model$parameters[model$parameters$Label == "VonBert_K_Fem_GP_1", 3]*exp(model$parameters[model$parameters$Label == "VonBert_K_Mal_GP_1", 3]),3)` yr^-1^ for males).  The majority of female and male `r spp` growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female `r spp` reaching larger maximum lengths (Figure \ref{fig:len-age-ss}). 
+
+The estimated logistic selectivity curves for the commericial and recreational fishery look plausible (i.e., as a model convergence check for realism, the selectivity curves are not overtly outrageous) for each fishery and are very similar to each other (Figure \ref{fig:fleet_selectivity}). Length at 50% selectivity (commercial = `r round(model$parameters[model$parameters$Label == "Size_DblN_peak_Commercial(1)", 3],2)` cm; recreational = `r round(model$parameters[model$parameters$Label == "Size_DblN_peak_Recreational(2)", 3],2)` cm) was between the length at 50% (39.4 cm) and 95% maturity (48 cm). Future assessments could opt for parsimony and combine these two fisheries into one combined selectivity, though the model had no issue adding two more parameters given the available length data.
+
+The time series of estimated recruitments and annual recruitment deviations are shown in Figures \ref{fig:recruits} and \ref{fig:rec-devs}. Years with the highest recruitment deviations were estimated to have occurred in 1993-1994, 1998, 2005, and 2015. The variance check on the recruitment deviations indicates well informed recruitments from 1980 to 2015, providing justifation for the estimation of recruitment. Recruitment deviations after 2015 are relatively uninformed with estimated deviations near zero where recruitment is estimated primarily based on the spawner-recruit curve (Figure \ref{fig:bh-curve}). The recruitment bias adjustment applied within the model across years is shown in Figure \ref{fig:bias-adj}.
+
+
+### Population Trajectory
+
+The Oregon base case model shows the indices trending upward in the last three years, with the exception of the Commercial Logbook index.  Fits to the indices were generally poor, with mostly straight-line fits to most of them (Figure 100 to Figure 104).  
+
+The predicted spawning output (in millions of eggs) is provided in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a large decline starting in the 1970s, with a continued decline into the late 1990s. This tracks the time period of major removals, though removals have stayed somewhat elevated since. Strong recruitments since the 1990s have supported the elevated catches. The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}.
+
+Relative spawning output declined below the management target ($SB_{40\%}$) by the 1990s, but quickly rebounded to high relative spawning output, but has declined over the past 10 years (Figure \ref{fig:depl}). The relative stock status at the start of `r endyr + 1` (`r round(model$derived_quants[model$derived_quants$Label == 'Bratio_2021','Value'], 2)`) is estimated to be well above the rockfish relative biomass target of 0.4. Uncertainty intervals are wide given the number of estimated parameters, and indicate the population never goes below the management target ($SB_{40\%}$). The strong recruitment events that are supported by all fishery-dependent data sources are responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indcate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
+
+
+WA:
+The Washington base case model showed acceptable and dynamic fits to both indices (Figure 196 and Figure 197). The dockside CPUE was the most informative and best fit of the two series.  Fits to the length compositions are generally good (Figure 198 to Figure 210). The worst fits are found in data with low effective weight, such as the trawl samples. The Francis weighting shows a good match between expected and observed mean lengths over time for all fleets (Figure 207to Figure 210). Fits to the unweighted conditional age-at-length compositions shows generally good agreement between observed and expected ages at length (Figure 211 to Figure 216). Selectivity curves fits indicate the trawl fishery to be very different than other fleets (Figure 217). The trawl fishery effectively sampled a smaller portion of the adult population than the other fleets (Figure 219). Sex-specific growth was estimated in the base model (Figure 220). Natural mortality estimates were much larger than the initial prior value (Table 63). Numbers at age table and plots are given in the Supplementary tables (worksheets "WA #s at Age" and "WA #s at age plots").
