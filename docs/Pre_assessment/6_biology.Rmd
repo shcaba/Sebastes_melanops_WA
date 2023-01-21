@@ -1,0 +1,37 @@
+
+
+# Biology
+
+## Maturity and Fecundity
+
+TODO: Add figure showing the two maturity curves from last assessment.
+
+TODO: Add fecundity-at-length figure based on Dick et al. that was assumed in the last assessment
+
+TODO: Add information on additional maturity and fecundity samples being collected that will be used to update both maturity and fecundity if information is available in time. 
+
+## Length-Weight
+
+The length-weight relationship was estimated using all biological data available from the NWFSC West Coast Groundfish Bottom Trawl (WCGBT) and the NWFSC Hook and Line surveys. 
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "doc_Length_Weight_Sex.png"), 
+caption = "Length weight relationship by sex for copper rockfish (source: NWFSC WCGBT and HKL Surveys)",
+label = 'weight-length')
+
+```
+\
+
+## Length-at-Age
+
+TODO: Add plot showing the length-at-age of available data by area
+
+TODO: Add table of the number of additional age reads by sources that the CAP lab is working on 
+
+## Natural Mortality
+
+Natural mortality was fixed in the 2021 assessments at a value of 0.108 yr^-1^ based on an assumed maximum age of 50 years. The maximum age was selected based on available age data collected within Oregon and Washington and literature values. The oldest aged observed was 51 years with two observations off of the coast of Washington and Oregon in 2019. This selection was consistent with the literature examining the longevity of copper rockfish and was supported by the observed ages that had multiple observations of fish between 44 and 51 years of age.  
+
+The input parameter value for natural mortality will be reconsidered within the 2023 assessments based on any new available age data. Additionally, the 2023 assessments will explore the ability to estimate natural mortality within the model and will conduct sensitivities and profiles to understand the information in the data on natural mortality and the impact of select values on the model estimates.
+

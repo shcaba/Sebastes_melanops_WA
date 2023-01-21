@@ -1,0 +1,75 @@
+
+---
+title: "2023 Pre-assessment workshop for black rockfish in off Oregon"
+author: 
+  - Jason M. Cope, Northwest Fisheries Science Center
+  - Alison Whitman, Oregon Department of Fish and Wildlife
+  - Aaron M. Berger, Northwest Fisheries Science Center
+  - Leif Rasmuson, Oregon Department of Fish and Wildlife
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    fig_caption: yes
+  #prettydoc::html_pretty:
+    theme: bootstrap
+    #highlight: tango
+
+---
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.pos = "!H",
+  out.extra = "",
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(sa4ss)
+
+dir <- "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/docs/Pre_assessment"
+
+```
+
+# 
+
+
+**_Disclaimer: All data summaries and exploration presented here are preliminary and may not be indicative of the final data that will be incorporated in the 2023 assessment models_**
+
+
+# Overview
+
+Description of data and model specification being considered for use in the 2023 assessments for black rockfish off Oregon. 
+
+
+```{r child = "1_summary_of_2021_assessment.Rmd"}
+```
+
+
+```{r child = "2_potential_model_fleet_structure.Rmd"}
+```
+
+
+```{r child = "3_removals.Rmd"}
+```
+
+
+```{r child = "4_indices.Rmd"}
+```
+
+
+```{r child = "5_composition_data.Rmd"}
+```
+
+
+```{r child = "6_biology.Rmd"}
+```
+
+
+
+
+

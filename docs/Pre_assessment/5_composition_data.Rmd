@@ -1,0 +1,93 @@
+
+
+# Composition Data
+
+## Commerical length compositions
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "com_length_samples_by_cond_area_year.png"), 
+caption = "The number of length samples by year from live and dead copper rockfish from the area south and north of Point Conception. Since 1981, there are a total of 3,517 dead and 1,099 live length samples north of Point Conception and 553 live and 2,135 dead length samples south of Point Conception (source: PacFIN)",
+label = 'com-length-n')
+
+```
+\
+
+The majority of lengths are from hook and line gear for each area:
+
+* North of Point Conception (total lengths = 4,616): 
+  * 4,268 from hook and line gear,
+  * 32 from net gear,
+  * 139 from pot gear,
+  * 15 from troll gear, and
+  * 162 from trawl gear.
+* South of Point Conception (total lengths = 2,688): 
+  * 2,585 from hook and line gear,
+  * 24 from net gear,
+  * 39 from trawl gear, and
+  * 36 from shrimp trawl gear.
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "length_boxplot_by_cond_area_year.png"), 
+caption = "The distribution of length samples by year from live and dead copper rockfish from the area south and north of Point Conception. The black horizontal line within each box indicates the median length observed that year where the median is defined as an equal number of observations from that year that are greater than and lesser than that value. The lower range of each box indicates the 25th percentile where 25 percent of observations that year are less than that length. The upper range of each box indicates the 75th percentile where 75 percent of observations that year are less than that length (source: PacFIN)",
+label = 'com-length-dist')
+
+```
+\
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "length_denstity_by_cond_area.png"), 
+caption = "The density of size selected by landed condition, live or dead, for each area across all years (source: PacFIN)",
+label = 'com-marginal-length-dist')
+
+```
+\
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "boxplot_length_by_port_area_cond_filtered_by_100n.png"), 
+caption = "Boxplot of lengths by landed port, area, and fish condition (live or dead).  Only ports with greater than 100 length samples (live + dead > 100 samples) across all years are shown (source: PacFIN)",
+label = 'com-boxplot-length-port')
+
+```
+
+## Recreational length compositions
+
+The recreational length composition data summarized below represen data pulled from RecFIN collected by either the MRFSS (1980 - 2003) or CRFS (2004 - 2022) sampling programs. There are additional data sources that contain historical length samples from the CPFV fleets (1975-1979 from Collins and Crooke, 1987-1998 from Deb Wilson-Vandenberg, and 1986-1989 from Alley and Ono) that will be evaluated and used within each assessment model as appropriate but are not included here.
+
+The total number of length samples within RecFIN across MRFSS and CRFS are:
+
+* North of Point Conception (total lengths = 38,994): 
+  * 11,969 from CPFV, and
+  * 27,025 from Private/Rental vessels.
+* South of Point Conception (total lengths = 31,036): 
+  * 23,535 from CPFV, and
+  * 7,501 from Private/Rental vessels.
+
+In RecFIN there are lengths from shoreside modes that were not included in the analysis presented below (north of Point Conception = 148 and south = 20). All lengths below represent released fish. There were limited length observations of released fish (north = 52 and south = 187).
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "rec_length_samples_by_area_year.png"), 
+caption = "The number of length samples by year and mode for copper rockfish for areas south and north of Point Conception. Since 1980, there are a total of 11,969 CPFV and 27,025 Private/Rental length samples north of Point Conception and 23,535 CPFV and 7,501 Private/Rental length samples south of Point Conception (source: RecFIN)",
+label = 'rec-length-samples')
+
+```
+\
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(dir, "plots", "all_length_dist_by_mode_area.png"), 
+caption = "The density of size selected by mode, CPFV or Private/Rental, for each area across all years (source: RecFIN)",
+label = 'rec-length-dist')
+
+```
+\
+
+TODO: Add table and figures showing the around the number of single day and multi-day trips
+
+
+## Survey length compositions

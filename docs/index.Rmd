@@ -1,0 +1,45 @@
+---
+title: "Materials to support the 2023 assessment of black rockfish in waters off Oregon"
+output: html_document
+---
+
+\
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  fig.pos = "!H",
+  out.extra = "",
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(sa4ss)
+
+dir <- "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/docs"
+setwd(dir)
+
+
+```
+
+<center>
+
+```{r, results='asis'}
+add_figure(
+  filein = file.path(dir, "Sebastes_melanops.jpg"), 
+  caption = '',
+  width = 60,
+  height = 60,
+  label = 'copper')
+
+``` 
+
+</center>
+
+
+### Pre-assessment Data Workshop
+
+This year's data workshop will be held virtually. A joint workshop focusing on copper rockfish, black rockfish, and canary rockfish is scheduled for Tuesday January 31 from 9 a.m. until 3 p.m. and Wednesday February 1st from 9 a.m. to 12 p.m. Information to connect to the meeting can be found [online](https://www.pcouncil.org/events/pre-assessment-workshop-for-copper-canary-and-black-rockfish-january-31-amp-february-1-2023/).
+
+[Materials for the pre-assessment data workshop - January 31 - February 1, 2023](Pre_assessment)
+
