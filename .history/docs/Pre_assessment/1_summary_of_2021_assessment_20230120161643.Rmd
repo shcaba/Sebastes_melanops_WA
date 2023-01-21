@@ -29,15 +29,15 @@ Results are similar between models when all parameters are fixed from the 2015 m
 
 ```{r, results = 'asis'}
 add_figure(
-  filein = file.path(dir, "plots", "WA_SB_comp_plot.png"), 
-  caption = "Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  filein = file.path(dir, "plots", "OR_SB_comp_plot.png"), 
+  caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'ssb_comps')
 
 ``` 
 ```{r, results = 'asis'}
 add_figure(
-  filein = file.path(dir, "plots", "WA_Dep_comp_plot.png"), 
-  caption = "Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  filein = file.path(dir, "plots", "OR_Dep_comp_plot.png"), 
+  caption = "Comparison of spawning output for black rockfish in waters off of Oregon between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'ssb_deps')
 
 ``` 

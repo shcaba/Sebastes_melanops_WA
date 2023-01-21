@@ -1,12 +1,12 @@
 
 ---
-title: "2023 Pre-assessment workshop for black rockfish in waters off Washington state"
+title: "2023 Pre-assessment workshop for black rockfish in off Oregon"
 author: 
   - Jason M. Cope, Northwest Fisheries Science Center
   - Tien-Shui Tsou, Washington Department of Fish and Wildlife
   - Lisa K. Hillier, Washington Department of Fish and Wildlife
   - Kristen M. Hinton, Washington Department of Fish and Wildlife
-  - Corey B. Niles, Washington Department of Fish and Wildlife
+  - Kristen M. Hinton, Washington Department of Fish and Wildlife
 date: "`r Sys.Date()`"
 output: 
   html_document:

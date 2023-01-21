@@ -1,6 +1,6 @@
 
 ---
-title: "2023 Pre-assessment workshop for black rockfish in waters off Washington state"
+title: "2023 Pre-assessment workshop for black rockfish in off Washington"
 author: 
   - Jason M. Cope, Northwest Fisheries Science Center
   - Tien-Shui Tsou, Washington Department of Fish and Wildlife
