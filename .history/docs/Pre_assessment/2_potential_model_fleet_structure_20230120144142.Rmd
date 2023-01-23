@@ -5,8 +5,9 @@ The stock structure of black rockfish continues to be based on state-specific bo
 
 Currently, the following fleet structure is being considered for modeling commercial and recreational fisheries in both area models:
  
-1. Commercial trawl (mostly a historical fishery)
-2. Commercial hook and line (mostly a jig fishery in the 1980s)
-3. Recreational (sport) fishery 
+1. Commercial fixed-gear Fleet (dead and live fisheries combined)
+2. Commercial trawl (mostly a historical fishery)
+3. Recreational boat-based 
+4. Recreational shore-based
 
-Defining fleets is largely based on whether a fishing approach differs in the selectivity (i.e., the capture of fish by length and/or age). Selectivity translates how the removals are taken via length and/or age out of the population. The above three fishery types are distinguished by different fishing activities that result in different selectivities. The fleets are the same as those defined in the 2015 assessment.
+Defining fleets is largely based on whether a fishing approach differs in the selectivity (i.e., the capture of fish by length and/or age). Selectivity translates how the removals are taken via length and/or age out of the population. The above four fishery types are distinguished by different fishing activities that result in different selectivities. While in the past the commercial fixed-gear fisheries had been separated by the condition of the landed fish (dead and live), it has been determined that the designation of how the fish will be delivered is a processing issue, not a capture/selectivity issue. Thus the gear selectivity is considered the same in this fleet. This similarity in selectivity is apparent when looking at the 2015 assessment selectivity estimates. The rest of the fleets are as defined in the 2015 assessment.
