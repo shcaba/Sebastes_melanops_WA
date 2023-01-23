@@ -44,7 +44,7 @@ add_figure(
 
 
 
-## Unresolved Questions and Issues from the 2015 Assessments
+## Unresolved Questions and Issues from the 2021 Assessments
 
   1. Investigation the lack of older (> age 10) females in data. This affects the definition of natural mortality and selectivity values for females. 
   2. Improved historical catch reconstructions. The trawl fishery catches in particular need attention. 

@@ -25,7 +25,7 @@ Since several years have passed from the last assessment model, the Stock Synthe
   1) fixing all parameter values to the values found in the 2015 model. 
   2) Allowing the same parameters estimation specification as in the 2015 model 
 
-Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, while there are scale differences (Figure \ref{fig:ssb_comps}) and small relative stock status differences (Figure \ref{fig:ssb_deps}) when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. Theses model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
+Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, while there are slight scale differences (Figure \ref{fig:ssb_comps}), but little relative stock status differences (Figure \ref{fig:ssb_deps}), when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. Theses model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
 
 ```{r, results = 'asis'}
 add_figure(
@@ -44,7 +44,7 @@ add_figure(
 
 
 
-## Unresolved Questions and Issues from the 2015 Assessments
+## Unresolved Questions and Issues from the 2021 Assessments
 
   1. Investigation the lack of older (> age 10) females in data. This affects the definition of natural mortality and selectivity values for females. 
   2. Improved historical catch reconstructions. The trawl fishery catches in particular need attention. 
