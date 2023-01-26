@@ -1,6 +1,6 @@
 # Summary of the 2015 Assessment 
 
-The last assessment of black rockfish rockfish in waters off of Washington was conducted in 2015 and estimated stock status for that year at 60.4% (Figure \ref{fig:dep2015}), and never showed a decline below the target biomass (Figure \ref{fig:ssb2015}). This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
+The last assessment of black rockfish rockfish in waters off of Washington was conducted in 2015 and estimated stock status for that year at 43% (Figure \ref{fig:dep2015}), and never showed a decline below the target biomass (Figure \ref{fig:ssb2015}). This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
 
 ```{r, results = 'asis'}
 add_figure(
