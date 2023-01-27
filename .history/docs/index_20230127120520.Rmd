@@ -30,7 +30,7 @@ add_figure(
   caption = '',
   width = 60,
   height = 60,
-  label = 'black')
+  label = 'copper')
 
 ``` 
 
