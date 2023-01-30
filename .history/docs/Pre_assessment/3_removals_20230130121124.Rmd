@@ -1,0 +1,27 @@
+# Removal Data
+
+## Commercial Landings & Discards
+
+COREY/THERESA
+JASON needs to add from PacFIN (1981-present). Also need to get historical from last assessment.
+The commercial jig, pole and line fishery includes tribal fishery.
+
+### Additional Items for Discussion
+
+* 
+* 
+
+## Recreational Landings & Discards
+
+
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(dir, "plots", "Rec_comps_fig.png"), 
+  caption = "Total removals (landings plus dead discards) for sport-caught black rockfish used in the 2015 versus those proposed in the 2023 assessment.",
+  label = 'Rec_comps_fig')
+
+``` 
+
+### Additional Items for Discussion
+
