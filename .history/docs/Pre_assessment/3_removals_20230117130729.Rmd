@@ -1,0 +1,95 @@
+# Removal Data
+
+## Commerical Landings & Discards
+
+Since 1981, landings of copper rockfish have occurred from hook and line, net, pot, shrimp trawl, trawl, troll, and diving gear. The majority of landings for copper rockfish since 1981 are from hook and line gear across California (south of Point Conception 96% and north 87%). North of Point Conception there are some proportion of landings from trawl gear (8% primarily occurring between 1982-1985) and net gear (4% primarily occurring between 1983-1986). Since 2011, 98% and 96% of the landings south and north of Point Conception, respectively, are coming from hook and line gear.
+
+In recent years, there has been an increase in the proportion of fish landed live for both areas. In recent years, the percentage of copper rockfish landed dead north of Point Conception has been generally less than 50% within each year. Fish landed live are primarily caught with hook and line gear. However, in recent years, north of Point Conception there have been some limited landings of live fish using pot gear. 
+
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "landings_by_fleet_area.png"), 
+caption = "Commercial landings north and south of Point Conception. The landings are separated by fish landed live versus dead. The commercial landings in the south are relatively low (less than 10 mt per year) across the majority of years excluding 1995-1998 when landings ranged from 24 to 32 mt. The commercial landings in the north are generally higher than those observed south of Point Conception, particularly between 1983 to 1998 with landings peaking in 1993 at 69 mt (sources: PacFIN and California historical catch reconstruction)",
+label = 'com-landings')
+
+``` 
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "percent_dead_landings.png"), 
+caption = "Proportion of commercial landings from fish landed dead north and south of Point Conception in recent years (source: PacFIN)",
+width = 100,
+height = 50, 
+label = 'com-prop-dead')
+``` 
+\ 
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "catch_by_area_year_block_gear_group.png"), 
+caption = " Landings by area, time period (grouped by decade), and gear grouping (source: PacFIN).",
+width = 100,
+height = 50, 
+label = 'com-gear-year')
+``` 
+\ 
+
+
+
+### Additional Items for Discussion
+
+Only the commercial landings are shown for each area. Discard mortality across time will need to considered to determine catches.
+
+* The 2021 assessments assumed a constant discard mortality rate of 4.4% informed by WCGOP data for each area in California.
+* The rate of discarding has likely varied across time. Are there particular periods of time when discarding likely increased/decreased?
+* Different factors impacting discarding practices by area?
+
+
+## Recreational Landings & Discards
+
+Copper rockfish is caught by the recreational fishery across California. Historically, landings of copper rockfish were highest in the areas north of Point Conception. In recent years, 1993 onward, the scale of landings of copper rockfish is similar north and south of Point Conception.  The proportion of landings by recreational modes (CPFV, private, shoreside) across all years have arise from the private fleet in both areas:
+
+* North of Point Conception:
+  * CPFV 34%, 
+  * Private = 66%, and 
+  * Shoreside = 0.2%
+* South of Point Conception:
+  * CPFV 42%, 
+  * Private = 58%, and 
+  * Shoreside = 0%
+  
+However, since 1993 the CPFV fleet has accounted for 72% of all recreational landings south of Point Conception (only 40% north of Point Conception). 
+
+There are some years with missing and incomplete landings that will need to be determined. The first gap in landings occurs due to a funding lapse in the MRFSS program between 1990-1992. Two methods that have commonly used in other assessments to fill in these missing data are by averaging the landings in 1989 and 1993 and filling in the missing years with the average or by ramping (either up or down) the landings between 1989 and 1993. Both of these approaches result in similar total landings (the sum) for these missing years. The landings for each area prior to and after the missing data years are:
+
+* North of Point Conception
+  * 1989: 87 mt
+  * 1993: 71.6 mt
+  * Average: 79.1 mt
+* South of Point Conception
+  * 1989: 46.2 mt
+  * 1993: 16.4 mt
+  * Average: 31.3 mt
+  
+The landings for these missing years will be allocated by fleet based on the proportion of landings by mode from the surrounding years.
+
+The 2004 landings, the first years of the CRFS program, were not available on RecFIN. These data were available on RecFIN in 2021 for the previous assessments (north = 15.6 mt, south = 13.7 mt). Inquiries have been made about the removal of these data and when the issue is resolved the appropriate landings will be used in the 2023 assessments.
+
+Finally, the landings from 2020 - 2021 are potentially incomplete due to the absence of dockside sampling due to the COVID-19 pandemic. Estimates of landings for these years have been requested from CDFW.
+
+```{r, results = 'asis', fig.align='center'}
+add_figure(
+filein = file.path(dir, "plots", "all_rec_landings_mt_mode_2x1.png"), 
+caption = "Recreational landings north and south of Point Conception. The landings are separated by private, CPFV and shoreside (beach and bank) modes. The landings from the CPFV fleet predominate the recreational landings in the south since 2004. In contrast, the majority of the removals north of Point Conception arise from the private fleet. Landings between 1990-1992 are missing due to a loss in fundting to MRFSS for this period. Additionally, landings from 2004 were not available in CRFS on RecFIN. Landings for these years will need to be determined and added  (sources: RecFIN and California historical catch reconstruction).",
+label = 'com-landings')
+
+```
+
+### Additional Items for Discussion
+
+Only the recreational landings are shown for each area. Discard mortality across time will need to considered to determine catches.
+
+* The 2021 assessments assumed only limited discarding prior to 1981 (0.3% discard rate).
+* The rate of discarding has likely varied across time. Are there particular periods of time when discarding likely increased/decreased?
+* Different factors impacting discarding practices by area?
