@@ -1,0 +1,10 @@
+# Indices of Abundance
+
+## Fishery-Independent 
+
+* Historical Tag/release data (1983-2014; 2015-2019)
+* NWFSC dive surveys. Nearshore SCUBA surveys in the Olympic Coast National Marine Sanctuary (OCNMS) were conducted between 2015 and 2022. These provide potentially two abundance measures of the population: 1) young-of-the-year recruitment index and 2) adult relative abundance. More details on the full analysis can be found [here](https://github.com/shcaba/Sebastes_melanops_WA/blob/main/Data/Nearshore%20Dive%20Survey/OCNMS-Black-Rockfish-Analysis.pdf). 
+
+## Fishery-Dependent 
+
+* Dockside index () 
