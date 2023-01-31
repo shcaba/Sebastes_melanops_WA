@@ -21,14 +21,14 @@ The commercial data is best sampled in the 1980s. This mainly historical data is
 add_figure(
   filein = file.path(dir, "plots", "comp_lendat_trawl.png"), 
   caption = "Length composition data by sex and year for black rockfish based on fish sampled in the Washington trawl fishery.",
-  label = 'lt_comm_trawl')
+  label = 'samples')
 
 ``` 
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(dir, "plots", "comp_lendat_nontrawl.png"), 
   caption = "Length composition data by sex and year for black rockfish based on fish sampled in the Washington trawl fishery.",
-  label = 'lt_comm_nontrawl')
+  label = 'samples')
 
 ``` 
 \
