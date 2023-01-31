@@ -4,12 +4,12 @@ The 2015 assessment included fishery-independent abundance indices based on tag-
 
 ## Fishery-Independent 
 
+* Historical Tag/release data (1983-2018): Since 1986 a main goal of the Black Rockfish tagging program was to estimate abundance (Wallace et al 2010). The previous assessment incorporated tagging CPUE indices calculated by angler minute for tagging trips during the most consistent fishing time (spring), in Marine Area (MA) 2, where most of the fishing occurred from 1986-2014. These indices can be extended by including Black Rockfish targeted sampling surveys in spring months in MA2 from 2015-2018.
+* Nearshore Coastal Rod-and-Reel Survey (2019-2022): In 2019 WDFW implemented an annual standardized nearshore rod-and-reel survey at 125 index stations off the Washington coast.  Survey results provide an adult relative abundance measure, however survey data from 2020 is truncated due to Covid-19.
 * NWFSC dive surveys (2015-2022). Nearshore SCUBA surveys conducted at 10 sites in the Olympic Coast National Marine Sanctuary (OCNMS). These provide potentially two abundance measures of the population: 1) young-of-the-year recruitment index and 2) adult relative abundance. More details on the full analysis can be found [here](https://github.com/shcaba/Sebastes_melanops_WA/blob/main/Data/Nearshore%20Dive%20Survey/OCNMS-Black-Rockfish-Analysis.pdf). 
 
 ## Fishery-Dependent 
 
-* Historical Tag/release data (1983-2018): Since 1986 a main goal of the Black Rockfish tagging program was to estimate abundance (Wallace et al 2010). The previous assessment incorporated tagging CPUE indices calculated by angler minute for tagging trips during the most consistent fishing time (spring), in Marine Area (MA) 2, where most of the fishing occurred from 1986-2014. These indices can be extended by including Black Rockfish targeted sampling surveys in spring months in MA2 from 2015-2018.
-* Nearshore Coastal Rod-and-Reel Survey (2019-2022): In 2019 WDFW implemented an annual standardized nearshore rod-and-reel survey at 125 index stations off the Washington coast.  Survey results provide an adult relative abundance measure, however survey data from 2020 is truncated due to Covid-19.
 * Recreational Dockside Index (1981-2022): Recreational dockside fisheries data was used in the previous assessment for 1981-2014 (N=61,574). Data is available for this series from 1981 through 2022. In the 2015 assessment this data series was modeled with a delta-GLM approach using catch per angler day by vessel, with recreational dockside data samples filtered using the Stevens-MacCall (2004) method. The updated index will fix an error in the calculation of the effort.
 
 ## Additional Items for Discussion
