@@ -9,7 +9,7 @@ The 2015 assessment included fishery-independent abundance indices based on tag-
 
 ## Fishery-Dependent 
 
-* Recreational Dockside Index (1981-2022): Recreational dockside fisheries data was used in the previous assessment for 1981-2014 (N=61,574). Data is available for this series from 1981 through 2022. In the 2015 assessment this data series was modeled with a delta-GLM approach using catch per angler day by vessel, with recreational dockside data samples filtered using the Stevens-MacCall (2004) method. The updated index will fix an error in the calculation of the effort.
+* Recreational Dockside Index (1981-2022). Recreational dockside fisheries data was used in the previous assessment for 1981-2014 (N=61,574). Data is available for this series from 1981 through 2022. In the 2015 assessment this data series was modeled with a delta-GLM approach using catch per angler day by vessel, with recreational dockside data samples filtered using the Stevens-MacCall (2004) method. The updated index will fix an error in the calculation of the effort.
 
 ## Additional Items for Discussion
 

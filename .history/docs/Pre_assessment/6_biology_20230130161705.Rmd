@@ -1,0 +1,21 @@
+
+
+# Biology
+
+## Maturity and Fecundity
+
+Maturity will borrow values from the Oregon maturity analysis.
+
+Fecundity-at-length based on Dick et al. 2017 that was assumed in the last assessment.
+
+## Length-Weight
+
+The length-weight relationship should be similar to that used in the 2015 assessment, though it will be updated samples in more recent years.
+
+
+## Length-at-Age
+
+Ages are expected to be completed in the next month and will be added to the previous ages in the 2015 assessment. These will be used to estimate growth outside and inside the model.
+
+## Natural Mortality
+

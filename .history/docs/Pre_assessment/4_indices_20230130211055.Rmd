@@ -1,0 +1,11 @@
+# Indices of Abundance
+
+The 2015 assessment included fishery-independent abundance indices based on tag-release CPUE data from the Black Rockfish tagging program from 1986-2014, and fishery-dependent indices based on recreational dockside fisheries data from 1981-2014. This assessment will again incorporate both fishery-independent and fishery-dependent abundance indices. 
+## Fishery-Independent 
+
+* Historical Tag/release data (1983-2018): Since 1986 a main goal of the Black Rockfish tagging program was to estimate abundance (Wallace et al 2010). The previous assessment incorporated tagging CPUE indices calculated by angler minute for tagging trips during the most consistent fishing time (spring), in Marine Area (MA) 2, where most of the fishing occurred from 1986-2014. These indices can be extended by including Black Rockfish targeted sampling surveys in spring months in MA2 from 2015-2018.
+* NWFSC dive surveys (2015-2022). Nearshore SCUBA surveys conducted at 10 sites in the Olympic Coast National Marine Sanctuary (OCNMS). These provide potentially two abundance measures of the population: 1) young-of-the-year recruitment index and 2) adult relative abundance. More details on the full analysis can be found [here](https://github.com/shcaba/Sebastes_melanops_WA/blob/main/Data/Nearshore%20Dive%20Survey/OCNMS-Black-Rockfish-Analysis.pdf). 
+
+## Fishery-Dependent 
+
+* Dockside index () 

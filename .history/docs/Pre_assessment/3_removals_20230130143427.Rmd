@@ -26,4 +26,3 @@ add_figure(
 
 ### Additional Items for Discussion
 
-*Nothing additional for the recreational fishery

@@ -22,7 +22,7 @@ add_figure(
 ``` 
 \
 
-## Age and Growth
+## Length-at-Age
 
 Ages are expected to be completed in the next month and will be added to the previous ages in the 2015 assessment. These will be used to estimate growth outside and inside the model.
 
