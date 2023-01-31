@@ -6,15 +6,15 @@ Sample sizes are consistent with the presence of the fishery, with commercial ca
 
 ```{r, results = 'asis'}
 add_figure(
-  filein = file.path(dir, "plots", "samples.png"), 
+  filein = file.path(dir, "plots", "WA-compare-lengths-time-series.png"), 
   caption = "Female and Male length composition data by year for black rockfish based on fish sampled in the Washington sport fishery.",
-  label = 'samples')
+  label = 'FM_lengths_yrs')
 
 ``` 
 \
 
 ## Commercial length compositions
-
+JASON WILL DO THESE COMPS
 
 ## Recreational length compositions
 The recreational fishery provides a long time series of length composition by sex. This data is useful for determining fishery selectivity, identifying possible recruitment events and indicating the overall stock status of black rockfish in Washington. Overall, females are slightly larger than males. 
@@ -39,7 +39,7 @@ add_figure(
 add_figure(
   filein = file.path(dir, "plots", "Sexed_ratios.png"), 
   caption = "Percentage of sexed and unsexed samples in the length composition data for black rockfish based on fish sampled in the Washington sport fishery.",
-  label = 'sexed_ratios')
+  label = 'VBGF_FM')
 
 ``` 
 

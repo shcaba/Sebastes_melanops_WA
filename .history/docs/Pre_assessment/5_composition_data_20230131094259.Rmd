@@ -1,0 +1,32 @@
+
+
+# Composition Data
+
+## Commercial length compositions
+JASON WILL DO THESE COMPS
+
+## Recreational length compositions
+The recreational fishery 
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(dir, "plots", "WA compare lengths time series.png"), 
+  caption = "Female and Male length composition data by year for black rockfish based on fish sampled in the Washington sport fishery.",
+  label = 'FM_lengths_yrs')
+
+``` 
+
+```{r, results = 'asis'}
+add_figure(
+  filein = file.path(dir, "plots", "WA_FM_growth_curves.png"), 
+  caption = "Aggregate length composition data by sex for black rockfish based on fish sampled in the Washington sport fishery.",
+  label = 'VBGF_FM')
+
+``` 
+
+\
+
+
+## Survey length compositions
+
+Lisa will add these

@@ -6,7 +6,7 @@
 
 Maturity will borrow values from the Oregon maturity analysis.
 
-Fecundity-at-length is based on Dick et al. (2017) and is similar to what was assumed in the last assessment.
+Fecundity-at-length based on Dick et al. 2017 that was assumed in the last assessment.
 
 ## Length-Weight
 
@@ -43,5 +43,4 @@ add_figure(
 
 
 ## Natural Mortality
-
 

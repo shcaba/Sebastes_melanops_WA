@@ -6,7 +6,7 @@
 
 Maturity will borrow values from the Oregon maturity analysis.
 
-Fecundity-at-length is based on Dick et al. (2017) and is similar to what was assumed in the last assessment.
+Fecundity-at-length based on Dick et al. 2017 that was assumed in the last assessment.
 
 ## Length-Weight
 
@@ -29,8 +29,23 @@ add_figure(
 
 Ages are expected to be completed in the next month and will be added to the previous ages in the 2015 assessment. These will be used to estimate growth outside and inside the model.
 
-The current available samples of age and lengths by sex are shown below. The female to male sex ratio after age 25 is apparent.
+The current available samples of age and lengths by sex are shown below. The severity of the female to male sex ration after age 20 is less apparent in the Washington data.
 
+#```{r, results = 'asis'}
+#add_figure(
+#  filein = file.path(dir, "plots", "VBGF_F.png"), 
+#  caption = "Female age and length data for black rockfish based on fish sampled in Washington ports.",
+#  label = 'VBGF_F')
+
+#``` 
+
+#```{r, results = 'asis'}
+#add_figure(
+#  filein = file.path(dir, "plots", "VBGF_M.png"), 
+#  caption = "Male age and length data for black rockfish based on fish sampled in Washington ports.",
+#  label = 'VBGF_M')
+
+#``` 
 
 ```{r, results = 'asis'}
 add_figure(
@@ -43,5 +58,4 @@ add_figure(
 
 
 ## Natural Mortality
-
 
