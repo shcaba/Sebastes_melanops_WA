@@ -10,11 +10,8 @@ Fecundity-at-length based on Dick et al. 2017 that was assumed in the last asses
 
 ## Length-Weight
 
-The length-weight are given in the figure below. 
-Males: W = 0.0000303L^2.843
-Females: W = 0.00002881L^2.857
+The length-weight relationship should be similar to that used in the 2015 assessment, though updated with samples in more recent years. Males and females have very similar relationships.
 
-These values are updated with additional samples, yet still similar to those used in the 2015 assessment.
 
 ```{r, results = 'asis'}
 add_figure(
@@ -47,6 +44,7 @@ add_figure(
 
 ``` 
 \
+
 
 
 ## Natural Mortality
