@@ -1,6 +1,6 @@
 # Summary of the 2015 Assessment 
 
-The last assessment of black rockfish rockfish in waters off Washington was conducted in 2015 and estimated stock status for that year was 43%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the assessment's uncertainty intervals understate the true uncertainty. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
+The last assessment of black rockfish in waters off Washington was conducted in 2015 and estimated stock status for that year was 43%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the assessment's uncertainty intervals understate the true uncertainty. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
 
 ```{r, results = 'asis'}
 add_figure(
@@ -13,17 +13,17 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(dir, "plots", "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
-  caption = "Estimates of spawning output (millions of eggs) for black rockfish in waters off Washington from the 2015 assessment. Broken lines are 95% confidence intervals",
+  caption = "Estimates of spawning output (millions of eggs) for black rockfish in waters off of Washington from the 2015 assessment. Broken lines are 95% confidence intervals",
   label = 'ssb2015')
 
 ``` 
 
 # Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
 
-Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model [change log](https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true), here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.20 file, two versions of the model were run. 
+Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model [change log](https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true), here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.20 file, two versions of the model were ran. 
 
-  1) fixing all parameter values to the values found in the 2015 model. 
-  2) Allowing the same parameters estimation specification as in the 2015 model 
+  1) Fixing all parameter values to the values found in the 2015 model. 
+  2) Allowing the same parameters estimation specification as in the 2015 model. 
 
 Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, although there are scale differences and small relative stock status differences when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. These model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
 
