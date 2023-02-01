@@ -13,7 +13,7 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(dir, "plots", "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
-  caption = "Estimates of spawning output (millions of eggs) for black rockfish in waters off of Washington from the 2015 assessment. Broken lines are 95% confidence intervals",
+  caption = "Estimates of spawning output (millions of eggs) for black rockfish in waters off Washington from the 2015 assessment. Broken lines are 95% confidence intervals",
   label = 'ssb2015')
 
 ``` 
