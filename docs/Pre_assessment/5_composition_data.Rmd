@@ -2,7 +2,7 @@
 
 # Composition Data
 
-Sample sizes are consistent with the presence of the fishery, with commercial catches higher pre-2000s and the sport fishery better sampled post-2000s.
+Sample sizes are consistent with the history of the fisheries, with commercial catches higher pre-2000s and the sport fishery better sampled post-2000s.
 
 ```{r, results = 'asis'}
 add_figure(
