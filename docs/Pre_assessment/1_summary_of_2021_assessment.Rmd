@@ -1,6 +1,6 @@
 # Summary of the 2015 Assessment 
 
-The last assessment of black rockfish rockfish in waters off of Washington was conducted in 2015 and estimated stock status for that year at 43%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the uncertainty in the assessment is very low. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
+The last assessment of black rockfish rockfish in waters off Washington was conducted in 2015 and estimated stock status for that year was 43%, and never showed a decline below the target biomass. This assessment was highly constrained by the choice to treat the catchability of the tagging index as known, thus the assessment's uncertainty intervals understate the true uncertainty. The complete assessment document can be found [here](https://www.pcouncil.org/documents/2016/03/assessments-of-california-oregon-and-washington-stocks-of-black-rockfish-sebastes-melanops-in-2015-published-03-31-2016.pdf/).
 
 ```{r, results = 'asis'}
 add_figure(
@@ -25,7 +25,7 @@ Since several years have passed from the last assessment model, the Stock Synthe
   1) fixing all parameter values to the values found in the 2015 model. 
   2) Allowing the same parameters estimation specification as in the 2015 model 
 
-Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, while there are scale differences and small relative stock status differences when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. Theses model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
+Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, although there are scale differences and small relative stock status differences when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. These model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
 
 ```{r, results = 'asis'}
 add_figure(
@@ -46,7 +46,7 @@ add_figure(
 
 ## Unresolved Questions and Issues from the 2015 Assessments
 
-  1. Investigation the lack of older (> age 10) females in data. This affects the definition of natural mortality and selectivity values for females. 
+  1. Investigation of the lack of older (> age 10) females in data. This affects the definition of natural mortality and selectivity values for females. 
   2. Improved historical catch reconstructions. The trawl fishery catches in particular need attention. 
   3. Identifying stanzas or periods of uncertainty in the historical catch series will aid in the exploration of catch uncertainty in future assessment sensitivity runs. 
   4. Evaluate a nearshore survey or other relevant surveys.
