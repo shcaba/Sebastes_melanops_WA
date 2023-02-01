@@ -27,14 +27,14 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(dir, "plots", "comp_lendat_nontrawl.png"), 
-  caption = "Length composition data by sex and year for black rockfish based on fish sampled in the Washington trawl fishery.",
+  caption = "Length composition data by sex and year for black rockfish based on fish sampled in the Washington non-trawl fishery.",
   label = 'lt_comm_nontrawl')
 
 ``` 
 \
 
 ## Recreational length compositions
-The recreational fishery provides a long time series of length composition by sex. This data is useful for determining fishery selectivity, identifying possible recruitment events and indicating the overall stock status of black rockfish in Washington. Overall, females are slightly larger than males. 
+The recreational fishery provides a long time series of length composition by sex. These data are useful for determining fishery selectivity, identifying possible recruitment events and indicating the overall stock status of black rockfish in Washington. Overall, females are slightly larger than males. 
 
 There is also the important issue of defining the effective sample size, which creates the relative weights among years and fleets.  
 
