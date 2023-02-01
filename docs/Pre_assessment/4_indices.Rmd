@@ -1,6 +1,6 @@
 # Indices of Abundance
 
-The 2015 assessment included fishery-independent abundance indices based on tag-release CPUE data from the Black Rockfish tagging program from 1986-2014, and fishery-dependent indices based on recreational dockside fisheries data from 1981-2014. This assessment will again incorporate both fishery-independent and fishery-dependent abundance indices. 
+The 2015 assessment included fishery-independent abundance indices based on tag-release CPUE data from the Black Rockfish tagging program from 1986-2014, and a fishery-dependent index based on recreational dockside fisheries data from 1981-2014. This assessment will again incorporate both fishery-independent and fishery-dependent abundance indices. 
 
 ## Fishery-Independent 
 
@@ -10,10 +10,10 @@ The 2015 assessment included fishery-independent abundance indices based on tag-
 
 ## Fishery-Dependent 
 
-* Recreational Dockside Index (1981-2022): Recreational dockside fisheries data was used in the previous assessment for 1981-2014 (N=61,574). Data is available for this series from 1981 through 2022. In the 2015 assessment this data series was modeled with a delta-GLM approach using catch per angler day by vessel, with recreational dockside data samples filtered using the Stevens-MacCall (2004) method. The updated index will fix an error in the calculation of the effort.
+* Recreational Dockside Index (1981-2022): Recreational dockside fisheries data was used in the previous assessment for 1981-2014 (N=61,574). Data is available for this series from 1981 through 2022. In the 2015 assessment this data series was modeled with a delta-GLM approach using catch per angler-day by vessel, with recreational dockside data samples filtered using the Stevens-MacCall (2004) method. The updated index will fix an error in the calculation of the effort.
 
 ## Additional Items for Discussion
 
-* Fishery-Independent Indices Items: The historical tag-release data series is long, however there is a large gap in the data from 1990 through 1997. Additionally, data prior to 1990 may not be as reliable as data in the later part of the data series. Assessment authors are considering truncating the data to begin the indices in 1998.
-* Assessment authors have discussed combining data from the historical tag-release data series and the nearshore coast rod-and-reel survey to extend the historical time series through 2022.  If this were done the coastwide nearshore rod-and-reel indices would not be used for this assessment. Nearshore survey data would be limited to spring surveys in MA2 to standardize the data, but concerns have been raised about the prescriptive nature of the survey vs. the inconsistent fishing methods during historic surveys. 
-* Fishery-Dependent Indices Items: Bag limits have changed for Black Rockfish over time. These changes may impact the indices and recreational selectivity information.
+* Fishery-Independent Indices Items: The historical tag-release data series is long, however there is a large gap in the data from 1990 through 1997. Additionally, data prior to 1990 may not be as reliable as data in the latter part of the data series. Assessment authors are considering truncating the data to begin the index in 1998.
+* Assessment authors have discussed combining data from the historical tag-release data series and the nearshore coast rod-and-reel survey to extend the historical time series through 2022.  If this were done the coastwide nearshore rod-and-reel index would not be used for this assessment. Nearshore survey data would be limited to spring surveys in MA2 to standardize the data, but concerns have been raised about the prescriptive nature of the survey vs. the inconsistent fishing methods during historic surveys. 
+* Fishery-Dependent Indices Items: Bag limits have changed for Black Rockfish over time. These changes may impact the index and recreational selectivity information.
