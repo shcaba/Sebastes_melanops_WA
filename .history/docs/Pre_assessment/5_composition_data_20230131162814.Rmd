@@ -66,7 +66,7 @@ add_figure(
 
 ## Survey length compositions
 
-Three of the surveys are related to the sport fishery, but two of them (the tag and nearshore surveys) have their own lengths to use to estimate selectivity. The dockside survey is directly sampled from the sport fishery and therefore mirrors the sport fishery selectivity. The nearshore SCUBA survey will either be a recruitment survey or assume a fixed selectivity above a certain length, which is to be determined.
+The three fishery-dependent surveys are related to the sport fishery, so will mirror the selectivity of those fisheries. The nearshore SCUBA survey will either be a recruitment survey or assume a fixed selectivity above a certain length, which is to be determined.
 
 ```{r, results = 'asis'}
 add_figure(
