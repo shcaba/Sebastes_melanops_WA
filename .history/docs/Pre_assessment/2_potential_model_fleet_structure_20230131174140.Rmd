@@ -1,0 +1,12 @@
+# Stock Structure
+The stock structure of black rockfish continues to be based on state-specific boundaries. Stocks definitions are based on a variety of factors that include genetics, biology, ecology, habitat availability and fishing mortality history. Black rockfish range from southern California up to Alaska. Their ecology as a nearshore (i.e., commonly an area of restricted gene flow) rockfish with semi-pelagic behavior (e.g., can demonstrate rare, but substantial adult movements) under strong and differential fishing pressure by state provides an interesting assortment of considerations. A recent genetics study done by Hess et al. ([2022]()) found that Alaskan and west coast populations showed significant genetic difference. The population from Washington to California showed a variety of interesting genetic signatures, with decreased genetic diversity north of Cape Mendocino and North of the Columbia River, but increasing in waters off of Oregon. There were also pockets of isolation by distance and odd signatures off Brookings, Oregon. These variable genetic signatures combined with the lack of consistent black rockfish habitat in southern Washington, and the different exploitation histories in each of the states made state-level designations to support management decisions the most logical. This does not suggest there is no exchange of individuals among California, Oregon and Washington, but instead acknowledges that the exchange is likely low enough not to homogenize the populations, and that different population trends can be expected in each state. This was supported in the results of the last assessment, where important differences in stock status were observed.  
+
+# Fleet Structure
+
+Currently, the following fleet structure is being considered for modeling commercial and recreational fisheries in both area models:
+ 
+1. Commercial trawl (mostly a historical fishery)
+2. Commercial hook and line (mostly a jig fishery in the 1980s)
+3. Recreational (sport) fishery 
+
+Defining fleets is largely based on whether a fishing approach differs in the selectivity (i.e., the capture of fish by length and/or age). Selectivity translates how the removals are taken via length and/or age out of the population. The above three fishery types are distinguished by different fishing activities that result in different selectivities. The fleets are the same as those defined in the 2015 assessment.
