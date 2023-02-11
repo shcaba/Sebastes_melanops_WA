@@ -45,14 +45,15 @@ if(file.exists("00mod.Rdata")){
 
 base_name = "Reference model"
  mod_loc = file.path(
-   "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_OR/Document/models",
+   "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models",
    base_name)
    
 #base_name = "Reference model"
 #mod_loc = file.path(
-#   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_OR/Document/models",
+#   "C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models",
 #   base_name)
 
+bridge_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge"
 
 #stock_fig_loc = "C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/figures/stock"
 

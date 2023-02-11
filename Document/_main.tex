@@ -113,8 +113,8 @@
 
 \date{}
 \newcommand{\trTitle}{Status of Black Rockfish (\emph{Sebastes melanops}) off Washington and federal waters in 2023}
-\newcommand{\trYear}{2022}
-\newcommand{\trMonth}{December}
+\newcommand{\trYear}{2023}
+\newcommand{\trMonth}{February}
 \newcommand{\trAuthsLong}{truetruetruetruetrue}
 \newcommand{\trAuthsBack}{Cope, J.M., T.-. Tsou, L.K. Hillier, K.M. Hinton, C.B. Niles}
 \newcommand{\trCitation}{
@@ -1006,7 +1006,7 @@ The \gls{s-aslope} operated during the months of October to November aboard the 
 \hypertarget{section-1}{%
 \subsubsection{\texorpdfstring{\acrlong{s-ccfrp}}{}}\label{section-1}}
 
-Since 2007, the \gls{s-ccfrp} has monitored several areas in California to evaluate the performance of \glspl{mpa} and understand nearshore fish populations (Wendt and Starr 2009; Starr, Wendt, Barnes, Marks, Malone, Waltz, Schmidt, et al. 2015). In 2017, the survey expanded beyond the four \Gls{mpa}s in central California (Año Nuevo, Point Lobos, Point Buchon, and Piedras Blancas) to include the entire California coast. Fish are collected by volunteer anglers aboard \glspl{cpfv} guided by one of the following academic institutions based on proximity to fishing location: Humboldt State University; Bodega Marine Laboratories; Moss Landing Marine Laboratories; Cal Poly San Luis Obispo; University of California, Santa Barbara; and Scripps Institution of Oceanography.
+Since 2007, the \gls{s-ccfrp} has monitored several areas in California to evaluate the performance of \glspl{mpa} and understand nearshore fish populations (Wendt and Starr 2009; Starr et al. 2015). In 2017, the survey expanded beyond the four \Gls{mpa}s in central California (Año Nuevo, Point Lobos, Point Buchon, and Piedras Blancas) to include the entire California coast. Fish are collected by volunteer anglers aboard \glspl{cpfv} guided by one of the following academic institutions based on proximity to fishing location: Humboldt State University; Bodega Marine Laboratories; Moss Landing Marine Laboratories; Cal Poly San Luis Obispo; University of California, Santa Barbara; and Scripps Institution of Oceanography.
 
 Surveys consist of fishing with hook-and-line gear for 30-45 minutes within randomly chosen 500 by 500 m grid cells within and outside \glspl{mpa}. Prior to 2017, all fish were measured for length and release or descended to depth; since then, some were sampled for otoliths and fin clips.
 
@@ -1101,10 +1101,30 @@ Wallace et al (1999) constructed an assessment model by using the AD Model Build
 The 2007 assessment (Y. W. Wallace F. R. aand Cheng and Tsou 2007) employed Stock Synthesis 2. Unlike the 1999 assessment, CPUE from the tag release trips and Petersen tagging study abundance estimates were included as relative abundance indices.
 
 \hypertarget{california-oregon-and-washington-assessments}{%
-\paragraph{2015 California, Oregon, and Washington Assessments}\label{california-oregon-and-washington-assessments}}
+\paragraph{California, Oregon, and Washington Assessments}\label{california-oregon-and-washington-assessments}}
+
+The 2015 assessment defined three distinct stocks for assessment. Each stock matched the state boundaries of California, Oregon and Washington. All assessments used the Stock Synthesis 3 version 3.24V. The Washington model had three fisheries (two commercial and one recreational) and considered two surveys. There were three primary data likelihood components for survey indices, lengths and ages. Fits to catches also contribute to the total likelihood, but is typically very small. The models was tuned using the Francis (2011) method for biological compositions and added variance for survey indices. Recruitment deviations were estimated. Natural mortality was treated as constant and sex-specific, with females having a higher natural mortality than males.
+
+Results for the Washington assessment of black rockfish in 2015 estimated stock status in that year was 43\%, and never showed a decline below the target biomass.
 
 \hypertarget{most-recent-star-panel-and-ssc-recommendations}{%
 \subsubsection{Most Recent STAR Panel and SSC Recommendations}\label{most-recent-star-panel-and-ssc-recommendations}}
+
+The STAR panel identified the following issues as sources of major uncertainty:
+
+\begin{itemize}
+\tightlist
+\item
+  Natural mortality, especially in females. There is no data to differentiate whether the missing older females are dying or are avoiding capture. The choice between using a constant (as used in the California and Washington assessments) or step function (used in Oregon) is also an point of uncertainty.
+\item
+  The level of cryptic biomass. This is a result of using dome-shaped selectivity to explain the absence of old females.
+\item
+  Uncertainty in historical catch, especially in the historical trawl fishery.
+\item
+  Acknowledging that there remains uncertainty in the stock-recruit relationship parameters (particularly the Beverton-Holt steepness parameter).
+\end{itemize}
+
+Most of the above recommendations were included in the 2015 assessment research recommendations. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration, as was the development of a nearshore fishery-independent survey.
 
 \hypertarget{model-description}{%
 \section{Model description}\label{model-description}}
@@ -1114,8 +1134,21 @@ The 2007 assessment (Y. W. Wallace F. R. aand Cheng and Tsou 2007) employed Stoc
 
 Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (\url{https://github.com/shcaba/SS-DL-tool}) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.0.5 were used to investigate and plot model fits.
 
-\hypertarget{bridging-analysis}{%
-\subsection{Bridging Analysis}\label{bridging-analysis}}
+\hypertarget{bridging-the-assessment-model-from-stock-synthesis-3.24-to-3.30}{%
+\subsection{Bridging the assessment model from Stock Synthesis 3.24 to 3.30}\label{bridging-the-assessment-model-from-stock-synthesis-3.24-to-3.30}}
+
+Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model \href{https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true}{change log}, here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the \href{https://github.com/shcaba/SS-DL-tool}{SS-DL tool}. Once the old data was transferred to the SS 3.30.20 file, two versions of the model were ran.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Fixing all parameter values to the values found in the 2015 model.
+\item
+  Allowing the same parameters estimation specification as in the 2015 model.
+\end{enumerate}
+
+Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, although there are scale differences (Figure \ref{fig:ssb_bridge_comps}) and small relative stock status differences (Figure \ref{fig:deps_bridge_comps}) when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. These model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS.
 
 \hypertarget{model-structure-and-assumptions}{%
 \subsection{Model Structure and Assumptions}\label{model-structure-and-assumptions}}
@@ -1186,7 +1219,7 @@ Indices of abundance are assumed to have lognormal measurement errors. Additiona
 
 The reference model estimates additional variance on the Oregon recreational survey data to allow the model to balance model fit to that data while acknowledging that variances may be underestimated in the index standardization. The input CVs range from 1\%-7\%, which is very small (Table \ref{tab:OR_vermilion_ORBSindex}). A sensitivity was run with no extra variance estimated, as well as removal of the index data.
 
-Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of fish sampled. The method of Francis (2015, equation TA1.8) was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach (Thorson et al. 2017), 2) the McAllister-Ianelli Harmonic Mean approach (McAllister and Ianelli 1997), or 3) no data-weighting of lengths.
+Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of fish sampled. The method of Francis (2011, equation TA1.8) was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach (Thorson et al. 2017), 2) the McAllister-Ianelli Harmonic Mean approach (McAllister and Ianelli 1997), or 3) no data-weighting of lengths.
 
 \hypertarget{model-parameters}{%
 \subsubsection{Model Parameters}\label{model-parameters}}
@@ -1480,6 +1513,9 @@ Fisheries, Department of, and Oceans Canada. 2014. {``Pacific Region Integrated 
 \leavevmode\vadjust pre{\hypertarget{ref-fournier_1997}{}}%
 Fournier, D. 1997. {``An Introduction to AD Model Builder for Use in Nonlinear Modeling and Statistics.''} Otter Research Ltd. PO Box 2040, Sidney, B.C. V8L 3S3 Canada. \url{http://www.dfo-mpo.gc.ca/fm-gp/peches-fisheries/ifmp-gmp/index-eng.htm}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-francis_data_2011}{}}%
+Francis, R. I. C. Chris, and R. Hilborn. 2011. {``Data Weighting in Statistical Fisheries Stock Assessment Models.''} \emph{Canadian Journal of Fisheries and Aquatic Sciences} 68 (6): 1124--38. \url{https://doi.org/10.1139/f2011-025}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-green_starr_2007}{}}%
 Green, K. M., and R. M. Starr. 2011. {``Movements of Small Adult Black Rockfish: Implications for the Design of MPAs.''} \emph{Marine Ecology Progress Series} 14: 219--30.
 
@@ -1530,9 +1566,6 @@ Sampson, D. B. 2007. {``The Status of Black Rockfish Off Oregon and California i
 
 \leavevmode\vadjust pre{\hypertarget{ref-starr_green_2007}{}}%
 Starr, R. M., and K. Green. 2007. {``Species Composition, Relative Abundance, and Movements of Important Nearshore Fish Species Along the North Central California Coast.''} Final report to the Pacific States Marine Fisheries Commission.
-
-\leavevmode\vadjust pre{\hypertarget{ref-francis_data_2011}{}}%
-Starr, R. M., D. E. Wendt, C. L. Barnes, C. I. Marks, D. Malone, and G. Waltz. 2015. {``Variation in Responses of Fishes Across Multiple Reserves Within a Network of Marine Protected Areas in Temperate Waters.''} \emph{PLoS ONE} 10 (3): e0118502. \url{https://doi.org/10.1371/journal.pone.0118502}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Starr2015}{}}%
 Starr, R. M., D. E. Wendt, C. L. Barnes, C. I. Marks, D. Malone, G. Waltz, K. T. Schmidt, et al. 2015. {``Variation in Responses of Fishes Across Multiple Reserves Within a Network of Marine Protected Areas in Temperate Waters.''} \emph{PLoS One2} 10 (3): p.e0118502.
@@ -1592,5 +1625,17 @@ Wright, S. 1967. {``Troll Fishery Progress Report.''} Marine Fisheries Investiga
 \centering
 \includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png}
 \caption{Summary of data sources used in the reference model.\label{fig:data-plot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_SB_comp_plot.png}
+\caption{Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\% confidence intervals.\label{fig:ssb_bridge_comps}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png}
+\caption{Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\% confidence intervals.\label{fig:deps_bridge_comps}}
 \end{figure}
 \end{document}

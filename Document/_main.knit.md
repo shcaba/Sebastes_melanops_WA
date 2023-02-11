@@ -1,7 +1,7 @@
 ---
 geometry: margin=1in
-month: "December"
-year: "2022"
+month: "February"
+year: "2023"
 preamble: |
 output:
   sa4ss::techreport_pdf:
@@ -942,11 +942,23 @@ Wallace et al [-@wallace_status_1999] constructed an assessment model by using t
 
 The 2007 assessment [@wallace_status_2007] employed Stock Synthesis 2.  Unlike the 1999 assessment, CPUE from the tag release trips and Petersen tagging study abundance estimates were included as relative abundance indices.
 
-#### 2015 California, Oregon, and Washington Assessments
+#### California, Oregon, and Washington Assessments
 
+The 2015 assessment defined three distinct stocks for assessment. Each stock matched the state boundaries of California, Oregon and Washington. All assessments used the Stock Synthesis 3 version 3.24V. The Washington model had three fisheries (two commercial and one recreational) and considered two surveys. There were three primary data likelihood components for survey indices, lengths and ages. Fits to catches also contribute to the total likelihood, but is typically very small. The models was tuned using the Francis [-@francis_data_2011] method for biological compositions and added variance for survey indices. Recruitment deviations were estimated. Natural mortality was treated as constant and sex-specific, with females having a higher natural mortality than males. 
+
+Results for the Washington assessment of black rockfish in 2015 estimated stock status in that year was 43%, and never showed a decline below the target biomass.
 
 
 ### Most Recent STAR Panel and SSC Recommendations
+
+The STAR panel identified the following issues as sources of major uncertainty:
+
+* Natural mortality, especially in females. There is no data to differentiate whether the missing older females are dying or are avoiding capture. The choice between using a constant (as used in the California and Washington assessments) or step function (used in Oregon) is also an point of uncertainty. 
+* The level of cryptic biomass. This is a result of using dome-shaped selectivity to explain the absence of old females.
+* Uncertainty in historical catch, especially in the historical trawl fishery.
+* Acknowledging that there remains uncertainty in the stock-recruit relationship parameters (particularly the Beverton-Holt steepness parameter).
+
+Most of the above recommendations were included in the 2015 assessment research recommendations. Additionally, stock structure for black rockfish was highlighted as a topic for further consideration, as was the development of a nearshore fishery-independent survey.
 
 
 # Model description
@@ -956,7 +968,14 @@ The 2007 assessment [@wallace_status_2007] employed Stock Synthesis 2.  Unlike t
 Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.0.5 were used to investigate and plot model fits. 
 
 
-## Bridging Analysis
+## Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
+
+Since several years have passed from the last assessment model, the Stock Synthesis (SS) modelling framework has undergone many changes. While the specific changes in the model can be found in the model [change log](https://github.com/nmfs-stock-synthesis/stock-synthesis/blob/v3.30.19/Change_log_for_SS_3.30.xlsx?raw=true), here we simply update the model from the older 3.24V version to the newer 3.30.20 version. The point here is to present any differences in the model outputs when using the same information. This was first done by migrating the data and parameter specifications from the former files to the newer files. This migration was assisted using the [SS-DL tool](https://github.com/shcaba/SS-DL-tool). Once the old data was transferred to the SS 3.30.20 file, two versions of the model were ran. 
+
+  1) Fixing all parameter values to the values found in the 2015 model. 
+  2) Allowing the same parameters estimation specification as in the 2015 model. 
+
+Results are similar between models when all parameters are fixed from the 2015 model in the updated SS files, although there are scale differences (Figure \ref{fig:ssb_bridge_comps}) and small relative stock status differences (Figure \ref{fig:deps_bridge_comps}) when the new SS version is allowed to estimate the same parameters as estimated in the 2015 version. These model comparisons are adequate to move ahead using the newest version of SS 3.30.20 without expecting large differences in reference models being due to versions of SS. 
 
 
 
@@ -1254,6 +1273,15 @@ Here are all the mad props!
 
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== --> 
+<!-- ******************* Bridge Model ************************************* --> 
+<!-- ====================================================================== --> 
+
+
+![Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_SB_comp_plot.png){width=100% height=100% alt="."}
+
+![Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png){width=100% height=100% alt="."}
 
 <!--chapter:end:53figures.Rmd-->
 
