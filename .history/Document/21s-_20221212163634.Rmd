@@ -1,0 +1,44 @@
+## Fishery-Independent Data
+
+### Abundance Indices
+
+#### Oregon
+
+##### Tagging Study Estimates of Abundance off Newport, OR, 2002 to 2013
+
+In a study that started in 2002 and concluded in 2014, the ODFW used Passive Integrated Transponder (PIT) tags to mark 2,500 to 4,000 black rockfish annually off Newport, OR.  Marked fish are recovered from recreational fishery landings, with sampling focused on the charter vessel fleet.  Approximately 80% of the annual landings are sampled for marked fish, resulting in the recovery of 3,263 marked fish to date.  
+
+The multi-stage mark-recovery model used to estimate annual survival and recovery rates for the black rockfish population off Newport was similar to "Model 0", as described in Brownie et al. (1985), except that the recovery  rates after the initial year at liberty were held constant (Table 38).  This particular tagging model configuration was selected because it provided a better AIC score than other models that were evaluated.  It allows direct (first-year) recovery rates to differ from recovery rates of previously marked cohorts, which appeared to be the case in the black rockfish mark-recovery data.  Model 0 parameters were then used to calculate annual exploitation rates, which were then applied to the annual landings to estimate annual abundance.
+
+Details for the tagging study are available in Buell and Hannah [-@buell_hannah_2007], which is included as Appendix E to this assessment.  During the 13 years of the study the following minor changes occurred in the study's protocols.  It seems unlikely that these would have had any large effect on the consistency of the results.
+
+* The PIT tags used changed twice as manufacturers introduced updated products.  Specifications listed in the document (Hz and size) did not change and we verified detection rates (always near 100%) each time.
+* The report in Appendix E lists week 11(mid-March) as the earliest that annual tagging effort commenced.  In the later years this was as early as week 8 (mid-February) but more often the tagging season did not begin until March.
+* There was one tagging trip in July in 2007, but this was excluded from the analysis.
+* The definition of the "recovery period" for the analysis was changed from week 26 (year_1) through week 25 (year 2) to July 1 (year 1) through June 30 (year 2).  This results in a shift of 5 to 12 days for when the recovery period is considered to have started.  While this is a minor difference, it accounts for the differences in the recovery matrix shown in AppendixE versus the one in Table 38.
+
+The method for deriving the estimates of annual abundance and their corresponding standard errors differs slightly from what is described in Appendix E.  The basic approach is to estimate the numbers of fish from the equation Ny= Cy/uy, where Cy is the catch (in numbers of fish) in year_y, Ny is the population abundance at the start of the year, and uy is the exploitation rate.  As described in Appendix E, uy can be estimated from the ratio of the estimated recovery rate ((f_y )?) times Cy divided by the number of fish sampled for marks (csy).  The Cy appearing in the numerator of the equation for Ny cancels with the Cy in the numerator of the equation for (u_y )?, leaving as the following estimator for  (N_y )?=?cs?_y?(u_y )?.  Note that csyis the number of fish checked for marks, which is known without error in this study.  Approximate estimates of variance for the (N_y )? values were derived from the delta method.
+var[(N_y )? ]?[(?cs?_y )^2?((f_y )? )^4 ]*var[(f_y )? ]
+
+
+###### Spatial Coverage of the Oregon Tagging Study off Newport
+
+One feature of the Oregon assessment model that is somewhat unique is the use of a prior probability distribution for the catchability parameter associated with the tagging study estimates of abundance of exploitable black rockfish off Newport.  Based on estimates of habitat area by port coupled with port-specific estimates of black rockfish densities, a lognormal prior distribution was developed for the tagging study catchability coefficient (Tag-Q).  The prior developed for the July STAR and subsequent Mop-up STAR was based on catch-per-unit-effort data (CPUE, catch numbers per angler-fishing-hour) from the MRFSS sampling program for the years 1980 to 2003.  The Mop-up STAR Panel requested that the prior distribution be revised using CPUE data that were more contemporaneous with the tagging study.  A revised prior distribution was developed based on CPUE data from the ORBS sampling program for the period 2001 to 2014.  The analysis of habitat area coupled with CPUE fish densities indicates that on average 12.7% of the exploitable portion of the black rockfish population off Oregon reside in the waters off Newport (Table 39).  The lognormal prior distribution (Figure 96) was assumed to have a standard deviation of 0.5, which is more than double the between-port variability calculated from the available CPUE data (CV=0.157).  Although trip-level variability in CPUE is typically much larger than 50%, most of the variation in CPUE is due to variability in catchability rather variability in the abundance of the fish.
+
+
+#### Washington
+
+##### Tagging CPUE index for Washington
+
+In Washington, the first black rockfish tagging project began in 1981.  Details of this extensive program can be found in Wallace et al [-@wallace_tag_2010], but germane to the possibility of extracting abundance information from the program, there were several major changes to objectives and scope of the project.  In early years, the objectives were to collect biological information such as growth, movement, and population mixing rate.  Since 1986, the main goal was to estimate abundance using the Jolly-Seber model [@wallace_tag_2010].  Table 59 and Table 60 summarize the changes in the long-term tagging program, many of which compromise the direct calculation of abundance. 
+
+During the tagging process, catches of black rockfish per angler minute were collected, as were covariates month and punch card area. As Spring was the most consistent time for fishing during these tagging trips as was Punch Card Area 2, the database was reduced to only using Spring trips and Punch Card Area 2 (which were the vast majority of trips). Because black rockfish were explicitly targeted during the trips, no other filters were applied. As done in the dockside CPUE analysis, a delta-GLM was used to analyze the data, using the same error distributions and diagnostics. Model selection (Table 61) and Q-Q plots were used to choose the lognormal model with Year and Month (Figure 190). A jackknife routine was used to estimate variance (Figure 191).
+
+The annual absolute abundance of black rockfish using the mark-recapture portion of the tagging data was also considered, as had been done in the former assessment. The Petersen method to population assumes the population is closed to immigration, emigration, recruitment and mortality during the sampled periods and this assumption is violated. It is acknowledged that fishing mortality occurred between periods of marking and recapture. In addition, there were very low rates of tag loss (0.0035-0.007, [@wallace_tag_2010]) that were not accounted for in these estimates. Only fish marked and recaptured in a given year were used for that year's abundance estimate.  Estimates are provided for 1998-2013, but the 2007 assessment author suggested only years 2000 and onward be used.  Prior to 1998 there were tag and recapture efforts, but methods were sufficiently different to not recommend them for use in abundance estimation; see Wallace et al. (2010) for more details and history on the WDFW black rockfish tagging program. No tagging occurred during 2008.
+
+The Petersen method [@chapman_1951] estimates abundance by tagging n1 fish at time period one, then recovering fish n2 at a second time period during which the number m of tagged fish are recorded 
+N=(n1)(n2)/m
+
+For the estimates, only fish marked during January through July in marine area 2 were included in the marked fish counts (n1). Only tagged fish recovered through the dockside sampling program at the Westport location were included in the recaptured fish counts (m), and the total number of fished processed and scanned for pit tags and coded wire tags was n2. 
+
+The R program Rcapture [@Rcapture_version] was used to generate the abundance estimates and standard error. The "Mt" model output is the Petersen model and values included in Table 62.  Figure 192 shows the abundance estimates and 95% confidence intervals (Nt+-1.96*SEt) for each year. This index was considered as a sensitivity run in the pre-STAR base model and was shown to have no influence on any model results.
