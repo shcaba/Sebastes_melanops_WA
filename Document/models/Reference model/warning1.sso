@@ -1,0 +1,6 @@
+Warning 1 : Minimum pop size bin:_4; is > L at Amin for sex: 1; Gpat: 1; L= 0
+Warning 2 : Minimum pop size bin:_4; is > L at Amin for sex: 2; Gpat: 1; L= 3.66175
+Warning 3 : Maximum pop size bin:_64; is within 5% of L at maxage for sex: 2; Gpat: 1 settle: 1; L= 62.3302
+Warning 4 : Final gradient: 101598 is larger than final_conv: 0.0001
+Note 1 Information:  N parameters that are on or within 1% of min-max bound: 1; check results, variance may be suspect
+ 4 warnings  and 1 note 

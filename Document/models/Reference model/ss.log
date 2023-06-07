@@ -1,52 +1,85 @@
 
-Initial statistics: 1 variables; iteration 0; function evaluation 0; phase 1
-Function value 1.3410258e+03; maximum gradient component mag 1.2744e+03
-Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11466  1.27440e+03 |
-
  - final statistics:
-1 variables; iteration 2; function evaluation 3
-Function value 1.3408e+03; maximum gradient component mag -3.0853e+00
-Exit code = 1;  converg criter 1.0000e+01
-Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11499 -3.08532e+00 |
-
- - final statistics:
-1 variables; iteration 0; function evaluation 0
-Function value 1.3408e+03; maximum gradient component mag -3.0853e+00
+16 variables; iteration 0; function evaluation 0
+Function value 3.9083e+03; maximum gradient component mag -3.4404e-06
 Exit code = 0;  converg criter 1.0000e+01
 Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11499 -3.08532e+00 |
-
-Initial statistics: 1 variables; iteration 0; function evaluation 0; phase 3
-Function value 1.3408117e+03; maximum gradient component mag -3.0853e+00
-Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11499 -3.08532e+00 |
-
- - final statistics:
-1 variables; iteration 1; function evaluation 2
-Function value 1.3408e+03; maximum gradient component mag 1.8047e-02
-Exit code = 1;  converg criter 1.0000e+00
-Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11499  1.80474e-02 |
-
-Initial statistics: 2 variables; iteration 0; function evaluation 0; phase 4
-Function value 1.3408117e+03; maximum gradient component mag -4.8024e+00
-Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11499  1.80474e-02 |  2 -0.96957 -4.80239e+00 |
-Warning: the following parameters had issues
-  selparm[21] is within 1% of lower bound: -2.00000e+00 < -1.93290e+00 < 6.00000e+00
-
+  1 -0.16960  2.76044e-06 |  2 -0.09610  8.88120e-09 |  3  0.00000  3.80331e-09
+  4 -0.09322 -2.62977e-08 |  5 -0.14012 -6.04014e-07 |  6 -0.00929 -4.57895e-08
+  7  0.00517 -1.44572e-07 |  8 -0.42744  1.88477e-08 |  9 -0.44062 -3.29725e-10
+ 10 -0.10111 -1.50918e-07 | 11 -0.10800 -3.44038e-06 | 12 -0.00143 -6.96287e-08
+ 13 -0.14085 -5.07669e-07 | 14 -0.46845 -9.49523e-10 | 15 -0.05517 -4.83395e-10
+ 16 -0.02813 -1.11024e-07 |
 
  - final statistics:
-2 variables; iteration 7; function evaluation 13
-Function value 1.3403e+03; maximum gradient component mag -5.1743e-06
-Exit code = 1;  converg criter 1.0000e-04
+32 variables; iteration 0; function evaluation 0
+Function value 3.9714e+03; maximum gradient component mag 4.6439e-05
+Exit code = 0;  converg criter 1.0000e+01
 Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
-  1 -0.11504 -5.17428e-06 |  2 -0.88323  4.06238e-08 |
-Estimating row 1 out of 2 for hessian
-Estimating row 2 out of 2 for hessian
-size of file gradfil1.tmp = 186480000
+  1 -0.61723 -2.95757e-06 |  2 -0.58690  4.64385e-05 |  3 -0.68575  1.84135e-05
+  4 -0.65466  1.65309e-06 |  5 -0.16960  2.75898e-06 |  6  0.45377 -1.01290e-06
+  7  0.00617  4.75096e-06 |  8  0.47965  2.01880e-07 |  9 -0.09610  8.88120e-09
+ 10  0.07285 -9.64850e-07 | 11  0.00000  3.80331e-09 | 12 -0.09322 -2.62978e-08
+ 13  0.18607 -2.94890e-06 | 14 -0.14012 -6.04014e-07 | 15  0.01005 -4.09383e-06
+ 16 -0.00929 -4.57894e-08 | 17  0.00517 -1.44572e-07 | 18  0.15060  2.12042e-06
+ 19 -0.42744  1.88477e-08 | 20  0.00055 -2.85274e-06 | 21 -0.44062 -3.29725e-10
+ 22 -0.10111 -1.50918e-07 | 23 -0.06725 -3.90918e-06 | 24 -0.10800 -3.44038e-06
+ 25  0.03009  1.72066e-06 | 26 -0.00143 -6.96287e-08 | 27 -0.14085 -5.07669e-07
+ 28  0.23917 -1.01600e-06 | 29 -0.46845 -9.49523e-10 | 30  0.11649 -5.50569e-08
+ 31 -0.05517 -4.83395e-10 | 32 -0.02813 -1.11024e-07 |
+
+ - final statistics:
+34 variables; iteration 0; function evaluation 0
+Function value 4.0053e+03; maximum gradient component mag 4.6442e-05
+Exit code = 0;  converg criter 1.0000e-04
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.61723 -2.95724e-06 |  2 -0.58690  4.64418e-05 |  3 -0.68575  1.84154e-05
+  4 -0.65466  1.65347e-06 |  5 -0.60666 -6.33609e-06 |  6 -0.65873  2.59266e-06
+  7 -0.16960  2.75811e-06 |  8  0.45377 -1.01290e-06 |  9  0.00617  4.75095e-06
+ 10  0.47965  2.01883e-07 | 11 -0.09610  8.88120e-09 | 12  0.07285 -9.64866e-07
+ 13  0.00000  3.80331e-09 | 14 -0.09322 -2.62978e-08 | 15  0.18607 -2.94881e-06
+ 16 -0.14012 -6.04009e-07 | 17  0.01005 -4.09399e-06 | 18 -0.00929 -4.57891e-08
+ 19  0.00517 -1.44567e-07 | 20  0.15060  2.12044e-06 | 21 -0.42744  1.88477e-08
+ 22  0.00055 -2.85276e-06 | 23 -0.44062 -3.29714e-10 | 24 -0.10111 -1.50915e-07
+ 25 -0.06725 -3.90918e-06 | 26 -0.10800 -3.44037e-06 | 27  0.03009  1.72066e-06
+ 28 -0.00143 -6.96285e-08 | 29 -0.14085 -5.07668e-07 | 30  0.23917 -1.01599e-06
+ 31 -0.46845 -9.49523e-10 | 32  0.11649 -5.50595e-08 | 33 -0.05517 -4.83395e-10
+ 34 -0.02813 -1.11024e-07 |
+Estimating row 1 out of 34 for hessian
+Estimating row 2 out of 34 for hessian
+Estimating row 3 out of 34 for hessian
+Estimating row 4 out of 34 for hessian
+Estimating row 5 out of 34 for hessian
+Estimating row 6 out of 34 for hessian
+Estimating row 7 out of 34 for hessian
+Estimating row 8 out of 34 for hessian
+Estimating row 9 out of 34 for hessian
+Estimating row 10 out of 34 for hessian
+Estimating row 11 out of 34 for hessian
+Estimating row 12 out of 34 for hessian
+Estimating row 13 out of 34 for hessian
+Estimating row 14 out of 34 for hessian
+Estimating row 15 out of 34 for hessian
+Estimating row 16 out of 34 for hessian
+Estimating row 17 out of 34 for hessian
+Estimating row 18 out of 34 for hessian
+Estimating row 19 out of 34 for hessian
+Estimating row 20 out of 34 for hessian
+Estimating row 21 out of 34 for hessian
+Estimating row 22 out of 34 for hessian
+Estimating row 23 out of 34 for hessian
+Estimating row 24 out of 34 for hessian
+Estimating row 25 out of 34 for hessian
+Estimating row 26 out of 34 for hessian
+Estimating row 27 out of 34 for hessian
+Estimating row 28 out of 34 for hessian
+Estimating row 29 out of 34 for hessian
+Estimating row 30 out of 34 for hessian
+Estimating row 31 out of 34 for hessian
+Estimating row 32 out of 34 for hessian
+Estimating row 33 out of 34 for hessian
+Estimating row 34 out of 34 for hessian
+size of file gradfil1.tmp = 0
 size of file gradfil2.tmp = 0
 size of file varssave.tmp = 0
-size of file cmpdiff.tmp = 0
+size of file cmpdiff.tmp = 400000016

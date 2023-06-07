@@ -1,0 +1,5 @@
+Warning 1 : Minimum pop size bin:_4; is > L at Amin for sex: 1; Gpat: 1; L= 0
+Warning 2 : Minimum pop size bin:_4; is > L at Amin for sex: 2; Gpat: 1; L= 3.66175
+Warning 3 : 1st iteration warning: ssb(endyr)/ssb(styr)= 2.08184e-06; suggest start with larger R0 to get near 0.4; or use depletion fleet option
+Warning 4 : 1st iteration warning: catch logL > 50% total logL; check configuration; suggest start with larger R0
+ 4 warnings 
