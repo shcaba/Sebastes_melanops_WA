@@ -5,7 +5,7 @@
 #_User_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
 #_Source_code_at:_https://github.com/nmfs-stock-synthesis/stock-synthesis
 
-#_Start_time: Fri Jun  2 08:58:09 2023
+#_Start_time: Tue Jun  6 22:43:01 2023
 #_echo_input_data
 #C data file created using the SS_writedat function in the R package r4ss
 #C should work with SS version:
@@ -20,7 +20,7 @@
 2 #_Ngenders: 1, 2, -1  (use -1 for 1 sex setup with SSB multiplied by female_frac parameter)
 40 #_Nages=accumulator age, first age is always age 0
 1 #_Nareas
-7 #_Nfleets (including surveys)
+9 #_Nfleets (including surveys)
 #_fleet_type: 1=catch fleet; 2=bycatch only fleet; 3=survey; 4=predator(M2) 
 #_sample_timing: -1 for fishing fleet to use season-long catch-at-age for observations, or 1 to use observation month;  (always 1 for surveys)
 #_fleet_area:  area the fleet/survey operates in 
@@ -35,6 +35,8 @@
  3 1 1 1 0 Nearshore_survey  # 5
  3 1 1 1 0 OCNMS  # 6
  33 1 1 1 0 OCNMS_YOY  # 7
+ 3 1 1 1 0 Private_Boat  # 8
+ 3 1 1 1 0 Charter  # 9
 #Bycatch_fleet_input_goes_next
 #a:  fleet index
 #b:  1=include dead bycatch in total dead catch for F0.1 and MSY optimizations and forecast ABC; 2=omit from total catch for these purposes (but still include the mortality)
@@ -313,6 +315,8 @@
 5 1 0 0 # Nearshore_survey
 6 1 0 0 # OCNMS
 7 33 0 0 # OCNMS_YOY
+8 1 0 0 # Private_Boat
+9 1 0 0 # Charter
 #_yr month fleet obs stderr
 1998 6 4 3.5853 0.412554 #_ Tagging
 1999 6 4 3.82588 0.177461 #_ Tagging
@@ -350,6 +354,56 @@
 2019 8 7 3.87 0.253512 #_ OCNMS_YOY
 2021 8 7 5.25 0.31728 #_ OCNMS_YOY
 2022 8 7 0.23 0.31728 #_ OCNMS_YOY
+1981 1 8 2.78453 0.0986094 #_ Private_Boat
+1982 1 8 1.94269 0.0796448 #_ Private_Boat
+1983 1 8 1.80752 0.0804096 #_ Private_Boat
+1984 1 8 2.17657 0.0596178 #_ Private_Boat
+1985 1 8 2.58241 0.0503456 #_ Private_Boat
+1986 1 8 2.3208 0.0664156 #_ Private_Boat
+1987 1 8 2.01428 0.0510707 #_ Private_Boat
+1988 1 8 2.10554 0.0546975 #_ Private_Boat
+1989 1 8 2.08875 0.0533273 #_ Private_Boat
+1990 1 8 1.92126 0.0607087 #_ Private_Boat
+1991 1 8 2.16927 0.0591867 #_ Private_Boat
+1992 1 8 2.95325 0.0408811 #_ Private_Boat
+1993 1 8 2.52084 0.0526101 #_ Private_Boat
+1994 1 8 2.35501 0.0430752 #_ Private_Boat
+1995 1 8 2.71477 0.0397309 #_ Private_Boat
+1996 1 8 3.18255 0.0417264 #_ Private_Boat
+1997 1 8 2.56366 0.0486191 #_ Private_Boat
+1998 1 8 3.21894 0.0521994 #_ Private_Boat
+1999 1 8 3.58201 0.051341 #_ Private_Boat
+2000 1 8 3.4261 0.0494381 #_ Private_Boat
+2001 1 8 2.62119 0.0573254 #_ Private_Boat
+2002 1 8 3.40684 0.0463662 #_ Private_Boat
+2003 1 8 2.97869 0.0479308 #_ Private_Boat
+2004 1 8 3.88076 0.0456999 #_ Private_Boat
+2005 1 8 4.43929 0.0353221 #_ Private_Boat
+2006 1 8 3.28228 0.0471959 #_ Private_Boat
+2007 1 8 3.87161 0.042143 #_ Private_Boat
+2008 1 8 3.3824 0.0464393 #_ Private_Boat
+2009 1 8 3.95191 0.0427393 #_ Private_Boat
+2010 1 8 4.92561 0.0320415 #_ Private_Boat
+2011 1 8 4.09876 0.0324578 #_ Private_Boat
+2012 1 8 3.71975 0.0338995 #_ Private_Boat
+2013 1 8 4.52933 0.0325015 #_ Private_Boat
+2014 1 8 5.25166 0.0321123 #_ Private_Boat
+2015 1 8 5.31149 0.0299732 #_ Private_Boat
+2016 1 8 5.1204 0.0259225 #_ Private_Boat
+1981 1 9 3.90593 0.326663 #_ Charter
+1982 1 9 4.48684 0.26117 #_ Charter
+1983 1 9 6.45287 0.121646 #_ Charter
+1984 1 9 5.0622 0.139998 #_ Charter
+1985 1 9 6.95786 0.0849666 #_ Charter
+1986 1 9 7.10667 0.0864154 #_ Charter
+1987 1 9 7.13131 0.0854793 #_ Charter
+1988 1 9 6.77946 0.0852875 #_ Charter
+1989 1 9 6.90807 0.0872854 #_ Charter
+1990 1 9 6.24134 0.0872487 #_ Charter
+1991 1 9 4.49269 0.126218 #_ Charter
+1992 1 9 3.84064 0.166647 #_ Charter
+1993 1 9 4.12697 0.138846 #_ Charter
+1994 1 9 5.44376 0.0868657 #_ Charter
 -9999 1 1 1 1 # terminator for survey observations 
 #
 0 #_N_fleets_with_discard
@@ -389,6 +443,8 @@
 -1 0.001 0 0 0 0 0.001 #_fleet:5_Nearshore_survey
 -1 0.001 0 0 0 0 0.001 #_fleet:6_OCNMS
 -1 0.001 0 0 0 0 0.001 #_fleet:7_OCNMS_YOY
+-1 0.001 0 0 0 0 0.001 #_fleet:8_Private_Boat
+-1 0.001 0 0 0 0 0.001 #_fleet:9_Charter
 # sex codes:  0=combined; 1=use female only; 2=use male only; 3=use both as joint sexxlength distribution
 # partition codes:  (0=combined; 1=discard; 2=retained
 28 #_N_LengthBins; then enter lower edge of each length bin
@@ -645,6 +701,8 @@
 -1 0.001 0 0 0 0 0.001 #_fleet:5_Nearshore_survey
 -1 0.001 0 0 0 0 0.001 #_fleet:6_OCNMS
 -1 0.001 0 0 0 0 0.001 #_fleet:7_OCNMS_YOY
+-1 0.001 0 0 0 0 0.001 #_fleet:8_Private_Boat
+-1 0.001 0 0 0 0 0.001 #_fleet:9_Charter
 3 #_Lbin_method_for_Age_Data: 1=poplenbins; 2=datalenbins; 3=lengths
 # sex codes:  0=combined; 1=use female only; 2=use male only; 3=use both as joint sexxlength distribution
 # partition codes:  (0=combined; 1=discard; 2=retained

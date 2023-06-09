@@ -51,28 +51,28 @@
 #
 #_growth_parms
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env_var&link	dev_link	dev_minyr	dev_maxyr	dev_PH	Block	Block_Fxn
-0.001	   2	       0.17	      -1.89	 0.05	3	  2	0	0	0	0	0	0	0	#_NatM_p_1_Fem_GP_1  
-  -50	 100	          0	          0	    0	0	 -3	0	0	0	0	0	0	0	#_L_at_Amin_Fem_GP_1 
-    1	 500	      51.19	      51.19	 0.17	6	  2	0	0	0	0	0	0	0	#_L_at_Amax_Fem_GP_1 
-0.001	   2	     0.1513	     0.1513	0.003	6	  2	0	0	0	0	0	0	0	#_VonBert_K_Fem_GP_1 
-0.001	   5	        0.1	        0.1	    0	0	 -1	0	0	0	0	0	0	0	#_CV_young_Fem_GP_1  
-0.001	   5	        0.1	        0.1	    0	0	 -4	0	0	0	0	0	0	0	#_CV_old_Fem_GP_1    
-    0	   3	5.24556e-05	5.24556e-05	   99	0	-99	0	0	0	0	0	0	0	#_Wtlen_1_Fem_GP_1   
-    2	   4	    2.72122	    2.72122	   99	0	-99	0	0	0	0	0	0	0	#_Wtlen_2_Fem_GP_1   
-1e-04	1000	      40.36	      40.36	   99	0	-99	0	0	0	0	0	0	0	#_Mat50%_Fem_GP_1    
-   -2	   4	  -0.380418	  -0.380418	   99	0	-99	0	0	0	0	0	0	0	#_Mat_slope_Fem_GP_1 
-    0	   3	   1.41e-08	   1.41e-08	  0.8	0	 -3	0	0	0	0	0	0	0	#_Eggs_alpha_Fem_GP_1
-    0	  10	      4.685	      4.685	  0.8	0	 -3	0	0	0	0	0	0	0	#_Eggs_beta_Fem_GP_1 
-0.001	   2	      0.152	   -1.89712	 0.05	3	  2	0	0	0	0	0	0	0	#_NatM_p_1_Mal_GP_1  
-  -50	 100	    3.66175	    3.66175	    0	0	 -3	0	0	0	0	0	0	0	#_L_at_Amin_Mal_GP_1 
-    1	 500	      47.26	      47.26	  0.1	6	  3	0	0	0	0	0	0	0	#_L_at_Amax_Mal_GP_1 
-0.001	   2	     0.1656	     0.1656	0.003	6	  3	0	0	0	0	0	0	0	#_VonBert_K_Mal_GP_1 
-0.001	   5	        0.1	        0.1	    0	0	 -4	0	0	0	0	0	0	0	#_CV_young_Mal_GP_1  
-0.001	   5	        0.1	        0.1	    0	0	 -4	0	0	0	0	0	0	0	#_CV_old_Mal_GP_1    
-    0	   3	2.47904e-05	2.47904e-05	   99	0	-99	0	0	0	0	0	0	0	#_Wtlen_1_Mal_GP_1   
-    2	   4	    2.91062	    2.91062	   99	0	-99	0	0	0	0	0	0	0	#_Wtlen_2_Mal_GP_1   
-  0.1	  10	          1	          1	    1	0	 -1	0	0	0	0	0	0	0	#_CohortGrowDev      
- 0.01	0.99	        0.5	        0.5	  0.5	0	-99	0	0	0	0	0	0	0	#_FracFemale_GP_1    
+0.001	   2	       0.17	      -1.89	 0.2	3	 -2	0	0	0	0	0	0	0	#_NatM_p_1_Fem_GP_1  
+  -50	 100	          0	          0	   1	0	 -3	0	0	0	0	0	0	0	#_L_at_Amin_Fem_GP_1 
+    1	 500	      51.19	      51.19	 0.2	6	  3	0	0	0	0	0	0	0	#_L_at_Amax_Fem_GP_1 
+0.001	   2	     0.1513	     0.1513	0.01	6	  3	0	0	0	0	0	0	0	#_VonBert_K_Fem_GP_1 
+0.001	   5	        0.1	        0.1	   0	0	 -1	0	0	0	0	0	0	0	#_CV_young_Fem_GP_1  
+0.001	   5	        0.1	        0.1	   0	0	 -4	0	0	0	0	0	0	0	#_CV_old_Fem_GP_1    
+    0	   3	5.24556e-05	5.24556e-05	  99	0	-99	0	0	0	0	0	0	0	#_Wtlen_1_Fem_GP_1   
+    2	   4	    2.72122	    2.72122	  99	0	-99	0	0	0	0	0	0	0	#_Wtlen_2_Fem_GP_1   
+1e-04	1000	      40.36	      40.36	  99	0	-99	0	0	0	0	0	0	0	#_Mat50%_Fem_GP_1    
+   -2	   4	  -0.380418	  -0.380418	  99	0	-99	0	0	0	0	0	0	0	#_Mat_slope_Fem_GP_1 
+    0	   3	   1.41e-08	   1.41e-08	 0.8	0	 -3	0	0	0	0	0	0	0	#_Eggs_alpha_Fem_GP_1
+    0	  10	      4.685	      4.685	 0.8	0	 -3	0	0	0	0	0	0	0	#_Eggs_beta_Fem_GP_1 
+0.001	   2	      0.152	   -1.89712	 0.2	3	 -2	0	0	0	0	0	0	0	#_NatM_p_1_Mal_GP_1  
+  -50	 100	    3.66175	    3.66175	   0	0	 -3	0	0	0	0	0	0	0	#_L_at_Amin_Mal_GP_1 
+    1	 500	      47.26	      47.26	 0.2	6	  3	0	0	0	0	0	0	0	#_L_at_Amax_Mal_GP_1 
+0.001	   2	     0.1656	     0.1656	0.01	6	  3	0	0	0	0	0	0	0	#_VonBert_K_Mal_GP_1 
+0.001	   5	        0.1	        0.1	   0	0	 -4	0	0	0	0	0	0	0	#_CV_young_Mal_GP_1  
+0.001	   5	        0.1	        0.1	   0	0	 -4	0	0	0	0	0	0	0	#_CV_old_Mal_GP_1    
+    0	   3	2.47904e-05	2.47904e-05	  99	0	-99	0	0	0	0	0	0	0	#_Wtlen_1_Mal_GP_1   
+    2	   4	    2.91062	    2.91062	  99	0	-99	0	0	0	0	0	0	0	#_Wtlen_2_Mal_GP_1   
+  0.1	  10	          1	          1	   1	0	 -1	0	0	0	0	0	0	0	#_CohortGrowDev      
+ 0.01	0.99	        0.5	        0.5	 0.5	0	-99	0	0	0	0	0	0	0	#_FracFemale_GP_1    
 #_no timevary MG parameters
 #
 #_seasonal_effects_on_biology_parms
@@ -90,10 +90,10 @@
    -5	 5	   0	   0	  99	0	-99	0	0	0	0	0	0	0	#_SR_regime  
     0	 2	   0	   1	  99	0	-99	0	0	0	0	0	0	0	#_SR_autocorr
 #_no timevary SR parameters
-0 #do_recdev:  0=none; 1=devvector (R=F(SSB)+dev); 2=deviations (R=F(SSB)+dev); 3=deviations (R=R0*dev; dev2=R-f(SSB)); 4=like 3 with sum(dev2) adding penalty
+1 #do_recdev:  0=none; 1=devvector (R=F(SSB)+dev); 2=deviations (R=F(SSB)+dev); 3=deviations (R=R0*dev; dev2=R-f(SSB)); 4=like 3 with sum(dev2) adding penalty
 1956 # first year of main recr_devs; early devs can preceed this era
 2017 # last year of main recr_devs; forecast devs start in following year
--2 #_recdev phase
+2 #_recdev phase
 1 # (0/1) to read 13 advanced options
 0 #_recdev_early_start (0=none; neg value makes relative to recdev_start)
 -4 #_recdev_early_phase
@@ -133,15 +133,21 @@
     5	1	0	1	0	1	#_Nearshore_survey
     6	1	0	0	0	1	#_OCNMS           
     7	1	0	1	0	1	#_OCNMS_YOY       
+    8	1	0	1	0	1	#_Private_Boat    
+    9	1	0	1	0	1	#_Charter         
 -9999	0	0	0	0	0	#_terminator      
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn  #  parm_name
 -15	15	1	0	 1	0	-1	0	0	0	0	0	0	0	#_LnQ_base_Tagging(4)          
 -15	15	1	0	 1	0	-1	0	0	0	0	0	0	0	#_LnQ_base_Nearshore_survey(5) 
-  0	 5	0	0	99	0	-3	0	0	0	0	0	0	0	#_Q_extraSD_Nearshore_survey(5)
+  0	 5	0	0	99	0	 3	0	0	0	0	0	0	0	#_Q_extraSD_Nearshore_survey(5)
 -15	15	1	0	 1	0	-1	0	0	0	0	0	0	0	#_LnQ_base_OCNMS(6)            
 -15	15	1	0	 1	0	-1	0	0	0	0	0	0	0	#_LnQ_base_OCNMS_YOY(7)        
-  0	 5	0	0	99	0	-3	0	0	0	0	0	0	0	#_Q_extraSD_OCNMS_YOY(7)       
+  0	 5	0	0	99	0	 3	0	0	0	0	0	0	0	#_Q_extraSD_OCNMS_YOY(7)       
+-15	15	1	0	 1	0	-1	0	0	0	0	0	0	0	#_LnQ_base_Private_Boat(8)     
+  0	 5	0	0	99	0	 3	0	0	0	0	0	0	0	#_Q_extraSD_Private_Boat(8)    
+-15	15	1	0	 1	0	-1	0	0	0	0	0	0	0	#_LnQ_base_Charter(9)          
+  0	 5	0	0	99	0	 3	0	0	0	0	0	0	0	#_Q_extraSD_Charter(9)         
 #_no timevary Q parameters
 #
 #_size_selex_patterns
@@ -153,6 +159,8 @@
 24	0	0	0	#_5 Nearshore_survey
 24	0	0	0	#_6 OCNMS           
  0	0	0	0	#_7 OCNMS_YOY       
+ 5	0	0	3	#_8 Private_Boat    
+ 5	0	0	3	#_9 Charter         
 #
 #_age_selex_patterns
 #_Pattern	Discard	Male	Special
@@ -163,45 +171,51 @@
 10	0	0	0	#_5 Nearshore_survey
 10	0	0	0	#_6 OCNMS           
  0	0	0	0	#_7 OCNMS_YOY       
+10	0	0	3	#_8 Private_Boat    
+10	0	0	3	#_9 Charter         
 #
 #_SizeSelex
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn  #  parm_name
-  16	63	     45	     45	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_Trawl(1)           
- -15	15	     12	     12	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_2_Trawl(1)           
-  -4	12	3.58539	3.58539	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_Trawl(1)           
- -15	 6	    -15	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Trawl(1)           
--999	15	    -15	    -15	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Trawl(1)           
- -15	20	     15	     15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Trawl(1)           
-  16	63	     40	     40	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_NonTRWL(2)         
- -15	15	     12	     12	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_NonTRWL(2)         
-  -4	12	      4	      4	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_NonTRWL(2)         
- -15	 6	      3	      3	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_4_NonTRWL(2)         
--999	15	    -15	    -15	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_NonTRWL(2)         
- -15	20	      0	      0	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_6_NonTRWL(2)         
-  16	63	     45	     45	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_Recreational(3)    
- -15	15	    -12	    -12	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_Recreational(3)    
-  -4	12	      4	      4	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_Recreational(3)    
- -15	 6	      3	      3	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_4_Recreational(3)    
--999	15	    -15	    -15	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Recreational(3)    
- -15	20	      0	      0	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_6_Recreational(3)    
-  16	63	     40	     40	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_Tagging(4)         
- -15	15	     12	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_Tagging(4)         
-  -4	12	3.58539	3.58539	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_Tagging(4)         
- -15	 6	      3	      3	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_4_Tagging(4)         
--999	15	    -15	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Tagging(4)         
- -15	20	    -15	    -15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_6_Tagging(4)         
+  16	63	     45	     45	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_1_Trawl(1)           
+ -15	15	      3	     12	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_2_Trawl(1)           
+  -4	12	3.58539	3.58539	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_3_Trawl(1)           
+ -15	 6	    2.2	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Trawl(1)           
+-999	15	     -5	    -15	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Trawl(1)           
+ -15	20	      5	     15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Trawl(1)           
+  16	63	     41	     40	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_1_NonTRWL(2)         
+ -15	15	    2.5	     12	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_2_NonTRWL(2)         
+  -4	12	      4	      4	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_3_NonTRWL(2)         
+ -15	 6	      3	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_NonTRWL(2)         
+-999	15	     -4	    -15	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_NonTRWL(2)         
+ -15	20	      5	      0	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_NonTRWL(2)         
+  16	63	     40	     45	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_1_Recreational(3)    
+ -15	15	   -4.6	    -12	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_2_Recreational(3)    
+  -4	12	      4	      4	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_3_Recreational(3)    
+ -15	 6	      3	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Recreational(3)    
+-999	15	     -4	    -15	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Recreational(3)    
+ -15	20	      5	      0	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Recreational(3)    
+  16	63	     40	     40	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_1_Tagging(4)         
+ -15	15	     -3	     15	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_2_Tagging(4)         
+  -4	12	3.58539	3.58539	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_3_Tagging(4)         
+ -15	 6	    2.2	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Tagging(4)         
+-999	15	     -4	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Tagging(4)         
+ -15	20	      5	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Tagging(4)         
   16	63	     40	     40	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_Nearshore_survey(5)
- -15	15	     12	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_Nearshore_survey(5)
+ -15	15	      4	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_Nearshore_survey(5)
   -4	12	3.58539	3.58539	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_Nearshore_survey(5)
- -15	 6	      3	      3	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_4_Nearshore_survey(5)
--999	15	    -15	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Nearshore_survey(5)
- -15	20	    -15	    -15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_6_Nearshore_survey(5)
+ -15	 6	    2.2	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Nearshore_survey(5)
+-999	15	     -4	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Nearshore_survey(5)
+ -15	20	      5	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Nearshore_survey(5)
   10	55	     25	     25	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_OCNMS(6)           
  -15	15	     12	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_OCNMS(6)           
-  -4	12	3.58539	3.58539	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_OCNMS(6)           
+  -4	12	3.58539	3.58539	99	0	 -2	0	0	0	0	0	0	0	#_SizeSel_P_3_OCNMS(6)           
  -15	 6	      3	      3	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_4_OCNMS(6)           
 -999	15	    -15	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_OCNMS(6)           
- -15	20	    -15	    -15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_6_OCNMS(6)           
+ -15	20	    -15	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_OCNMS(6)           
+  -5	 5	     -1	     -1	99	0	-4	0	0	0	0	0	0	0	#_SizeSel_P_1_Private_Boat(8)    
+  -5	 5	     -1	     -1	99	0	-5	0	0	0	0	0	0	0	#_SizeSel_P_2_Private_Boat(8)    
+  -5	 5	     -1	     -1	99	0	-4	0	0	0	0	0	0	0	#_SizeSel_P_1_Charter(9)         
+  -5	 5	     -1	     -1	99	0	-5	0	0	0	0	0	0	0	#_SizeSel_P_2_Charter(9)         
 #_AgeSelex
 #_No age_selex_parm
 #_no timevary selex parameters
@@ -214,15 +228,15 @@
 #
 # Input variance adjustments factors: 
 #_Data_type	Fleet	Value
-    4	1	0.362616	#_Variance_adjustment_list1
-    4	2	0.257167	#_Variance_adjustment_list2
-    4	3	0.765398	#_Variance_adjustment_list3
+    4	1	0.680245	#_Variance_adjustment_list1
+    4	2	0.308695	#_Variance_adjustment_list2
+    4	3	 0.98511	#_Variance_adjustment_list3
     4	4	       1	#_Variance_adjustment_list4
     4	5	       1	#_Variance_adjustment_list5
-    4	6	 0.10133	#_Variance_adjustment_list6
-    5	1	0.082049	#_Variance_adjustment_list7
-    5	2	0.766725	#_Variance_adjustment_list8
-    5	3	0.112901	#_Variance_adjustment_list9
+    4	6	0.082717	#_Variance_adjustment_list6
+    5	1	0.100855	#_Variance_adjustment_list7
+    5	2	0.514577	#_Variance_adjustment_list8
+    5	3	0.144641	#_Variance_adjustment_list9
 -9999	0	       0	#_terminator               
 #
 15 #_maxlambdaphase
