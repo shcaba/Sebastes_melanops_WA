@@ -1,0 +1,8 @@
+Warning 1 : Block:1 1 ends in: 2020 after retroyr+1:  2016
+Warning 2 Adjustment:  recdev_end: 2017 > retro_yr: 2015 reset 
+Warning 3 : Fleet:_1max bound on parameter for size at peak is 70; should be <= midsize bin N-1 (63)
+Warning 4 : Setting in starter does not request all priors, and 3 parameters have priors and are not estimated, so their prior not included in obj_fun.
+Warning 5 : Minimum pop size bin:_4; is > L at Amin for sex: 1; Gpat: 1; L= 0
+Warning 6 : Minimum pop size bin:_4; is > L at Amin for sex: 2; Gpat: 1; L= 0
+Note 1 Information:  N parameters that are on or within 1% of min-max bound: 1; check results, variance may be suspect
+ 6 warnings  and 1 note 

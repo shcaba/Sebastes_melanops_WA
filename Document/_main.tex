@@ -465,7 +465,7 @@ Adults tend to occur in schools over rocky structure at depths less than 40 fath
 
 Although tagging studies have documented some individuals moving long distances (several hundreds of miles), the vast majority of recaptured individuals were found close to the areas of initial capture and tagging (Culver 1987; Ayres 1988; Wallace F. et al. 2010; Starr and Green 2007). Results from a 2004-05 study off Newport, OR of 42 Black Rockfish implanted with acoustic tags indicated that all but seven fish remained within range of a 3 x 5 km array of acoustic receivers during one full year of monitoring and had relatively small home ranges that did not vary seasonally (S. J. Parker et al. 1995). Green and Starr (2011) report similar findings from a study in Carmel Bay, CA of 23 acoustically tagged Black Rockfish. The extensive Washington state tagging study also supported low movements for most individuals, with some exceptional movements recorded (Wallace F. et al. 2010).
 
-Like all members of the genus Sebastes, Black Rockfish have internal fertilization and bear live young approximately two months after insemination. Black Rockfish are quite fecund, with a six-year-old female annually producing about 300,000 embryos and a 16-year-old producing about 950,000 embryos (Bobko and Berkeley 2004). Recent studies have demonstrated that the relative number and quality of larvae increase with age in female Black Rockfish (Berkeley, Chaoman, and Sogard 2004; Hixon, Johnson, and Sogard 2014). Parturition of larvae occurs during winter (Echeverria 1987) and larvae and small juveniles are pelagic for several months to a year (Boehlert and Yoklavich 1983). Settlement occurs in estuaries, tide-pools, and in the nearshore at depths less than 20 m (Stein and Hassler 1989).
+Like all members of the genus Sebastes, Black Rockfish have internal fertilization and bear live young approximately two months after insemination. Black Rockfish are quite fecund, with a six-year-old female annually producing about 300,000 embryos and a 16-year-old producing about 950,000 embryos (S. J. Bobko and Berkeley 2004). Recent studies have demonstrated that the relative number and quality of larvae increase with age in female Black Rockfish (S. A. Berkeley, Chaoman, and Sogard 2004; Hixon, Johnson, and Sogard 2014a). Parturition of larvae occurs during winter (Echeverria 1987) and larvae and small juveniles are pelagic for several months to a year (Boehlert and Yoklavich 1983). Settlement occurs in estuaries, tide-pools, and in the nearshore at depths less than 20 m (Stein and Hassler 1989).
 
 Black Rockfish begin recruiting to nearshore fisheries at 3-4 years of age, corresponding to a fork length of about 25-30 cm, and 50\% of females attain maturity at about 6-8 years, corresponding to a fork length of about 38-42 cm. Adult female Black Rockfish grow 3-5 cm larger than males, with a few females attaining fork lengths greater than 55 cm.
 
@@ -704,7 +704,7 @@ Model runs investigating the sensitivity to independent and combined indices for
 \hypertarget{olympic-coast-national-marine-sanctuary-adult-and-young-of-the-year-yoy-surveys}{%
 \paragraph{Olympic Coast National Marine Sanctuary adult and young of the year (YOY) surveys}\label{olympic-coast-national-marine-sanctuary-adult-and-young-of-the-year-yoy-surveys}}
 
-Two surveys conducted between 2015 and 2022 from waters within the Olympic Coast National Marine Sanctuary (OCNMS) were provided for the first time. The adult survey uses SCUBA and belt transects to estimate black rockfish abundance, with fish \textless10cm considered. Detailed description of survey methods and aims are found in Tolimieri et al. (\textbf{tolimieri\_changes\_2023?}) and in a short description (contained in the supplemental materials on this assessment) provided by Ole Shelton (NWFSC), who kindly provided this data for consideration. The adult survey also supplies coarsely binned () length compositions that are used to estimate survey selectivity. The YOY survey is interpreted as an index of recruitment, though admittedly a rough one as it combines yellowtail and blac rockfishes because they are indistinguishable visually at that size and age. For the purposes of this assessment, these data are included but not expected to provide strong signals. It is more to see if the trends in these data are consistent with the trends in the overall assessment.
+Two surveys conducted between 2015 and 2022 from waters within the Olympic Coast National Marine Sanctuary (OCNMS) were provided for the first time. The adult survey uses SCUBA and belt transects to estimate black rockfish abundance, with fish \textless10cm considered. Detailed description of survey methods and aims are found in Tolimieri et al. (2023) and in a short description (contained in the supplemental materials on this assessment) provided by Ole Shelton (NWFSC), who kindly provided this data for consideration. The adult survey also supplies coarsely binned () length compositions that are used to estimate survey selectivity. The YOY survey is interpreted as an index of recruitment, though admittedly a rough one as it combines yellowtail and blac rockfishes because they are indistinguishable visually at that size and age. For the purposes of this assessment, these data are included but not expected to provide strong signals. It is more to see if the trends in these data are consistent with the trends in the overall assessment.
 
 \hypertarget{section}{%
 \subsubsection{\texorpdfstring{\acrlong{s-aslope}}{}}\label{section}}
@@ -730,17 +730,30 @@ Haul depths ranged from 91-457 m during the 1977 survey with no hauls shallower 
 
 The \Gls{s-wcgbt} is based on a random-grid design; covering the coastal waters from a depth of 55-1,280 m (Bradburn, Keller, and Horness 2011). This design generally uses four industry-chartered vessels per year assigned to a roughly equal number of randomly selected grid cells and divided into two `passes' of the coast. Two vessels fish from north to south during each pass between late May to early October. This design therefore incorporates both vessel-to-vessel differences in catchability, as well as variance associated with selecting a relatively small number (approximately 700) of possible cells from a very large set of possible cells spread from the Mexican to the Canadian borders.
 
-\hypertarget{biological-data}{%
-\subsection{Biological Data}\label{biological-data}}
+\hypertarget{biological-data-and-parameters}{%
+\subsection{Biological Data and Parameters}\label{biological-data-and-parameters}}
 
-The major biological inputs to the models are age and growth parameters, natural mortality, weight-length, maturity and stock-recruitment parameters (Table 40 (OR), and Table 63 (WA)).
+The major biological inputs to the models are natural mortality, age and growth parameters, weight-length, maturity and stock-recruitment parameters. The following sections outline the treatment of each section.
 
-\hypertarget{natural-mortality}{%
-\subsubsection{Natural Mortality}\label{natural-mortality}}
+Natural mortality is a critical parameter that drives much of the outcome of stock assessments. This value is not directly measured for black rockfish, so it either needs to be estimated or fixed in the model. Prior treatments have either used fixed ramps from lower to higher female natural mortality values (0.16 to 0.24 for females (2007 assessment); 0.17 to 0.2 (2015 assessment)) to constant male natural mortality value (0.16 in 2007; 0.17 in 2015). Females rapidly disappear from the population after 20 years of age, whereas whereas males can still be found in their 30 and 40s, with the oldest individuals along the coast aged at 56 years (M. S. Love 1957). Females are rarely found in their 30s and males in their 40s in Oregon.
 
-Previous assessments of black rockfish used different rates of natural mortality for males versus females to account for the lack of older females in fishery samples (Figure 5 and Figure 6). The assumed instantaneous rate of natural mortality (M) for males was 0.16 and was constant with age. Females assumed the male natural mortality value up to age 10, after which natural mortality linearly increased to 0.24 (up to age 15), remaining constant for all subsequent ages. The lower of the two natural mortality rates corresponds to a longevity of only 27 years. Given that individuals over the age of 30 are not uncommon in the age samples being used in the assessment (Figure 3), this seems to be an overestimate of what M should be for black rockfish (Figure 5). Furthermore, the major increase in female natural mortality is invoked well before the theoretical age of asymptotic length, a theory which seems very unlikely given what is known about rockfish life history and growth. This decline in female sex ratio is also seen in other rockfishes (e.g., canary and yellowtail rockfish). The most recent canary rockfish assessment also invoked a similar ramp up to natural mortality to explain this discrepancy on the data (Figure 5).
+The reason for the lack of females has been debated for many years. The ``hide them'' (using age-based selectivity curves to hide older females) or ``kill them'' (using the above mentioned ramps of death to account for no older females in samples) was specifically considered since the last assessment among researchers from California to Alaska, and it was agreed that the ``hide them'' hypothesis is the least feasible situation (see Rasmuson et al. (2023) for a specific study that went looking for old females). It was also agreed a constant natural mortality rate should be used for this assessment.
 
-The pre-STAR approach in this assessment was to fix values of natural mortality at ages to be more in line with the proposed longevity of black rockfish (56 years old; (M. S. Love 1957)) and coupled with an age-based selectivity for females to account for the missing samples of that sex (see Section 2.3for details). A variety of natural mortality estimates based on longevity values and von Bertalanffy values were explored (Table 3). The estimators using the von Bertalanffy values were ultimately chosen because they incorporated both sex and area differences in natural mortality. This choice of dome-shaped age-based selectivity and fixed lower natural mortality causes the productivity of the population to drop greatly relative to assuming a logistic selectivity and a ramp in M, but also creates a very large amount of cryptic (i.e.~unavailable) biomass (Figure 7) compared to the model with a ramp in M (Figure 8). Given such high relative cryptic biomass when invoking dome-shaped age-based selectivity, but discomfort with the M ramp scenario, it was decided during the STAR panel that estimating a sex-specific M was a defensible approach in lieu of data supporting either dome-shaped selectivity and high cryptic biomass or extreme natural mortality values using a ramp in M, and thus was adopted as the approach to M in the California and Washington base models. Sensitivities to the other proposed treatments of natural mortality were also provided.
+Determining reasonable natural mortality values is also challenging as the quick disappearance of females form the population after 20 years old challenges typical biological assumptions, especially since black rockfishes have been the focus species when developing the theory of big old fat fecund female contributions to spawning output (Stephen J. Bobko and Berkeley 2004; Hixon, Johnson, and Sogard 2014b). In a study confirming the advanced capacity for output of older females (S. A. Berkeley, Chapman, and Sogard 2008) the oldest aged females in the study were under 20 years, so the enhanced reproductive capacity, despite the loss of females after 20 years of age, is still intact.
+
+Using the Hamel and Cope (2022) longevity-based estimator of natural mortality as implemented in the natural mortality tool (2022), the following M values correspond to the longevity estimates:
+
+\begin{verbatim}
+ *0.108 at 50 years
+ *0.135 at 40 years
+ *0.180 at 30 years
+ *0.216 at 25 years
+ *0.270 at 20 years
+\end{verbatim}
+
+These provide reasonable bookends for likely natural mortality values for black rockfish. For females, estimates based on the von Bertalanffy growth function range from 0.27-0.32 and for males, 0.34 to 0.38. Those estimates are on the very high side, and thus are not considered further.
+
+Exploratory runs first attempted to estimate natural mortality with not unrealistic, but slightly low, estimates. The base model instead fixes natural mortality to the values from the last assessment (0.17 for females and 0.152 for males), while providing a sensitivity to the estimated M values. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is also included to explore model sensitivity, as this parameter may be a useful parameter to establish different states of nature for uncertainty analysis.
 
 \hypertarget{growth-length-at-age}{%
 \subsubsection{Growth (Length-at-Age)}\label{growth-length-at-age}}
@@ -1167,11 +1180,17 @@ Baker, B. M. 1999. {``Genetic Analysis of Eight Black Rockfish Collections from 
 \leavevmode\vadjust pre{\hypertarget{ref-berkeley_etal_2004}{}}%
 Berkeley, S. A., C. Chaoman, and S. M. Sogard. 2004. {``Maternal Age as a Determinant of Larval Growth and Survival in a Marine Fish, Sebastes Melanops.''} \emph{Ecology} 85: 1258-\/-1264.
 
+\leavevmode\vadjust pre{\hypertarget{ref-berkeley_maternal_2008}{}}%
+Berkeley, S. A, C. Chapman, and S. M Sogard. 2008. {``Maternal Age as a Determinant of Larval Growth and Survival in a Marine Fish, Sebastes Melanops.''}
+
 \leavevmode\vadjust pre{\hypertarget{ref-beverton_holt_1957}{}}%
 Beverton, R. J. H., and S. J. Holt. 1957. \emph{On the Dynamics of Exploited Fish Populations}. Fishery {Investigations} {Series II} {Volume XIX}. Berkeley: Ministry of Agriculture, Fisheries; Food.
 
 \leavevmode\vadjust pre{\hypertarget{ref-bobko_berkeley_2004}{}}%
 Bobko, S. J., and S. A. Berkeley. 2004. {``Maturity, Ovarian, Cycle, Fecundity, and Age-Specific Parturition of Black Rockfish (Sebastes Melanops).''} \emph{NOAA Fishery Bulletin} 102: 418-\/-429.
+
+\leavevmode\vadjust pre{\hypertarget{ref-bobko_maturity_2004}{}}%
+Bobko, Stephen J., and Steven A. Berkeley. 2004. {``Maturity, Ovarian Cycle, Fecundity, and Age-Specific Parturition of Black Rockfish (Sebastes Melanops).''} \emph{Fishery Bulletin} 102 (3): 418--29. \url{http://aquaticcommons.org/15063/}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-boehlert_yoklavich_1983}{}}%
 Boehlert, G. W., and M. M. Yoklavich. 1983. {``Effects of Temperature Ration and Fish Size on Growth of Juvenile Black Rockfish, Sebastes Melanops.''} \emph{Environmental Biology of Fishes} 8 (1): 17-\/-28.
@@ -1181,6 +1200,9 @@ Bradburn, M. J., A. A Keller, and B. H. Horness. 2011. {``The 2003 to 2008 {US} 
 
 \leavevmode\vadjust pre{\hypertarget{ref-cleaver_1951}{}}%
 Cleaver, F. C. 1965. {``Fisheries Statistics of Oregon.''} Oregon Fish Comm. Contr 16.
+
+\leavevmode\vadjust pre{\hypertarget{ref-cope_NMT_2022}{}}%
+Cope, Jason M., and Owen S. Hamel. 2022. {``Upgrading from m Version 0.2: An Application-Based Method for Practical Estimation, Evaluation and Uncertainty Characterization of Natural Mortality.''} \emph{Fisheries Research} 256 (December): 106493. \url{https://doi.org/10.1016/j.fishres.2022.106493}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-pfmc_abc_2004}{}}%
 Council, Pacific Fishery Management. 2004. {``Acceptable Biological Catch and Optimum Yield Specification and Management Measures for the 2005-2006 Pacific Coast Groundfish Fishery.''} Vol. Final environmental impact statement and regulatory analyses. 7700 Ambassador Place NE, Suite 200, Portland, OR: Pacific Fishery Management Council.
@@ -1212,8 +1234,14 @@ Francis, R. I. C. Chris, and R. Hilborn. 2011. {``Data Weighting in Statistical 
 \leavevmode\vadjust pre{\hypertarget{ref-green_starr_2007}{}}%
 Green, K. M., and R. M. Starr. 2011. {``Movements of Small Adult Black Rockfish: Implications for the Design of MPAs.''} \emph{Marine Ecology Progress Series} 14: 219--30.
 
+\leavevmode\vadjust pre{\hypertarget{ref-hamel_Mprior_2022}{}}%
+Hamel, Owen S., and Jason M. Cope. 2022. {``Development and Considerations for Application of a Longevity-Based Prior for the Natural Mortality Rate.''} \emph{Fisheries Research} 256 (December): 106477. \url{https://doi.org/10.1016/j.fishres.2022.106477}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-hixon_etal_1987}{}}%
-Hixon, M. A., D. W. Johnson, and S. M. Sogard. 2014. {``BOFFFFs: On the Importance of Conserving Old-Growth Age Structure in Fishery Populations.''} \emph{ICES Journal of Marine Science} 71 (8): 2171--85.
+Hixon, M. A., D. W. Johnson, and S. M. Sogard. 2014a. {``BOFFFFs: On the Importance of Conserving Old-Growth Age Structure in Fishery Populations.''} \emph{ICES Journal of Marine Science} 71 (8): 2171--85.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hixon_boffffs_2014}{}}%
+---------. 2014b. {``{BOFFFFs}: On the Importance of Conserving Old-Growth Age Structure in Fishery Populations.''} \emph{{ICES} Journal of Marine Science} 71 (8): 2171--85. \url{https://doi.org/10.1093/icesjms/fst200}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-karnowski_historical_2014}{}}%
 Karnowski, M., V. V. Gertseva, and Andi Stephens. 2014. {``Historical {Reconstruction} of {Oregon}'s {Commercial} {Fisheries} {Landings}.''} Oregon Department of Fish; Wildlife, Salem, OR.
@@ -1248,6 +1276,9 @@ Ralston, S., and E. J. Dick. 2003. {``The Status of Black Rockfish \emph{{Sebast
 \leavevmode\vadjust pre{\hypertarget{ref-ralston_documentation_2010}{}}%
 Ralston, Stephen, Don E. Pearson, John C. Field, and Meisha Key. 2010. {``Documentation of the {California} Catch Reconstruction Project.''} US Department of Commerce, National Oceanic; Atmospheric Adminstration, National Marine.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Rasmuson_noBOFFFs_2023}{}}%
+Rasmuson, L., M. R. Terwilliger, E. J. Bailey, M. T. O. Blume, and M. T. O. Lawrence. 2023. {``Finding Oregon's Old Female Rockfish.''} Science Bulletin 2023-04. Oregon Department of Fish; Wildlife.
+
 \leavevmode\vadjust pre{\hypertarget{ref-rogers_species_2003}{}}%
 Rogers, J. B. 2003. {``Species Allocation of \emph{{Sebastes}} and \emph{Sebastolobus} Species Caught by Foreign Countries Off {Washington}, {Oregon}, and {California}, {U}.{S}.{A}. In 1965-1976.''} Unpublished document.
 
@@ -1271,6 +1302,9 @@ Stewart, E. M. 1993. {``Status of Black Rockfish Off the Northern Oregon Coast i
 
 \leavevmode\vadjust pre{\hypertarget{ref-thorson_model-based_2017}{}}%
 Thorson, James T., Kelli F. Johnson, R. D. Methot, and I. G. Taylor. 2017. {``Model-Based Estimates of Effective Sample Size in Stock Assessment Models Using the {Dirichlet}-Multinomial Distribution.''} \emph{Fisheries Research} 192: 84--93. \url{https://doi.org/10.1016/j.fishres.2016.06.005}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-tolimieri_changes_2023}{}}%
+Tolimieri, N, AO Shelton, JF Samhouri, CJ Harvey, BE Feist, GD Williams, KS Andrews, et al. 2023. {``Changes in Kelp Forest Communities Off Washington, {USA}, During and After the 2014-2016 Marine Heatwave and Sea Star Wasting Syndrome.''} \emph{Marine Ecology Progress Series} 703 (January): 47--66. \url{https://doi.org/10.3354/meps14220}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-tsou_etal_2015}{}}%
 Tsou, T. S., L. L. Wargo, M. Langness, J. Colin, R. S. LeGoff, D. E. Downs, V. S. Okimura, B. Walker, and D. D. Bacon. 2015. {``Washington Coastal Commercial Groundfish Port Sampling Program: 2015 Report.''} FPA 15-07. Washington Department of Fish; Wildlife.

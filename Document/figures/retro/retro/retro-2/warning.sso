@@ -1,0 +1,5 @@
+Warning 1 : Fleet:_1max bound on parameter for size at peak is 70; should be <= midsize bin N-1 (63)
+Warning 2 : Setting in starter does not request all priors, and 3 parameters have priors and are not estimated, so their prior not included in obj_fun.
+Warning 3 : Minimum pop size bin:_4; is > L at Amin for sex: 1; Gpat: 1; L= 0
+Warning 4 : Minimum pop size bin:_4; is > L at Amin for sex: 2; Gpat: 1; L= 0
+ 4 warnings 
