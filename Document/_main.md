@@ -758,6 +758,12 @@ Fits to the mostly sex-specific conditional age at length data are examined base
 
 Marginal age compositions are not fit in the model, but they are included in order to see how well they fit the reference model without influencing the likelihood [Appendix D](#app_d). Marginal length and age composition cannot be used in the same model ginve the overlap of the same fish in both samples. This is why ages conditioned on lengths are often used with the length compositions. But it still stands that age compositions, instead of lengths, could be used. So adding the marginal age compositions passively (i.e., not contributing to the overall likelihood of the model) can offer insight into how consistent they are with the current model fit. Overall the fits are very good, and in an exploratory model run the length compositions were replaced with the age compositions and a very similar model result was obtained. Thus the conditional age at length compositions coupled with either length or age compositions provide similar results. This is likely due to the fact that the conditional ages capture the underlying age structure sufficiently to following the age structure over time.   
 
+##### Fits to Indices of Abundance
+
+The fits to the six available indices of abundance are generally weak (Figures \ref{fig:charter-index-fit} to \ref{fig:ocnms-yoy-index-fit}). The best fit index is found for the one with the longest time series, the private boat recreational fishery index (Figure \ref{fig:private-index-fit}). It demonstrates an initial poor fit in the period of large catches, but then captures a generally increasing trend. In contrast is the fit to the charter fishery that covers the same years and shows a very similar selectivity, but shows an opposing downward trend (Figure \ref{fig:charter-index-fit}). The tagging (Figure \ref{fig:tag-index-fit}) and nearshore (Figure \ref{fig:nearshore-index-fit}) fisheries also overlap in the population being sampled by the recreational fishery indices, and both show general trends captured, but poor overall fits.
+
+The two fishery independent surveys, the OCNMS dive (Figure \ref{fig:ocnms-index-fit}) and the tagging survey (Figure \ref{fig:tag-index-fit}) and the young of the year (YOY) survey (Figure \ref{fig:ocnms-yoy-index-fit}) show mixed results in regard to fit. While the dive survey is not particularly well fit, the YOY survey does show some concurrence with the reference model. 
+
 
 <!--chapter:end:33results.Rmd-->
 
@@ -1039,7 +1045,27 @@ Here are all the mad props!
 
 ![Mean age observations from the conditional age-at-length data from the recreational fishery.\label{fig:rec-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png){width=100% height=100% alt="."}
 
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Index*********************************** --> 
+<!-- ====================================================================== -->
 
+
+![Fit to the charter fishery index of abundance.\label{fig:charter-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Charter.png){width=100% height=100% alt="."}
+
+
+![Fit to the private fishery index of abundance.\label{fig:private-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Private_Boat.png){width=100% height=100% alt="."}
+
+
+![Fit to the tagging survey index of abundance.\label{fig:tag-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Tagging.png){width=100% height=100% alt="."}
+
+
+![Fit to the nearshore survey index of abundance.\label{fig:nearshore-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Nearshore_survey.png){width=100% height=100% alt="."}
+
+
+![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS.png){width=100% height=100% alt="."}
+
+
+![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-yoy-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS_YOY.png){width=100% height=100% alt="."}
 
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 

@@ -261,7 +261,51 @@ caption = "Mean age observations from the conditional age-at-length data from th
 label = 'rec-mean-caal')
 ```
 
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Index*********************************** --> 
+<!-- ====================================================================== -->
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Charter.png"),
+caption = "Fit to the charter fishery index of abundance",
+label = 'charter-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Private_Boat.png"),
+caption = "Fit to the private fishery index of abundance",
+label = 'private-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Tagging.png"),
+caption = "Fit to the tagging survey index of abundance",
+label = 'tag-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_Nearshore_survey.png"),
+caption = "Fit to the nearshore survey index of abundance",
+label = 'nearshore-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_OCNMS.png"),
+caption = "Fit to the OCNMS dive survey index of abundance",
+label = 'ocnms-index-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index2_cpuefit_OCNMS_YOY.png"),
+caption = "Fit to the OCNMS dive survey index of abundance",
+label = 'ocnms-yoy-index-fit')
+```
 
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
