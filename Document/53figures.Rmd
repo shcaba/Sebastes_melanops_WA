@@ -174,6 +174,95 @@ label = 'pairs_plot_fast')
 \clearpage
 
 
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Length Data **************************** --> 
+<!-- ====================================================================== -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit__multi-fleet_comparison.png"), 
+caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
+label = 'lt-pearson-resids')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Trawl.png"), 
+caption = "Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'trawl-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_NonTRWL.png"), 
+caption = "Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'nontrawl-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Recreational.png"), 
+caption = "Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'rec-mean-len-fit')
+```
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Tagging.png"), 
+caption = "Mean length (cm) index from tagging survey with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'tag-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Nearshore_survey.png"), 
+caption = "Mean length (cm) index from the Nearshore survey with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'nearshore-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_OCNMS.png"), 
+caption = "Mean length (cm) index from the OCNMS adult dive survey with 95 percent confidence intervals based on sample sizes and data weighting",
+label = 'ocnms-mean-len-fit')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lenfit__aggregated_across_time.png"), 
+caption = "Aggregated length (cm) compositions over all years",
+label = 'agg-len-fit')
+```
+
+<!-- ====================================================================== -->
+<!-- ****************** Fit to the Age Data ******************************* --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeTrawl.png"), 
+caption = "Mean age from conditional age-at-length data for the commercial trawl fishery",
+label = 'trawl-mean-caal')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeNonTRWL.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the commercial non-trawl fishery",
+label = 'nontrawl-mean-caal')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png"), 
+caption = "Mean age observations from the conditional age-at-length data from the recreational fishery",
+label = 'rec-mean-caal')
+```
+
+
+
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
 <!-- ============================================================================== -->
