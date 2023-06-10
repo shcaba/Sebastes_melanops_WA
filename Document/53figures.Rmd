@@ -404,14 +404,14 @@ label = 'depl')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(comp_ass_loc, "compare2_spawnbio_uncertainty.png"), 
-caption = "Comparison of the time series of spawning output between the 2013 and 2023 assessment results",
+caption = "Comparison of the time series of spawning output between the 2015 and 2023 assessment results",
 label = 'comp_ssb')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(comp_ass_loc, "compare4_Bratio_uncertainty.png"), 
-caption = "Comparison of the time series of relative spawning output between the 2013 and 2023 assessment results",
+caption = "Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results",
 label = 'comp_depl')
 ```
 

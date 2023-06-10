@@ -776,6 +776,14 @@ The time series of estimated recruitment deviations and annual recruitment devia
 
 Estimated selectivity curves for each fleet and survey (Figure \ref{fig:fleet_selectivity}) are all logistic (even though dome-shaped parameters were estimated) and look plausible given the biology (i.e., as a model convergence check for realism, the selectivity curves must look plausible). The commercial fisheies are more right shifted than the other the recreational fishery. The estimate of the peak size of selectivity for the fisheries biggest removal sources (trawl: =  cm; non-trawl =  cm; recreational ocean boat =  cm) are above the size of 50% functional maturity (40 cm). 
 
+#### Population Trajectory
+
+The predicted spawning output (in millions of eggs) is provided in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a decline from the start of the time series, but a distinct drop in biomass starting in the early 1980s when the recreational fishery begins in earnest and there is a peak in the trawl fishery. This decline is consistent until the late 1990s when it then rebounds due to the cessation of the commercial fishery and several strong recruitments. The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}. 
+
+Relative spawning output declined below the management target ($SB_{40\%}$) in the 1980s when all three fisheries were active, but rebounded to above the target in the the last couple of years (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.45) is estimated to be above the rockfish relative biomass target of 0.4. Uncertainty intervals give a range of possible current stock status solidly in the precautionary zone or well above it, but still underestimate the total uncertainly across model specifications. This emphasizes the need for alternative model specifications (mainly in the treatment of natural mortality- see likelihood profile below) to capture a broader range of uncertainty. The strong recruitment events, as well as declining catches, seem responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indicate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
+
+This current estimate shows a lower overall biomass (Figure \ref{fig:comp_ssb}), but similar relative stock status, as the 2015 stock assessment (Figure \ref{fig:comp_depl}). This lower biomass is largely due to the change in the catch history, removing 100 of metric tons of historical trawl catch, thus causing the assessment biomass to rescale downward. 
+
 <!--chapter:end:33results.Rmd-->
 
 
@@ -1129,10 +1137,10 @@ Here are all the mad props!
 ![Estimated time series of fraction of unfished spawning output.\label{fig:depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
 
 
-![Comparison of the time series of spawning output between the 2013 and 2023 assessment results.\label{fig:comp_ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Comparison of the time series of spawning output between the 2015 and 2023 assessment results.\label{fig:comp_ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 
-![Comparison of the time series of relative spawning output between the 2013 and 2023 assessment results.\label{fig:comp_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 
 <!-- ============================================================================== -->
