@@ -86,6 +86,21 @@ caption = "Ageing error matrix standard deviation (SD) values by comparison. B r
 label = 'age-error-sd')
 ```
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "Fig1_bio_and_func_color.png"), 
+caption = "Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue)",
+label = 'bio-fxn-mat-color')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "Fig2_func_samplesize_color.png"), 
+caption = "Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue) and sample size is denoted by the size of the bubbles)",
+label = 'fxn-spline-mat-color')
+```
+
+
 
 ```{r, results = 'asis'}
 add_figure(
