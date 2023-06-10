@@ -307,6 +307,115 @@ caption = "Fit to the OCNMS dive survey index of abundance",
 label = 'ocnms-yoy-index-fit')
 ```
 
+<!-- ====================================================================== -->
+<!-- ******************     Life history parameters    ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "bio1_sizeatage.png"), 
+caption = "Model estimated length-at-age in the beginning of the year. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve",
+label = 'len-age-ss')
+```
+
+<!-- ====================================================================== -->
+<!-- ******************     Recruitment    ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
+caption = "Estimated time series of age-0 recruits (1000s)",
+label = 'recruits')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
+caption = "Estimated time series of recruitment deviations",
+label = 'rec-devs')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"), 
+caption = "Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations",
+label = 'rec-devs-sigmas')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SR_curve.png"), 
+caption = "Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years",
+label = 'bh-curve')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recruit_fit_bias_adjust.png"),
+caption = "Recruitment bias adjustment applied in the reference model",
+label = 'bias-adj')
+```
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"),
+caption = "Recruitment deviations variance check. Low standard deviations indicate years with informative deviations ",
+label = 'varcheck')
+```
+
+<!-- ====================================================================== -->
+<!-- ******************     Selectivity    ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "sel01_multiple_fleets_length1.png"),
+caption = "Length-based selectivity curves for each fleet and survey",
+label = 'fleet_selectivity')
+```
+
+<!-- ======================================================= -->  
+<!-- ****************** Time Series ************************ --> 
+<!-- ======================================================= -->
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
+caption = "Estimated time series of spawning output (in millions of eggs)",
+label = 'ssb')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts1_Total_biomass_(mt).png"), 
+caption = "Estimated time series of total biomass (mt)",
+label = 'tot-bio')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "ts9_Relative_spawning_output_intervals.png"), 
+caption = "Estimated time series of fraction of unfished spawning output",
+label = 'depl')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(comp_ass_loc, "compare2_spawnbio_uncertainty.png"), 
+caption = "Comparison of the time series of spawning output between the 2013 and 2023 assessment results",
+label = 'comp_ssb')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(comp_ass_loc, "compare4_Bratio_uncertainty.png"), 
+caption = "Comparison of the time series of relative spawning output between the 2013 and 2023 assessment results",
+label = 'comp_depl')
+```
+
+
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
 <!-- ============================================================================== -->

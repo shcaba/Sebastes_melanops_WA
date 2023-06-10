@@ -764,6 +764,17 @@ The fits to the six available indices of abundance are generally weak (Figures \
 
 The two fishery independent surveys, the OCNMS dive (Figure \ref{fig:ocnms-index-fit}) and the tagging survey (Figure \ref{fig:tag-index-fit}) and the young of the year (YOY) survey (Figure \ref{fig:ocnms-yoy-index-fit}) show mixed results in regard to fit. While the dive survey is not particularly well fit, the YOY survey does show some concurrence with the reference model. 
 
+### Reference Model Outputs 
+
+#### Parameter Estimates
+
+A total of five population parameters, four survey variances and eightteen selectivity parameters were estimated, along with sixty-two recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
+
+The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). The estimated $L_{\infty}$ and $k$ for females and males were slightly greater and lower than the values estimated externally, respectively (0.118  for females and 0.135 yr^-1^ for males).  The majority of female and male Black Rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female Black Rockfish reaching larger maximum lengths (Figure \ref{fig:len-age-ss}).
+
+The time series of estimated recruitment deviations and annual recruitment deviations are shown in Figures \ref{fig:recruits} and \ref{fig:rec-devs}. Years with major recruitment deviations were estimated to have occurred  around 1999, 2007, and 2010. These years are very similar to recruitment deviations seen in other rockfishes. One curious signal is the string of positive deviations from 2005-2013, though this is consistently apparent in most model runs. The variance check on the recruitment deviations indicates well informed recruitments from the early 1960s to 2017, providing justification for the estimation of recruitment (Figure \ref{fig:varcheck}). Recruitment deviations after 2017 are relatively uninformed and are not estimated, as is not unexpected from the lag in selectivity with the biological compositions. The recruitment bias adjustment applied within the model across years is shown in Figure \ref{fig:bias-adj}. The Beverton-Holt stock-recruitment relationship compared to the recruitment deviations are given in Figure \ref{fig:bh-curve}.
+
+Estimated selectivity curves for each fleet and survey (Figure \ref{fig:fleet_selectivity}) are all logistic (even though dome-shaped parameters were estimated) and look plausible given the biology (i.e., as a model convergence check for realism, the selectivity curves must look plausible). The commercial fisheies are more right shifted than the other the recreational fishery. The estimate of the peak size of selectivity for the fisheries biggest removal sources (trawl: =  cm; non-trawl =  cm; recreational ocean boat =  cm) are above the size of 50% functional maturity (40 cm). 
 
 <!--chapter:end:33results.Rmd-->
 
@@ -1066,6 +1077,63 @@ Here are all the mad props!
 
 
 ![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-yoy-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS_YOY.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== -->
+<!-- ******************     Life history parameters    ***************************** --> 
+<!-- ====================================================================== -->
+
+
+![Model estimated length-at-age in the beginning of the year. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== -->
+<!-- ******************     Recruitment    ***************************** --> 
+<!-- ====================================================================== -->
+
+
+![Estimated time series of age-0 recruits (1000s).\label{fig:recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
+
+
+![Estimated time series of recruitment deviations.\label{fig:rec-devs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
+
+
+
+![Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations.\label{fig:rec-devs-sigmas}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
+
+
+![Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years.\label{fig:bh-curve}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SR_curve.png){width=100% height=100% alt="."}
+
+
+![Recruitment bias adjustment applied in the reference model.\label{fig:bias-adj}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recruit_fit_bias_adjust.png){width=100% height=100% alt="."}
+
+![Recruitment deviations variance check. Low standard deviations indicate years with informative deviations .\label{fig:varcheck}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== -->
+<!-- ******************     Selectivity    ***************************** --> 
+<!-- ====================================================================== -->
+
+
+![Length-based selectivity curves for each fleet and survey.\label{fig:fleet_selectivity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png){width=100% height=100% alt="."}
+
+<!-- ======================================================= -->  
+<!-- ****************** Time Series ************************ --> 
+<!-- ======================================================= -->
+
+
+
+![Estimated time series of spawning output (in millions of eggs).\label{fig:ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
+
+
+![Estimated time series of total biomass (mt).\label{fig:tot-bio}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png){width=100% height=100% alt="."}
+
+
+![Estimated time series of fraction of unfished spawning output.\label{fig:depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
+
+
+![Comparison of the time series of spawning output between the 2013 and 2023 assessment results.\label{fig:comp_ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+
+
+![Comparison of the time series of relative spawning output between the 2013 and 2023 assessment results.\label{fig:comp_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
 
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
