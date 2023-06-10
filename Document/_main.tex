@@ -747,7 +747,7 @@ Black Rockfish maturity was assumed to be based on length, as in past assessment
 
 Claire Rosemond (Oregon State University) and Melissa Head (Northwest Fisheries Science Center) provided estimates of both biological and functional maturity for Black Rockfish sampled in 2014 to 2021 from September through April (the time period that includes yolk development and spawning). Samples were collected for fish caught in Oregon and Washington waters by biologists at Oregon State University, Oregon Department of Fish and Wildlife, and Washington Department of Fish and Wildlife. Biological maturity and functional maturity observations were fitted in separate models. Biological maturity and functional maturity status observations (0 = immature and 1 = mature, n = 644) were fitted in a logistic regression model (glm function, family = binomial, link = ``logit'') and flexible spline model (Head et al.~2020). The estimated model parameters were used to calculate length at 50\% maturity (L50\%; Table \ref{tab:bio-fxn-maturity}) and maturity ogives (Figure \ref{fig:bio-fxn-mat-color}). The delta method was used to calculate 95\% confidence intervals for estimated L50\% in the logistic regression and a bootstrapping method was used to calculate 95\% confidence intervals for L50\% in the flexible spline model.
 
-A flexible spline model can capture skipped spawning in the maturity ogive by allowing a decreased asymptote from 1.0. There was evidence of skipped spawning in larger size classes and so the flexible spline model was determined to be the best representation of the reproductive biology of Black Rockfish for the sampled time period (Figure \ref{fig:fxn-spline-mat-color}). The maturity vector input into the model as a fixed relationship is shown in Figure \ref{fig:maturity}.
+A flexible spline model can capture skipped spawning in the maturity ogive by allowing a decreased asymptote from 1.0. There was evidence of skipped spawning in larger size classes and so the flexible spline model was determined to be the best representation of the reproductive biology of Black Rockfish for the sampled time period (Figure \ref{fig:fxn-spline-mat-color}). The maturity vector input into the model as a fixed relationship is shown in Figure \ref{fig:maturity}. Sensitivity of model output to the use of the biological and functional logistic relationships are explored.
 
 The Black Rockfish fecundity-at-length relationship was provided by E.J. Dick (SWFSC) and based on the work from Dick (2009). The fecundity relationship was estimated equal to \(Fec\)=1.41e-08\(L\)\textsuperscript{4.68} in millions of eggs where \(L\) is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
 
@@ -984,49 +984,6 @@ WA: The Washington base case model showed acceptable and dynamic fits to both in
 \hypertarget{sensitivity-analyses}{%
 \subsubsection{Sensitivity Analyses}\label{sensitivity-analyses}}
 
-Several sensitivity runs were considered for the Oregon model. The first group of sensitivity runs (scenarios 1-6; Table 43; Supplemental table ``OR Sensitivities- Like Comps'') sequentially removes indices. The second group (scenarios 7-13; Table 43; Supplemental table ``OR Sensitivities- Like Comps'') sequentially removes length composition data. The third group (scenarios 14-19; Table 43; Supplemental table ``OR Sensitivities- Like Comps'') sequentially removes indices, size or age composition data. The last group (scenarios 19-33; Table 44; Supplemental table ``OR Sensitivities- Model specs'') covers a variety of issues:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Estimate M step
-\item
-  M step (at age 10) fixed at 2007 values
-\item
-  M ramp (at age 10) fixed at 2007 values
-\item
-  M estimated, no step
-\item
-  M using Then et al.~2015 VBGF calculation; age-based selectivity
-\item
-  M based on Then et al.~(2015) using amax = 56; age-based selectivity
-\item
-  M based on Hamel (2015) using amax = 56; age-based selectivity
-\item
-  Estimate female M with male offset set at -0.2
-\item
-  Fix tag Q = 12.5\%
-\item
-  Estimate tag Q
-\item
-  Data weighting: length using Francis method; no age weighting
-\item
-  Data weighting: lengths and ages using harmonic mean
-\item
-  No recruitment estimation
-\item
-  No extra variance estimated on all indices
-\item
-  Recreational ocean fishery selectivity logistic
-\end{enumerate}
-
-The model was generally insensitive to the removal of indices, except when the tag index was removed as well as the tag Q fixed value. The model was more sensitive to the removal of age compositions, particularly the recreational ocean fishery, resulting mostly in the changes of absolute spawning output. This general insensitivity is due to the fact that tag Q is fixed in the base model. Previous model exploration that did not fix tag Q showed sensitivity to both the length compositions, which favored higher M values, and age compositions, which favored lower M values.
-
-Results of the model specification sensitivity runs demonstrate a strong sensitivity to the scale parameter Q from the tagging data, though selectivity can also change results (Table 44; Figure 153 and Figure 154). The model is very rigid given the fixed value of tag Q. There is very little effect on stock status when changing the parameterization of M, selectivity, data weighting, or the estimation of recruitments (Figure 155 to Figure 158). Only the treatment of the tag Q parameter causes notable results. Because the Oregon model both kills individuals through elevated M values, but also hides the females via dome-shaped selectivity, the biomass unavailable to fishing mortality (``cryptic biomass'') was considered for different values of tag Q. Despite very different assumptions of stock scale and status from the different Q parameters (Figure 153 and Figure 154), the cryptic biomass was comparable (Figure 159 to Figure 161).
-
-Overall, the scale of the population (and thus the resultant OFL at the proxy FMSY value) is the most sensitive derived quantity. Lower natural mortality rates caused big changes in the spawning output. Such lower productivity also caused reduced OFLs. Estimating recruitment and assuming logistic selectivity for the recreational ocean fishery also caused changes in the population scale.
-
 WA: Several sensitivity runs were considered for the Washington model. The first group of sensitivity runs (scenarios 2-4; Table 65; Supplemental table ``WA Sensitivities- Like Comps'') sequentially removes indices. The second group (scenarios 5-9; Table 65; Supplemental table ``WA Sensitivities- Like Comps'') sequentially removes length composition data. The third group (scenarios 10-13; Table 65; Supplemental table ``WA Sensitivities- Like Comps'') sequentially removes age composition data. The last group (scenarios 14-36: Table 66; Supplemental table ``WA Sensitivities- Model specs'') covers a variety of issues
 
 \begin{enumerate}
@@ -1084,19 +1041,33 @@ Results of the likelihood component sensitivity runs are found in Table 65. The 
 
 Results of the model specification sensitivity runs are found in Table 66. The largest sensitivities were found in the treatment of maturity, selectivity and natural mortality. The use of sexual maturity (scenarios 24-27) changed the terminal year scale and status of the stock significantly, making it much less reduced in status, though having a smaller influence on catch at SPR50\% (Table 21). Natural mortality scenarios with lower M but age-based selectivity had the biggest effect in spawning output (Figure 225), whereas scenarios with ramping of M caused the biggest changes in (i.e., improving) stock status (Figure 226). Fixing M to low values but not compensating with dome-shaped, age-based selectivity caused the population to crash. Scenarios with ramps in M or M estimated, regardless of selectivity form for females, caused the biggest increases in catch at SPR50\%. Recruitment deviations are relatively insensitive to the different natural mortality specifications (Figure 227). Most natural mortality scenarios bring the fishing intensity below the SPR harvest level (Figure 228).
 
-\hypertarget{retrospective-analysis}{%
-\subsubsection{Retrospective Analysis}\label{retrospective-analysis}}
-
-OR: Retrospective runs of for the last 5 years plus and additional retrospective back to 2006 (-8 years, the last year of data available in the previous assessment) were conducted. The Oregon model demonstrates little retrospective patterns in both spawning stock output (Figure 170) and relative spawning stock output (Figure 171).
-
-WA:Retrospective runs of for the last 5 years plus and additional retrospective back to 2006 (-8 years, the last year of data available in the previous assessment) were conducted. The Washington model demonstrates little retrospective pattern in both spawning stock output (Figure 235) and relative spawning stock output (Figure 236). Both indicate that in general, as data is removed, the stock gains spawning output and the relative stock status increases.
-
 \hypertarget{likelihood-profiles}{%
 \subsubsection{Likelihood Profiles}\label{likelihood-profiles}}
 
-OR: Profiles for natural mortality, steepness, initial recruitment (lnR0), and the ln(tag Q) are shown in Figure 162 to Figure 169. The data in the model strongly support high M values, though fixing the tag Q has removed the sensitivity of the derived quantities to this M values (Figure 162 and Figure 163). Fixing Q also makes all likelihood components support a larger M, whereas when tag Q is estimated, length compositions support higher M values and age composition support lower M values. Profiles over steepness show higher steepness values are most supported and have little influence on the derived quantities (Figure 164). All likelihood components but the abundance indices support higher steepness (Figure 165). The lnR0 parameter is very well defined (Figure 166) and supported consistently by all likelihood components (Figure 167). Higher ln(tag Q values) are most supported by the data, a value very different from the fixed value used in the base model (Figure 168). Derived quantities are very sensitive to the value of this parameter. The ln(tag Q) best supported is most influenced by the age data, with the length data supporting a lower ln(tag Q).
+Likelihood profiles were conducted for the the log of initial recruitment (ln(\(R_0\))), steepness (\(h\)), and female and male natural mortality (\(M\)) varying together with a constant ratio matching the reference model (0.17/0.152, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by indentifying the range of parameters within 1.96 likelihood units of the reference model.
 
-WA: Likelihood profiles were conducted for sex-specific natural mortality (where males were a fixed offset from females), for population scale (initial recruitment (lnR0)) and stock productivity (steepness (h)). Natural mortality values of females between 0.15 and 0.18 were hard to differentiate in the likelihood value, and did not show much difference is stock scale or status (Figure 229). Overall, derived quantities were very sensitive to natural mortality. The likelihood components degraded most with lower and higher natural mortality values (Figure 230). Age and length likelihood components were opposed in their information on natural mortality. Initial recruitment was well informed, with stock status sensitive to the value of initial recruitment (Figure 231). Values of lnR0 greater than the base case estimate quickly rise to unfished status. Age and length likelihood components were sensitive to the value of lnR0 and opposed each other in the relationship to ln R0 (Figure 232). Regarding steepness, a freely estimated steepness would move towards the high bound (Figure 233). Values below 0.7 were not supported by the data. Derived quantities were fairly insensitive to the value of steepness. Most likelihood components behaved consistently to steepness values, though age compositions were most sensitive to high steepness values while all other components were sensitive to very low steepness values (Figure 234).
+The profile on the assumption of \(lnR_0\), which sets the initial scale of the population) demonstrates the expected scaling up and down of the population with increasing and decreasing initial recruitment, respectively (Figure \ref{fig:R0-profile}). The likelihood profile is highly informed to the ultimate maximum likelihood estimate. The change in the current spawning output is steeper than the initial spawning output, leading to a u-shaped relationship in relative biomass. Once the \(lnR_0\) approaches 7, the population approaches an overfished state. The age (all sources) and recruitment data are most supportive of a well-informed initial scale, whereas lengths (mainly the recreational data) tend to push the population very low and the index data quite high (Figure \ref{fig:R0-profile-components}).
+
+The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of current stock size, especially when steepness drops below 0.7. The lower steepness values rapidly decrease the relative stock size. The likelihood components except lengths pushed the steepness to the highest value; length cause the value to race to a minimum value. (Figure \ref{fig:steepness-profile-components}). There seems to be no real information on the value of this parameter in this model.
+
+The combined profile that varies female and male \(M\) while maintaining the reference model offset demonstrates the model wants natural mortality values to be near the low end of reasonable natural mortlality values (Figure \ref{fig:M-multiprofile-combo}). This lowering of the stock productivity results in stock status near the overfished limit. This type of sensitivity to stock productivity (similar to what we see with the steepness profile) makes natural mortality a strong candidate for exploring model specification uncertainty in order to build alternative states of nature for decision tables.
+
+\hypertarget{retrospective-analysis}{%
+\subsubsection{Retrospective Analysis}\label{retrospective-analysis}}
+
+A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a generally consistent pattern in population scale and trend. All models show the population increasing, with the models removing the most data showing the increasing starting sooner and trending stronger upward. This results in a stock status firmly in the precautionary zone, whereas the models with more data put those same years closer to the overfished level. Some of this is due to the change in stock scale, though overall scale estimates are not strikingly different. Overall, the variation in scale and status are within the uncertainty bounds of the reference model, except the model that removes 9 and 10 years of data, which is slightly higher in both scale and stock status.
+
+\begin{longtable}[t]{llll}
+\caption{\label{tab:RetroMohnsrho}The magnitude of retrospective pattern (Mohn's rho; Mohn, 1999) given the removal of ten years of data for fishing intensity (\emph{F}), fraction unfished (Figure \ref{fig:retro-depl}),  recruitment, and spawning stock biomass (\emph{SSB}; Figure \ref{fig:retro-ssb}). Columns are a derivation of Mohn's rho (Hurtado-Ferro et al. 2015) used by the Alaska Fisheries Science Center (AFSC), as originally described in Mohn (1999), and a derivation of Mohn's rho (Woods Hole Mohn's rho; Legault 2009) used by the Northeast Fisheries Science Center (NEFSC).}\\
+\toprule
+Quantity & AFSC & Mohn & NEFSC\\
+\midrule
+\emph{F} & 0.2686821 & 2.686821 & 0.307667\\
+Fraction unfished & 0.07380647 & 0.7380647 & 0.4345456\\
+Recruitment & -0.0938582 & -0.938582 & -0.4099524\\
+\emph{SSB} & 0.009894998 & 0.09894998 & -0.213515\\
+\bottomrule
+\end{longtable}
 
 \hypertarget{unresolved-problems-and-major-uncertainties-1}{%
 \subsubsection{Unresolved Problems and Major Uncertainties}\label{unresolved-problems-and-major-uncertainties-1}}
@@ -1428,6 +1399,50 @@ Wright, S. 1967. {``Troll Fishery Progress Report.''} Marine Fisheries Investiga
 \includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png}
 \caption{Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\% confidence intervals.\label{fig:deps_bridge_comps}}
 \end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png}
+\caption{Initial recruitment (\(lnR_0\)) likelihood profile (change in the negative log-likelihood across a range of \(ln(R0)\) values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:R0-profile}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_LN(R0).png}
+\caption{Initial recruitment (\(ln(R0)\)) likelihood profile for each of the likelihood components.\label{fig:R0-profile-components}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png}
+\caption{Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:steepness-profile}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_BH_steep.png}
+\caption{Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/M_fm_multilikelihood_profile.png}
+\caption{Female and male \(M\) multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png}
+\caption{Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially.\label{fig:retro-ssb}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png}
+\caption{Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}}
+\end{figure}
+
+\newpage
 
 \clearpage
 

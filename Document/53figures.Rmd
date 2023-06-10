@@ -153,3 +153,67 @@ add_figure(
   label = 'deps_bridge_comps')
 
 ``` 
+
+<!-- ============================================================================== -->
+<!-- ******************      Likelihood Profiles      ***************************** --> 
+<!-- ============================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"parameter_panel_SR_LN(R0).png"), 
+caption = "Initial recruitment ($lnR_0$) likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
+label = 'R0-profile')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "piner_panel_SR_LN(R0).png"), 
+caption = "Initial recruitment ($ln(R0)$) likelihood profile for each of the likelihood components",
+label = 'R0-profile-components')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"parameter_panel_SR_BH_steep.png"), 
+caption = "Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
+label = 'steepness-profile')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "piner_panel_SR_BH_steep.png"), 
+caption = "Beverton-Holt steepness parameter likelihood profile for each of the likelihood components",
+label = 'steepness-profile-components')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc, "M_fm_multilikelihood_profile.png"), 
+caption = "Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively",
+label = 'M-multiprofile-combo')
+```
+
+
+<!-- ====================================================================== -->
+<!-- ******************     Retrospectives    ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(retro_loc,  "compare2_spawnbio_uncertainty.png"), 
+caption = "Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially",
+label = 'retro-ssb')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(retro_loc,  "compare4_Bratio_uncertainty.png"),
+caption = "Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially",
+label = 'retro-depl')
+```
+
+\newpage
+
