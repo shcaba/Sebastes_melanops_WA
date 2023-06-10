@@ -931,17 +931,17 @@ WASHINGTON: The most dramatic model specification in these models, in relation t
 
 The base assessment model for Oregon Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and realtive stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. These include considerations of model structure, data and parameter treatment, estimation phasing, and jittered starting values to achieve a converged and balanced model that provides sensible parameter estimates and derived quantities.
 
-\hypertarget{model-diagnostics}{%
-\subsection{Model Diagnostics}\label{model-diagnostics}}
+\hypertarget{reference-model-diagnostics-and-results}{%
+\subsection{Reference Model Diagnostics and Results}\label{reference-model-diagnostics-and-results}}
 
 \hypertarget{model-convergence-and-acceptability}{%
 \subsubsection{Model Convergence and Acceptability}\label{model-convergence-and-acceptability}}
 
-While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{3.73986\times 10^{-5}}), inversion of the Hessian (passed), reasonable parameter values (passed), and acceptable fits to data (passed).
+While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{3.73986\times 10^{-5}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed).
 
-An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 12 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter_001}). A better fit, lower negative log-likelihood model was not found in any of remaining 96 runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made.
+Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value (Monnahan et al. 2019). This resulted in the fixing of five selectivity parameters (Figure \ref{fig:pairs_plot_fast}).
 
-Models were considered converged if they meet low gradient requirements (\textless0.001) and produced asymptotic standard deviations. Additional explorations for a consistent likelihood minimum was performed using jittered (0.1) starting values. A total of 100 jittered runs were performed for each model. Across all jittered runs, the lowest likelihoods of each respective model matched the base case likelihood (Figure 99 (OR); Figure 195 (WA)).
+An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 2 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). A better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made.
 
 \hypertarget{base-model-results}{%
 \subsection{Base Model Results}\label{base-model-results}}
@@ -1204,6 +1204,9 @@ McAllister, M. K., and J. N. Ianelli. 1997. {``Bayesian Stock Assessment Using C
 \leavevmode\vadjust pre{\hypertarget{ref-mcclure_vulnerability_2023}{}}%
 McClure, Michelle M., Melissa A. Haltuch, Ellen Willis-Norton, David D. Huff, Elliott L. Hazen, Lisa G. Crozier, Michael G. Jacox, et al. 2023. {``Vulnerability to Climate Change of Managed Stocks in the California Current Large Marine Ecosystem.''} \emph{Frontiers in Marine Science} 10. \url{https://www.frontiersin.org/articles/10.3389/fmars.2023.1103767}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-monnahan_overcoming_2019}{}}%
+Monnahan, Cole C, Trevor A Branch, James T Thorson, Ian J Stewart, and Cody S Szuwalski. 2019. {``Overcoming Long Bayesian Run Times in Integrated Fisheries Stock Assessments.''} \emph{{ICES} Journal of Marine Science} 76 (6): 1477--88. \url{https://doi.org/10.1093/icesjms/fsz059}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-myers_etal_1995}{}}%
 Myers, R. A., J. Bridson, and N. J. Barrowman. 1995. {``Summary of Worldwide Spawner and Recruitment Data.''} Canadian Technical Report of Fisheries and Aquatic Sciences. Department of Fisheries; Oceans Canada, Northwest Atlantic Fisheries Centre, St. Johns, Newfoundland.
 
@@ -1399,6 +1402,14 @@ Wright, S. 1967. {``Troll Fishery Progress Report.''} Marine Fisheries Investiga
 \includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png}
 \caption{Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\% confidence intervals.\label{fig:deps_bridge_comps}}
 \end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png}
+\caption{Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}}
+\end{figure}
+
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/pairs_plot_fast.png} \clearpage
 
 \begin{figure}
 \centering

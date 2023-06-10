@@ -154,6 +154,26 @@ add_figure(
 
 ``` 
 
+<!-- ====================================================================== -->
+<!-- ***********************  Model convergence and Jitters  ************************************ --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(modconv_fig_loc, "jitterplot.png"), 
+caption = "Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+label = 'jitter')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(modconv_fig_loc, "pairs_plot_fast.png"), 
+caption = "Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency",
+label = 'pairs_plot_fast')
+```
+\clearpage
+
+
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 
 <!-- ============================================================================== -->
