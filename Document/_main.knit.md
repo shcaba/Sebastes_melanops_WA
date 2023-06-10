@@ -639,6 +639,8 @@ as well as variance associated with selecting a relatively small number (approxi
 
 The major biological inputs to the models are natural mortality, age and growth parameters, weight-length, maturity and stock-recruitment parameters. The following sections outline the treatment of each section.
 
+### Natural Mortality
+
 Natural mortality is a critical parameter that drives much of the outcome of stock assessments. This value is not directly measured for black rockfish, so it either needs to be estimated or fixed in the model. Prior treatments have either used fixed ramps from lower to higher female natural mortality values (0.16 to 0.24 for females (2007 assessment); 0.17 to 0.2 (2015 assessment)) to constant male natural mortality value (0.16 in 2007; 0.17 in 2015). Females rapidly disappear from the population after 20 years of age, whereas whereas males can still be found in their 30 and 40s, with the oldest individuals along the coast aged at 56 years [@love_2011]. Females are rarely found in their 30s and males in their 40s in Oregon.
 
 The reason for the lack of females has been debated for many years. The "hide them" (using age-based selectivity curves to hide older females) or "kill them" (using the above mentioned ramps of death to account for no older females in samples) was specifically considered since the last assessment among researchers from California to Alaska, and it was agreed that the "hide them" hypothesis is the least feasible situation (see Rasmuson et al. [-@Rasmuson_noBOFFFs_2023] for a specific study that went looking for old females). It was also agreed a constant natural mortality rate should be used for this assessment. 
@@ -647,44 +649,62 @@ Determining reasonable natural mortality values is also challenging as the quick
 
 Using the Hamel and Cope [-@hamel_Mprior_2022] longevity-based estimator of natural mortality as implemented in the natural mortality tool [-@cope_NMT_2022], the following M values correspond to the longevity estimates:
 
-     *0.108 at 50 years
-     *0.135 at 40 years
-     *0.180 at 30 years
-     *0.216 at 25 years
-     *0.270 at 20 years
+- 0.108 at 50 years
+- 0.135 at 40 years
+- 0.180 at 30 years
+- 0.216 at 25 years
+- 0.270 at 20 years
 
 These provide reasonable bookends for likely natural mortality values for black rockfish. For females, estimates based on the von Bertalanffy growth function range from 0.27-0.32 and for males, 0.34 to 0.38. Those estimates are on the very high side, and thus are not considered further. 
 
 Exploratory runs first attempted to estimate natural mortality with not unrealistic, but slightly low, estimates. The base model instead fixes natural mortality to the values from the last assessment (0.17 for females and 0.152 for males), while providing a sensitivity to the estimated M values. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is also included to explore model sensitivity, as this parameter may be a useful parameter to establish different states of nature for uncertainty analysis. 
 
 
-### Growth (Length-at-Age)
+#### Age and growth relationship
 
-Age and length data were available for all states across years, so an initial investigation of the growth parameters across areas was produced to look at spatial and temporal trends by sex. The standard von Bertalanffy growth function was used to fit the length and age data. Washington State had the most years of available composition data (Figure 2). In general, males seem to be consistently better sampled in all states (Figure 3). Patterns of growth between sexes are similar among areas, while trends in parameters estimates are apparent in California and Washington (Figure 25 and Figure 193).  Washington was the best temporally and numerically sampled area, with California having the fewest samples. Given the level of data, attempts were made to estimate growth parameters internal to the model. When that was not possible, the parameters were fixed to the external fits (Table 18 (CA); Table 40 (OR); Table 63 (WA)).
+The length-at-age was estimated for female and male Black Rockfish using data from collections sampling the commercial and recreational fisheries off the coast of Washington (Figure \ref{tab:len-age-data-sex} and Figure \ref{tab:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated at the following values:
+
+\begin{centering}
+
+Females $L_{\infty}$ = 51.19 cm; $k$ = 0.15; $t_0$ = -2.50
+
+Males $L_{\infty}$ = 47.26 cm; $k$ = 0.17; $t_0$ = -2.99
+
+\end{centering}
+
+\vspace{0.5cm}
+
+The coefficient of variation of length by age fluctuated around 0.07 to 0.1 for the most well sampled ages and was similar for each sex (Figure \ref{tab:cv-lt-age}). When estimated in the models, these same values would often be produced, but it was ultimately determined it is more parsimonious to fix to 0.1 for both sexes. The value for $t_0$ is also fixed in the base model, as estimation of that parameter lead to  extremely high current biomass values.
+
+The estimated VBGF parameters provided initial values for the estimation of growth in the model, as all age and length data are included in the model and parameters $L_{\infty}$ and $k$ are estimated. The resultant growth curves estimated by the model are presented in Figure \ref{fig:len-age-ss}. Sensitivity to fixing the growth parameters to the external values, fixing $t_0$ to 0, and estimating $t_0$ are explored through sensitivity analyses.
 
 
-### Ageing Precision and Bias
+### Ageing Bias and Precision
 
-Ageing otoliths, while a common practice, rarely provides a prefect estimate of true age. This ageing error (both in bias and imprecision) can have large effects on stock assessment outputs and should be incorporated when using ages. Several multiple age read studies were available to develop ageing error vectors for use in interpreting conditional ages at length. For Washington, there were two data sets: 1) 280 triple reads from WDFW for the commercial fisheries and 2) 3240 double reads from WDFW for the recreational fishery. For Oregon, the Cooperative Ageing Project (CAP) provided a set of 302 multiple reads (five total readers), while ODFW provided 150 from five readers. California had one set of 318 double reads from the Cooperative Ageing Project (CAP).). Resultant forms for each chosen model are given in Figure 4.
+Counting ages from ageing structures in long-lived, temparate fishes is challenging. Ages derived from these structures can be hard to reproduce within and between readers (i.e., imprecision), and may not contain the true age (i.e., bias). Stock assessment outputs can be affected by bias and imprecision in ageing, thus it is important to quantify and integrate this source of variability when fitting age data in assessments. In Stock Synthesis, this is done by including ageing error matrices that include the mean age (row 1) and standard deviation in age (row 2). Ageing bias is implemented when the inputted mean age deviates from the expected middle age for any given age bin (e.g., 1.75 inputted versus 1.5 being the true age); ageing imprecision is given as the standard deviation for each age bin (row 2).
 
-The Punt et al. [-@punt_quantifying_2008] method and accompanying software was used to determine the underlying true age distribution and resultant imprecision, assuming at least one of the readers is unbiased. The first reader in all comparisons was assumed unbiased, but we considered several model configurations based on the functional form (unbiased, linear or curvilinear) of bias in the subsequent readers, and precisions of all readers (constant CV, curvilinear standard deviation, or curvilinear CV). Model selection was based on Akaike Information Criterion (AIC) corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Both Washington data sets supported a linear bias in the other readers and constant CV of precision for all readers (Table 2). Oregon data sets agreed that linear bias and curvilinear precision was best supported (Table 2). The California data set supports curvilinear bias in the second reader with constant CV for both readers (Table 2). Resultant forms for each chosen model are given in Figure 4.
+Washington Department of Fish and Wildlife has two main readers to assign to the available ages. Reader 1 read samples from the earliest period through 2018 and Reader 2 read samples from 2019 to 2022. Age bias plots show little bias within and between the readers (Figure \ref{fig:Age1_1plots}). 
+
+Estimation of ageing error matrices used the approach of Punt et al. [-@punt_quantifying_2008] and release 1.1.0 of the R package \href{https://github.com/nwfsc-assess/nwfscAgeingError}{nwfscAgeingError} [@thorson_nwfscageingerror:_2012]. The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1, the primary reader of the ages used in the stock assessment, is always considered unbiased, but may be imprecise. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in the second read or reader or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:ageing_error_mods} provides model selection results.
+
+The calculated bias relationships from the best fit model are shown in Figure \ref{fig:age-error-bias} and confirm small to little bias between readers. Figure \ref{fig:age-error-sd} shows the imprecision estimates of the best fit models. Each ageing error matrix was then applied to the appropriate time and fleet combination.
 
 
 ### Length-Weight Relationship
 
-Length-weight relationships (kg to fork lengths) were developed with state-specific data. The California weight-length relationship was based on 8943 combined sex samples (Table 18). Oregon relationships were based on length and weight measurements from almost 4,000 individual black rockfish of combined sex and was the same as used in the previous assessment (Table 40). Washington relationships were sex-specific and based on 1551 female samples and 1284 males samples (Table 63), though both sexes had very similar relationships.
+The length(cm)-weight(kg) relationship for Black Rockfish was estimated outside the model using biological data available from the Oregon commercial and recreational fisheries (Figure \ref{fig:len-weight-data}). The resultant relationship is very similar for both males and females, and is very close also to what is seen in the state of Washington (Figure \ref{fig:len-weight-or-wa}). The estimated length-weight relationship for female fish was $W$=5.24556e-05$L$^2.72^ and males at $W$=2.47904e-05$L$^2.91^.
 
 
 ### Maturation and Fecundity
 
-The black rockfish maturity is assumed to be based on length, as assumed in past assessments. A notable difference in our approach in these assessments is the use of functional maturity instead of sexual maturity (the typical application). Functional maturity is a more stringent definition of maturity as compared to sexual maturity. Instead of just using the presence of yolk as a measure of sexual maturity, functional maturity takes into account both the presence of strict spawning individuals and the level of atresia or skipped spawning. Such an approach yields length at 50% maturity estimates larger than the standard sexual maturity application. Melissa Head of the Northwest Fisheries Science Center provided estimates of both functional and sexual maturity from black rockfish sampled in the months of July to January (deemed the best time for identifying mature individuals) off Oregon and Washington waters combined. The logistic fit to those the functional and sexual maturity values are found in Table 4. The functional maturity values were sampled from individuals from one year, which happened to be the year of the "warm blob". It is therefore unknown how this may have affected the estimate of functional maturity, particularly the levels of mass atresia in older individuals. Discussion in the STAR panel lead to the decision to assume all individuals above 45cm to be mature in the functional maturity data set in order to be conservative on the estimate of the effect of atresia on maturity estimation. The functional maturity values from this modified data set are used for all states, but sensitivities to the new sexual maturity estimate, as well as the respective area values from the previous assessments and the unmodified functional maturity data set are explored.
 
-Similarly, this assessment, like previous assessments, assumes that weight-specific fecundity is linearly related to female body weight. Values for the slope and intercept were taken from Dick [-@dick_modeling_2009] and are found in the parameterization tables for each state assessment model (Table 18 (CA); Table 40 (OR); Table 63 (WA)). 
+
+The Black Rockfish fecundity-at-length  relationship was provided by E.J. Dick (SWFSC) and based on the work from Dick [-@dick_modeling_2009]. The fecundity relationship was estimated equal to $Fec$=1.41e-08$L$^4.68^ in millions of eggs where $L$ is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
 
 
 ### Stock-recruitment function and compensation
 
-The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002].  This prior is typically updated each cycle (following the method of Dorn 2002) and subject to a review by the Council's Science and Statistical Committee.  The prior for 2015 has an expected value of 0.773 and a standard deviation of 0.147 using a beta distribution. Attempts were made to estimate this value, but were not successful, so it is fixed and its influence is explored via a likelihood profile.
+The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002]. The Thorson-Dorn rockfish prior (developed for use West Coast rockfish assessments) was reviewed and endorsed by the Scientific and Statistical Committee (SSC) in 2017, and is the primary source of information on steepness for west coast rockfishes. The prior ($h$; beta distribution with $\mu$=0.72 and $\sigma$=0.15) is used in this assessment, but attempts to estimate steepness were not successful, so it is fixed and its influence is explored via a likelihood profile.
 
 
 ### Sex Ratio
@@ -1053,6 +1073,57 @@ Here are all the mad props!
 
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
+
+<!-- ====================================================================== -->
+<!-- *************************     Biology     **************************** --> 
+<!-- ====================================================================== -->
+
+
+![Observed length-at-age by data source and sex.\label{fig:len-age-data-sex}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Source_Sex.png){width=100% height=100% alt="."}
+
+
+![Observed length-at-age by sex and year. Total samples are indicated in parentheses.\label{fig:len-age-sex-year}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Sex_Year.png){width=100% height=100% alt="."}
+
+
+![External fits to the observed length-at-age by sex.\label{fig:len-age-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_VBGF_fit.png){width=100% height=100% alt="."}
+
+
+![Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex.\label{fig:cv-lt-age}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_CV_Sex_plot.png){width=100% height=100% alt="."}
+
+
+
+![Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
+
+
+\clearpage
+
+
+
+![Ageing bias plots by reader comparisons.\label{fig:age-bias_plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Age1_1plots.png){width=100% height=100% alt="."}
+
+
+![Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-bias}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_Bias_plot.png){width=100% height=100% alt="."}
+
+
+![Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-sd}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_SD_plot.png){width=100% height=100% alt="."}
+
+
+
+![Maturity as a function of length (cm).\label{fig:maturity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
+
+
+![Fecundity (kg) as a function of length (cm).\label{fig:fecundity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
+
+
+![Sex-specific length (cm)-weight (kg) data for black rockfish samples by source.\label{fig:len-weight-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png){width=100% height=100% alt="."}
+
+
+![Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison.\label{fig:len-weight-or-wa}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_lines_States_Sex.png){width=100% height=100% alt="."}
+
+
+\clearpage
+
+
 
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 

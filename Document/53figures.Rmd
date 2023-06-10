@@ -21,6 +21,105 @@ caption = "Summary of data sources used in the reference model",
 label = 'data-plot')
 ```
 
+<!-- ====================================================================== -->
+<!-- *************************     Biology     **************************** --> 
+<!-- ====================================================================== -->
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "WA_AG_Source_Sex.png"), 
+caption = "Observed length-at-age by data source and sex",
+label = 'len-age-data-sex')
+```	
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "WA_AG_Sex_Year.png"), 
+caption = "Observed length-at-age by sex and year. Total samples are indicated in parentheses",
+label = 'len-age-sex-year')
+```	
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "WA_VBGF_fit.png"), 
+caption = "External fits to the observed length-at-age by sex",
+label = 'len-age-fit')
+```	
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "WA_CV_Sex_plot.png"), 
+caption = "Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex",
+label = 'cv-lt-age')
+```	
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "bio1_sizeatage.png"), 
+caption = "Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve",
+label = 'len-age-ss')
+```
+
+
+\clearpage
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "Age1_1plots.png"), 
+caption = "Ageing bias plots by reader comparisons",
+label = 'age-bias_plot')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "WA_Reader_Bias_plot.png"), 
+caption = "Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix",
+label = 'age-error-bias')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "WA_Reader_SD_plot.png"), 
+caption = "Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix",
+label = 'age-error-sd')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "bio6_maturity.png"), 
+caption = "Maturity as a function of length (cm)",
+label = 'maturity')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "bio9_fecundity_len.png"), 
+caption = "Fecundity (kg) as a function of length (cm)",
+label = 'fecundity')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "LW_WA_State_Source_Sex.png"), 
+caption = "Sex-specific length (cm)-weight (kg) data for black rockfish samples by source",
+label = 'len-weight-data')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(bio_fig_loc, "LW_lines_States_Sex.png"), 
+caption = "Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison",
+label = 'len-weight-or-wa')
+```
+
+
+\clearpage
+
+
+
 <!-- ====================================================================== --> 
 <!-- ******************* Bridge Model ************************************* --> 
 <!-- ====================================================================== --> 
