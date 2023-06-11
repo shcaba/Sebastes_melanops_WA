@@ -99,7 +99,7 @@ _**These materials do not constitute a formal publication and are for informatio
 
 ## Stock{-}
 
-This assessment reports the status of Black Rockfish (*Sebastes melanops*) off Washington state using data through 2022. Black Rockfish are also found in California (their core range) and Oregon waters of the U.S. West Coast, and those are treated in separate area-based stock assessments given different management considerations and exploitation histories as discussed at the preliminary stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. There is substantial biogeographic separation in the populations off Oregon and Washington, thus justifying separation of those populations into different management units and stock assessments. Black Rockfish are also caught from the waters off British Columbia and Alaska. The state of Alaska is currently conducting assessments of stock status in those waters. Genetic studies of stock structure indicate fish in Alaska are more differentiated than the along the contiguous west coast of the Unites States, and that genetic diversity varies in a nonsystematic way from California to Oregon [@Hessetal_2023].
+This assessment reports the status of Black Rockfish (*Sebastes melanops*) off Washington state using data through 2022. Black Rockfish are also found in California (their core range) and Oregon waters of the U.S. West Coast, and those are treated in separate area-based stock assessments given different management considerations and exploitation histories as discussed at the preliminary stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. There is substantial biogeographic separation in the populations off Oregon and Washington, thus justifying separation of those populations into different management units and stock assessments. Black Rockfish are also caught from the waters off British Columbia and Alaska. The state of Alaska is currently conducting assessments of stock status in those waters. Genetic studies of stock structure indicate fish in Alaska are more differentiated than the along the contiguous west coast of the Unites States, and that genetic diversity varies in a nonsystematic way from California to Oregon [@hess_comparative_2022].
 
 ## Removals{-}
 
@@ -635,7 +635,7 @@ Most of the above recommendations were included in the 2015 assessment research 
 
 
 ## Modelling Platform
-Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.0.5 were used to investigate and plot model fits. 
+Stock Synthesis version 3.30.16 was used as the statistical catch-at-age modelling framework. This framework allows the integration of a variety of data types and model specifications. The SS-DL tool (https://github.com/shcaba/SS-DL-tool) was used for model exploration, likelihood profiling, and sensitivity analyses. The companion R package r4ss (version 1.38.0) along with R version 4.2.2 were used to investigate and plot model fits. 
 
 
 ## Bridging the assessment model from Stock Synthesis 3.24 to 3.30 
@@ -1105,9 +1105,25 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 
 \include{tex_tables/likelihoods.tex}
 
+<!-- ======================================================= -->
+<!-- ***********    Reference Point table  ******************** --> 
+<!-- ======================================================= -->
+
+
 \include{tex_tables/e_ReferencePoints_ES.tex}
 
 \newpage
+
+
+
+<!-- ======================================================= -->
+<!-- ***********       Time Series      ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/TimeSeries.tex}
+
+\newpage
+
 
 <!--chapter:end:52tables.Rmd-->
 
