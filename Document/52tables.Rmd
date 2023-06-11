@@ -73,3 +73,14 @@ table_format(x = mod_params,
 
 ```
 
+\newpage
+
+<!-- ======================================================= -->
+<!-- ***********    Like Contributions  ******************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/likelihoods.tex}
+
+\include{tex_tables/e_ReferencePoints_ES.tex}
+
+\newpage

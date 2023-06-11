@@ -42,7 +42,7 @@ The two fishery independent surveys, the OCNMS dive (Figure \ref{fig:ocnms-index
 
 #### Parameter Estimates
 
-A total of five population parameters, four survey variances and eightteen selectivity parameters were estimated, along with sixty-two recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
+A total of five population parameters, four survey variances and eightteen selectivity parameters were estimated, along with sixty-two recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived outputs and reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
 
 The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). The estimated $L_{\infty}$ and $k$ for females and males were slightly greater and lower than the values estimated externally, respectively.  The majority of female and male `r spp` growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female `r spp` reaching larger maximum lengths (Figure \ref{fig:len-age-ss}).
 
