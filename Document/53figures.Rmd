@@ -161,8 +161,15 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(modconv_fig_loc, "jitterplot.png"), 
-caption = "Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+caption = "Jitter runs (using a value of 0.01) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
 label = 'jitter')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(modconv_fig_loc, "jitterplot0005.png"), 
+caption = "Jitter runs (using a value of 0.0005) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+label = 'jitter0005')
 ```
 
 ```{r, results = 'asis'}

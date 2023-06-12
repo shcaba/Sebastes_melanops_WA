@@ -733,7 +733,7 @@ While there is no definitive measure of model convergence, several measures are 
 
 Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of five selectivity parameters (Figure \ref{fig:pairs_plot_fast}).
 
-An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.01. This was repeated 100 times with 2 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). A better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
+An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.005. This was repeated 100 times with 5 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). A second jitter of 100 runs used a jitter shift value of 0.0005 and 11 out of 100 runs returned the reference model (Figure \ref{fig:jitter0005}). This jitter showed a more commonly obtained secondary model near the reference model that gave very similar results, but was not a better overall fit. Out of the 200 jitter runs, a better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
 
 
 ## Base Model Results
@@ -839,12 +839,13 @@ A ten-year retrospective analysis was conducted by running the model and sequent
 \toprule
 Quantity & AFSC & Mohn & NEFSC\\
 \midrule
-\emph{F} & 0.2686821 & 2.686821 & 0.307667\\
-Fraction unfished & 0.07380647 & 0.7380647 & 0.4345456\\
-Recruitment & -0.0938582 & -0.938582 & -0.4099524\\
-\emph{SSB} & 0.009894998 & 0.09894998 & -0.213515\\
+\emph{F} & 0.2166536 & 2.166536 & 0.2127838\\
+Fraction unfished & 0.1070602 & 1.070602 & 0.4418694\\
+Recruitment & -0.0734311 & -0.734311 & -0.3380007\\
+\emph{SSB} & 0.05057448 & 0.5057448 & -0.1174192\\
 \bottomrule
 \end{longtable}
+
 
 
 ### Unresolved Problems and Major Uncertainties
@@ -1218,7 +1219,10 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 <!-- ====================================================================== -->
 
 
-![Jitter runs for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
+![Jitter runs (using a value of 0.01) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
+
+
+![Jitter runs (using a value of 0.0005) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter0005}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot0005.png){width=100% height=100% alt="."}
 
 
 ![Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/pairs_plot_fast.png){width=100% height=100% alt="."}

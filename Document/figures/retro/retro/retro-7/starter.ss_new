@@ -8,9 +8,9 @@
 #C starter file written by R function SS_writestarter
 #C rerun model to get more complete formatting in starter.ss_new
 #C should work with SS version: 3.30
-#C file write time: 2023-06-07 08:48:01
+#C file write time: 2023-06-11 14:13:56
 datafile.dat
-controlfile.ctl
+control.ss_new
 0 # 0=use init values in control file; 1=use ss.par
 0 # run display detail (0,1,2)
 1 # detailed output (0=minimal for data-limited, 1=high (w/ wtatage.ss_new), 2=brief, 3=custom) 
@@ -43,5 +43,5 @@ controlfile.ctl
 0 # F_std_basis: 0=raw_annual_F; 1=F/Fspr; 2=F/Fmsy; 3=F/Fbtgt; where F means annual_F; values >=11 invoke N multiyr (up to 9!) with 10's digit; >100 invokes log(ratio)
 0 # MCMC output detail: integer part (0=default; 1=adds obj func components; 2= +write_report_for_each_mceval); and decimal part (added to SR_LN(R0) on first call to mcmc)
 0 # ALK tolerance ***disabled in code (example 0.0001)
--1 # random number seed for bootstrap data (-1 to use long(time) as seed): # 1686153099
+-1 # random number seed for bootstrap data (-1 to use long(time) as seed): # 1686518262
 3.30 # check value for end of file and for version control
