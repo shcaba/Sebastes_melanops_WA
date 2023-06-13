@@ -14,46 +14,9 @@ t = table_format(x = out,
 kableExtra::save_kable(t,
 file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/OR_vermilion_catches.tex"))
 
-out<-read.csv("C:/Users/Jason.Cope/Desktop/Vermilion stock assessments/VERMILION ROCKFISH ASSESSMENT OREGON/AGE data/Ageing error/Ageing error table for doc_REC.csv")
-t = table_format(x = out,
-      caption = 'Ageing error models and resultant model selection (AICc) values for 9 models of bias and precision explored for each lab used in the vermilion rockfish assessments. Gray bars indicate the chosen model. Model codes: 0= unbiased; 1 = Constant CV; 2 = Curvilinear SD; 3= Curvilinear CV',
-      label = 'age-error-models-rec',
-      longtable = TRUE,
-      font_size = 9,
-      digits = 2,
-      landscape = TRUE,
-      col_names = c("","","","","","","","","","",""))
-
-kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/tex_tables/ageing_error_rec.tex"))
 
 
-out<-read.csv("C:/Users/Jason.Cope/Desktop/Vermilion stock assessments/VERMILION ROCKFISH ASSESSMENT OREGON/AGE data/Ageing error/Ageing error table for doc_COMM.csv")
-t = table_format(x = out,
-      label = 'age-error-models-comm',
-      longtable = TRUE,
-      font_size = 9,
-      digits = 2,
-      landscape = TRUE,
-      col_names = c("","","","","","","","","","",""))
-
-kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/tex_tables/ageing_error_Comm.tex"))
-
-out<-read.csv("C:/Users/Jason.Cope/Desktop/Vermilion stock assessments/VERMILION ROCKFISH ASSESSMENT OREGON/AGE data/Ageing error/Ageing error table for doc_CARE.csv")
-t = table_format(x = out,
-      label = 'age-error-models-CARE',
-      longtable = TRUE,
-      font_size = 9,
-      digits = 2,
-      landscape = TRUE,
-      col_names = c("","","","","","","","","","",""))
-
-kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA 2021/OR/write_up/tex_tables/ageing_error_CARE.tex"))
-
-
-out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/Likes_parms_devquants_table_data_scenarios.csv")
+out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Likes_parms_devquants_table.csv")
 t = table_format(x = out,
       caption = 'Likelihood, parameter and derivied quantities from data treatment sensitivities.',
       label = 'data_sensis',
@@ -65,13 +28,13 @@ t = table_format(x = out,
 )
 
 kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/data_sensis.tex"))
+file = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/data_sensis.tex"))
 
 
 
-out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/Likes_parms_devquants_table_modspecs_LH.csv")
+out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Likes_parms_devquants_table.csv")
 t = table_format(x = out,
-      caption = 'Likelihood, parameter and derivied quantities from life history model specification sensitivities.',
+      caption = 'Likelihood, parameter and derivied quantities from model specification sensitivities.',
       label = 'modspec_LH_sensis',
       longtable = TRUE,
       font_size = 9,
@@ -81,7 +44,7 @@ t = table_format(x = out,
 )
 
 kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/modspec_LH_sensis.tex"))
+                       file = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/modspec_LH_sensis.tex"))
 
 
 

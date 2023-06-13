@@ -422,6 +422,51 @@ caption = "Comparison of the time series of relative spawning output between the
 label = 'comp_depl')
 ```
 
+<!-- ====================================================================== -->
+<!-- ******************       Sensitivity     ***************************** --> 
+<!-- ====================================================================== -->
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sensi_data_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model",
+label = 'sensi-data-RE')
+```
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sensi_data_fig_loc, "compare2_spawnbio_uncertainty.png"),
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
+label = 'sensi-data-ssb')
+```
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sensi_data_fig_loc, "compare4_Bratio_uncertainty.png"),
+caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+label = 'sensi-data-depl')
+```
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model",
+label = 'sensi-modspec-RE')
+```
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sensi_modspex_fig_loc, "compare2_spawnbio_uncertainty.png"),
+caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+label = 'sensi-modspec-ssb')
+```
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(sensi_modspex_fig_loc, "compare4_Bratio_uncertainty.png"),
+caption = "Relative spawning output time series by model specification scenario compared to the reference model",
+label = 'sensi-modspec-depl')
+```
 
 <!-- ============================================================================== -->
 <!-- ******************      Likelihood Profiles      ***************************** --> 

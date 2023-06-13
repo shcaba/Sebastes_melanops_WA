@@ -1000,65 +1000,150 @@ Relative spawning output declined below the management target (\(SB_{40\%}\)) in
 
 This current estimate shows a lower overall biomass (Figure \ref{fig:comp_ssb}), but similar relative stock status, as the 2015 stock assessment (Figure \ref{fig:comp_depl}). This lower biomass is largely due to the change in the catch history, removing 100 of metric tons of historical trawl catch, thus causing the assessment biomass to rescale downward.
 
+\hypertarget{characterizing-uncertainty}{%
+\subsection{Characterizing uncertainty}\label{characterizing-uncertainty}}
+
 \hypertarget{sensitivity-analyses}{%
 \subsubsection{Sensitivity Analyses}\label{sensitivity-analyses}}
 
-WA: Several sensitivity runs were considered for the Washington model. The first group of sensitivity runs (scenarios 2-4; Table 65; Supplemental table ``WA Sensitivities- Like Comps'') sequentially removes indices. The second group (scenarios 5-9; Table 65; Supplemental table ``WA Sensitivities- Like Comps'') sequentially removes length composition data. The third group (scenarios 10-13; Table 65; Supplemental table ``WA Sensitivities- Like Comps'') sequentially removes age composition data. The last group (scenarios 14-36: Table 66; Supplemental table ``WA Sensitivities- Model specs'') covers a variety of issues
+Sensitivity analyses were conducted to evaluate model sensitivity to alternative data treatment and model specifications.
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\hypertarget{data-treatment-sensitivities}{%
+\paragraph{Data treatment sensitivities}\label{data-treatment-sensitivities}}
+
+Data treatments explored were as follows:
+
+\begin{itemize}
 \tightlist
 \item
-  Estimate growth deviations (1980-2014)
-\item
-  Estimate growth blocks (1980-1999; 2000-2014)
-\item
-  M ramp in females as in 2007 assessment.
-\item
-  Estimate M ramp
-\item
-  Fix M to Hamel approach value (0.0964)
-\item
-  M from STAR presented base case (based on Then et al.~2015); age-based selectivity
-\item
-  M based on Then et al.~(2015) using amax = 56; age-based selectivity
-\item
-  M based on Hamel (2015) using amax = 56; age-based selectivity
-\item
-  Estimate M with dome-shaped, age-based selectivity
-\item
-  Estimate M ramp with dome-shaped, age-based selectivity
-\item
-  Sexual maturity used in the last assessment (2007)
-\item
-  M ramp in females and sexual maturity in 2007
-\item
-  Sexual maturity estimated from recent samples (2015)
-\item
-  M ramp in females and sexual maturity in 2015
-\item
-  Functional maturity using original data set
-\item
-  Fecundity is linear with intercept = 0, slope =1.
-\item
-  Fecundity from 2007 assessment
-\item
-  No recruitment estimation
-\item
-  Recruitment estimated all years; ?R tuned
-\item
-  Use harmonic mean when tuning length compositions
-\item
-  Use harmonic mean when tuning length and conditional age-at-length compositions
-\item
-  No extra variance estimated on all indices
-\item
-  Recreational fleet length selectivity is dome-shaped
-\end{enumerate}
+  Treatment of abundance indiecs 1. 2015 dockside survey
 
-Results of the likelihood component sensitivity runs are found in Table 65. The model was most sensitive to the exclusion of the dockside recreational index. It was also sensitive to the removal of all length and age data, and particularly to the recreational age data.
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    2015 dockside survey, no extra variance estimated
+  \item
+    No extra variance on private boat index
+  \item
+    No private boat index
+  \item
+    No charter index
+  \item
+    No private or dockside indices
+  \item
+    No tagging survey index
+  \item
+    No neashore survey
+  \item
+    No OCNMS survey
+  \item
+    No OCNMS YOY index
+  \end{enumerate}
+\item
+  Data weighting
 
-Results of the model specification sensitivity runs are found in Table 66. The largest sensitivities were found in the treatment of maturity, selectivity and natural mortality. The use of sexual maturity (scenarios 24-27) changed the terminal year scale and status of the stock significantly, making it much less reduced in status, though having a smaller influence on catch at SPR50\% (Table 21). Natural mortality scenarios with lower M but age-based selectivity had the biggest effect in spawning output (Figure 225), whereas scenarios with ramping of M caused the biggest changes in (i.e., improving) stock status (Figure 226). Fixing M to low values but not compensating with dome-shaped, age-based selectivity caused the population to crash. Scenarios with ramps in M or M estimated, regardless of selectivity form for females, caused the biggest increases in catch at SPR50\%. Recruitment deviations are relatively insensitive to the different natural mortality specifications (Figure 227). Most natural mortality scenarios bring the fishing intensity below the SPR harvest level (Figure 228).
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{10}
+  \tightlist
+  \item
+    No data-weighting
+  \item
+    Dirichlet data-weighting
+  \item
+    McAllister-Ianelli data weighting
+  \end{enumerate}
+\end{itemize}
+
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
+
+The treatment of the index data did not have major effects on either the scale or relative status of the black rockfish stock. More weight on the dockside data, either the combined version from 2015, or the current version of the private boat index, led to more optimistic stock status due to a change in current stock size. These indices generally bring up the stock status even when downweighted with additional variance estimation on the index. This result is seen clearly when the private boat data is removed from the model, as the current stock size decreases, as does the current stock status. No other indices had much effect on the results.
+
+Using other data weighting options caused the biggest change among the data treatment sensitivity runs, leading to changes in both initial and current stock status, as well as more optimistic current stock status, but the intensity of the increasing stock trajectory test our expectations of a rockfish population.
+
+\hypertarget{model-specification-sensitivities}{%
+\paragraph{Model specification sensitivities}\label{model-specification-sensitivities}}
+
+Model specifications looked at the estimation of indiviual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+
+\begin{itemize}
+\tightlist
+\item
+  Life history estimation
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Natural mortality (\(M\))
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      Estimate \(M\)
+    \item
+      Lorenzen age varying \(M\)
+    \end{enumerate}
+  \item
+    Growth parameters
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \setcounter{enumi}{2}
+    \tightlist
+    \item
+      Fix all growth parameters to external values, estimate \(M\)
+    \item
+      Fix all growth parameters to external values
+    \item
+      Estimate \(L_min\)
+    \item
+      Fix \(t_0\) = 0
+    \item
+      Estimate \(CV_{young}\) and \(CV_{old}\)
+    \end{enumerate}
+  \item
+    Reproductive Biology
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \setcounter{enumi}{7}
+    \tightlist
+    \item
+      Use biological maturity ogive
+    \item
+      Use functional maturity ogive
+    \item
+      Fecundity proportional to weight
+    \end{enumerate}
+  \item
+    Recruitment estimation
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \setcounter{enumi}{10}
+    \tightlist
+    \item
+      No recruitment estimation
+    \item
+      Estimate recruitment for all years in the model
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+Miscellaneous 13. Estimate dome-shaped selectivity for all fleets
+
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Tables \ref{tab:modspec_LH_sensis} and \ref{tab:modspec_RecMisc_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.
+
+Estimating \(M\) either as a constant value or in an age-specific manner using the Lorenzen approach both result in lower \(M\) values, and thus lower stock scale, especially in current stock size, with a significantly different stock status when estimating age-specific \(M\).
+
+Fixing growth to the externally estimated values raised the initial stock status, but still lowered current stock status when \(M\) was estimated. Changes in the values of the smallest individuals, either in estimating the smallest size at age or fixing \(t_0\) to 0 resulted in higher current stock size, and thus significantly higher current stock status. Estimating the coefficient of variation had no effect on the model (one of the reasons it was fixed).
+
+Treatment of the assumed maturity relationship had little affect on model results, though using the biological maturity did significantly change the scale of the current stock size. Assuming fecundity was proportional to weight did not effect relative stock status, but did raise the initial and current stock scale significantly to compensate for the reduced productivity.
+
+Forging the estimation of recruitment did caused one of the bigger changes in current stock size, and thus one of the lower estimates of stock status. Estimating recruitment for the whole time series made little difference to results. Lastly, allowing for dome-shaped selectivity resulted in mostly logistic selectivity and no significant changes to model output.
 
 \hypertarget{likelihood-profiles}{%
 \subsubsection{Likelihood Profiles}\label{likelihood-profiles}}
@@ -1498,6 +1583,18 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 
 \newpage
 
+\include{tex_tables/data_sensis.tex}
+
+\include{tex_tables/modspec_LH_sensis.tex}
+
+\include{tex_tables/project.tex}
+
+\newpage
+
+\include{tex_tables/decision_table.tex}
+
+\clearpage
+
 \clearpage
 
 \hypertarget{figures}{%
@@ -1801,6 +1898,42 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 \centering
 \includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png}
 \caption{Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp_depl}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_MSY.png}
+\caption{Log relative change (log((Model\_sensi-Model\_ref)/Model\_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model.\label{fig:sensi-data-RE}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png}
+\caption{Spawning output (in millions of eggs) time series by data treatment compared to the reference model.\label{fig:sensi-data-ssb}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare4_Bratio_uncertainty.png}
+\caption{Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:sensi-data-depl}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_MSY.png}
+\caption{Log relative change (log((Model\_sensi-Model\_ref)/Model\_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model.\label{fig:sensi-modspec-RE}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png}
+\caption{Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:sensi-modspec-ssb}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png}
+\caption{Relative spawning output time series by model specification scenario compared to the reference model.\label{fig:sensi-modspec-depl}}
 \end{figure}
 
 \begin{figure}

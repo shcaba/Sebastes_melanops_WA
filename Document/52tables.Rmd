@@ -100,3 +100,23 @@ table_format(x = mod_params,
 
 \newpage
 
+<!-- ======================================================= -->
+<!-- ****************     Sensitivities      *************** --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/data_sensis.tex}
+
+\include{tex_tables/modspec_LH_sensis.tex}
+
+<!-- ======================================================= -->
+<!-- ****************  Reference Points  ******************* --> 
+<!-- ======================================================= -->
+
+
+\include{tex_tables/project.tex}
+
+\newpage
+
+\include{tex_tables/decision_table.tex}
+
+\clearpage
