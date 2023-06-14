@@ -4,7 +4,7 @@
 
 ### Fleet and survey designations
 
-The Oregon model is structured to track several fleets and include data from several surveys:
+The Washington model is structured to track several fleets and include data from several surveys:
 
 * Fleet 1: Commerical trawlfishery
 * Fleet 2: Commercial non-trawl (mostly jig) fishery
