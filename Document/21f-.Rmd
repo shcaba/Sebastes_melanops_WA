@@ -1,6 +1,6 @@
 ## Fishery-Dependent Data
 
-### Commercial
+### Commercial Removals
 
 #### Landings
 
@@ -46,7 +46,7 @@ Starting in 1994 `r spp` landed into Oregon were legally required to be sorted a
 The WDFW provided commercial fishery landings based on fish ticket records of `r spp` harvested off Oregon by vessels landing at ports in Washington.  Landings were less than 1 mt per year for the period 1971 to 2014; therefore, all landings to Washington ports were assumed to occur in waters off Washington in this assessment.
 
 
-#### Foreign Fishery Catches of `r spp`
+#### Foreign Fishery Removals of `r spp`
 
 Rogers [-@rogers_species_2003] developed catch reconstructions for removals by foreign trawlers operating off the U.S. West Coast during the late 1960s to mid-1970s. Although this study reports that Japanese vessels operating in the Columbia and Eureka statistical areas (Oregon and northern California) caught substantial amounts of `r spp`, with cumulative catches of more than 500 mt over 10 years, it seems very unlikely that foreign vessels could have operated sufficiently close to shore to catch appreciable amounts of `r spp`. This assessment does not include Rogers' [-@rogers_species_2003] estimates of foreign fleet removals of `r spp`. 
 
@@ -58,25 +58,24 @@ The Washington recreational catch history of `r spp` was reconstructed using sev
 
 ### Estimated Discards
 
-In the previous assessment, commercial discards were not accounted for due to the information provided by the West Coast Groundfish Observer Program (WCGOP) at that time, showing about a 1% discard rate in their survey.  We evaluated the WCGOP estimates of `r spp` discards from 2002-2013, which showed a total of 32.2 mt in estimated discards and total landings of 2042.5 mt coastwide, resulting in a rough discard rate estimate of 1.58%.  This amount of discards was included in the California hook and line non-live fishery landings, going back to 1916, and in the Oregon hook and line non-live fishery landings to 1892. Given the minimal amount of discards, no further depth-dependent mortality estimates were evaluated for Oregon and California and this discard rate was added to the total commercial removals.  -@parker_buoyancy_2006 concluded that semi-pelagic, vertically mobile species, such as `r spp`, show less barotrauma; hence these estimates could be slightly overestimated.  
+In the previous assessment, commercial discards were not accounted for due to the information provided by the West Coast Groundfish Observer Program (WCGOP) at that time, showing about a 1% discard rate in their survey.  We evaluated the WCGOP estimates of `r spp` discards from 2002-2013, which showed a total of 32.2 mt in estimated discards and total landings of 2042.5 mt coastwide, resulting in a rough discard rate estimate of 1.58%.  This amount of discards was included in the California hook-and-line non-live fishery landings, going back to 1916, and in the Oregon hook-and-line non-live fishery landings to 1892. Given the minimal amount of discards, no further depth-dependent mortality estimates were evaluated for Oregon and California and this discard rate was added to the total commercial removals.  -@parker_buoyancy_2006 concluded that semi-pelagic, vertically mobile species, such as `r spp`, show less barotrauma; hence these estimates could be slightly overestimated.  
 
 Washington recreational discard estimates were not available until 2002.  Numbers of discarded-by-depth `r spp` were estimated using the same catch expansion algorithm for landed catch. Surface release mortalities adopted by the Groundfish Management Team (GMT) in their death-by-depth matrix (11%, 20%, 29%, and 63%) were then applied to the number of release `r spp` for each of 4 release depth bins (0-10 fathoms [fm], 11-20 fm, 21-30 fm, and >30fm), respectively. Total dead released `r spp` were then summed across each depth bin. The average weights of discards were assumed to be the same as the average weights of landed and multiplied by the number of released dead to get total dead in metric tons.  For pre-2002 release, proportions of releases based on a ratio estimator using 2003-2007 data were applied.  For the split between recreational charter and private vessels, the same algorithm used for splitting retained catch was applied. The overall average discard rate in the recreational fisheries was 1.37%. There was no information on Washington commercial discards, so the rate of 1.37% (same as the historical recreational discards) was also applied to the entire commercial time series. This low rate was similar to discard rates estimated in the other states.
 
 
-## Size and Age Composition Data
+## Composition Data
 
-Fish length measurements, primarily from the recreational fishery, are one of the major sources of data for this assessment.  
-
+Fish length measurements, primarily from the recreational fishery, are one of the major sources of data for this assessment (Figure \ref{fig:data-plot}).  
 
 
 ### Length and Age Sample Sizes
 
-The level of commercial fishery sampling for `r spp` has been erratic, with almost no samples taken in Washington until the early 1990s (Figure X).  
+The level of commercial fishery sampling, trawl and non-trawl, for `r spp` has been erratic, with limited sample sizes for length and ages taken in Washington until the early 1990s. The primarily source of fishery-dependent length and age data for `r spp` arise from the recreational fishery. 
 
 
 #### Multinomial Sample Sizes
 
-Initial input values for the multinomial samples sizes determine the relative weights applied in fitting the annual composition data within the set of observations for each fishery.  The initial input values in this assessment were based on the following equation developed by I. Stewart and S. Miller (NWFSC), and presented at the 2006 Stock Assessment Data and Modeling workshop. The input sample sizes for all commercial data were calculated based on a combination of trips and fish sampled:
+Initial input values for the multinomial samples sizes determine the relative weights applied in fitting the annual composition data within the set of observations for each fishing fleet in the model.  The initial input values in this assessment were based on the following equation developed by I. Stewart and S. Miller (NWFSC), and presented at the 2006 Stock Assessment Data and Modeling workshop. The input sample sizes for all commercial data were calculated based on a combination of trips and fish sampled:
 
 \begin{centering}
 
@@ -89,47 +88,46 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 Tuning of the assessment model involved multiplying the input sample sizes for each fishery by an adjustment factor to achieve a better balance between how well the model fit the set of composition data and how well it should have fit the data given the sample sizes underlying the data.
 
 
-#### Length Compositions
+### Length Compositions
 
 The length data for the assessment model were tabulated into 2-cm length bins ranging from 10 cm to 64 cm, with accumulator bins at each end. 
 
-The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length.  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
+The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length (Figures \ref{fig:trawl-length-comps}-\ref{fig:rec-length-comps}).  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
 
 
+##### Commercial
 
-##### Washington Length Compositions
-
-###### Commercial
-
-The biological data for the commercial fishery were extracted from PacFIN on April 24th, 2015.  These data are from trawl and non-trawl (hook-and-line) fisheries; there is no live-fish fishery off Washington. Of the 9,009 records available within PacFIN (each representing a single specimen), 4,989 were from the commercial trawl fishery (Table X).
+The biological data for the commercial fishery were extracted from PacFIN on April 24th, 2023. These data are from trawl and non-trawl (hook-and-line) fisheries; there is no live-fish fishery off Washington. Of the 9,009 records available within PacFIN (each representing a single specimen), 4,989 were from the commercial trawl fishery (Table X).
 
 Length composition data are reported either in fork length or total length. Fork lengths are preferred; where they are missing the total length is used. These data are expanded to reduce the effect of non-uniform sampling effort (Table X). The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value.  The final sample sizes for the Washington biological data ranged from 1 to 389.7, with a median value of 10.4.  
 
 The data were stratified by gender and fishery.  The final sample sizes were stratified and summed by length bin (10 cm to 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data. Unsexed fish were treated as above, but entered as a separate dataset.
 
 
-###### Recreational
+##### Recreational
 
 The Washington Department of Fish and Wildlife biological database provided sampled length data from the recreational fishery for sexed and unsexed samples for years 1979-2014. Sexed samples were the largest sample sizes and covered most years (Table XX). Composition data were used as collected (i.e., not expanded). Effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
 
 
-##### Tagging data
+#### Tagging data
 
 The Washington Department of Fish and Wildlife provided sampled length data from the tagging survey for sexed and unsexed samples for years 1981-2014 (Table XX). Unsexed and sexed data were generally available in different years. Like the recreational data, composition data were used as collected (i.e., not expanded) and effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
 
 
 #### Age Compositions
 
-Commercial age composition data were a subset of the length data, 7984 records in total, and were expanded in the same manner as the lengths (Table XX).  Ages were stratified by fishery and gender, and binned in 1-year bins from 0 to 45, with additional bins 50 and 55.  As for the length compositions, the unsexed fish (29 samples) were treated as a separate dataset.  Samples were also available by sex for several years in the recreational data (Table XX).
+Commercial trawl age composition data were are a subset sample of the length data, 4,126 records in total, and were used as condition-age-at-length data. Age-at-length compositions were not expanded; the final sample sizes were the sum of all individual age samples per length bin.  
 
-Age-at-length compositions were not expanded; the final sample sizes were the sum of all individual age samples per length bin. For all three models, the ages were modeled as conditional age-at-length.
+Samples were also available by sex for several years in the recreational data (Table XX).
+
+Age-at-length compositions were not expanded; the final sample sizes were the sum of all individual age samples per length bin.
 
 
 ### Abundance Indices
 
-Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of stock biomass from research trawl surveys to provide information on biomass trends, but `r spp` are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m).  
+Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of relative stock biomass from research trawl surveys to provide information on biomass trends, but `r spp` are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m).  
 
-#### Dockside catch-per-unit-effort for Washington
+#### Dockside Catch-Per-Unit-Effort for Washington
 
 The WDFW provided recreational dockside fisheries data from 1981 through 2022 for consideration in this assessment. Data were collected at the trip level, with the number of landed fish and the number of anglers on each vessel being recorded. The amount of time fished by each angler was not recorded. This data had also been provided for the 2015 `r spp` Assessment where authors used the Stephens-MacCall method [@stephens_multispecies_2004] as an objective approach for identifying trip records of catch/effort data, and several covariates including year, month, boat type, area, daily bag limits and depth restrictions. For the 2015 Assessment data were modeled using a delta-GLM approach, where the catch occurrence (binomial) component was modeled using a logit link function and the positive catch component was modeled using either lognormal or gamma distributions. 
 
