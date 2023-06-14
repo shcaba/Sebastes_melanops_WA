@@ -20,7 +20,7 @@ author:
     first: T
     middle: '-'
     family: Tsou
-  - name: Kristen M. Hinton
+  - name: Kristen E. Hinton
     code: 2
     first: K
     middle: E
