@@ -131,9 +131,9 @@ label = 'es-yield')
 
 ## Management performance{-}
 
-`r spp` removals have been below the equivalent ABC-ACL over the recent decade (Table XX). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table XX).
+`r spp` removals have been below the equivalent ABC-ACL over the recent decade (Table \ref{tab:manageES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}).
 
-ADD RECENT CATCH, OFL, ACL Table Here
+\input{tex_tables/f_Manage_ES.tex}
 
 \clearpage
 

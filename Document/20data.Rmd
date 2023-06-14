@@ -1,2 +1,10 @@
 # Data and Model Inputs
-A description of each data source is provided below (Figure \ref{fig:data-plot}).
+
+Data from a wide range of programs were available for possible inclusion in the current
+assessment model. Descriptions of each data source included in the model (Figure \ref{fig:data-plot}) and
+sources that were explored but not included in the base model are provided below. Data
+that were excluded from the base model were excluded only after being explicitly explored
+during the development of this stock assessment and found to be inappropriate for use or
+had not changed since their past exploration for previous `r spp` stock assessments
+when they were not used.
+
