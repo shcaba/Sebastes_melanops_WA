@@ -126,15 +126,14 @@ fishery selectivities and with steepness fixed at 0.72",
 label = 'es-yield')
 ```
 
-\input{tex_tables/e_ReferencePoints_ES.tex}
 
 \clearpage
 
 ## Management performance{-}
 
-`r spp` removals have been below the equivalent ABC-ACL over the recent decade (Table \ref{tab:f_Manage_ES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:f_Manage_ES}).
+`r spp` removals have been below the equivalent ABC-ACL over the recent decade (Table XX). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table XX).
 
-\input{tex_tables/e_ReferencePoints_ES.tex}
+ADD RECENT CATCH, OFL, ACL Table Here
 
 \clearpage
 
