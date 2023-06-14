@@ -701,3 +701,33 @@ label = 'retro-depl')
 
 \newpage
 
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SPR2_minusSPRseries.png"), 
+caption = "Estimated time series of fishing intensity, 1-SPR.",
+label = '1-spr')
+```
+
+\pagebreak
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "SPR4_phase.png"), 
+caption = "Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.",
+label = 'phase-plot')
+```
+
+\pagebreak
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "yield2_yield_curve_with_refpoints.png"), 
+caption = "Yield curve with reference points.",
+label = 'yield-curve')
+```
+
+\pagebreak
+
