@@ -5,27 +5,32 @@ author:
     first: J
     middle: M
     family: Cope
-  - name: Tien-Shui Tsou
-    code: 2
-    first: T
-    middle: '-'
-    family: Tsou
   - name: Lisa K. Hillier
     code: 2
     first: L
     middle: K
     family: Hillier
-  - name: Kristen M. Hinton
-    code: 2
-    first: K
-    middle: M
-    family: Hinton
   - name: Corey B. Niles
     code: 2
     first: C
     middle: B
     family: Niles
-author_list: Cope, J.M., T.-. Tsou, L.K. Hillier, K.M. Hinton, C.B. Niles
+  - name: Tien-Shui Tsou
+    code: 2
+    first: T
+    middle: '-'
+    family: Tsou
+  - name: Kristen M. Hinton
+    code: 2
+    first: K
+    middle: E
+    family: Hinton
+  - name: Fabio P. Caltabellotta
+    code: 2
+    first: F
+    middle: P
+    family: Caltabellotta
+author_list: Cope, J.M. , L.K. Hillier, C.B. Niles , T.-. Tsou, K.E. Hinton, F.P. Caltabellotta
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National

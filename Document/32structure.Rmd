@@ -1,66 +1,80 @@
 ## Model Structure and Assumptions
 
-
-### Model Changes from the Last Assessment (not required for an update assessment)
-
-
-### Modeling Platform and Structure
+## Model Structure, Evaluation, and Specification
 
 ### Fleet and survey designations
 
 The Oregon model is structured to track several fleets and include data from several surveys:
 
-* Fleet 1: Trawl commercial fishery
-* Fleet 2: Non-Trawl live fish commercial fishery
-* Fleet 3: Non-Trawl commercial fishery: mainly hook-and line fishery
-* Fleet 4: Recreational ocean fishery
-* Fleet 5: Recreational shore fishery
-* Survey 1: Onboard CPFV CPUE survey
-* Survey 2: Tagging abundance survey
-* Survey 3: MRFSS CPUE survey
-* Survey 4: ORBS CPUE survey
-* Survey 5: Commercial logbook CPUE survey
-* Survey 6: Research survey: small fish 
+* Fleet 1: Commerical trawlfishery
+* Fleet 2: Commercial non-trawl (mostly jig) fishery
+* Fleet 3: Recreational boat fishery
+* Survey 1: Private Boat  
+* Survey 2: Charter
+* Survey 3: Tagging 
+* Survey 4: Nearshore
+* Survey 5: OCNMS subadult-adult survey
+* Survey 6: OCNMS young-of-the-year survey
 
-The Washington model is structured to track several fleets and include data from several surveys:
+## Model likelihood components
 
-* Fleet 1: Trawl commercial fishery
-* Fleet 2: Non-Trawl commercial fishery: mainly hook-and line fishery
-* Fleet 3: Recreational fishery
-* Survey 1: Dockside CPUE survey
-* Survey 2: Tagging CPUE survey
+There are five primary likelihood components for each assessment model:
 
-### Model likelihood components
-
-There are four primary likelihood components for each assessment model:
 1. Fit to survey indices of abundance.
 2. Fit to length composition samples.
 3. Fit to age composition samples (all fit as conditional age-at-length).  
 4. Penalties on recruitment deviations (specified differently for each model).
+5. Prior distribution penalties
 
-Indices of abundance are assumed to have lognormal measurement errors. Additional variance to the inputted log-standard deviation is estimated in the base case (Washington).  Length compositions and conditional age at length samples are all assumed to follow a multinomial sampling distribution, where the sample size is fixed at the input sample size calculated during compositional example, and where this input sample size is subsequently reweighted to account for additional sources of overdispersion (see Section 2.3.3 below).  Recruitment deviations are assumed to follow a lognormal distribution, where the standard deviation of this distribution is tuned as explained below.
+## Reference model exploration, key assumptions and specification
 
+The base assessment model for Washington `r spp` was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of `r spp` in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
+
+- Data types
+- Parameter treatments: which parameter can, cannot and do not need to be estimated
+- Phasing of parameter estimation 
+- Data weighting
+- Exploration of local vs global minima (see model convergence section below)
+
+The different biological data with and without the catch time series were first included to obtain an understanding of the signal of stock status coming from the data (Figure \ref{fig:modbuild-data-depl}). Both the lengths and ages, with and without the removal time series, demonstrated a signal for a highly depleted stock. Stock scale was comparable once removal history was included, and showed lower estimates of scale. This departure from the ultimate reference model highlights the major uncertainty in the treatment of the biological data in when characterizing model uncertainty. Further sensitivities to the inclusion or exclusion of different indices of abundance are provided in the model sensitivity section.
+
+Numerous exploratory models that included all data types and a variety of model specifications were subsequently explored and too numerous to fully report. In summary, the estimation of which life history parameters to estimate and fix was liberally explored.
+The following is a list of things that were explored, typically in combination with one another
+
+- Estimate or fix $M$
+- Estimate or fix any of the three growth parameter for each sex
+- Estimate or fix the stock-recruit relationship
+- Estimate or assume constant recruitment. If estimating recruitment, for what years?
+- Estimate or fix survey catchability for each survey
+- Estimate additional survey variance for which survey
+- Estimate or fix selectivity parameters
+- Logistic or dome-shaped selectivity
+
+After much consideration, it was determined that some parameters were inestimable ($M$,$L_min$ for both sexes), some did not move much for initial values and could be fixed (e.g., CV at length values, some selectivity parameters), and others could be estimated (e.g., $L_{\infty}$, $k$, $lnR_0$). Estimation of $L_min$ or fixing it to the externally estimated values consistently gave very high estimates of $L_{\infty}$ for both sexes, thus the $L_min$ value for both females and males was fixed so $t_0$ = 0, as this gave the most realistic $L_{\infty}$ values. No priors were used on any of the estimated parameters except female $L_{\infty}$ which used a normal prior and a standard deviation taken from the external fit to the growth curve (0.17). Length at maturity, fecundity-weight, and length-weight relationship, steepness ($h$) and recruitment variance were all fixed. 
+
+Examination of the catches in the trawl fishery indicated much larger fish being caught versus those caught in the commercial non-trawl and recreational ocean boat fisheries (both of which have very similar mean lengths and aggregate catch compositions) in the same years.  Dome-shaped selectivity was therefore allowed in those fisheries as well as the shore-based fleet (which catches much smaller individuals) and the MPA survey. The ORBS and MRFSS surveys were assumed to have the same selectivity as the recreational boat fishery fleet. While constant selectivity was assumed across all fleets, it was also noted that the earlier time series (prior to 2003) of the recreational boat fleet, as sampled by the MRFSS program, had consistently smaller mean lengths than the ORBS sampled years. The MRFSS years also had smaller samples with more uncertainty. Time varying selectivity was explored in the two periods to see if this improved the fit to the data, but no perceivable improvement was made and the resultant difference was very small in the derived model outputs, so a constant selectivity was assumed for the whole time period.
+
+The full list of estimate and fixed parameters are found in Table \ref{tab:model-param}. 
+
+The biggest uncertainty revealed in the model exploration was conflict in the signal of the biological data and that in the acoustic visual survey catchability. If the inherent uncertainty in the survey (CV = 0.45) was used, additional variance estimated on a lower CV, or the catchability was estimated, the acoustic visual survey was essentially ignored (catchability was between 3 and 4, saying the survey overestimates abundance by 3 to 4 times), the scale and stock status dropped significantly. If the acoustic survey catchability, reviewed and deemed informative of overall black rockfish biomass in Oregon [@Rasmuson_etal_SSC_2022], was assumed to be equal to 1, the biomass and stock status was much higher. Given there are serious issues with assuming either of the previous hypotheses are acceptable, the STAT determined a realistic upper bound (based on a calculated catchability from the uncertainty in the acoustic visual survey) for catchability of 1.822 (or $ln(q)$ of 0.6). This served as fixed value of catchability (which also required a small CV of 0.0001 on that index) to build the final reference model around.  
+
+General attributes of the reference model are that indices of abundance are assumed to have lognormal measurement errors. Length compositions and conditional age at length samples are all assumed to follow a multinomial sampling distribution, where the sample size is fixed at the input sample size calculated during compositional example, and where this input sample size is subsequently reweighted to account for additional sources of overdispersion (see below). Recruitment deviations were also estimated are assumed to follow a lognormal distribution, where the standard deviation of this distribution is tuned as explained below.
+
+Sensitivity scenarios and likelihood profiles (on the catchability of the acoustic visual survey, steepness, and natural mortality) were used to explore uncertainty in the above model specifications and are reported below. 
 
 ### Data Weighting
 
-The reference model estimates additional variance on the Oregon recreational survey data to allow the model to balance model fit to that data while acknowledging that variances may be underestimated in the index standardization. The input CVs range from 1%-7%, which is very small (Table \ref{tab:OR_vermilion_ORBSindex}). A sensitivity was run with no extra variance estimated, as well as removal of the index data.
+The reference model allowed for the estimation of additional variance on all surveys except the acostic visual survey. This additional variance allows the model to balance model fit to that data while acknowledging that variances may be underestimated in the index standardization. A sensitivity was run with no extra variance estimated, as well as removal of the index data were explored.
 
-Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of fish sampled. The method of Francis [-@francis_data_2011, equation TA1.8] was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach [@thorson_model-based_2017], 2) the McAllister-Ianelli Harmonic Mean approach [@mcallister_bayesian_1997], or 3) no data-weighting of lengths.
-
-
-
-### Model Parameters
+Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of input effetive samples sizes. The method of Francis [-@francis_data_2011, equation TA1.8] was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach [@thorson_model-based_2017], 2) the McAllister-Ianelli Harmonic Mean approach [@mcallister_bayesian_1997], or 3) no data-weighting of lengths.
 
 
-### Key Assumptions and Structural Choices
+### Model Changes from the Last Assessment
 
-All life history parameters are estimated except the CV at length at $t_0$. Estimated parameters in the model are natural mortality ($M$) and all growth parameters ($L_{\infty}$, $k$, $t_0$, CV at $L_{\infty}$; length CV at $t_0$ was fixed as it had little impact on the model) were estimated, as were the two selectivity parameters for each fleet and the survey, the log of the initial recruitment ($logR_0$), and recruitment deviations. Length at maturity, fecundity-weight, and length-weight relationshop, steepness ($h$) and recruitment variance were all fixed. Sensitivity scenarios and likelihood profiles were used to explore uncertainty in the values of the natural mortality and growth parameters. When estimating parameters, the prior for natural mortality was assumed lognormal with a standard deviation of 0.438 (based on the prior developed using the Natural Mortality Tool (see Biology section for more details); growth parameters were estimated with no priors.
+Besides the additional of eight years of data and some changes in the estimation of some parameters, the biggest changes to the past assessment are:
 
-OREGON: While the step in M is similar in concept to the past models use of a ramp in M, the magnitude of that step is much smaller (step from 0.17 to 0.20, rather than a ramp from 0.16 to 0.24). Selectivity also differs from the last model, as well as from the California and Washington models, in the use of both sex-specific length- and age-based selectivity forms. Selectivity for the ascending portion of the selection curves for all five of the fleets was modeled using length-based selection with no differences in length selection by sex.  The trawl fishery assumed asymptotic for both sexes, but with the allowance of a female offset to male selectivity. The live fish fishery selectivity was shared by both sexes (dome-shaped), but the dead fish fishery was modeled as a female offset in the dome-shaped parameters. The recreational ocean fishery used an age-based selectivity offset on the descending limb for females relative to males, which were assumed fully-selected at all ages (length-selectivity was used to describe the active male selectivity in this fishery). Similar to the live fish fishery, the recreational shore was dome-shaped and shared for both sexes. Finally, the catchability parameter for the tagging study was fixed to 0.25.
-
-WASHINGTON: The most dramatic model specification in these models, in relation to past assessments, is the choice to estimate sex-specific natural mortality rather than assuming dramatic changes (i.e. a ramp) in natural mortality. This adjustment has major implications on stock productivity and necessitates the exploration of alternative runs that assume the former treatment of ramping natural mortality for females as well as the possibility that female cryptic biomass exists via age-based dome-shaped selectivity. The performance of each state model with the removal of each data type is also provided to give support for the final choice of the base models, which try to balance the realism (i.e., do the results makes sense?) with parsimony (i.e., are we trying to do too much with the model?).
-
-
-## Model Selection and Evaluation
-The base assessment model for Oregon `r spp` was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and realtive stock status for the population of `r spp` in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. These include considerations of model structure, data and parameter treatment, estimation phasing, and jittered starting values to achieve a converged and balanced model that provides sensible parameter estimates and derived quantities.
-
+- Additional of and fixing to the acoustic visual survey. This is different than the last model that fixed the stock scale to the tag survey catchability 
+- Estimation of recruitment
+- Female natural mortality is no longer a step, but a constant value
+- Length-based selectivity only (i.e., no age-based selectivity for females), and dome-shaped selectivity for the ocean boat fisheries (assumed logistic last time) 
+- Change in the removal history
