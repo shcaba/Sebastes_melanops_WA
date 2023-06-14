@@ -32,7 +32,7 @@ file = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Docu
 
 
 
-out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Likes_parms_devquants_table.csv")
+out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Likes_parms_devquants_table.csv")
 t = table_format(x = out,
       caption = 'Likelihood, parameter and derivied quantities from model specification sensitivities.',
       label = 'modspec_LH_sensis',
