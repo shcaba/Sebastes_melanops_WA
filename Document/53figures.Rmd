@@ -42,7 +42,7 @@ label = 'data-plot')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt1mkt0_page2.png"), 
 caption = "Length compositions by year from the commercial trawl fleet",
-label = 'trawl-length-data')
+label = 'trawl-length-comps')
 ```
 
 \pagebreak
@@ -52,7 +52,7 @@ label = 'trawl-length-data')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt2mkt0.png"), 
 caption = "Length compositions by year from the commercial nontrawl fleet",
-label = 'nontrawl-length-data')
+label = 'nontrawl-length-comps')
 ```
 
 \pagebreak
@@ -62,7 +62,7 @@ label = 'nontrawl-length-data')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt3mkt0_page2.png"), 
 caption = "Length compositions by year from the recreational fleet",
-label = 'rec-length-data')
+label = 'rec-length-comps')
 ```
 
 \pagebreak
@@ -123,7 +123,7 @@ label = 'len-age-ss')
 add_figure(
 filein = file.path(bio_fig_loc, "Age1_1plots.png"), 
 caption = "Ageing bias plots by reader comparisons",
-label = 'age-bias_plot')
+label = 'a1-bias')
 ```
 
 \pagebreak
