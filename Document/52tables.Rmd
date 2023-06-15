@@ -17,6 +17,11 @@
 
 \include{tex_tables/WA_Comm_Age_samps.tex}
 
+\include{tex_tables/dockside_samples.tex}
+
+\include{tex_tables/nearshore_hurdle_modsel.tex}
+
+
 
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 

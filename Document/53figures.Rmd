@@ -70,23 +70,6 @@ label = 'rec-length-comps')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(index_fig_loc, "ProportionZero_Tagging_1998_2018.png"), 
-caption = "Estimated and observed proportion zero for the negative binomial tagging model",
-label = 'prop-zero-tag')
-```
-
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(index_fig_loc, "HistoricTagging_1998_2018_Index.png"), 
-caption = "Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model",
-label = 'tag-index')
-```
-
-\pagebreak
-
-
-```{r, results = 'asis'}
-add_figure(
 filein = file.path(index_fig_loc, "OSP-rockfish-bag-limit-n-min10.png"), 
 caption = "Trip average (points) and interquartile range (vertical solid lines) of the number of total rockfish retained per angler, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.",
 label = 'baglimit_numbers')
@@ -166,12 +149,33 @@ label = 'charter-CVs')
 ```
 
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "ProportionZero_Tagging_1998_2018.png"), 
+caption = "Estimated and observed proportion zero for the negative binomial tagging model",
+label = 'prop-zero-tag')
+```
 
-## Biology
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "HistoricTagging_1998_2018_Index.png"), 
+caption = "Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model",
+label = 'tag-index')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "index1_cpuedata_Nearshore_survey.png"), 
+caption = "Nearshore index time series",
+label = 'nearshore-index')
+```
+
+
 
 <!-- ====================================================================== -->
 <!-- *************************     Biology     **************************** --> 
 <!-- ====================================================================== -->
+## Biology
 
 ```{r, results = 'asis'}
 add_figure(
