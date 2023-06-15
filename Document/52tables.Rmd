@@ -149,7 +149,7 @@ This table is included below and referenced in the management section
 
 \include{tex_tables/ReferencePoints.tex}
 
-<!--
+
 \include{tex_tables/project.tex}
 
 \newpage
@@ -157,4 +157,4 @@ This table is included below and referenced in the management section
 \include{tex_tables/decision_table.tex}
 
 \clearpage
--->
+

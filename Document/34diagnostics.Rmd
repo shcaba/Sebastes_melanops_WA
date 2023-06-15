@@ -29,8 +29,9 @@ The treatment of the index data did not have major effects on either the scale o
 
 Using other data weighting options caused the biggest change among the data treatment sensitivity runs, leading to changes in both initial and current stock status, as well as more optimistic current stock status, but the intensity of the increasing stock trajectory test our expectations of a rockfish population. 
 
-#### Model specification sensitivities
-Model specifications looked at the estimation of indiviual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+#### Model Specification Sensitivities {#senstivities}
+
+Model specifications looked at the estimation of individual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
 
 - Life history estimation
 	- Natural mortality ($M$)
