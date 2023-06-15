@@ -30,7 +30,10 @@ mod_params = model$parameters[,
                                   "Max","Status","Parm_StDev",
                                   "Pr_type","Prior","Pr_SD"))] 
 
-mod_params[,'Value'] = round(as.numeric(mod_params[,'Value']),3)                                 
+sci_note <- which(mod_params$Label %in% c("Wtlen_1_Fem_GP_1", "Wtlen_1_Mal_GP_1", "Eggs_scalar_Fem_GP_1"))
+
+# Remove this rounding line because it causes small values to be shown as 0.000
+mod_params[-sci_note,'Value'] = round(as.numeric(mod_params[-sci_note,'Value']), 3)  
 
 # Combine bounds into one column
 mod_params$Min = paste('(', mod_params$Min, ', ', mod_params$Max, ')', sep='')
@@ -39,12 +42,12 @@ mod_params$Min = paste('(', mod_params$Min, ', ', mod_params$Max, ')', sep='')
 mod_params$PR_type = ifelse(mod_params$Pr_type == 'No_prior' , 'None', paste(mod_params$Pr_type,' (', mod_params$Prior,  ', ', mod_params$Pr_SD, ')', sep = ''))
 
 # Set long value to scientific notation
-mod_params[mod_params$Label == "Wtlen_1_Fem",3] = format(mod_params[mod_params$Label == "Wtlen_1_Fem",3], scientific = TRUE)
-mod_params[mod_params$Label == "Wtlen_1_Mal",3] = format(as.numeric(mod_params[mod_params$Label == "Wtlen_1_Mal",3]), scientific = TRUE)
-mod_params[mod_params$Label == "Eggs_scalar_Fem",3] = format(as.numeric(mod_params[mod_params$Label == "Eggs_scalar_Fem",3]), scientific = TRUE)
-mod_params[mod_params$Label == "L_at_Amax_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == "L_at_Amax_Mal_GP_1",3]), 4)
-mod_params[mod_params$Label == "VonBert_K_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == "VonBert_K_Mal_GP_1",3]), 3)
-mod_params[mod_params$Label == "CV_old_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == "CV_old_Mal_GP_1",3]), 3)
+mod_params[mod_params$Label == "Wtlen_1_Fem_GP_1",3] = format(mod_params[mod_params$Label == "Wtlen_1_Fem_GP_1",3], scientific = TRUE, digits = 3)
+mod_params[mod_params$Label == "Wtlen_1_Mal_GP_1",3] = format(as.numeric(mod_params[mod_params$Label == "Wtlen_1_Mal_GP_1",3]), scientific = TRUE, digits = 3)
+mod_params[mod_params$Label == "Eggs_scalar_Fem_GP_1",3] = format(as.numeric(mod_params[mod_params$Label == "Eggs_scalar_Fem_GP_1",3]), scientific = TRUE, digits = 3)
+#mod_params[mod_params$Label == "L_at_Amax_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == #"L_at_Amax_Mal_GP_1",3]), 4)
+#mod_params[mod_params$Label == "VonBert_K_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == #"VonBert_K_Mal_GP_1",3]), 3)
+#mod_params[mod_params$Label == "CV_old_Mal_GP_1",3] = round(as.numeric(mod_params[mod_params$Label == #"CV_old_Mal_GP_1",3]), 3)
 
 # Remove the max, prior and prior sd columns
 drops = c('Max', 'Prior', 'Pr_type', 'Pr_SD', 'Num')
@@ -91,11 +94,13 @@ table_format(x = mod_params,
 <!-- ***********    Reference Point table  ******************** --> 
 <!-- ======================================================= -->
 
-
-\include{tex_tables/e_ReferencePoints_ES.tex}
+<!--
+This table is included below and referenced in the management section
+\include{tex_tables/e_ReferencePoints.tex}
 
 \newpage
 
+-->
 
 
 <!-- ======================================================= -->
@@ -129,10 +134,12 @@ table_format(x = mod_params,
 
 \include{tex_tables/ReferencePoints.tex}
 
-#\include{tex_tables/project.tex}
+<!--
+\include{tex_tables/project.tex}
 
-#\newpage
+\newpage
 
-#\include{tex_tables/decision_table.tex}
+\include{tex_tables/decision_table.tex}
 
-#\clearpage
+\clearpage
+-->
