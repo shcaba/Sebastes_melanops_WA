@@ -42,7 +42,6 @@ mod_params = model$parameters[,
 
 sci_note <- which(mod_params$Label %in% c("Wtlen_1_Fem_GP_1", "Wtlen_1_Mal_GP_1", "Eggs_scalar_Fem_GP_1"))
 
-# Remove this rounding line because it causes small values to be shown as 0.000
 mod_params[-sci_note,'Value'] = round(as.numeric(mod_params[-sci_note,'Value']), 3)  
 
 # Combine bounds into one column
@@ -129,6 +128,7 @@ This table is included below and referenced in the management section
 
 \include{tex_tables/modspec_LH_sensis.tex}
 
+\include{tex_tables/modspec_RecMisc_sensis.tex}
 
 <!-- ======================================================= -->
 <!-- ****************  Retrospectives  ******************* --> 

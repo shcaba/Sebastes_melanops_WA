@@ -135,7 +135,7 @@ label = 'len-age-ss')
 add_figure(
 filein = file.path(bio_fig_loc, "Age1_1plots.png"), 
 caption = "Ageing bias plots by reader comparisons",
-label = 'age-bias_plot')
+label = 'a1-bias')
 ```
 
 \pagebreak
