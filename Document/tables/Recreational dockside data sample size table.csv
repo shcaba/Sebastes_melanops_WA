@@ -1,0 +1,12 @@
+Filter,Criteria,Samples
+Full data set,All data,774610
+Trip Type,Retain only bottomfish trips,117984
+,Remove non-rockfish areas,
+Punch Card Areas,"Remove (0, 5,20,42, 51, 55, 84, 99 (1981-1989)",86087
+,"0,5,6,20,21,42,51,53,56,61,84 (1990-2016))",NA
+Boat modes only,Remove shore-based trips,84239
+Remove Nas,Remove records with missing values,84204
+Months,Retain records from April-October,76188
+Trips by Fleet,Private fleet,43187
+,Charter fleet,33001
+Charter Years,1981-1995,16364

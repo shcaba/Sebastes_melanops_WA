@@ -5,7 +5,13 @@
 <!-- ***************     Data      ************************* --> 
 <!-- ======================================================= -->
 
-\include{tex_tables/Catches_All_Years.tex}
+\include{tex_tables/all_removals.tex}
+
+\include{tex_tables/rec_catch_reconstr.tex}
+
+\include{tex_tables/rec_length_sample.tex}
+
+\include{tex_tables/rec_age_sample.tex}
 
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
@@ -21,6 +27,10 @@
 <!-- ======================================================= -->
 <!-- ***********   Model Parameters     ******************** --> 
 <!-- ======================================================= -->
+
+\include{tex_tables/model_structure.tex}
+
+\pagebreak
 
 ```{r, results = 'asis'}
 

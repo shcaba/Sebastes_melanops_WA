@@ -1,0 +1,5 @@
+Model,WAIC,SE
+Year,2408.5,49.7
+Year+Marine Area,2395.5,49.9
+Year+Marine Area+Depth,2385.9,49.5
+Year+Marine Area+Depth+Set,2388.5,49.5

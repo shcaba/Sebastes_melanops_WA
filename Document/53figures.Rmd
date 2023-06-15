@@ -42,7 +42,7 @@ label = 'data-plot')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt1mkt0_page2.png"), 
 caption = "Length compositions by year from the commercial trawl fleet",
-label = 'trawl-length-data')
+label = 'trawl-length-comps')
 ```
 
 \pagebreak
@@ -52,7 +52,7 @@ label = 'trawl-length-data')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt2mkt0.png"), 
 caption = "Length compositions by year from the commercial nontrawl fleet",
-label = 'nontrawl-length-data')
+label = 'nontrawl-length-comps')
 ```
 
 \pagebreak
@@ -62,10 +62,22 @@ label = 'nontrawl-length-data')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt3mkt0_page2.png"), 
 caption = "Length compositions by year from the recreational fleet",
-label = 'rec-length-data')
+label = 'rec-length-comps')
 ```
 
 \pagebreak
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "ProportionZero_Tagging_1998_2018.png"), 
+caption = "Estimated and observed proportion zero for the negative binomial tagging model",
+label = 'prop-zero-tag')
+```
+
+\pagebreak
+
+
 
 ## Biology
 

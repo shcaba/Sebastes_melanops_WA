@@ -149,7 +149,8 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 
 ## Recruitment{-}
 
-Recruitment is informed by the data and estimated from 1970s to 2017, before and after which it is assumed taken from the stock-recruit relationship (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}).  The highest recruitment years occurred in 2000, 2008, and 2011. The large 2008 and 2011 year classes, as well as several above average year classes in the mid 2000s to early 2010s, contributed to the recent increase in Black Rockfish biomass. Recruitment is informed mostly by the composition data. While the Black Rockfish stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter given that most of the data was collected after the major decline and/or did not show much contrast.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
+Recruitment is informed by the data and estimated from 1970s to 2017, before and after which it is assumed taken from the stock-recruit relationship (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}).  The highest recruitment years occurred in 2000, 2008, and 2011. The large 2008 and 2011 year classes, as well as several above average year classes in the mid 2000s to early 2010s, contributed to the recent increase in Black Rockfish biomass. Recruitment is informed mostly by the composition data. While the Black Rockfish stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter given that most of the data was collected after the major decline in the spawning output and/or did not show much contrast.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
+
 
 \input{tex_tables/c_Recr_ES.tex}
 
@@ -177,11 +178,11 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
 
 ## Reference points{-}
 
-Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Washington at the start of 2023 is estimated to be just above the target biomass, and fishing intensity during 2022 is estimated to be just below the fishing intensity target (Figure \ref{fig:es-phase}).  The yield values are lower than the previous assessment for similar reference points due to updated life history estimates and estimates of the total scale of the population, despite the overal stock status being a bit higher. The proxy MSY values of management quantities are by definition more conservative compared to the estimated MSY and MSY relative to 40% biomass because of the assumed steepness value. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 278 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 423.6 meggs. 
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Washington at the start of 2023 is estimated to be just above the target biomass, and fishing intensity during 2022 is estimated to be just below the fishing intensity target (Figure \ref{fig:es-phase}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates and estimates of the total scale of the population, despite the overall stock status being a bit higher. The proxy MSY values of management quantities are by definition more conservative compared to the estimated MSY and MSY relative to 40% of unfished spawning output because of the assumed steepness value. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 278 mt. The spawning output equivalent to 40% of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 423.6 millions of eggs. 
 
-Recent removals have been well below the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, leading to a  population that has continued to increase over recent years despite a string of lower average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:es-yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
+Recent removals since 2017 have been at or below the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, leading to a  population that has continued to increase over recent years with the assistance of above average recruitment between 2003-2014, despite below average recruitment starting in 2015. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:es-yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
-The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is above (0.46) the management target of 0.4 of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and limit relative biomass, and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
+The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is 46%, above the management target of 40% of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and limit relative biomass, and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
 
 
 ![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
@@ -214,7 +215,7 @@ The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
+The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Whitney Roberts, pers. comm.) is provided in Table \ref{tab:project_ES}. 
 
 
 **NEED TO UPDATE THE TABLE BELOW**
@@ -230,7 +231,6 @@ Further details about selecting the decision table states of nature will be adde
 \input{tex_tables/decision_table_es.tex}
 
 \clearpage
-
 
 
 ## Research and data needs{-}
@@ -848,26 +848,39 @@ A ten-year retrospective analysis was conducted by running the model and sequent
 
 ## Reference Points
 
-Unfished spawning output was measured at 949.37 millions of eggs (Table \ref{tab:reference}) and spawning output at the beginning of 2023 was estimated to be 439.55 millions of eggs. The stock is estimated to have dropped below the management target in the mid-1980s and below the threshold limit of 25% in the 1990s, and has increased in recent years to be above the management target (Figure \ref{fig:depl}). The estimated fraction unfished is 46.3%, above the target reference point of 40% (Table \ref{tab:reference}).  
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Washington at the start of 2023 is estimated to be just above the target biomass, and fishing intensity during 2022 is estimated to be just below the fishing intensity target (Figure \ref{fig:phase}). The yield values are lower than the previous assessment for similar reference points due to updated life history estimates and estimates of the total scale of the population, despite the overall stock status being a bit higher. The proxy MSY values of management quantities are by definition more conservative compared to the estimated MSY and MSY relative to 40% of unfished spawning output because of the assumed steepness value. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 278 mt. The spawning output equivalent to 40% of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 423.6 millions of eggs. 
 
-Recruitment has fluctuated regularly since the 1970s with a string of strong recruitments between 2003-2014 (Figure \ref{fig:recruits} and \ref{fig:rec-devs}). Fishing intensity, 1 - SPR, is estimated to have been above the SPR50% rate starting in 1981 and remaining above the target through 2018 (Figure \ref{fig:1-spr}). The phase plot shows the interaction of fishing intensity and biomass targets (Figure \ref{fig:phase-plot}). Figure \ref{fig:yield-curve} shows the equilibrium yield curves and net production based on a steepness value fixed at 0.72.
+Recent removals since 2017 have been at or below the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point (Figure \ref{fig:1-spr}), leading to a  population that has continued to increase over recent years with the assistance of above average recruitment between 2003-2014, despite below average recruitment starting in 2015. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
+
+The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is 46%, above the management target of 40% of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and limit relative biomass, and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
 
 ## Unresolved Problems and Major Uncertainties
 
 
+The biggest uncertainty is in the life history values, especially longevity and natural mortality. Lack of contrast in the biological data, despite generous sample sizes, can also make interpreting the population dynamics difficult, though current stock status does seem to be robust to this data.
+
 ## Harvest Projections and Decision Tables
 
-A ten year (2025-2034) projection of the reference model with removals in 2023 and 2024 provided by the Groundfish Management Team for each fleet under the category 1 ($\sigma$=0.5) time-varying buffer using $P^*$ = 0.45 and 40-10 ACL control rule is provided in Table \ref{tab:project}.
+The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL. These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve-year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Whitney Roberts, pers. comm.) is provided in Table \ref{tab:project}. 
 
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations are considering alternative specifications of natural mortality and population scale. The resultant decision table will be provided in Table \ref{tab:dec-tab}. 
 
+Further details about selecting the decision table states of nature will be added here after the STAR panel.  
 
 ## Evaluation of Scientific Uncertainty
 
-The estimated uncertainty in the base model around the 2023 spawning output is $\sigma$ = 0.2 and the uncertainty in the base model around the 2023 OFL is $\sigma$ = 0.19. The estimated model uncertainty was less than the category 1 groundfish data moderate assessment default value of  $\sigma$ = 0.5. 
-
+The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.2 and the uncertainty around the OFL was $\sigma$ = 0.19. This is likely underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
 
 ## Research and Data Needs
 
+Recommended avenues for research to help improve future Black Rockfish stock assessments:
+
+1. Continue to develop the nearshore fishery-independent survey, as the other available surveys provide week information for the trend in the population.
+2. Improve understanding of broader ecosystem considerations within the context of Black Rockfish (and other nearshore species) management. Evaluate and develop linkages between Black Rockfish population dynamics and environmental, oceanographic, and climate variables.  In particular, develop multi-scale models (e.g., species distribution models) that can evaluate spatial patterns (e.g., multi-use areas or closures to fishing) and climate impacts (e.g., growth or distribution shifts) for vulnerable nearshore species. Utilize the growing body of ecosystem information available for the California Current Large Marine Ecosystem, as exemplified in the PFMC IEA report. 
+3. Continue work on the investigation into the movement, behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. In particular, conduct genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks. 
+4. Continue to build evidence for appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
+5. Design and conduct research studies to better understand the trade-offs revealed in this assessment between Black Rockfish biology and population scale that seem be at odds. If discrepancies can not be uncovered, evaluate management procedures that are as robust as can be to this trade-off.
+6. Conduct early life history studies that provide a better understanding of the ecology and habitats of Black Rockfish from settlement to age-1.
 
 <!--chapter:end:40management.Rmd-->
 
@@ -901,7 +914,13 @@ Here are all the mad props!
 <!-- ***************     Data      ************************* --> 
 <!-- ======================================================= -->
 
-\include{tex_tables/Catches_All_Years.tex}
+\include{tex_tables/all_removals.tex}
+
+\include{tex_tables/rec_catch_reconstr.tex}
+
+\include{tex_tables/rec_length_sample.tex}
+
+\include{tex_tables/rec_age_sample.tex}
 
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
@@ -937,33 +956,33 @@ Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \endfoot
 \bottomrule
 \endlastfoot
-NatM uniform Fem GP 1 & 0.170 & -2 & - & - & Log Norm (-1.89, 0.2)\\
-L at Amin Fem GP 1 & 0.000 & -3 & - & - & None\\
+NatM uniform Fem GP 1 & 0.17 & -2 & - & - & Log Norm (-1.89, 0.2)\\
+L at Amin Fem GP 1 & 0 & -3 & - & - & None\\
 L at Amax Fem GP 1 & 52.725 & 3 & OK & 0.17751 & Normal (51.19, 0.2)\\
 VonBert K Fem GP 1 & 0.118 & 3 & OK & 0.000866921 & Normal (0.1513, 0.01)\\
-CV young Fem GP 1 & 0.100 & -1 & - & - & None\\
-CV old Fem GP 1 & 0.100 & -4 & - & - & None\\
-Wtlen 1 Fem GP 1 & 0.000 & -99 & - & - & None\\
+CV young Fem GP 1 & 0.1 & -1 & - & - & None\\
+CV old Fem GP 1 & 0.1 & -4 & - & - & None\\
+Wtlen 1 Fem GP 1 & 5.25e-05 & -99 & - & - & None\\
 Wtlen 2 Fem GP 1 & 2.721 & -99 & - & - & None\\
-Mat50\% Fem GP 1 & 40.360 & -99 & - & - & None\\
-Mat slope Fem GP 1 & -0.380 & -99 & - & - & None\\
-Eggs scalar Fem GP 1 & 0.000 & -3 & - & - & None\\
+Mat50\% Fem GP 1 & 40.36 & -99 & - & - & None\\
+Mat slope Fem GP 1 & -0.38 & -99 & - & - & None\\
+Eggs scalar Fem GP 1 & 1.41e-08 & -3 & - & - & None\\
 Eggs exp len Fem GP 1 & 4.685 & -3 & - & - & None\\
 NatM uniform Mal GP 1 & 0.152 & -2 & - & - & Log Norm (-1.89712, 0.2)\\
 L at Amin Mal GP 1 & 3.662 & -3 & - & - & None\\
 L at Amax Mal GP 1 & 47.644 & 3 & OK & 0.1701 & Normal (47.26, 0.2)\\
-VonBert K Mal GP 1 & 0.140 & 3 & OK & 0.00127586 & Normal (0.1656, 0.01)\\
-CV young Mal GP 1 & 0.100 & -4 & - & - & None\\
-CV old Mal GP 1 & 0.100 & -4 & - & - & None\\
-Wtlen 1 Mal GP 1 & 0.000 & -99 & - & - & None\\
+VonBert K Mal GP 1 & 0.14 & 3 & OK & 0.00127586 & Normal (0.1656, 0.01)\\
+CV young Mal GP 1 & 0.1 & -4 & - & - & None\\
+CV old Mal GP 1 & 0.1 & -4 & - & - & None\\
+Wtlen 1 Mal GP 1 & 2.48e-05 & -99 & - & - & None\\
 Wtlen 2 Mal GP 1 & 2.911 & -99 & - & - & None\\
-CohortGrowDev & 1.000 & -1 & - & - & None\\
-FracFemale GP 1 & 0.500 & -99 & - & - & None\\
+CohortGrowDev & 1 & -1 & - & - & None\\
+FracFemale GP 1 & 0.5 & -99 & - & - & None\\
 SR LN(R0) & 7.587 & 1 & OK & 0.0400076 & None\\
-SR BH steep & 0.720 & -1 & - & - & None\\
-SR sigmaR & 0.600 & -6 & - & - & None\\
-SR regime & 0.000 & -99 & - & - & None\\
-SR autocorr & 0.000 & -99 & - & - & None\\
+SR BH steep & 0.72 & -1 & - & - & None\\
+SR sigmaR & 0.6 & -6 & - & - & None\\
+SR regime & 0 & -99 & - & - & None\\
+SR autocorr & 0 & -99 & - & - & None\\
 Main RecrDev 1956 & -0.546 & 2 & act & 0.504006 & dev (NA, NA)\\
 Main RecrDev 1957 & -0.561 & 2 & act & 0.500473 & dev (NA, NA)\\
 Main RecrDev 1958 & -0.557 & 2 & act & 0.499499 & dev (NA, NA)\\
@@ -991,7 +1010,7 @@ Main RecrDev 1979 & 0.072 & 2 & act & 0.197538 & dev (NA, NA)\\
 Main RecrDev 1980 & -0.105 & 2 & act & 0.200787 & dev (NA, NA)\\
 Main RecrDev 1981 & -0.031 & 2 & act & 0.1662 & dev (NA, NA)\\
 Main RecrDev 1982 & -0.258 & 2 & act & 0.19104 & dev (NA, NA)\\
-Main RecrDev 1983 & 0.280 & 2 & act & 0.129437 & dev (NA, NA)\\
+Main RecrDev 1983 & 0.28 & 2 & act & 0.129437 & dev (NA, NA)\\
 Main RecrDev 1984 & -0.082 & 2 & act & 0.167147 & dev (NA, NA)\\
 Main RecrDev 1985 & 0.157 & 2 & act & 0.122885 & dev (NA, NA)\\
 Main RecrDev 1986 & -0.168 & 2 & act & 0.146202 & dev (NA, NA)\\
@@ -1000,12 +1019,12 @@ Main RecrDev 1988 & -0.217 & 2 & act & 0.158039 & dev (NA, NA)\\
 Main RecrDev 1989 & 0.297 & 2 & act & 0.115392 & dev (NA, NA)\\
 Main RecrDev 1990 & 0.121 & 2 & act & 0.140106 & dev (NA, NA)\\
 Main RecrDev 1991 & -0.093 & 2 & act & 0.163621 & dev (NA, NA)\\
-Main RecrDev 1992 & -0.200 & 2 & act & 0.170212 & dev (NA, NA)\\
+Main RecrDev 1992 & -0.2 & 2 & act & 0.170212 & dev (NA, NA)\\
 Main RecrDev 1993 & -0.072 & 2 & act & 0.154498 & dev (NA, NA)\\
 Main RecrDev 1994 & 0.266 & 2 & act & 0.121269 & dev (NA, NA)\\
 Main RecrDev 1995 & 0.212 & 2 & act & 0.127939 & dev (NA, NA)\\
 Main RecrDev 1996 & -0.241 & 2 & act & 0.180088 & dev (NA, NA)\\
-Main RecrDev 1997 & 0.080 & 2 & act & 0.144279 & dev (NA, NA)\\
+Main RecrDev 1997 & 0.08 & 2 & act & 0.144279 & dev (NA, NA)\\
 Main RecrDev 1998 & 0.096 & 2 & act & 0.15325 & dev (NA, NA)\\
 Main RecrDev 1999 & 0.261 & 2 & act & 0.140663 & dev (NA, NA)\\
 Main RecrDev 2000 & 0.468 & 2 & act & 0.11801 & dev (NA, NA)\\
@@ -1019,22 +1038,22 @@ Main RecrDev 2007 & 0.508 & 2 & act & 0.16179 & dev (NA, NA)\\
 Main RecrDev 2008 & 0.643 & 2 & act & 0.152861 & dev (NA, NA)\\
 Main RecrDev 2009 & 0.395 & 2 & act & 0.180578 & dev (NA, NA)\\
 Main RecrDev 2010 & 0.291 & 2 & act & 0.190447 & dev (NA, NA)\\
-Main RecrDev 2011 & 0.820 & 2 & act & 0.147218 & dev (NA, NA)\\
+Main RecrDev 2011 & 0.82 & 2 & act & 0.147218 & dev (NA, NA)\\
 Main RecrDev 2012 & 0.509 & 2 & act & 0.170609 & dev (NA, NA)\\
-Main RecrDev 2013 & 0.450 & 2 & act & 0.174317 & dev (NA, NA)\\
+Main RecrDev 2013 & 0.45 & 2 & act & 0.174317 & dev (NA, NA)\\
 Main RecrDev 2014 & 0.197 & 2 & act & 0.194564 & dev (NA, NA)\\
 Main RecrDev 2015 & -0.111 & 2 & act & 0.222699 & dev (NA, NA)\\
-Main RecrDev 2016 & -0.060 & 2 & act & 0.22685 & dev (NA, NA)\\
+Main RecrDev 2016 & -0.06 & 2 & act & 0.22685 & dev (NA, NA)\\
 Main RecrDev 2017 & -0.643 & 2 & act & 0.319943 & dev (NA, NA)\\
-Late RecrDev 2018 & 0.000 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2019 & 0.000 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2020 & 0.000 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2021 & 0.000 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2022 & 0.000 & - & - & - & dev (NA, NA)\\
-ForeRecr 2023 & 0.000 & - & - & - & dev (NA, NA)\\
-InitF seas 1 flt 1Trawl & 0.000 & -1 & - & - & None\\
-InitF seas 1 flt 2NonTRWL & 0.000 & -1 & - & - & None\\
-InitF seas 1 flt 3Recreational & 0.000 & -1 & - & - & None\\
+Late RecrDev 2018 & 0 & - & - & - & dev (NA, NA)\\
+Late RecrDev 2019 & 0 & - & - & - & dev (NA, NA)\\
+Late RecrDev 2020 & 0 & - & - & - & dev (NA, NA)\\
+Late RecrDev 2021 & 0 & - & - & - & dev (NA, NA)\\
+Late RecrDev 2022 & 0 & - & - & - & dev (NA, NA)\\
+ForeRecr 2023 & 0 & - & - & - & dev (NA, NA)\\
+InitF seas 1 flt 1Trawl & 0 & -1 & - & - & None\\
+InitF seas 1 flt 2NonTRWL & 0 & -1 & - & - & None\\
+InitF seas 1 flt 3Recreational & 0 & -1 & - & - & None\\
 LnQ base Tagging(4) & -5.586 & -1 & - & - & None\\
 LnQ base Nearshore survey(5) & -7.145 & -1 & - & - & None\\
 Q extraSD Nearshore survey(5) & 0.118 & 3 & OK & 0.1186 & None\\
@@ -1044,47 +1063,47 @@ Q extraSD OCNMS YOY(7) & 1.794 & 3 & OK & 0.545064 & None\\
 LnQ base Private Boat(8) & -6.241 & -1 & - & - & None\\
 Q extraSD Private Boat(8) & 0.376 & 3 & OK & 0.0590053 & None\\
 LnQ base Charter(9) & -5.729 & -1 & - & - & None\\
-Q extraSD Charter(9) & 0.140 & 3 & OK & 0.0551848 & None\\
+Q extraSD Charter(9) & 0.14 & 3 & OK & 0.0551848 & None\\
 Size DblN peak Trawl(1) & 50.022 & 5 & OK & 0.608876 & None\\
 Size DblN top logit Trawl(1) & 0.809 & 5 & OK & 26.4409 & None\\
 Size DblN ascend se Trawl(1) & 3.462 & 5 & OK & 0.131316 & None\\
-Size DblN descend se Trawl(1) & 2.200 & -1 & - & - & None\\
-Size DblN start logit Trawl(1) & -5.000 & -2 & - & - & None\\
-Size DblN end logit Trawl(1) & 5.000 & -1 & - & - & None\\
+Size DblN descend se Trawl(1) & 2.2 & -1 & - & - & None\\
+Size DblN start logit Trawl(1) & -5 & -2 & - & - & None\\
+Size DblN end logit Trawl(1) & 5 & -1 & - & - & None\\
 Size DblN peak NonTRWL(2) & 48.826 & 5 & OK & 1.4258 & None\\
 Size DblN top logit NonTRWL(2) & -0.716 & 5 & OK & 62.0666 & None\\
 Size DblN ascend se NonTRWL(2) & 4.302 & 5 & OK & 0.196338 & None\\
-Size DblN descend se NonTRWL(2) & 3.000 & -1 & - & - & None\\
-Size DblN start logit NonTRWL(2) & -4.000 & -2 & - & - & None\\
-Size DblN end logit NonTRWL(2) & 5.000 & -1 & - & - & None\\
+Size DblN descend se NonTRWL(2) & 3 & -1 & - & - & None\\
+Size DblN start logit NonTRWL(2) & -4 & -2 & - & - & None\\
+Size DblN end logit NonTRWL(2) & 5 & -1 & - & - & None\\
 Size DblN peak Recreational(3) & 43.516 & 5 & OK & 0.291823 & None\\
 Size DblN top logit Recreational(3) & 2.497 & 5 & OK & 47.6394 & None\\
 Size DblN ascend se Recreational(3) & 3.653 & 5 & OK & 0.0645798 & None\\
-Size DblN descend se Recreational(3) & 3.000 & -1 & - & - & None\\
-Size DblN start logit Recreational(3) & -4.000 & -2 & - & - & None\\
-Size DblN end logit Recreational(3) & 5.000 & -1 & - & - & None\\
+Size DblN descend se Recreational(3) & 3 & -1 & - & - & None\\
+Size DblN start logit Recreational(3) & -4 & -2 & - & - & None\\
+Size DblN end logit Recreational(3) & 5 & -1 & - & - & None\\
 Size DblN peak Tagging(4) & 41.706 & 5 & OK & 0.854928 & None\\
 Size DblN top logit Tagging(4) & -3.688 & 5 & OK & 22.169 & None\\
 Size DblN ascend se Tagging(4) & 3.352 & 5 & OK & 0.239167 & None\\
-Size DblN descend se Tagging(4) & 2.200 & -1 & - & - & None\\
-Size DblN start logit Tagging(4) & -4.000 & -2 & - & - & None\\
-Size DblN end logit Tagging(4) & 5.000 & -1 & - & - & None\\
+Size DblN descend se Tagging(4) & 2.2 & -1 & - & - & None\\
+Size DblN start logit Tagging(4) & -4 & -2 & - & - & None\\
+Size DblN end logit Tagging(4) & 5 & -1 & - & - & None\\
 Size DblN peak Nearshore survey(5) & 32.215 & 2 & OK & 3.00031 & None\\
 Size DblN top logit Nearshore survey(5) & -2.588 & 1 & OK & 7.01265 & None\\
 Size DblN ascend se Nearshore survey(5) & 3.749 & 2 & OK & 0.774609 & None\\
-Size DblN descend se Nearshore survey(5) & 2.200 & -1 & - & - & None\\
-Size DblN start logit Nearshore survey(5) & -4.000 & -2 & - & - & None\\
-Size DblN end logit Nearshore survey(5) & 5.000 & -1 & - & - & None\\
+Size DblN descend se Nearshore survey(5) & 2.2 & -1 & - & - & None\\
+Size DblN start logit Nearshore survey(5) & -4 & -2 & - & - & None\\
+Size DblN end logit Nearshore survey(5) & 5 & -1 & - & - & None\\
 Size DblN peak OCNMS(6) & 26.655 & 2 & OK & 1.2663 & None\\
 Size DblN top logit OCNMS(6) & 3.506 & 1 & OK & 46.0167 & None\\
 Size DblN ascend se OCNMS(6) & 3.585 & -2 & - & - & None\\
-Size DblN descend se OCNMS(6) & -4.500 & 1 & OK & 235.002 & None\\
-Size DblN start logit OCNMS(6) & -15.000 & -2 & - & - & None\\
-Size DblN end logit OCNMS(6) & -15.000 & -1 & - & - & None\\
-SizeSel P1 Private Boat(8) & -1.000 & -99 & - & - & None\\
-SizeSel P2 Private Boat(8) & -1.000 & -99 & - & - & None\\
-SizeSel P1 Charter(9) & -1.000 & -99 & - & - & None\\
-SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
+Size DblN descend se OCNMS(6) & -4.5 & 1 & OK & 235.002 & None\\
+Size DblN start logit OCNMS(6) & -15 & -2 & - & - & None\\
+Size DblN end logit OCNMS(6) & -15 & -1 & - & - & None\\
+SizeSel P1 Private Boat(8) & -1 & -99 & - & - & None\\
+SizeSel P2 Private Boat(8) & -1 & -99 & - & - & None\\
+SizeSel P1 Charter(9) & -1 & -99 & - & - & None\\
+SizeSel P2 Charter(9) & -1 & -99 & - & - & None\\*
 \end{longtable}
 \endgroup{}
 \end{landscape}
@@ -1102,11 +1121,13 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 <!-- ***********    Reference Point table  ******************** --> 
 <!-- ======================================================= -->
 
-
-\include{tex_tables/e_ReferencePoints_ES.tex}
+<!--
+This table is included below and referenced in the management section
+\include{tex_tables/e_ReferencePoints.tex}
 
 \newpage
 
+-->
 
 
 <!-- ======================================================= -->
@@ -1140,13 +1161,15 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 
 \include{tex_tables/ReferencePoints.tex}
 
-#\include{tex_tables/project.tex}
+<!--
+\include{tex_tables/project.tex}
 
-#\newpage
+\newpage
 
-#\include{tex_tables/decision_table.tex}
+\include{tex_tables/decision_table.tex}
 
-#\clearpage
+\clearpage
+-->
 
 <!--chapter:end:52tables.Rmd-->
 
@@ -1198,6 +1221,14 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 ![Length compositions by year from the recreational fleet.\label{fig:rec-length-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt3mkt0_page2.png){width=100% height=100% alt="."}
 
 \pagebreak
+
+
+
+![Estimated and observed proportion zero for the negative binomial tagging model.\label{fig:prop-zero-tag}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
 
 ## Biology
 
@@ -1596,19 +1627,22 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 
 
 
+
+
+![Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
 ![Estimated time series of fishing intensity, 1-SPR.\label{fig:1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
 
-![Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
-
-\pagebreak
-
-
-
-![Yield curve with reference points.\label{fig:yield-curve}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+![Equilibrium yield curve for the base case model. Values are based on (the time
+invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
 \pagebreak
 

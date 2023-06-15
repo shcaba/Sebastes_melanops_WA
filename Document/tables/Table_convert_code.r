@@ -14,6 +14,44 @@ t = table_format(x = out,
 kableExtra::save_kable(t,
 file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/OR_vermilion_catches.tex"))
 
+out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tables/Recreational dockside data sample size table.csv")
+t = table_format(x = out,
+                 caption = 'WDFW recreational dockside data sample size reductions at each data filtering step',
+                 label = 'dockside_samples',
+                 longtable = TRUE,
+                 font_size = 9,
+                 digits = 2,
+                 landscape = TRUE,
+                 col_names = c("Filter","Criteria","Samples"))
+
+kableExtra::save_kable(t,
+                       file = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/dockside_samples.tex"))
+
+out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tables/Hurdle models selection for nearshore survey.csv")
+t = table_format(x = out,
+                 caption = 'Hurdle negative binomial models and the resultant model selection values for the nearshore survey CPUE data set. Gray bar indicates chosen model',
+                 label = 'nearshore_hurdle_modsel',
+                 longtable = TRUE,
+                 font_size = 9,
+                 digits = 2,
+                 landscape = TRUE,
+                 col_names = c("Model","WAIC","SE"))
+
+kableExtra::save_kable(t,
+                       file = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/nearshore_hurdle_modsel.tex"))
+
+out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tables/Major changes in WA tagging program.csv")
+t = table_format(x = out,
+                 caption = 'Major changes in the Washington tagging program since 1981',
+                 label = 'tag_changes',
+                 longtable = TRUE,
+                 font_size = 9,
+                 digits = 2,
+                 landscape = TRUE,
+                 col_names = c("Time Period","Primary Objectives","Tagging Method","Recovery Method"))
+
+kableExtra::save_kable(t,
+                       file = file.path("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/tag_changes.tex"))
 
 
 out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Likes_parms_devquants_table.csv")
