@@ -213,21 +213,23 @@ The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The Black Rockfish assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
+The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
 
- \input{tex_tables/project_ES.tex}
+
+**NEED TO UPDATE THE TABLE BELOW**
+\input{tex_tables/project_ES.tex}
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations are considering alternative specifications of natural mortality and population scale. The resultant decision table will be provided in Table \ref{tab:es-dec-tab}. 
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
-Further details summarizing the results presented in the decision table will be added here after the STAR panel.   
 
 \clearpage
 
- \input{tex_tables/decision_table_es.tex}
+\input{tex_tables/decision_table_es.tex}
 
 \clearpage
+
 
 
 ## Research and data needs{-}
@@ -504,7 +506,7 @@ Tag release data collected from the Tagging Program were used for constructing a
 
 Beginning in 2010, the WDFW started to address STAR panel comments and recommendations. In 2011, geographic coverage of the Tagging Program was expanded by adding more stations to the northern and southern coastal waters, while black rockfish remained the targeted species. In 2014, the WDFW decided to terminate the historical Black Rockfish Tagging Program and started to plan for a survey to include other nearshore groundfish species besides black rockfish, such as China, quillback, copper, lingcod, cabezon, and kelp greenling.  A series of pilot studies were initiated for site selection, gear testing, and survey timing. The culmination of these efforts from 2014-2018 was the standardized nearshore Coastwide Rod-and-Reel Survey which was initiated in 2019.  Since 2019, the WDFW has conducted an annual spring rod-and-reel survey targeting semi-pelagic bottomfish at 125 fixed stations (e.g., index stations) off the Washington coast.  At each station, 5 anglers deploy standardized fishing rigs consisting of 2 shrimp flies and drift over the rocky habitat 3 times.  Each drift is approximately 8 minutes long.  Details regarding sample frame, site selection, and survey methodology for this survey can be found in the Groundfish Subcommittee of the Science and Statistical Committee Visual-Hydroacoustic Survey Methodology Review and Hook-and-Line Survey Workshop details from September 2022 (Reference document??). 
 
-For this assessment abundance indices using data from the two sampling programs described above were evaluated in two ways. First, data from the two projects were evaluated independently. The Black Rockfish Tagging Program tag release data were filtered for sampling events from 1998-2018 in MCA 2 during the spring months (March-July). This time series had the most consistent survey objectives and sampling protocols during the Program. Because black rockfish were explicitly targeted during these trips, no other filters were applied. Catch of black rockfish per angler hour was the response variable, which was an improvement from the past assessment, with covariates year and MCA. CPUE data analysis was done using a hurdle negative binomial regression model.  Figure XX. shows the abundance estimates and 95% confidence intervals for each year. The standardized nearshore Coastwide Rod-and-Reel Survey data were also analyzed using a hurdle negative binomial regression model for data from years 2019, 2021, and 2022.  Data from 2020 were excluded because only index stations in MCA2 were sampled prior to the survey being cancelled due to the Covid-19 pandemic.  Covariates for these analyses included year, MCA, and depth. Figure XX. shows the abundance estimates and 95% confidence intervals for each year.
+For this assessment abundance indices using data from the two sampling programs described above were evaluated in two ways. First, data from the two projects were evaluated independently. The Black Rockfish Tagging Program tag release data were filtered for sampling events from 1998-2018 in MCA 2 during the spring months (March-July). This time series had the most consistent survey objectives and sampling protocols during the Program. Because black rockfish were explicitly targeted during these trips, no other filters were applied. Catch of black rockfish per angler hour was the response variable, which was an improvement from the past assessment, with covariates year and MCA. CPUE data analysis was done using a hurdle negative binomial regression model.  Figure XX. shows the gamma and hurdle negative binomial model runs with 95% confidence intervals for each year. The standardized nearshore Coastwide Rod-and-Reel Survey data were also analyzed using a hurdle negative binomial regression model for data from years 2019, 2021, and 2022.  Data from 2020 were excluded because only index stations in MCA2 were sampled prior to the survey being cancelled due to the Covid-19 pandemic.  Covariates for these analyses included year, MCA, and depth. Table XX. shows the watanabe-Akaike information criterion (WCIA) used to support the inclusion of year, marine catch area and depth in the final model.
 
 Secondly, data from the two projects were evaluated concurrently.  Because sampling for both projects targeted black rockfish using rod-and-reel methods on rocky habitats, CPUE data for black rockfish was combined.  Data were filtered for sampling only in MCA 2 during spring months.  Additionally, because of changes in survey designs from 2014-2018, only sets that were within 1km of any 1998-2013 central coast Tagging Program set in MCA 2 were included.  The 1km buffer eliminated most sets done on sand or areas that would not have been fished in a tagging objective set. The index calculation did not include a depth covariate as depth was not recorded during the Tagging Program sampling.  Data were analyzed using a hurdle negative binomial regression model for years 1998-2022 (no sampling occurred in MCA 2 in 2008 or 2017). Figure XX. Shows the abundance estimates and 95% confidence intervals for each year.
 
@@ -908,23 +910,17 @@ A ten-year retrospective analysis was conducted by running the model and sequent
 # Management 
 
 ## Reference Points
-OREGON: Spawning output declined as it tracks quickly rising recreational catches in the late 1970s, then stabilizes (Figure 151) Stock status is above the target reference point (SB40%) at 60% (59%-62% 95% asymptotic intervals; Table 45). Unfished spawning output was measured at 1385 (1212-1557 95% asymptotic intervals; Table 45) and spawning output at the beginning of 2015 was estimated to be 838 (740-936 95% asymptotic intervals). According to this model specification, there is no time in which the stock was below the target or limit reference point, but is currently pointed downward. Fishing intensity has been less than the SPR50% rate the whole time series (Figure 173). The phase plot shows the interaction of fishing intensity and biomass targets (Figure 174). The equilibrium curve is shifted left, as expected from the high fixed steepness, showing a more productive stock than SPR50% would suggest (Figure 175). The target stock size based on the biomass target (SB40%) is 554 (millions of eggs), which gives a catch of 556 mt. Equilibrium yield at the proxy FMSY harvest rate corresponding to SPR50% is 518 mt (Table 45).
 
-WA: 
-Spawning output declined over a large extent of the time series, with an increasing and or more stable population prevailing since the late 1980s (Figure 221) Stock status is above the target reference point (40%) at 43% (36%-50% 95% asymptotic intervals; Figure 222). Unfished spawning output was measured at 1356 (1228-1483 95% asymptotic intervals; Table 67) and spawning output at the beginning of 2015 was estimated to be 582 (467-698 95% asymptotic intervals) There seems to be no time in which the stock was below the limit reference point and has only fluctuated above the target reference point. Recruitment has fluctuated regularly over the last 25 years (Figure 223 and Figure 224). Despite being above the target biomass, fishing intensity has been above the SPR50% rate in the last couple of years (Figure 237). The phase plot shows the interaction of fishing intensity and biomass targets (Figure 238). The equilibrium curve is shifted left, as expected from the high fixed steepness, showing a more productive stock than SPR50% would suggest (Figure 239). The target stock size based on the biomass target (SB40%) is 542 (millions of eggs), which gives a catch of 337 mt. Equilibrium yield at the proxy FMSY harvest rate corresponding to SPR50% is 311 mt (Table 67).
+Unfished spawning output was measured at 949.37 millions of eggs (Table \ref{tab:reference}) and spawning output at the beginning of 2023 was estimated to be 439.55 millions of eggs. The stock is estimated to have dropped below the management target in the mid-1980s and below the threshold limit of 25% in the 1990s, and has increased in recent years to be above the management target (Figure \ref{fig:depl}). The estimated fraction unfished is 46.3%, above the target reference point of 40% (Table \ref{tab:reference}).  
 
-From Vermilion:
-Reference points were calculated using the estimated fishery selectivity and removals in the most recent year of the model (2022, Table \ref{tab:referenceES}). Sustainable total yields  were 277.57 mt when using an $SPR_{50\%}$ reference harvest rate. The spawning output equivalent to 40 percent of the unfished spawning output ($SB_{40\%}$) was 423.57 meggs. 
-
-The 2023 spawning output relative to unfished equilibrium spawning output is above the Black Rockfish relative biomass target of 40 percent (Figure \ref{fig:depl}). The fishing intensity, $1-SPR$, of recent years was near or above the harvest rate limit ($SPR_{50\%}$) for most of the 1980s and 1990s. Recent years also show near target fishing levels (Table \ref{tab:timeseries} and Figure \ref{fig:1-spr}), highlighting how the sustainability of current fishing levels are very sensitive to incoming recruitment. Table \ref{tab:referenceES} shows the full suite of estimated reference points for the base model and Figure \ref{fig:yield} shows the equilibrium curve based on a steepness value fixed at 0.72.
-
+Recruitment has fluctuated regularly since the 1970s with a string of strong recruitments between 2003-2014 (Figure \ref{fig:recruits} and \ref{fig:rec-devs}). Fishing intensity, 1 - SPR, is estimated to have been above the SPR50% rate starting in 1981 and remaining above the target through 2018 (Figure \ref{fig:1-spr}). The phase plot shows the interaction of fishing intensity and biomass targets (Figure \ref{fig:phase-plot}). Figure \ref{fig:yield-curve} shows the equilibrium yield curves and net production based on a steepness value fixed at 0.72.
 
 ## Unresolved Problems and Major Uncertainties
 
 
 ## Harvest Projections and Decision Tables
 
-A ten year (2023-2032) projection of the reference model with removals in 2021 and 2022 provided by the Groundfish Management Team for each fleet under the category 1 (sigma=0.5) time-varying buffer using $P^*$ = 0.45 and 40-10 ABC control rule is provided in Table \ref{tab:project}.
+A ten year (2025-2034) projection of the reference model with removals in 2023 and 2024 provided by the Groundfish Management Team for each fleet under the category 1 ($\sigma$=0.5) time-varying buffer using $P^*$ = 0.45 and 40-10 ACL control rule is provided in Table \ref{tab:project}.
 
 
 
@@ -1205,6 +1201,7 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 <!-- ****************  Reference Points  ******************* --> 
 <!-- ======================================================= -->
 
+\include{tex_tables/ReferencePoints.tex}
 
 #\include{tex_tables/project.tex}
 
@@ -1659,6 +1656,24 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 ![Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
+
+
+
+![Estimated time series of fishing intensity, 1-SPR.\label{fig:1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Yield curve with reference points.\label{fig:yield-curve}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+
+\pagebreak
 
 
 <!--chapter:end:53figures.Rmd-->
