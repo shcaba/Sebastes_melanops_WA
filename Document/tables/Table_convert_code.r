@@ -1,6 +1,10 @@
 library(kableExtra)
 library(sa4ss)
 
+Dir.tables<-"C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tables/"
+Dir.tables.tex<-"C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/"
+
+
 out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/OR_vermilion_catches.csv")
 t = table_format(x = out,
       caption = 'Catches (mt) by fleet for all years, including estimates of discards, and total catches (mt) by year summed by year',
@@ -13,6 +17,34 @@ t = table_format(x = out,
 
 kableExtra::save_kable(t,
 file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/OR_vermilion_catches.tex"))
+
+out<-read.csv(paste0(Dir.tables,"WA_Comm_lts_year_fleet_sex.csv"))
+t = table_format(x = out,
+                 caption = 'Sampled commercial lengths by year, fleet and sex',
+                 label = 'WA_Comm_Lt_samps',
+                 longtable = TRUE,
+                 font_size = 9,
+                 digits = 2,
+                 landscape = TRUE,
+                 col_names = c("","","","","","","","","",""))
+
+kableExtra::save_kable(t,
+                       file = file.path(paste0(Dir.tables.tex,"WA_Comm_Lt_samps.tex")))
+
+out<-read.csv(paste0(Dir.tables,"WA_Comm_ages_year_fleet_sex.csv"))
+t = table_format(x = out,
+                 caption = 'Sampled commercial ages by year, fleet and sex',
+                 label = 'WA_Comm_Age_samps',
+                 longtable = TRUE,
+                 font_size = 9,
+                 digits = 2,
+                 landscape = TRUE,
+                 col_names = c("","","","","","","","","",""))
+
+kableExtra::save_kable(t,
+                       file = file.path(paste0(Dir.tables.tex,"WA_Comm_Age_samps.tex")))
+
+
 
 out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tables/Recreational dockside data sample size table.csv")
 t = table_format(x = out,

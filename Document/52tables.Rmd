@@ -13,6 +13,11 @@
 
 \include{tex_tables/rec_age_sample.tex}
 
+\include{tex_tables/WA_Comm_Lt_samps.tex}
+
+\include{tex_tables/WA_Comm_Age_samps.tex}
+
+
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
 <!-- ======================================================= -->
