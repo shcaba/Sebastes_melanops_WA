@@ -16,6 +16,8 @@ The Washington model is structured to track several fleets and include data from
 * Survey 5: OCNMS subadult-adult survey
 * Survey 6: OCNMS young-of-the-year survey
 
+The specifications of the assessment are listed in Table \ref{tab:model-structure}.
+
 ## Model likelihood components
 
 There are five primary likelihood components for each assessment model:

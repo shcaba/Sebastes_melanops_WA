@@ -22,6 +22,10 @@
 <!-- ***********   Model Parameters     ******************** --> 
 <!-- ======================================================= -->
 
+\include{tex_tables/model_structure.tex}
+
+\pagebreak
+
 ```{r, results = 'asis'}
 
 mod_params = model$parameters[,
