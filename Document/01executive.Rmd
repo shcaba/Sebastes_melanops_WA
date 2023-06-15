@@ -150,21 +150,23 @@ The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\si
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The `r spp` assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
+The `r spp` assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
 
- \input{tex_tables/project_ES.tex}
+
+**NEED TO UPDATE THE TABLE BELOW**
+\input{tex_tables/project_ES.tex}
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations are considering alternative specifications of natural mortality and population scale. The resultant decision table will be provided in Table \ref{tab:es-dec-tab}. 
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
-Further details summarizing the results presented in the decision table will be added here after the STAR panel.   
 
 \clearpage
 
- \input{tex_tables/decision_table_es.tex}
+\input{tex_tables/decision_table_es.tex}
 
 \clearpage
+
 
 
 ## Research and data needs{-}
