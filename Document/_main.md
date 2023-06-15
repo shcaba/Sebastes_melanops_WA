@@ -439,12 +439,12 @@ In consideration of management changes and the potential for non-abundance relat
 #### Dockside CPUE Private Fleet 1981-2016
 Dockside data was filtered for interviews with private boats and several covariates including year, month, area, daily bag limits and depth restrictions were considered. Depth was not consistently recorded, so depth-based management could not be filtered out. Instead, covariates for depth restrictions and daily bag limits were included to represent management changes. To be certain that the characteristics of a “trip” were comparable, the analysis was restricted to bottomfish only trips, in areas specific to rockfish, for private boats from 1981 through 2016 (43,187 records). The truncation of the data series excluded the latest large bag limit restriction that took effect in 2017.
 
-CPUE was calculated for each angler trip, where total catch was defined as the sum of all reported retained catch (in numbers) and total effort was defined by the number of anglers. CPUE was modeled using the same delta-GLM approach used in 2015. A gamma distribution for the positive catch component was also evaluated, but graphical summary diagnostics favored the choice of a lognormal distribution. A bootstrap analysis (N=500) was used to estimate the standard errors and CVs of the year effects (Figure XX).
+CPUE was calculated for each angler trip, where total catch was defined as the sum of all reported retained catch (in numbers) and total effort was defined by the number of anglers. CPUE was modeled using the same delta-GLM approach used in 2015. Lognormal (Figure \ref{fig:private-log-diags}) and gamma (Figure \ref{fig:private-gam-diags}) distributions for the positive catch component were considered, but diagnostics favored the choice of a lognormal distribution for the final index. The CPUE time series is shown in Figure \ref{fig:private-index}. A bootstrap analysis (N=500) was used to estimate the coefficient of variation of the year effects (\ref{fig:private-CVs}).
 
 #### Dockside CPUE Charter Fleet 1981-1994
 For the charter boat fleet interview data collected from 1981 through 1994 was modeled as being less sensitive to the effects of bag limits. It was also a key period in the fishery where effort was ramping up. As with the private fleet analysis, data was restricted to bottomfish only trips in areas specific to rockfish, for charter boats from 1981 through 1994 (16,364 records).
 
-Several covariates were considered in the full model including year, month, area, daily bag limit and depth restriction. As with private boats, depth was not consistently recorded and could not be used.  A covariate for daily bag limits was included to represent management changes but depth restrictions didn’t go into effect until after this data time series and were not incorporated. AIC was not used to choose between error distributions for the positive catches. This was instead done using quantile-quantile plots (Figure XX and Figure XX). The full model with gamma distribution was chosen and a bootstrap analysis (N=500) was used to estimate the standard errors and CVs of the year effects (Figure XX).
+Several covariates were considered in the full model including year, month, area, daily bag limit and depth restriction. As with private boats, depth was not consistently recorded and could not be used.  A covariate for daily bag limits was included to represent management changes but depth restrictions didn’t go into effect until after this data time series and were not incorporated. AIC was not used to choose between error distributions for the positive catches. This was instead done using quantile-quantile plots (Figure \ref{fig:charter-log-diags} and Figure \ref{fig:charter-gam-diags}). The full model with gamma distribution was chosen (Figure \ref{fig:charter-index} and a bootstrap analysis (N=500) was used to estimate the the coefficient of variation of the year effects (Figure \ref{fig:charter-CVs}).
 
 <!--chapter:end:21f-.Rmd-->
 
@@ -1277,6 +1277,9 @@ This table is included below and referenced in the management section
 
 ![Estimated and observed proportion zero for the negative binomial tagging model.\label{fig:prop-zero-tag}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png){width=100% height=100% alt="."}
 
+
+![Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model.\label{fig:tag-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/HistoricTagging_1998_2018_Index.png){width=100% height=100% alt="."}
+
 \pagebreak
 
 
@@ -1290,6 +1293,32 @@ This table is included below and referenced in the management section
 
 
 ![Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were black rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:blackrock_percentage}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP_blackrock_p_total_rockfish.png){width=100% height=100% alt="."}
+
+
+![Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-log-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Private.png){width=100% height=100% alt="."}
+
+
+![Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-gam-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Private.png){width=100% height=100% alt="."}
+
+
+![Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:private-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Private_Index.png){width=100% height=100% alt="."}
+
+
+![Bootstrapped estimates of variation for each model of the Washington private boat index.\label{fig:private-CVs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_private_CV.png){width=100% height=100% alt="."}
+
+
+![Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-log-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Charter.png){width=100% height=100% alt="."}
+
+
+![Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-gam-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Charter.png){width=100% height=100% alt="."}
+
+
+
+![Abundance indices for the WDFW charter boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:charter-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_Index.png){width=100% height=100% alt="."}
+
+
+![Bootstrapped estimates of variation for each model of the Washington charter boat index.\label{fig:charter-CVs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_CV.png){width=100% height=100% alt="."}
+
 
 
 ## Biology

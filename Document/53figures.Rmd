@@ -75,6 +75,13 @@ caption = "Estimated and observed proportion zero for the negative binomial tagg
 label = 'prop-zero-tag')
 ```
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "HistoricTagging_1998_2018_Index.png"), 
+caption = "Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model",
+label = 'tag-index')
+```
+
 \pagebreak
 
 
@@ -100,6 +107,64 @@ filein = file.path(index_fig_loc, "OSP_blackrock_p_total_rockfish.png"),
 caption = "Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were black rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.",
 label = 'blackrock_percentage')
 ```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Private.png"), 
+caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+label = 'private-log-diags')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Private.png"), 
+caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+label = 'private-gam-diags')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "WA_dockside_Private_Index.png"), 
+caption = "Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index",
+label = 'private-index')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "WA_dockside_private_CV.png"), 
+caption = "Bootstrapped estimates of variation for each model of the Washington private boat index",
+label = 'private-CVs')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Charter.png"), 
+caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+label = 'charter-log-diags')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Charter.png"), 
+caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+label = 'charter-gam-diags')
+```
+
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "WA_dockside_Charter94_Index.png"), 
+caption = "Abundance indices for the WDFW charter boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index",
+label = 'charter-index')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "WA_dockside_Charter94_CV.png"), 
+caption = "Bootstrapped estimates of variation for each model of the Washington charter boat index",
+label = 'charter-CVs')
+```
+
 
 
 ## Biology
