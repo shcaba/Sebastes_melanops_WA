@@ -60,16 +60,16 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 
 The length data for the assessment model were tabulated into 2-cm length bins ranging from 10 cm to 64 cm, with accumulator bins at each end. 
 
-The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length (Figures \ref{fig:trawl-length-comps}-\ref{fig:rec-length-comps}).  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
+The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length (Figures \ref{fig:trawl-length-comps}-\ref{fig:rec-length-comps}), though the differece between the last two are not large.  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
 
 
 ##### Commercial
 
-The biological data for the commercial fishery were extracted from PacFIN on 23 March, 2023. These data are from trawl and non-trawl (hook-and-line) fisheries; there is no live-fish fishery off Washington. Of the 9,009 records available within PacFIN (each representing a single specimen), 4,989 were from the commercial trawl fishery (Table X).
+Biological data for the commercial fishery were extracted from PacFIN on 23 March, 2023. These data are from trawl and non-trawl (hook-and-line) fisheries (there has been no live-fish fishery off Washington). Of the 9,009 records available within PacFIN (each representing a single specimen), 4,990 were from the commercial trawl fishery (Table \ref{tab:WA_Comm_Lt_samps}).
 
-Length composition data are reported either in fork length or total length. Fork lengths are preferred; where they are missing the total length is used. These data are expanded to reduce the effect of non-uniform sampling effort (Table X). The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value.  The final sample sizes for the Washington biological data ranged from 1 to 389.7, with a median value of 10.4.  
+For use as compositional data in the assessment, lengths undergo a two-stage expansion as implemented in the PacFIN.Utilities R library (https://github.com/pfmc-assessments/PacFIN.Utilities). The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value.
 
-The data were stratified by gender and fishery.  The final sample sizes were stratified and summed by length bin (10 cm to 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data. Unsexed fish were treated as above, but entered as a separate dataset.
+The data were stratified by gender and fishery (Table \ref{tab:WA_Comm_Lt_samps}).  The final sample sizes were stratified and summed by length bin (10 cm to 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data. Unsexed fish were treated as above, but entered separately.
 
 
 ##### Recreational
@@ -82,7 +82,7 @@ The Washington Department of Fish and Wildlife provided sampled length data from
 
 #### Age Compositions
 
-Commercial age composition data were a subset of the length data, 7984 records in total, and were expanded in the same manner as the lengths (Table XX).  Ages were stratified by fishery and sex, and binned in 1-year bins from 0 to 40.  As for the length compositions, the unsexed fish (29 samples) were treated as a separate dataset.  Samples were also available by sex for several years in the recreational data (Table 56).  Age samples are available by sex from 1980 until 2022 in the recreational data.  Ages are binned in 1 year bins from 0 to 40 stratified by sex (Table XX).
+Commercial age composition data were a subset of the length data, 7833 records in total, and were expanded in the same manner as the lengths ().  Ages were stratified by fishery and sex, and binned in 1-year bins from 0 to 40.  As for the length compositions, the unsexed fish (29 samples) were treated as a separate dataset.  Samples were also available by sex for several years in the recreational data (Table 56).  Age samples are available by sex from 1980 until 2022 in the recreational data.  Ages are binned in 1 year bins from 0 to 40 stratified by sex (Table XX).
 
 Conditional age-at-length compositions were not expanded, though marginal compositions were. For conditional age-at-length data the effective sample sizes were the sum of all individual age samples per length bin. Ages were modeled as conditional age-at-length, though marginal age compositions were included in the model with no contribution to the likelihood. This inclusion allows one to see how well the marginal age compositions are fit without having them effect overall model fit.
 

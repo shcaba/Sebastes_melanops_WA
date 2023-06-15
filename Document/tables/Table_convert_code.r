@@ -39,7 +39,7 @@ t = table_format(x = out,
                  font_size = 9,
                  digits = 2,
                  landscape = TRUE,
-                 col_names = c("","","","","","","","","",""))
+                 col_names = c("","","","","","","","",""))
 
 kableExtra::save_kable(t,
                        file = file.path(paste0(Dir.tables.tex,"WA_Comm_Age_samps.tex")))
