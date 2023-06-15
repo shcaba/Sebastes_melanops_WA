@@ -228,6 +228,25 @@ add_figure(
 
 \pagebreak
 
+
+<!-- ====================================================================== -->
+<!-- ***********************  Model Build  ************************************ --> 
+<!-- ====================================================================== -->
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(mod_build_fig_loc, "Mod build stock status/compare4_Bratio_uncertainty.png"),
+caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+label = 'modbuild-data-depl')
+```
+
+```{r, echo=FALSE, results='asis'}
+add_figure(
+filein = file.path(mod_build_fig_loc, "Mod build stock scale/compare2_spawnbio_uncertainty.png"),
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
+label = 'modbuild-data-ssb')
+```
+
 <!-- ====================================================================== -->
 <!-- ***********************  Model convergence and Jitters  ************************************ --> 
 <!-- ====================================================================== -->

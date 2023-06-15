@@ -2,7 +2,8 @@
 geometry: margin=1in
 month: "June"
 year: "2023"
-preamble: |
+preamble: 
+csl: canadian-journal-of-fisheries-and-aquatic-sciences.csl
 output:
   sa4ss::techreport_pdf:
     default
@@ -78,6 +79,7 @@ bibliography:
 title: Status of Black Rockfish (_Sebastes melanops_) off Washington and federal waters in 2023
 ---
 
+
 <!--chapter:end:00title.Rmd-->
 
 \vspace{500cm}
@@ -133,7 +135,7 @@ Within model uncertainty is explicitly included in this assessment by parameter 
 
 ## Stock biomass and dynamics{-}
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 431 meggs (~95 percent asymptotic intervals: 255 to 606 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (946) meggs gives a relative stock status level of 46 percent (~95 percent asymptotic intervals: 30 to 61 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of commercial fishing, further decreasing with the increasing recreational removals in the 1980s and continued to decline until the commercial fisheries were shutdown in the late 1990s. Notable recent estimated recruitment pulses occurred in 2000, 2008, and 2011. A decade of positive recruitments of varying strengths support a increase in the time series despite recent lower recruitment deviations. The minimum relative stock size of 17 percent of unfished levels is estimated to have occurred in 1995. The stock may have been below the overfished threshhold in the 1980s. Currently the stock is estimated to be above the management target of $SO_{40\%}$ in 2023 and is estimated to have surpassed the target only recently (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 440 meggs (~95 percent asymptotic intervals: 267 to 612 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (949) meggs gives a relative stock status level of 46 percent (~95 percent asymptotic intervals: 31 to 61 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of commercial fishing, further decreasing with the increasing recreational removals in the 1980s and continued to decline until the commercial fisheries were shutdown in the late 1990s. Notable recent estimated recruitment pulses occurred in 2000, 2008, and 2011. A decade of positive recruitments of varying strengths support a increase in the time series despite recent lower recruitment deviations. The minimum relative stock size of 17 percent of unfished levels is estimated to have occurred in 1995. The stock may have been below the overfished threshhold in the 1980s. Currently the stock is estimated to be above the management target of $SO_{40\%}$ in 2023 and is estimated to have surpassed the target only recently (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
@@ -159,7 +161,7 @@ Recruitment is informed by the data and estimated from 1970s to 2017, before and
 
 ## Exploitation status{-}
 
-Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and above the target of 50% since the 1980s and only recently dropped below the target (1 - $\text{SPR}_{50\%}$). Highest fishing rates were in the 1980s to mid 1990s after which is started to drop (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the biomass-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity was 0.8 in 1994, which is well above the target SPR-based harvest rate of 0.50. The current level of 0.41 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.32 and 0.67 and the exploitation rate (range of 0.03 - 0.07, Table \ref{tab:exploitES}) has come down since the mid-1990s. Current estimates indicate that Black Rockfish spawning output is greater than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
+Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and above the target of 50% since the 1980s and only recently dropped below the target (1 - $\text{SPR}_{50\%}$). Highest fishing rates were in the 1980s to mid 1990s after which is started to drop (Table \ref{tab:exploitES} and Figures \ref{fig:es-1-spr} and \ref{fig:es-phase}). The steepness value of 0.72 indicates that a lower value of SPR (or equivalently a higher fishing intensity than $\text{SPR}_{50\%}$) would be consistent with the biomass-based target of ($\text{SO}_{40\%}$) for sustainable removals. Trends in fishing intensity largely mirrored that of landings until the 1990s, after which recruitment pulses countered the catches somewhat to lower overall fishing intensity (Figure \ref{fig:es-1-spr}). The maximum fishing intensity was 0.8 in 1994, which is well above the target SPR-based harvest rate of 0.50. The current level of 0.41 for 2022 is below that target. Fishing intensity over the past decade has ranged between 0.31 and 0.66 and the exploitation rate (range of 0.02 - 0.07, Table \ref{tab:exploitES}) has come down since the mid-1990s. Current estimates indicate that Black Rockfish spawning output is greater than the target biomass level ($\text{SO}_{40\%}$), though fishing intensity remains near the target $F_{MSY}$ proxy harvest rate of 1 - $\text{SPR}_{50\%}$ (Figure \ref{fig:es-phase}).
 
 \input{tex_tables/d_SPR_ES.tex}
 
@@ -175,7 +177,7 @@ This stock assessment does not explicitly incorporate trophic interactions, habi
 
 ## Reference points{-}
 
-Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Washington at the start of 2023 is estimated to be just above the target biomass, and fishing intensity during 2022 is estimated to be just below the fishing intensity target (Figure \ref{fig:es-phase}).  The yield values are lower than the previous assessment for similar reference points due to updated life history estimates and estimates of the total scale of the population, despite the overal stock status being a bit higher. The proxy MSY values of management quantities are by definition more conservative compared to the estimated MSY and MSY relative to 40% biomass because of the assumed steepness value. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 277 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 422.1 meggs. 
+Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), target relative biomass (40%), and estimated selectivity and catch for each fleet (Table \ref{tab:referenceES}). The Black Rockfish population in Washington at the start of 2023 is estimated to be just above the target biomass, and fishing intensity during 2022 is estimated to be just below the fishing intensity target (Figure \ref{fig:es-phase}).  The yield values are lower than the previous assessment for similar reference points due to updated life history estimates and estimates of the total scale of the population, despite the overal stock status being a bit higher. The proxy MSY values of management quantities are by definition more conservative compared to the estimated MSY and MSY relative to 40% biomass because of the assumed steepness value. Sustainable total yield, removals, using the proxy $\text{SPR}_{50\%}$ is 278 mt. The spawning output equivalent to 40 percent of the unfished spawning output ($\text{SO}_{40\%}$) calculated using the SPR target ($\text{SPR}_{50\%}$) was 423.6 meggs. 
 
 Recent removals have been well below the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point, leading to a  population that has continued to increase over recent years despite a string of lower average recruitments. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:es-yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
@@ -188,15 +190,14 @@ The 2023 spawning biomass relative to unfished equilibrium spawning biomass, bas
 ![Equilibrium yield curve for the base case model. Values are based on (the time invariant)
 fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
-\input{tex_tables/e_ReferencePoints_ES.tex}
 
 \clearpage
 
 ## Management performance{-}
 
-Black Rockfish removals have been below the equivalent ABC-ACL over the recent decade (Table \ref{tab:f_Manage_ES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:f_Manage_ES}).
+Black Rockfish removals have been below the equivalent ABC-ACL over the recent decade (Table \ref{tab:manageES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}).
 
-\input{tex_tables/e_ReferencePoints_ES.tex}
+\input{tex_tables/f_Manage_ES.tex}
 
 \clearpage
 
@@ -207,27 +208,29 @@ The biggest uncertainty is in the life history values, especially longevity and 
 
 ## Scientific uncertainty{-}
 
-The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.21 and the uncertainty around the OFL was $\sigma$ = 0.19. This is likely underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
+The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 0.2 and the uncertainty around the OFL was $\sigma$ = 0.19. This is likely underestimate of overall uncertainty because of the necessity to fix some life history parameters such as natural mortality and steepness, as well as a lack of explicit incorporation of model structural uncertainty. The alternative states of nature used to bracket uncertainty in the decision table assist with encapsulating model structure uncertainty.
 
 ## Harvest Projections and Decision Table{-}
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The Black Rockfish assessment is being considered as a category 2 assessment with a $P^*$ = 0.45, sigma = 0.72, and a time-varying buffer applied to the OFL.  These multipliers are also combined with the rockfish MSY proxy of FSPR=50% MSY and the 40-10 harvest control rule to calculate OFLs, ABCs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
+The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team is provided in Table \ref{tab:project_ES}. 
 
- \input{tex_tables/project_ES.tex}
+
+**NEED TO UPDATE THE TABLE BELOW**
+\input{tex_tables/project_ES.tex}
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations are considering alternative specifications of natural mortality and population scale. The resultant decision table will be provided in Table \ref{tab:es-dec-tab}. 
 
 Further details about selecting the decision table states of nature will be added here after the STAR panel.    
 
-Further details summarizing the results presented in the decision table will be added here after the STAR panel.   
 
 \clearpage
 
- \input{tex_tables/decision_table_es.tex}
+\input{tex_tables/decision_table_es.tex}
 
 \clearpage
+
 
 
 ## Research and data needs{-}
@@ -268,15 +271,15 @@ This assessment report describes the stock of Black Rockfish (*Sebastes melanops
 ## Basic Information
 Black Rockfish (*Sebastes melanops*) are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
-A first assessment of Black Rockfish off considered the population off Oregon and California [@ralston_status_2003] and reviewed the evidence supporting genetic stock structure for Black Rockfish and other rockfish off the U.S. West Coast and concluded that the Oregon and California populations of Black Rockfish are probably not genetically heterogeneous.  That assessment treated the Black Rockfish off California and Oregon as a unit stock.  Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
+Previous assessments of Black Rockfish off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal Black Rockfish genetic structure using 10 sampled sites collected from northern California to southern British Columbia t 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of Black Rockfish collected from eight sites along the northern Oregon coast concluded that Black Rockfish from north and south of Cape Falcon were genetically very similar.
 
-Although a stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae, the 2007 assessment of Black Rockfish off Oregon and California [@sampson_status_2007] differed slightly from Ralston and Dick [-@ralston_status_2003] in placing the northern boundary at Cape Falcon rather than at the Columbia River.  The boundary was changed to avoid overlap with the separate northern assessment [@wallace_status_2007] and to simplify the process of assembling historical commercial landings data, which are largely available in terms of Pacific Marine Fisheries Commission (PMFC) statistical areas.  The northern boundary of PMFC Area 2C is at Cape Falcon (Figure 1).  Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
+A stock boundary line at the Columbia River seems reasonable for Black Rockfish, both because it is a state fishery management boundary and because the Columbia River plume is likely to be a natural barrier to the north-south exchange of Black Rockfish adults and larvae. Given the spatial resolution of the historical commercial fishery data, it is very problematic to estimate the catch of Black Rockfish taken north of Cape Falcon but south of the Columbia River.
 
-During a preliminary workshop in April 2015 [@pfmc_safe_2015], to discuss approaches for assessing Black Rockfish, China rockfish (*S. nebulosus*), and kelp greenling (*Hexagrammos decagrammus*), it was agreed that the assessments for these nearshore species should at a minimum be spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and the OR/WA border (46\textdegree16' N latitude).  Such a spatial stratification would be consistent with two ideas: (a) these nearshore species do not exhibit much adult movement and (b) exploitation and management histories have varied significantly among the three states. Together these features would likely create appreciable state-to-state differences in age composition for each of the three species.  Stock assessment teams were advised that they could use geographic strata that were finer than the state level if there were data to support such an approach (Figure 1).
+During a preliminary workshop in April 2015 [@pfmc_safe_2015], , it was agreed that the assessments for nearshore species should at a minimum be spatially stratified with boundaries at the CA/OR border (42\textdegree00' N latitude) and the OR/WA border (46\textdegree16' N latitude).  Such a spatial stratification would be consistent with two ideas: (a) these nearshore species do not exhibit much adult movement and (b) exploitation and management histories have varied significantly among the three states.  Together these features would likely create appreciable state-to-state differences in age composition for each of the three species.  
 
 At the same nearshore stock assessment workshop, it was agreed that recreational catch histories for the stocks of Black Rockfish should be assembled on the basis of port of landing rather than location of fish capture, even though fishing vessels landing their catches into a port in one state might have captured fish in waters off a neighboring state.
 
-Accounting for location of capture is very problematic for recreationally caught fish and for commercial catches taken with non-trawl types of gear (e.g., hook-and-line), for which there are no or very limited logbooks that report fishing location.  For these regional assessments the commercially caught Black Rockfish were apportioned to assessment region based on the port of landing, with the exception of trawl caught fish landed into Astoria, OR.  Most of these fish were assumed to have been caught off Washington and most of the trawl landings into Astoria were therefore included with the catch history for the Washington assessment region.  Details are provided below in Section 2.1.1.1 The PacFIN Era (1981 to 2014).
+Accounting for location of capture is very problematic for recreationally caught fish and for commercial catches taken with non-trawl types of gear (e.g., hook-and-line), for which there are no or very limited logbooks that report fishing location.  For these regional assessments the commercially caught Black Rockfish were apportioned to assessment region based on the port of landing, with the exception of trawl caught fish landed into Astoria, OR.  Most of these fish were assumed to have been caught off Washington and most of the trawl landings into Astoria were therefore included with the catch history for the Washington assessment region.  Details are provided in the below section on the PacFIN Era (1981 to 2014).
 
 ## Life History
 Adults tend to occur in schools over rocky structure at depths less than 40 fathoms, and sometimes feed actively on or near the surface.  They feed on a wide variety of prey including zooplankton, krill, mysids, sand lance, and juvenile rockfish, and are subject to predation by lingcod and marine mammals [@love_rockfishes_2002]. 
@@ -291,203 +294,141 @@ Black Rockfish begin recruiting to nearshore fisheries at 3-4 years of age, corr
 No formal ecosystem considerations have been made given the lack of data for such an undertaking. Differences in growth though time have been considered in the model specification in the Washington model. Though the mechanism is not specified, this could certainly be due to process error driven by environmental conditions.
 
 ## Historical and Current Fishery Information
-Black Rockfish are harvested by a wide variety of fishing methods including trawling, trolling, and hook-and-line fishing with jigs and long-lines.  Although Black Rockfish have never been a dominant component of any commercial fisheries, they are important as incidental catch in the troll fishery for salmon and the troll and jig fisheries for groundfish.  With the decline of salmon fishing opportunities in the late 1970s and early 1980s Black Rockfish became a vital target of marine recreational fisheries in Oregon and Washington, especially during periods of restricted or slack fishing for salmon, halibut, and tuna.  
+Black Rockfish are harvested by a wide variety of fishing methods including trawling, trolling, and hook-and-line fishing with jigs and long-lines since at least the 1940s.  Although Black Rockfish have never been a dominant component of any commercial fisheries, they have been important incidental catch in the troll fishery for salmon and the troll and jig fisheries for groundfish.  With the decline of salmon fishing opportunities in the late 1970s and early 1980s Black Rockfish became a vital target of marine recreational fisheries in Oregon and Washington, especially during periods of restricted or slack fishing for salmon, halibut, and tuna.  
 
-Black Rockfish are also an important component of the recreational fisheries in northern California but are of less significance south of Cape Mendocino due to their reduced prevalence compared to other species. Since 1990 annual recreational harvests of Black Rockfish have averaged 229.6 tons off California, 304.4 tons off Oregon, and 272.5 tons off Washington. Commercial annual harvests by non-trawl gear types during the same period averaged 44.6 tons in California, 62.0 tons in Oregon, and 14.7 tons in Washington. Harvests by trawl on average during this period have been less than 19.3 tons annually for all three states combined.
+Black Rockfish became a vital target of marine recreational fisheries,  especially during periods of restricted or slack fishing for salmon, halibut, and tuna.  
 
-Removal histories have been a significant axis of uncertainty in the past assessments of Black Rockfish.  Because of concerns about the effects of initial equilibrium assumptions on the level of depletion estimated in the preliminary base model, the 2003 Stock Assessment Review (STAR) panel worked with the Stock Assessment Team (STAT) to develop a catch history that avoided the need to assume historical catch and equilibrium conditions in the first year of the assessment.  The assumed catch reconstruction began in 1946, ramping up from zero in 1945 and all prior years.  In hindsight, this may not have been a good assumption, as indicated by the following text from [@cleaver_1951] that describes catches of rockfish from 1941 to 1949 in Oregon.
+Since 1990 annual recreational harvests of Black Rockfish have averaged 272.5 tons off Washington. Commercial annual harvests by non-trawl gear types during the same period averaged 14.7 tons in Washington. Harvests by trawl on average during this period have been very low (Table X).
 
-"The rockfish are caught by otter trawl and long-line gear.  The principal species caught by the otter trawl are the Black Rockfish (*Sebastodes melanops*); green or yellowtail rockfish (*S. flavidus*); red or orange rockfish (*S. pinniger*); and rosefish (*S. alutus*). The landings of rockfish (all species) rose rapidly during the war from 1,301,400 pounds in 1941 to a peak of over 17,000,000 in 1945. Subsequently the landings fell rapidly because of decreased demand and leveled off at about 4,000,000 per year in 1949.
-
-Cleaver [-@cleaver_1951] also states, in an introductory section on Bottom Fisheries, that the "otter trawl fishery accounts for at least 95 percent by weight of the bottom fish landings."
-
-That Black Rockfish is one of only four species that Cleaver [-@cleaver_1951] identifies as composing the large landings of rockfish in Oregon (most of which was actually taken off of Washington waters) during WWII suggests that Black Rockfish were not a trivial fraction of the large catches taken during the 1940s.  One might also suppose that the otter trawl fishery took a large portion of the landings of Black Rockfish.  Cleaver's statements are certainly at odds with the catch reconstruction developed in the previous assessments.
-
-It seems that Black Rockfish were also landed in appreciable quantities in California during the 1940s.  Black Rockfish was identified by scientific name as one of the "half-dozen of the larger and more abundant species [that] make up over half of the annual California commercial poundage landed" (Anon. 1949).
-
-A major task for the 2007 assessments of Black Rockfish in was developing a plausible reconstruction of historical landings of Black Rockfish and exploring the consequences of those landings.  For the current set of assessments catch histories from the past assessments have been reconsidered. Formal catch reconstructions have been conducted in California [@ralston_documentation_2010] and Oregon [@karnowski_historical_2014], but even those relatively newer attempts were reconsidered in light of contributions from state agencies. For this assessment, Washington provided a first step in an approach to provide a reconstructed historical catch time series for a stock, something needed for all species in the state's waters.
 
 ## Summary of Management History and Performance
-Prior to 2000 the Pacific Fishery Management Council (PFMC or Council) managed the fishery for Black Rockfish as part of the Sebastes complex, with no separate Acceptable Biological Catch (ABC) or Optimum Yield (OY) for Black Rockfish.  In 2000 the Council established an ABC of 1,200 mt for Black Rockfish caught north of Cape Mendocino (in the Eureka, Columbia, and Vancouver INPFC statistical areas), but left Black Rockfish south of Cape Mendocino as part of the "other rockfish" category.  For 2001 through 2003 the ABC for Black Rockfish caught north of Cape Mendocino was 1,115 mt annually, and Black Rockfish south of Cape Mendocino remained part of the "other rockfish" category and without a separate ABC or OY.
+Regulation of the Black Rockfish fisheries by the PFMC prior to 2004 was accomplished primarily by trip limits for commercial fisheries and bag limit restrictions for recreational fisheries, with different limits applying in different geographic regions (see Table X in @ralston_status_2003).  Some other important regulations include the following:
 
-Regulation of the Black Rockfish fisheries by the PFMC prior to 2004 was accomplished primarily by trip limits for commercial fisheries and bag limit restrictions for recreational fisheries, with different limits applying in different geographic regions (see Table 1 in @ralston_status_2003).  Some other important regulations include the following.
-
-* 1953: California prohibited trawling within three miles of shore.
-* 1995: The commercial hook-and-line fishing in Washington state waters (0-3 miles) was closed to preserve recreational fishing opportunities and avoid localized depletion; the closure was extended to trawlers in 1999.  Oregon established Black Rockfish management areas with reduced daily commercial fishery trip limits in area near ports with large recreational fisheries.
-* 2000: Black Rockfish began to be managed by the Council as a minor nearshore species.  Commercial trip limits were significantly reduced, with specific restrictions applying to Black Rockfish.  California instituted seasonal closures for commercial and recreational fisheries inside 20 fathoms, reduced the bag limit for rockfish from 15 to 10 fish, and limited recreational gear to one line with three hooks.
-* 2002: California adopted a Nearshore Fishery Management Plan and began more active management of nearshore fisheries including the use of seasonal, regional, and depth-specific closures.  Oregon adopted an Interim Nearshore Fishery Management Plan in anticipation of increased pressure on nearshore stocks due to reduced fishing opportunities for groundfish in federal waters.  Regulations included fishing-sector specific caps on retained harvests, set approximately at the levels attained in 2000.
-* 2003: The Council established Rockfish Conservation Areas (RCAs) to control catches of overfished rockfish species, and large portions of the shelf were closed to fishing.  Differential trip limits were applied north and south of a management boundary at 40\textdegree10' N. latitude for nearshore Sebastes species. Nearshore permittees in California became subject to depth restrictions consistent with the shoreward non-trawl RCA boundary.  In California the commercial and recreational fisheries for rockfish were closed early.
-* In 2004 and 2005: the sport fishery in Oregon closed in September 2004 due to early attainment of the state's limit for sport-caught Black Rockfish.  This was the first time that the sport rockfish fishery in Oregon had not been open all year.  In 2005 it closed early again.
+* 1995: The commercial hook-and-line fishing in Washington state waters (0-3 miles) was closed to preserve recreational fishing opportunities and avoid localized depletion; the closure was extended to trawlers in 1999.  
+* 2003: The Council established Rockfish Conservation Areas (RCAs) to control catches of overfished rockfish species, and large portions of the shelf were closed to fishing.  Differential trip limits were applied north and south of a management boundary at 40\textdegree10' N. latitude for nearshore Sebastes species. 
 * In 2008 the groundfish trawl fishery was closed in Washington from the seaward RCA boundary to the shore north of 48\textdegree10' N. latitude to address increased encounters with yelloweye rockfish and canary rockfish.
 
-In recent years California, Oregon and Washington regulations for the marine sport fisheries, which has been the major source of mortality on Black Rockfish, have become quite complicated and variable through time.  Tools for regulating the sport fishery include closed areas, depth restrictions, seasonal closures, and bag limits.
+In recent years regulations for the marine sport fisheries, which has been the major source of mortality on Black Rockfish, have become quite complicated and variable through time.  Tools for regulating the sport fishery include closed areas, depth restrictions, seasonal closures, and bag limits.
 
-California had no recreational bag limit for rockfish until 1990 when a 15 fish per day per angler limit was implemented.  In 2000 the limit was reduced to 10 fish per day for each angler's combined bag of rockfish, cabezon and greenling.  The fishing season was year-round prior to 2000 and since then has been variable by state management area.  There were no gear restrictions prior to 2000.  In 2000 anglers were limited to fishing one line with three hooks.  Since 2001 they have been restricted to one line with two hooks.  There is no minimum size limit for Black Rockfish.
-
-Oregon had no recreational bag limits for marine fishes until 1976 when the state established a 25-fish limit.  In 1978 the state established a daily limit of 15 fish for each angler's combined bag of rockfish, cabezon and greenling, which stayed in effect until 1994 when the state established a 10-fish-per-angler daily bag limit specifically for Black Rockfish.  Following the early closure of the fishing season for Black Rockfish in 2004, the daily bag limit for Black Rockfish was dropped to 5 fish at the start of 2005 but was increased in-season to 6 fish.  The per-angler daily bag limit was 6 fish during 2006 and 2007, 5 fish at the start of 2008 and increased in-season to 6 fish, 6 fish at the start of 2009 and increased in-season to 7 fish where it has remained since.  
-
-The goal of Oregon's sport fishery management is to maintain year-round fishing opportunities.  In-season adjustments to regulations can be made more restrictive or less restrictive, depending on circumstances and the prospects for early attainment of harvest caps.  Seasonal depth restrictions (e.g., inside 30 fathoms April 1 to September 30) are one tool used regularly in recent years to control the fishery, driven largely by the need to avoid bycatch of the primary rebuilding species, canary rockfish and yelloweye rockfish.
-
-Washington had a recreational daily bag limit for rockfish (all species) of 15 fish per day from 1961 to 1991, 12 fish per day from 1992 to 1994, and 10 fish per day from 1995 to 2015.  The bag limit for blue rockfish plus Black Rockfish in Marine Area 4B (Neah Bay) has been 6 fish per day since 2010.  Fishing seasons for groundfish species are structured to provide year-round fishing opportunities, if possible.  Depth restrictions vary by state management area, being more restrictive in the north compared to the south due to higher encounter rates with overfished yelloweye rockfish and canary rockfish.  There is no minimum size limit for Black Rockfish.
-
-In 2004 the coastwide ABC established for Black Rockfish was based on the projected yields derived from separate northern [wallace_status_1999] and southern [ralston_status_2003] stock assessments (Table 1). The northern assessment covered the Washington coast and the northernmost portion of Oregon, from Cape Falcon to the WA/OR border at the Columbia River.  The southern assessment covered the entire Oregon coast and the California coastline north of Point Arena.  
-
-To account for the spatial overlap of the two assessment areas, 12% of the projected yield from the northern assessment was transferred to the southern region when deriving the coastwide ABC and OY values of 1,315 mt for 2004.  State-by-state harvest guidelines were established: 326 mt for California, 450 mt for Oregon, and 540 mt for Washington.  A similar approach was taken in 2005 and 2006 and the OY for the area south of the Columbia River was apportioned to harvest guidelines for California and Oregon based on a 42:58 split.  The basis for this apportionment is unclear was to support separate harvest guidelines for each state. The catches were apportioned by the average catch share by state in the 1985-2002 period [@pfmc_abc_2004]. 
-
-In all years when there has been an OY specified for Black Rockfish the estimated catch has been less than the OY, except for 2003 when the estimated coastwide catch exceeded the ABC for north of Cape Mendocino.  In 2003 the estimated coastwide catch exceeded the OY by 183 mt for the region north of Cape Mendocino, but 290 mt of this coastwide catch was recreational harvest taken south of Cape Mendocino.
+Washington had a recreational daily bag limit for rockfish (all species) of 15 fish per day from 1961 to 1991, 12 fish per day from 1992 to 1994,  10 fish per day from 1995 to 2016, and 7 fish per day from 2017 to 2022.  The bag limit for blue rockfish plus Black Rockfish in Marine Area 4B (Neah Bay) has been 6 fish per day since 2010.  Fishing seasons for groundfish species are structured to provide year-round fishing opportunities, if possible.  Depth restrictions vary by state management area, being more restrictive in the north compared to the south due to higher encounter rates with overfished yelloweye rockfish and canary rockfish.  There is no minimum size limit for Black Rockfish.
 
 ## Canadian and Alaska fisheries
 Black Rockfish is a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan, and is not formally assessed in nearshore Canada waters [@dfo_fmp_2014].
 
-Add Alaska assessment text here.
+Alaska has initiated stock assessments for black rockfish throughout the state. These efforts are ongoing.
 
 <!--chapter:end:11introduction.Rmd-->
 
 # Data and Model Inputs
-A description of each data source is provided below (Figure \ref{fig:data-plot}).
+
+Data from a wide range of programs were available for possible inclusion in the current
+assessment model. Descriptions of each data source included in the model (Figure \ref{fig:data-plot}) and
+sources that were explored but not included in the base model are provided below. Data
+that were excluded from the base model were excluded only after being explicitly explored
+during the development of this stock assessment and found to be inappropriate for use or
+had not changed since their past exploration for previous Black Rockfish stock assessments
+when they were not used.
+
 
 <!--chapter:end:20data.Rmd-->
 
 ## Fishery-Dependent Data
 
-### Commercial
+### Commercial Removals
 
 #### Landings
 
-The systems along the U.S. West Coast for monitoring commercial fishery landings in the past did not keep track of the landings of individual rockfish species, largely because many rockfish species have similar market characteristics and therefore were landed as an unsorted mix of species.  Black rockfish in particular, which are a nearshore species and much less abundant than many of the offshore rockfish species, were generally landed in mixed-species categories and not required to sort into its own market category until 2006.  As a consequence, the historical records do not provide a detailed accounting of the landings of black rockfish.  The basic approach taken to develop the landings series in this assessment (as in past assessments) was to apply values for the proportion of black rockfish sampled in mixed-rockfish landings.  Data on the proportions of black rockfish are sparse, with the consequence that the landings reconstructions are highly uncertain.
+The systems along the U.S. West Coast for monitoring commercial fishery landings in the past did not keep track of the landings of individual rockfish species, largely because many rockfish species have similar market characteristics and therefore were landed as an unsorted mix of species.  Black rockfish in particular, which are a nearshore species and much less abundant than many of the offshore rockfish species, were generally landed in mixed-species categories and were not required to be sorted into its own market category until 2006.  As a consequence, the historical records do not provide a detailed accounting of the landings of black rockfish.  The basic approach taken to develop the landings series in this assessment (as in past assessments) was to apply values for the proportion of black rockfish sampled in mixed-rockfish landings.  Data on the proportions of black rockfish are sparse, with the consequence that the landings reconstructions are highly uncertain.
+
+Since 1935, commercial fishing vessels have been required to submit a fish receiving ticket ("fish ticket") for each landing.  Rockfish landings from domestic fishers are usually reported in mixed-species market categories, but were not routinely sampled for species composition by port samplers until 2000.  The information required on the fish ticket and sampling methods have changed through time. A historical catch reconstruction for black rockfish was conducted for the 2015 black rockfish stock assessment (Cope et al. 2016). We keep the same catch history and updated the total removal time series to 2022 (Table 1).  
+
+It has been and continues to be a common practice for Oregon fleets to fish off the Washington coast and land their catches in Oregon ports. Although the separate geographic assessments by state region would ideally have strict geographic separation of landed catch to the location of capture, this is not possible to accomplish because information on the fishing location is generally unavailable.    Beginning in 2004, Oregon required a logbook for commercial vessels participating in its nearshore fishery.  
+To account for the black rockfish removed from Washington water by Oregon fleets historically, staff from the Oregon Department of Fish and Wildlife (ODFW) used species composition samples collected during 1976 to 1993 to conduct an analysis of the spatial distribution of black rockfish landed at Astoria, OR.  Astoria is the northernmost port in Oregon and is located near the mouth of the Columbia River, which forms the boundary between Oregon and Washington.  The portion of aggregated rockfish landed pounds that were taken north of the Columbia River (i.e., from waters off Washington) was 98.6%.  This percentage was applied to all historical trawl landings of rockfish at Oregon's Columbia River District ports prior to 1976. Of the 98.6% of aggregated rockfish landings, it was assumed 14.1% was black rockfish in the 2015 assessment (Cope et at. 2016). This percentage is much higher than the values used for the Washington catch reconstruction. Therefore, we recalculated this portion by using Washington’s historical species composition data which is not available in PacFIN for pre-1981 and data available in PacFIN for 1981 to 1986. The revised proportions of black rockfish in the aggregated rockfish trawl landings are 3% and 4% for pre-1981 and 1981-1986, respectively.  Non-trawl landings into Astoria were assumed to have been caught from Oregon waters, which is the same assumption used in the 2015 assessment.  
+
+Starting in 1994 black rockfish landed into Oregon were legally required to be sorted and sold in a separate black rockfish market category and were also reported as separate retained catches in the mandatory trawl logbooks.  Based on the retained catches reported in the logbooks, the estimated proportion of the trawl-caught black rockfish that were caught from off Washington and landed into Astoria ranged from 65 to 100 percent. These black rockfish are accounted for in the Washington regional assessment (Table 1).
+
+The Washington Department of Fish and Wildlife (WDFW) provided commercial fishery landings based on fish ticket records of black rockfish harvested off Oregon by vessels landing at ports in Washington.  Landings were less than 1 mt per year for the period of 1971 to 2014; therefore, all landings to Washington ports were assumed to occur in waters off Washington in this assessment.
 
 
-Commercial fishery landings of black rockfish in Washington are compiled from a variety of sources including PacFIN, agency reports, historical fish ticket information and communication with agency personnel (Table 48).  Since 1935, commercial fishing vessels have been required to submit a fish receiving ticket ("fish ticket") for each landing.  Rockfish landings from domestic fishers are usually reported in mixed-species market categories, and are routinely sampled for species composition by port samplers.  The information required on the ticket and sampling methods have changed through time. Due to these changes, we separated the data into three time periods 1935-1969, 1970-1980, and 1981-present based on the level of detail available in the data for compiling landing history in Washington for this assessment. Comparisons of the commercial catch in each fishery for the current and previous assessments (Figure X).
+#### Foreign Fishery Removals of Black Rockfish
 
-
-
-##### Years 1935 to 1969
-
-Although the original paper fish tickets are no longer available for this period, WDFW recently digitized the daily aggregated data from printed reports, to assist in reconstructing the commercial groundfish fishery landings history for Washington.  These daily aggregated data reports contain summaries of daily catches for port-groups by gear and area fished.  The data are available for 1935 and for 1949-1969, and were used as the basis for the black rockfish catch reconstruction for this time period. 
-
-During this period, mixed-species, nominal market categories were typically used for reporting of the aggregated data.  Market categories such as "red rockfish", "black rockfish" (BLK1), and "unidentified rockfish" (URCK) are typical on fish tickets during this time, lumping all red colored fish and black colored fish into these categories for reporting.  For bottom trawl gears, the BLK1 market category consisted of mostly yellowtail rockfish and silvergrey rockfish (Greg Lippert, pers. comm.).  To split the black rockfish landings out of the BLK1 market category, we assumed 10% of the BLK1 landings were S. melanops (BLCK). We further assumed that no other nominal market categories in the trawl fishery contained S. melanops (see table below). 
-
-For the commercial jig and troll fisheries, rockfish were landed in the unidentified rockfish (URCK) market category.  No species composition samples are available during this time, so we assumed 85% of URCK landings were S. melanops, which matches the species composition data from the 1985-1989 commercial jig fishery.  These estimates were also supported by interviews with port samplers active during portions of this period.  The rockfish caught by troll gears composed of mostly yellowtail and black rockfishes.  Wright [-@wright_1967] reported rockfish species composition of the troll landings by port.  We assumed 80% of URCK caught off central Washington were BLCK and 20% for northern Washington landings.  
-
-
-#####  Years 1970 to 1980
-
-Original fish ticket data were used for commercial catch estimate during this period.  Fishing areas were better defined and reported during this period; there were no longer interstate areas due to the introduction of current management areas, with a boundary line at the OR/WA state border.  However, issues with URCK market category remained.  Species composition sampling of URCK were conducted for trawl and jig fisheries but not for salmon troll and the "other gears" gear types. 
-
-To estimate the trawl landings of black rockfish in the category URCK, we applied the current WDFW species composition algorithm by gear, port, and quarter.  If no species composition samples were taken during a quarter, we first borrowed annual composition data for the gear/port group.  If those data were not available, a coastwide annual composition for the particular gear type was applied.  There was no borrowing of composition information across gear groups or years.
-
-The commercial jig fleet operates in nearshore waters and black rockfish is the dominant component of the URCK landing for this gear type.  Species composition sampling was not conducted during the 1970-1980 time period.  Based on the samples collected in the 1980s, we assumed that black rockfish made up 80% of the total rockfish landed by the jig fleet.  For the troll fishery, the same proportions as for the pre-1970 time period were applied.
-
-Rockfish (URCK) were also landed in small amounts by other commercial fleets, such as fixed gears and salmon troll.  The fleets in the 70s and 80s predominantly targeted sablefish and halibut in waters too deep for black rockfish.  Port samplers did not recall observing any black rockfish in the fixed gear landings (James Beam and Greg Lippert, pers. comm.).  Therefore, we assumed fixed gear landings were negligible.  For URCK landed by the salmon troll fleet, the majority of troll landings was yellowtail rockfish with smaller numbers of widow, canary, and black rockfish (Wendy Beeghley and James Beam, pers. comm.). We assumed that 10% of the troll rockfish landings were black rockfish for 1970-1980.  
-
-
-##### Years 1981 to the Present (the PacFIN era)
-
-Commercial landings data for the modern era (1981 to present) are taken from the Pacific Fishery Information system (PacFIN), which is a central repository for U.S. West Coast groundfish landings and auxiliary information collected by the three state fishery agencies and other agencies.  A description of basic state data collection systems and overview of PacFIN is provided in Sampson and Crone (1997).  Updated dockside sampling protocols and data processing procedures for Washington are described in Tsou et al. [-@tsou_etal_2015] and Tsou and Weyland [-@tsou_weyland_2015].  Rockfish landings from this period are pulled from the PacFIN comprehensive catch table.  Landings in this table are the products of nominal landings, as well as area and species compositions.  For the remaining URCK in this table, we applied a coastwide annual composition for each gear, as described above.  After this step, there are still small amounts of URCK for trawl and setline gears.  These landings are not included in this assessment. 
-
-For the jig-gear fishery, dockside sampling was conducted by the WDFW Ocean Sampling Program (OSP) during 1985-1991. These species composition data are not available in PacFIN. For landings during 1985-1991 the URCK species compositions were stratified by year and port. For other years, species compositions were stratified by port only.  For jig-caught fish landed into Seattle annual species compositions from Neah Bay were applied (Table 49) because there was no port sampling in Seattle.
-The URCK market category was used until 2000, after which it was replaced by the Slope, Shelf, and Nearshore rockfish market categories.  The commercial nearshore fishery was closed in 1999, so starting in 2000 there are negligible black rockfish landings in any market categories. In 2005 mandatory sorting was established for black rockfish, so all black rockfish landed should be recorded on fish tickets in the BLK1 category.
-
-To assign URCK commercial salmon troll landings, we used the same reasoning assumption as applied to earlier periods (see 1970-1980) to assign 10% of the URCK landed in the salmon troll fishery to black rockfish.  After a complete nearshore closure in 1999, black rockfish landings have been negligible.
-
-
-
-It has been and continues to be a common practice for Oregon fleets to fish off Washington coast and land the catches at Oregon ports. Although the separate geographic assessments by state region would ideally have strict geographic separation of landed catch to the location of capture, this is not possible to accomplish because information on the fishing location is generally unavailable.  Until recently logbooks that report area of capture were only available for landings by the groundfish trawl fleet.  Oregon has required a logbook for commercial vessels participating in its nearshore fishery since 2004.  
-
-Staff from the Oregon Department of Fish and Wildlife (ODFW) used species composition samples collected during 1976 to 1993 to conduct an analysis of the spatial distribution of black rockfish landed at Astoria, OR.  Astoria is the northernmost port in Oregon and is located near the mouth of the Columbia River, which forms the boundary between Oregon and Washington.  The portion of aggregated rockfish landed pounds that were taken north of the Columbia River (i.e., from waters off Washington) was 98.6%.  This percentage was applied to all historical trawl landings of rockfish at Oregon's Columbia River District ports prior to 1976. It was assumed 14.1% of the aggregated rockfish being Black in the 2015 assessment (Cope et at. 2016). This percentage is much higher than the values used for Washington catch reconstruction. Therefore, we recalculated the portion by using Washington historical species composition data not available in PacFIN for pre-1981 and data available in PacFIN for 1981 to 1986. The revised proportions of black rockfish in the aggregated rockfish landings are 3% and 4% for pre-1981 and 1981-1986, respectively.  Non-trawl landings into Astoria were assumed to have been caught from Oregon waters, same assumption as used in 2015 assessment.  
-
-Starting in 1994 black rockfish landed into Oregon were legally required to be sorted and sold in a separate black rockfish market category and were also reported as separate retained catches in the mandatory trawl logbooks.  Based on the retained catches reported in the logbooks, the estimated proportion of the trawl-caught black rockfish that were caught from off Washington and landed into Astoria ranged from 65 to 100 percent. These black rockfish are accounted for in the Washington regional assessment (Table X).
-
-The Washington Department of Fish and Wildlife (WDFW) provided commercial fishery landings based on fish ticket records of black rockfish harvested off Oregon by vessels landing at ports in Washington.  Landings were less than 1 mt per year for the period 1971 to 2014; therefore, all landings to Washington ports were assumed to occur in waters off Washington in this assessment.
-
-
-
-#### Foreign Fishery Catches of Black Rockfish
-
-Rogers [-@rogers_species_2003] developed catch reconstructions for removals by foreign trawlers operating off the U.S. West Coast during the late 1960s to mid-1970s. Although this study reports that Japanese vessels operating in the Columbia and Eureka statistical areas (Oregon and northern California) caught substantial amounts of black rockfish, with cumulative catches of more than 500 mt over 10 years, it seems very unlikely that foreign vessels could have operated sufficiently close to shore to catch appreciable amounts of black rockfish. This assessment does not include Rogers' estimates of foreign fleet removals of black rockfish. 
+Rogers [-@rogers_species_2003] developed catch reconstructions for removals by foreign trawlers operating off the U.S. West Coast during the late 1960s to mid-1970s. Although this study reports that Japanese vessels operating in the Columbia and Eureka statistical areas (Oregon and northern California) caught substantial amounts of Black Rockfish, with cumulative catches of more than 500 mt over 10 years, it seems very unlikely that foreign vessels could have operated sufficiently close to shore to catch appreciable amounts of Black Rockfish. This assessment does not include Rogers' [-@rogers_species_2003] estimates of foreign fleet removals of Black Rockfish. 
 
 
 ### Recreational Removals
 
-Comparisons of the catch in each recreational fishery for the current and previous assessments are in Figure X.
+The Washington recreational catch history of Black Rockfish was reconstructed using several direct and indirect records of Black Rockfish catch (Table \ref{tab:allcatches}). All primary sources report catch in numbers of fish. As sources have been modified and re-evaluated, a completely new catch reconstruction for Washington was developed for 2015 assessment. This catch history was updated to include 2015-2022 estimates in this assessment. 
 
-
-
-The Washington recreational catch history of black rockfish was reconstructed using several direct and indirect records of black rockfish catch (Table X). All primary sources report catch in numbers of fish. As sources have been modified and re-evaluated, a completely new catch reconstruction for Washington was developed for 2015 assessment. This catch history was updated to include 2015-2022 estimates in this assessment.
-
+Comparisons of total fishery removals in the current and previous assessments are in Figure .
 
 ### Estimated Discards
 
-In the previous assessment, commercial discards were not accounted for due to the information provided by the West Coast Groundfish Observer Program (WCGOP) at that time, showing about a 1% discard rate in their survey.  We evaluated the WCGOP estimates of black rockfish discards from 2002-2013, which showed a total of 32.2 mt in estimated discards and total landings of 2042.5 mt coastwide, resulting in a rough discard rate estimate of 1.58%.  This amount of discards was included in the CA HKL non-live fishery landings, going back to 1916, and in the OR HKL non-live fishery landings to 1892. Given the minimal amount of discards, no further depth-dependent mortality estimates were evaluated for Oregon and California and this discard rate was added to the total commercial removals.  Parker et al [-@parker_buoyancy_2006] concluded that semi-pelagic, vertically mobile species, such as black rockfish, show less barotrauma; hence these estimates could be slightly overestimated.  
+In the previous assessment, commercial discards were not accounted for due to the information provided by the West Coast Groundfish Observer Program (WCGOP) at that time, showing about a 1% discard rate in their survey.  We evaluated the WCGOP estimates of black rockfish discards from 2002-2013, which showed a total of 32.2 mt in estimated discards and total landings of 2042.5 mt coastwide, resulting in a rough discard rate estimate of 1.58%.  
 
-Washington recreational discard estimates were not available until 2002.  Numbers of discarded-by-depth black rockfish were estimated using the same catch expansion algorithm for landed catch.  Surface release mortalities adopted by the Groundfish Management Team (GMT) in their death-by-depth matrix (11%, 20%, 29%, and 63%) were then applied to the number of release black rockfish for each of 4 release depth bins (0-10 fm, 11-20 fm, 21-30 fm, and >30fm), respectively. Total dead released black rockfish were then summed across each depth bin. The average weights of discards were assumed to be the same as the average weights of landed and multiplied by the number of released dead to get total dead in metric tons.   For pre-2002 release, proportions of releases based on a ratio estimator using 2003-2007 data were applied.  For the split between charter and private vessels, the same algorithm used for splitting retained catch was applied. The overall average discard rate in the recreational fisheries was 1.37%. There was no information on Washington commercial discards, so the rate of 1.37% (same as the historical recreational discards) was also applied to the entire commercial time series. This low rate was similar to discard rates estimated in the other states.
+Recreational discard estimates were not available until 2002.  Numbers of discarded-by-depth black rockfish were estimated using the same catch expansion algorithm for landed catch.  Surface release mortalities adopted by the Groundfish Management Team (GMT) in their death-by-depth matrix (11%, 20%, 29%, and 63%) were then applied to the number of released black rockfish for each of 4 release depth bins (0-10 fm, 11-20 fm, 21-30 fm, and >30fm), respectively. Total dead released black rockfish were then summed across each depth bin. The average weights of discards were assumed to be the same as the average weights of landed and multiplied by the number of released dead to get total dead in metric tons.   For pre-2002 release, proportions of releases based on a ratio estimator using 2003-2007 data were applied.  For the split between charter and private vessels, the same algorithm used for splitting retained catch was applied. The overall average discard rate in the recreational fisheries was 1.37%. There was no information on Washington commercial discards, so the rate of 1.37% (same as the historical recreational discards) was also applied to the entire commercial time series. This low rate was similar to discard rates estimated in the other states. Annual retained and discarded catches are summarized in Table ???.
 
+## Composition Data
 
-## Size and Age Composition Data
-
-Fish length measurements, primarily from the recreational fishery, are one of the major sources of data for this assessment.  
-
+Fish length measurements, primarily from the recreational fishery, are one of the major sources of data for this assessment (Figure \ref{fig:data-plot}).  
 
 
 ### Length and Age Sample Sizes
 
-The level of commercial fishery sampling for black rockfish has been erratic, with almost no samples taken in Washington until the early 1990s (Figure X).  
+The level of commercial fishery sampling, trawl and non-trawl, for Black Rockfish has been erratic, with limited sample sizes for length and ages taken in Washington until the early 1990s. The primarily source of fishery-dependent length and age data for Black Rockfish arise from the recreational fishery. 
 
 
 #### Multinomial Sample Sizes
 
-Initial input values for the multinomial samples sizes determine the relative weights applied in fitting the annual composition data within the set of observations for each fishery.  The initial input values in this assessment were based on the following equation developed by I. Stewart and S. Miller (NWFSC), and presented at the 2006 Stock Assessment Data and Modeling workshop.
-Neff = Ntrips + 0.138 * Nfish if Nfish/Ntrips < 44
-Neff = 7.06 * Ntrips if Nfish/Ntrips ? 44
+Initial input values for the multinomial samples sizes determine the relative weights applied in fitting the annual composition data within the set of observations for each fishing fleet in the model.  The initial input values in this assessment were based on the following equation developed by I. Stewart and S. Miller (NWFSC), and presented at the 2006 Stock Assessment Data and Modeling workshop. The input sample sizes for all commercial data were calculated based on a combination of trips and fish sampled:
 
-Tuning of the assessment model involved multiplying the input sample sizes for each fishery by an adjustment factor to achieve a better balance between how well the model fit the set of composition data and how well it should have fit the data given the sample sizes underlying the data.
+\begin{centering}
+
+Input effN = $N_{\text{trips}} + 0.138 * N_{\text{fish}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is $<$ 44
+
+Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is $\geq$ 44
+
+\end{centering}
 
 
-#### Length Compositions
+### Length Compositions
 
 The length data for the assessment model were tabulated into 2-cm length bins ranging from 10 cm to 64 cm, with accumulator bins at each end. 
 
-The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length.  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
+The length composition data indicate some general differences between the three fishery types, with the trawl fisheries producing the largest fish, the recreational fisheries producing the smallest fish, and the non-trawl fisheries producing fish of intermediate length (Figures \ref{fig:trawl-length-comps}-\ref{fig:rec-length-comps}).  There is little evidence in any of the length composition data of distinct modes or successions of modes from one year to the next that might represent strong year-classes.
 
 
+##### Commercial
 
-##### Washington Length Compositions
+The biological data for the commercial fishery were extracted from PacFIN on 23 March, 2023. These data are from trawl and non-trawl (hook-and-line) fisheries; there is no live-fish fishery off Washington. Of the 9,009 records available within PacFIN (each representing a single specimen), 4,989 were from the commercial trawl fishery (Table X).
 
-###### Commercial
-
-The biological data for the commercial fishery were extracted from PacFIN on April 24th, 2015.  These data are from trawl and non-trawl (hook-and-line) fisheries; there is no live-fish fishery off Washington.  Of 9009 records (each representing a single specimen), 4989 were from the trawl fishery (Table X).
-
-Length composition data are reported either in fork length or total length.  Fork lengths are preferred; where they are missing the total length is used. These data are expanded to reduce the effect of non-uniform sampling effort (Table X). The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value.  The final sample sizes for the WA biological data ranged from 1 to 389.7, with a median value of 10.4.  
+Length composition data are reported either in fork length or total length. Fork lengths are preferred; where they are missing the total length is used. These data are expanded to reduce the effect of non-uniform sampling effort (Table X). The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value.  The final sample sizes for the Washington biological data ranged from 1 to 389.7, with a median value of 10.4.  
 
 The data were stratified by gender and fishery.  The final sample sizes were stratified and summed by length bin (10 cm to 64 cm bins, 2 cm in width), and an effective sample size is computed from the number of trips and number of fish each stratum represents, according to the Stewart and Miller method for multinomial fishery data. Unsexed fish were treated as above, but entered as a separate dataset.
 
 
-###### Recreational
+##### Recreational
 
-The Washington Department of Fish and Wildlife biological database provided sampled length data from the recreational fishery for sexed and unsexed samples for years 1979-2014. Sexed samples were the largest sample sizes and covered most years (Table 53). Composition data were used as collected (i.e., not expanded). Effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
+The Washington Department of Fish and Wildlife biological database provided sampled length data from the recreational fishery for sexed and unsexed samples for years 1979-2022. Sexed samples were the largest sample sizes and covered most years (Table XX). Composition data were used as collected (i.e., not expanded). Effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
 
+#### Survey data
 
-##### Tagging data
-
-The Washington Department of Fish and Wildlife provided sampled length data from the tagging survey for sexed and unsexed samples for years 1981-2014 (Table 54). Unsexed and sexed data were generally available in different years. Like the recreational data, composition data were used as collected (i.e., not expanded) and effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
-
+The Washington Department of Fish and Wildlife provided sampled length data from the tagging survey for sexed and unsexed samples for years 1981-2022 (Table XX). Unsexed and sexed data were generally available in different years. Like the recreational data, composition data were used as collected (i.e., not expanded) and effective sample sizes were based on unique "sequence" sizes, which is roughly equivalent to a trip. 
 
 #### Age Compositions
 
-Commercial age composition data were a subset of the length data, 7984 records in total, and were expanded in the same manner as the lengths (Table 55).  Ages were stratified by fishery and gender, and binned in 1-year bins from 0 to 45, with additional bins 50 and 55.  As for the length compositions, the unsexed fish (29 samples) were treated as a separate dataset.  Samples were also available by sex for several years in the recreational data (Table 56).
+Commercial age composition data were a subset of the length data, 7984 records in total, and were expanded in the same manner as the lengths (Table XX).  Ages were stratified by fishery and sex, and binned in 1-year bins from 0 to 40.  As for the length compositions, the unsexed fish (29 samples) were treated as a separate dataset.  Samples were also available by sex for several years in the recreational data (Table 56).  Age samples are available by sex from 1980 until 2022 in the recreational data.  Ages are binned in 1 year bins from 0 to 40 stratified by sex (Table XX).
 
-Age-at-length compositions were not expanded; the final sample sizes were the sum of all individual age samples per length bin. For all three models, the ages were modeled as conditional age-at-length.
-
+Conditional age-at-length compositions were not expanded, though marginal compositions were. For conditional age-at-length data the effective sample sizes were the sum of all individual age samples per length bin. Ages were modeled as conditional age-at-length, though marginal age compositions were included in the model with no contribution to the likelihood. This inclusion allows one to see how well the marginal age compositions are fit without having them effect overall model fit.
 
 ### Abundance Indices
 
-Age and length composition data by themselves do not provide sufficient information to reliably determine trends in stock abundance and biomass.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of stock biomass from research trawl surveys to provide information on biomass trends, but black rockfish are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m).  
+Indices of abundance can provide another source to inform the trend and dynamics of the population.  Most assessments of U.S. West Coast groundfish stocks rely on estimates of relative stock biomass from research trawl surveys to provide information on biomass trends, but Black Rockfish are very infrequently caught in any of the bottom trawl surveys, which have a limited coverage of shallow nearshore waters (none of the surveys have ever been conducted in waters shallower than 55 m). Thus fishery-dependent catch-per-unit effort data are often considered as a source for tracking abundance. Below is a description of how recreational data was considered as an index for Black Rockfish. 
 
-#### Dockside catch-per-unit-effort for Washington
+#### Dockside Catch-Per-Unit-Effort for Washington
 
 The WDFW provided recreational dockside fisheries data from 1981 through 2022 for consideration in this assessment. Data were collected at the trip level, with the number of landed fish and the number of anglers on each vessel being recorded. The amount of time fished by each angler was not recorded. This data had also been provided for the 2015 Black Rockfish Assessment where authors used the Stephens-MacCall method [@stephens_multispecies_2004] as an objective approach for identifying trip records of catch/effort data, and several covariates including year, month, boat type, area, daily bag limits and depth restrictions. For the 2015 Assessment data were modeled using a delta-GLM approach, where the catch occurrence (binomial) component was modeled using a logit link function and the positive catch component was modeled using either lognormal or gamma distributions. 
 
-The recreational dockside data was considered for use in this assessment, however, management measures implemented over the past several decades impeded extracting a reliable signal for use as abundance indices. In 2003, management restricted summer fishing depths to shallower than 20-fathoms in WDFW marine areas 3 and 4, and in 2006 modified this depth restriction to 30-fathoms in marine areas 2, 3, and 4. Additionally, daily rockfish limits were 15 fish from 1981-1991, 12 fish from 1992-1994 (except in area 1 where it remained at 15), 10 fish from 1995-2016, and a reduction to 7 fish from 2017-2022. The effects of these management changes to CPUE of black rockfish could not be reconciled with changes in the abundance indices and therefore this dataset was not used in this assessment. 
+The recreational dockside data was considered for use in this assessment, however, management measures implemented over the past several decades impeded extracting a reliable signal for use as abundance indices. In 2003, management restricted summer fishing depths to shallower than 20-fathoms in WDFW marine areas 3 and 4, and in 2006 modified this depth restriction to 30-fathoms in marine areas 2, 3, and 4. Additionally, daily rockfish limits were 15 fish from 1981-1991, 12 fish from 1992-1994 (except in area 1 where it remained at 15), 10 fish from 1995-2016, and a reduction to 7 fish from 2017-2022. The effects of these management changes to CPUE of Black Rockfish could not be reconciled with changes in the abundance indices and therefore this dataset was not used in this assessment. 
 
 <!--chapter:end:21f-.Rmd-->
 
@@ -502,7 +443,7 @@ Tag release data collected from the Tagging Program were used for constructing a
 
 Beginning in 2010, the WDFW started to address STAR panel comments and recommendations. In 2011, geographic coverage of the Tagging Program was expanded by adding more stations to the northern and southern coastal waters, while black rockfish remained the targeted species. In 2014, the WDFW decided to terminate the historical Black Rockfish Tagging Program and started to plan for a survey to include other nearshore groundfish species besides black rockfish, such as China, quillback, copper, lingcod, cabezon, and kelp greenling.  A series of pilot studies were initiated for site selection, gear testing, and survey timing. The culmination of these efforts from 2014-2018 was the standardized nearshore Coastwide Rod-and-Reel Survey which was initiated in 2019.  Since 2019, the WDFW has conducted an annual spring rod-and-reel survey targeting semi-pelagic bottomfish at 125 fixed stations (e.g., index stations) off the Washington coast.  At each station, 5 anglers deploy standardized fishing rigs consisting of 2 shrimp flies and drift over the rocky habitat 3 times.  Each drift is approximately 8 minutes long.  Details regarding sample frame, site selection, and survey methodology for this survey can be found in the Groundfish Subcommittee of the Science and Statistical Committee Visual-Hydroacoustic Survey Methodology Review and Hook-and-Line Survey Workshop details from September 2022 (Reference document??). 
 
-For this assessment abundance indices using data from the two sampling programs described above were evaluated in two ways. First, data from the two projects were evaluated independently. The Black Rockfish Tagging Program tag release data were filtered for sampling events from 1998-2018 in MCA 2 during the spring months (March-July). This time series had the most consistent survey objectives and sampling protocols during the Program. Because black rockfish were explicitly targeted during these trips, no other filters were applied. Catch of black rockfish per angler hour was the response variable, which was an improvement from the past assessment, with covariates year and MCA. CPUE data analysis was done using a hurdle negative binomial regression model.  Figure XX. shows the abundance estimates and 95% confidence intervals for each year. The standardized nearshore Coastwide Rod-and-Reel Survey data were also analyzed using a hurdle negative binomial regression model for data from years 2019, 2021, and 2022.  Data from 2020 were excluded because only index stations in MCA2 were sampled prior to the survey being cancelled due to the Covid-19 pandemic.  Covariates for these analyses included year, MCA, and depth. Figure XX. shows the abundance estimates and 95% confidence intervals for each year.
+For this assessment abundance indices using data from the two sampling programs described above were evaluated in two ways. First, data from the two projects were evaluated independently. The Black Rockfish Tagging Program tag release data were filtered for sampling events from 1998-2018 in MCA 2 during the spring months (March-July). This time series had the most consistent survey objectives and sampling protocols during the Program. Because black rockfish were explicitly targeted during these trips, no other filters were applied. Catch of black rockfish per angler hour was the response variable, which was an improvement from the past assessment, with covariates year and MCA. CPUE data analysis was done using a hurdle negative binomial regression model.  Figure XX. shows the gamma and hurdle negative binomial model runs with 95% confidence intervals for each year. The standardized nearshore Coastwide Rod-and-Reel Survey data were also analyzed using a hurdle negative binomial regression model for data from years 2019, 2021, and 2022.  Data from 2020 were excluded because only index stations in MCA2 were sampled prior to the survey being cancelled due to the Covid-19 pandemic.  Covariates for these analyses included year, MCA, and depth. Table XX. shows the watanabe-Akaike information criterion (WCIA) used to support the inclusion of year, marine catch area and depth in the final model.
 
 Secondly, data from the two projects were evaluated concurrently.  Because sampling for both projects targeted black rockfish using rod-and-reel methods on rocky habitats, CPUE data for black rockfish was combined.  Data were filtered for sampling only in MCA 2 during spring months.  Additionally, because of changes in survey designs from 2014-2018, only sets that were within 1km of any 1998-2013 central coast Tagging Program set in MCA 2 were included.  The 1km buffer eliminated most sets done on sand or areas that would not have been fished in a tagging objective set. The index calculation did not include a depth covariate as depth was not recorded during the Tagging Program sampling.  Data were analyzed using a hurdle negative binomial regression model for years 1998-2022 (no sampling occurred in MCA 2 in 2008 or 2017). Figure XX. Shows the abundance estimates and 95% confidence intervals for each year.
 
@@ -698,7 +639,7 @@ There are five primary likelihood components for each assessment model:
 
 ## Reference model exploration, key assumptions and specification
 
-The base assessment model for Washington Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of Black Rockfish in state and federal waters off Oregon. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
+The base assessment model for Washington Black Rockfish was developed to balance parsimony and realism, and the goal was to estimate a spawning output trajectory and relative stock status for the population of Black Rockfish in state and federal waters off Washington. The model contains many assumptions to achieve parsimony and uses different data types and sources to estimate reality. A series of investigative model runs were done to achieve the final base model. Constructing integrated models (i.e., those fitting many data types) takes considerable model exploration using different configurations of the following treatments:
 
 - Data types
 - Parameter treatments: which parameter can, cannot and do not need to be estimated
@@ -706,9 +647,12 @@ The base assessment model for Washington Black Rockfish was developed to balance
 - Data weighting
 - Exploration of local vs global minima (see model convergence section below)
 
-The different biological data with and without the catch time series were first included to obtain an understanding of the signal of stock status coming from the data (Figure \ref{fig:modbuild-data-depl}). Both the lengths and ages, with and without the removal time series, demonstrated a signal for a highly depleted stock. Stock scale was comparable once removal history was included, and showed lower estimates of scale. This departure from the ultimate reference model highlights the major uncertainty in the treatment of the biological data in when characterizing model uncertainty. Further sensitivities to the inclusion or exclusion of different indices of abundance are provided in the model sensitivity section.
+The different biological data with and without the catch time series (and no additional data weighting) were first included to obtain an understanding of the signal of stock status coming from the data (Figure \ref{fig:modbuild-data-depl}). The length and age only models assume a constant catch over the entire time series, while estimating the selectivity of each fleet. Under this constraint, the lengths suggest a stock a bit lower than the reference model, while the ages consider the stock is extremely depleted. Putting the two data sources together produce an intermediate stock status in the lower precautionary zone. Adding the catch time series substantially changes the stock status trajectory, with length or age only model above the reference stocks status. Combining the two came out just under the reference model. Only one model includes recruitment deviations, and demonstrates more dynamics behavior similar to that seen when biological compositions are unweighted (see sensitivity analysis section). 
+
+Stock scale was comparable once removal history was included, and demonstartes a large sensitivity to the scale of the stock given the data with no additional weighting included (Figure \ref{fig:modbuild-data-ssb}).
 
 Numerous exploratory models that included all data types and a variety of model specifications were subsequently explored and too numerous to fully report. In summary, the estimation of which life history parameters to estimate and fix was liberally explored.
+
 The following is a list of things that were explored, typically in combination with one another
 
 - Estimate or fix $M$
@@ -718,36 +662,34 @@ The following is a list of things that were explored, typically in combination w
 - Estimate or fix survey catchability for each survey
 - Estimate additional survey variance for which survey
 - Estimate or fix selectivity parameters
-- Logistic or dome-shaped selectivity
+- Logistic or dome-shaped selectivity?
 
-After much consideration, it was determined that some parameters were inestimable ($M$,$L_min$ for both sexes), some did not move much for initial values and could be fixed (e.g., CV at length values, some selectivity parameters), and others could be estimated (e.g., $L_{\infty}$, $k$, $lnR_0$). Estimation of $L_min$ or fixing it to the externally estimated values consistently gave very high estimates of $L_{\infty}$ for both sexes, thus the $L_min$ value for both females and males was fixed so $t_0$ = 0, as this gave the most realistic $L_{\infty}$ values. No priors were used on any of the estimated parameters except female $L_{\infty}$ which used a normal prior and a standard deviation taken from the external fit to the growth curve (0.17). Length at maturity, fecundity-weight, and length-weight relationship, steepness ($h$) and recruitment variance were all fixed. 
+After much consideration, it was determined that some parameters were inestimable ($M$,$L_min$ for both sexes), some did not move much for initial values and could be fixed (e.g., CV at length values, some selectivity parameters), and others could be estimated (e.g., $L_{\infty}$, $k$, $lnR_0$). Estimation of $L_min$ returned very high estimates of $L_{\infty}$ for both sexes, thus the $L_min$ value for both females and males was fixed to the external estimates. No priors were used on any of the estimated parameters except female $L_{\infty}$ which used a normal prior and a standard deviation set a bit higher from the external fit to the growth curve (0.2). Length at maturity, fecundity-weight, and length-weight relationship, steepness ($h$) and recruitment variance were all fixed. 
 
-Examination of the catches in the trawl fishery indicated much larger fish being caught versus those caught in the commercial non-trawl and recreational ocean boat fisheries (both of which have very similar mean lengths and aggregate catch compositions) in the same years.  Dome-shaped selectivity was therefore allowed in those fisheries as well as the shore-based fleet (which catches much smaller individuals) and the MPA survey. The ORBS and MRFSS surveys were assumed to have the same selectivity as the recreational boat fishery fleet. While constant selectivity was assumed across all fleets, it was also noted that the earlier time series (prior to 2003) of the recreational boat fleet, as sampled by the MRFSS program, had consistently smaller mean lengths than the ORBS sampled years. The MRFSS years also had smaller samples with more uncertainty. Time varying selectivity was explored in the two periods to see if this improved the fit to the data, but no perceivable improvement was made and the resultant difference was very small in the derived model outputs, so a constant selectivity was assumed for the whole time period.
+The selectivity of all fisheries were estimated as logistic even if dome-shaped selectivity was an option (and starting values begin at a strong dome-shaped position). Constant selectivity was assumed for the whole time period as there was no reason to suggest otherwise, and is consistent with the previous stock assessment treatment.
 
 The full list of estimate and fixed parameters are found in Table \ref{tab:model-param}. 
 
-The biggest uncertainty revealed in the model exploration was conflict in the signal of the biological data and that in the acoustic visual survey catchability. If the inherent uncertainty in the survey (CV = 0.45) was used, additional variance estimated on a lower CV, or the catchability was estimated, the acoustic visual survey was essentially ignored (catchability was between 3 and 4, saying the survey overestimates abundance by 3 to 4 times), the scale and stock status dropped significantly. If the acoustic survey catchability, reviewed and deemed informative of overall black rockfish biomass in Oregon [@Rasmuson_etal_SSC_2022], was assumed to be equal to 1, the biomass and stock status was much higher. Given there are serious issues with assuming either of the previous hypotheses are acceptable, the STAT determined a realistic upper bound (based on a calculated catchability from the uncertainty in the acoustic visual survey) for catchability of 1.822 (or $ln(q)$ of 0.6). This served as fixed value of catchability (which also required a small CV of 0.0001 on that index) to build the final reference model around.  
+The biggest uncertainty was in the treatment of sex-specific $M$, as estimation came in very low for both sexes versus observed ages in the population and the treatment in the last assessment. This parameter affects both scale and status, and thus is a valuable parameter to consider for characterizing model specification error and defining states of nature. Both likelihood profiles and senstivities explore the influence of this parameter on derived model outputs.
 
 General attributes of the reference model are that indices of abundance are assumed to have lognormal measurement errors. Length compositions and conditional age at length samples are all assumed to follow a multinomial sampling distribution, where the sample size is fixed at the input sample size calculated during compositional example, and where this input sample size is subsequently reweighted to account for additional sources of overdispersion (see below). Recruitment deviations were also estimated are assumed to follow a lognormal distribution, where the standard deviation of this distribution is tuned as explained below.
 
-Sensitivity scenarios and likelihood profiles (on the catchability of the acoustic visual survey, steepness, and natural mortality) were used to explore uncertainty in the above model specifications and are reported below. 
+Sensitivity scenarios and likelihood profiles (on $lnR_0$, steepness, and natural mortality) were used to explore uncertainty in the above model specifications and are reported below. 
 
 ### Data Weighting
 
-The reference model allowed for the estimation of additional variance on all surveys except the acostic visual survey. This additional variance allows the model to balance model fit to that data while acknowledging that variances may be underestimated in the index standardization. A sensitivity was run with no extra variance estimated, as well as removal of the index data were explored.
+The reference model allowed for the estimation of additional variance on all surveys except the taggin and OCNMS adult survey, both of which already had very high input variances. The ability to add variance to indices allows the model to balance model fit to that data while acknowledging that variances may be underestimated in the index standardization. A sensitivity was run with no extra variance estimated, as well as removal of the index data were explored.
 
-Initial sample sizes for the commercial and recreational length and conditional age-at-length compositions were based on the number of input effetive samples sizes. The method of Francis [-@francis_data_2011, equation TA1.8] was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach [@thorson_model-based_2017], 2) the McAllister-Ianelli Harmonic Mean approach [@mcallister_bayesian_1997], or 3) no data-weighting of lengths.
+Initial sample sizes for the commercial and recreational fleet length and conditional age-at-length compositions were based on the number of input effetive samples sizes. The method of Francis [-@francis_data_2011, equation TA1.8] was then used to balance the length and conditional age-at-length composition data among other inputs and likelihood components. The Francis method treats mean length and age as indices, with effective sample size defining the variance around the mean. If the variability around the mean does not encompass model predictions, the data should be down-weighted until predictions fit within the intervals. This method accounts for correlation in the data (i.e., the multinomial distribution), but can be sensitive to years that are outliers, as the amount of down-weighting is applied to all years within a data source, and are not year-specific. Sensitivities were performed examining different data-weighting treatments: 1) the Dirichlet-Multinomial approach [@thorson_model-based_2017], 2) the McAllister-Ianelli Harmonic Mean approach [@mcallister_bayesian_1997], or 3) no data-weighting of lengths.
 
 
 ### Model Changes from the Last Assessment
 
 Besides the additional of eight years of data and some changes in the estimation of some parameters, the biggest changes to the past assessment are:
 
-- Additional of and fixing to the acoustic visual survey. This is different than the last model that fixed the stock scale to the tag survey catchability 
-- Estimation of recruitment
-- Female natural mortality is no longer a step, but a constant value
-- Length-based selectivity only (i.e., no age-based selectivity for females), and dome-shaped selectivity for the ocean boat fisheries (assumed logistic last time) 
-- Change in the removal history
+- Change in the removal history, especially the trawl fishery 3A catches from Astoria.
+- Breaking the dockside survey into separate private and charter boat surveys. This allowed the ability to exclude years in the charter boat fishery that showed more effects from bag limits.
+- Addition of the nearshore survey, and both OCNMS surveys
 
 <!--chapter:end:32structure.Rmd-->
 
@@ -756,7 +698,7 @@ Besides the additional of eight years of data and some changes in the estimation
 
 ### Model Convergence and Acceptability
 
-While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{4.2729\times 10^{-5}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed). 
+While there is no definitive measure of model convergence, several measures are routinely applied. These criteria include a low maximum gradient (\ensuremath{2.64995\times 10^{-5}}), inversion of the Hessian (passed), acceptable fits to data (passed), and reasonable parameter values (passed). 
 
 Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of five selectivity parameters (Figure \ref{fig:pairs_plot_fast}).
 
@@ -807,7 +749,7 @@ Estimated selectivity curves for each fleet and survey (Figure \ref{fig:fleet_se
 
 The predicted spawning output (in millions of eggs) is provided in Table \ref{tab:timeseries} and plotted in Figure \ref{fig:ssb}. Estimated spawning output shows a decline from the start of the time series, but a distinct drop in biomass starting in the early 1980s when the recreational fishery begins in earnest and there is a peak in the trawl fishery. This decline is consistent until the late 1990s when it then rebounds due to the cessation of the commercial fishery and several strong recruitments. The estimate of total biomass over time, which tracks that of spawning output, is shown in Figure \ref{fig:tot-bio}. 
 
-Relative spawning output declined below the management target ($SB_{40\%}$) in the 1980s when all three fisheries were active, but rebounded to above the target in the the last couple of years (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.42) is estimated to be above the rockfish relative biomass target of 0.4. Uncertainty intervals give a range of possible current stock status solidly in the precautionary zone or well above it, but still underestimate the total uncertainly across model specifications. This emphasizes the need for alternative model specifications (mainly in the treatment of natural mortality- see likelihood profile below) to capture a broader range of uncertainty. The strong recruitment events, as well as declining catches, seem responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indicate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
+Relative spawning output declined below the management target ($SB_{40\%}$) in the 1980s when all three fisheries were active, but rebounded to above the target in the the last couple of years (Figure \ref{fig:depl}). The relative stock status at the start of 2023 (0.43) is estimated to be above the rockfish relative biomass target of 0.4. Uncertainty intervals give a range of possible current stock status solidly in the precautionary zone or well above it, but still underestimate the total uncertainly across model specifications. This emphasizes the need for alternative model specifications (mainly in the treatment of natural mortality- see likelihood profile below) to capture a broader range of uncertainty. The strong recruitment events, as well as declining catches, seem responsible for the dramatic increase and elevated stock status. Numbers of age-0 individuals indicate those years of particularly strong recruitment (Figure \ref{fig:recruits}). 
 
 This current estimate shows a lower overall biomass (Figure \ref{fig:comp_ssb}), but similar relative stock status, as the 2015 stock assessment (Figure \ref{fig:comp_depl}). This lower biomass is largely due to the change in the catch history, removing 100 of metric tons of historical trawl catch, thus causing the assessment biomass to rescale downward. 
 
@@ -905,29 +847,23 @@ A ten-year retrospective analysis was conducted by running the model and sequent
 # Management 
 
 ## Reference Points
-OREGON: Spawning output declined as it tracks quickly rising recreational catches in the late 1970s, then stabilizes (Figure 151) Stock status is above the target reference point (SB40%) at 60% (59%-62% 95% asymptotic intervals; Table 45). Unfished spawning output was measured at 1385 (1212-1557 95% asymptotic intervals; Table 45) and spawning output at the beginning of 2015 was estimated to be 838 (740-936 95% asymptotic intervals). According to this model specification, there is no time in which the stock was below the target or limit reference point, but is currently pointed downward. Fishing intensity has been less than the SPR50% rate the whole time series (Figure 173). The phase plot shows the interaction of fishing intensity and biomass targets (Figure 174). The equilibrium curve is shifted left, as expected from the high fixed steepness, showing a more productive stock than SPR50% would suggest (Figure 175). The target stock size based on the biomass target (SB40%) is 554 (millions of eggs), which gives a catch of 556 mt. Equilibrium yield at the proxy FMSY harvest rate corresponding to SPR50% is 518 mt (Table 45).
 
-WA: 
-Spawning output declined over a large extent of the time series, with an increasing and or more stable population prevailing since the late 1980s (Figure 221) Stock status is above the target reference point (40%) at 43% (36%-50% 95% asymptotic intervals; Figure 222). Unfished spawning output was measured at 1356 (1228-1483 95% asymptotic intervals; Table 67) and spawning output at the beginning of 2015 was estimated to be 582 (467-698 95% asymptotic intervals) There seems to be no time in which the stock was below the limit reference point and has only fluctuated above the target reference point. Recruitment has fluctuated regularly over the last 25 years (Figure 223 and Figure 224). Despite being above the target biomass, fishing intensity has been above the SPR50% rate in the last couple of years (Figure 237). The phase plot shows the interaction of fishing intensity and biomass targets (Figure 238). The equilibrium curve is shifted left, as expected from the high fixed steepness, showing a more productive stock than SPR50% would suggest (Figure 239). The target stock size based on the biomass target (SB40%) is 542 (millions of eggs), which gives a catch of 337 mt. Equilibrium yield at the proxy FMSY harvest rate corresponding to SPR50% is 311 mt (Table 67).
+Unfished spawning output was measured at 949.37 millions of eggs (Table \ref{tab:reference}) and spawning output at the beginning of 2023 was estimated to be 439.55 millions of eggs. The stock is estimated to have dropped below the management target in the mid-1980s and below the threshold limit of 25% in the 1990s, and has increased in recent years to be above the management target (Figure \ref{fig:depl}). The estimated fraction unfished is 46.3%, above the target reference point of 40% (Table \ref{tab:reference}).  
 
-From Vermilion:
-Reference points were calculated using the estimated fishery selectivity and removals in the most recent year of the model (2022, Table \ref{tab:referenceES}). Sustainable total yields  were 276.6 mt when using an $SPR_{50\%}$ reference harvest rate. The spawning output equivalent to 40 percent of the unfished spawning output ($SB_{40\%}$) was 422.08 meggs. 
-
-The 2023 spawning output relative to unfished equilibrium spawning output is above the Black Rockfish relative biomass target of 40 percent (Figure \ref{fig:depl}). The fishing intensity, $1-SPR$, of recent years was near or above the harvest rate limit ($SPR_{50\%}$) for most of the 1980s and 1990s. Recent years also show near target fishing levels (Table \ref{tab:timeseries} and Figure \ref{fig:1-spr}), highlighting how the sustainability of current fishing levels are very sensitive to incoming recruitment. Table \ref{tab:referenceES} shows the full suite of estimated reference points for the base model and Figure \ref{fig:yield} shows the equilibrium curve based on a steepness value fixed at 0.72.
-
+Recruitment has fluctuated regularly since the 1970s with a string of strong recruitments between 2003-2014 (Figure \ref{fig:recruits} and \ref{fig:rec-devs}). Fishing intensity, 1 - SPR, is estimated to have been above the SPR50% rate starting in 1981 and remaining above the target through 2018 (Figure \ref{fig:1-spr}). The phase plot shows the interaction of fishing intensity and biomass targets (Figure \ref{fig:phase-plot}). Figure \ref{fig:yield-curve} shows the equilibrium yield curves and net production based on a steepness value fixed at 0.72.
 
 ## Unresolved Problems and Major Uncertainties
 
 
 ## Harvest Projections and Decision Tables
 
-A ten year (2023-2032) projection of the reference model with removals in 2021 and 2022 provided by the Groundfish Management Team for each fleet under the category 1 (sigma=0.5) time-varying buffer using $P^*$ = 0.45 and 40-10 ABC control rule is provided in Table \ref{tab:project}.
+A ten year (2025-2034) projection of the reference model with removals in 2023 and 2024 provided by the Groundfish Management Team for each fleet under the category 1 ($\sigma$=0.5) time-varying buffer using $P^*$ = 0.45 and 40-10 ACL control rule is provided in Table \ref{tab:project}.
 
 
 
 ## Evaluation of Scientific Uncertainty
 
-The estimated uncertainty in the base model around the 2023 spawning output is $\sigma$ = 0.21 and the uncertainty in the base model around the 2023 OFL is $\sigma$ = 0.19. The estimated model uncertainty was less than the category 1 groundfish data moderate assessment default value of  $\sigma$ = 0.5. 
+The estimated uncertainty in the base model around the 2023 spawning output is $\sigma$ = 0.2 and the uncertainty in the base model around the 2023 OFL is $\sigma$ = 0.19. The estimated model uncertainty was less than the category 1 groundfish data moderate assessment default value of  $\sigma$ = 0.5. 
 
 
 ## Research and Data Needs
@@ -960,6 +896,12 @@ Here are all the mad props!
 
 \clearpage
 # Tables
+
+<!-- ======================================================= -->
+<!-- ***************     Data      ************************* --> 
+<!-- ======================================================= -->
+
+\include{tex_tables/Catches_All_Years.tex}
 
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
@@ -997,7 +939,7 @@ Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \endlastfoot
 NatM uniform Fem GP 1 & 0.170 & -2 & - & - & Log Norm (-1.89, 0.2)\\
 L at Amin Fem GP 1 & 0.000 & -3 & - & - & None\\
-L at Amax Fem GP 1 & 52.724 & 3 & OK & 0.177513 & Normal (51.19, 0.2)\\
+L at Amax Fem GP 1 & 52.725 & 3 & OK & 0.17751 & Normal (51.19, 0.2)\\
 VonBert K Fem GP 1 & 0.118 & 3 & OK & 0.000866921 & Normal (0.1513, 0.01)\\
 CV young Fem GP 1 & 0.100 & -1 & - & - & None\\
 CV old Fem GP 1 & 0.100 & -4 & - & - & None\\
@@ -1009,81 +951,81 @@ Eggs scalar Fem GP 1 & 0.000 & -3 & - & - & None\\
 Eggs exp len Fem GP 1 & 4.685 & -3 & - & - & None\\
 NatM uniform Mal GP 1 & 0.152 & -2 & - & - & Log Norm (-1.89712, 0.2)\\
 L at Amin Mal GP 1 & 3.662 & -3 & - & - & None\\
-L at Amax Mal GP 1 & 47.644 & 3 & OK & 0.17011 & Normal (47.26, 0.2)\\
-VonBert K Mal GP 1 & 0.140 & 3 & OK & 0.00127598 & Normal (0.1656, 0.01)\\
+L at Amax Mal GP 1 & 47.644 & 3 & OK & 0.1701 & Normal (47.26, 0.2)\\
+VonBert K Mal GP 1 & 0.140 & 3 & OK & 0.00127586 & Normal (0.1656, 0.01)\\
 CV young Mal GP 1 & 0.100 & -4 & - & - & None\\
 CV old Mal GP 1 & 0.100 & -4 & - & - & None\\
 Wtlen 1 Mal GP 1 & 0.000 & -99 & - & - & None\\
 Wtlen 2 Mal GP 1 & 2.911 & -99 & - & - & None\\
 CohortGrowDev & 1.000 & -1 & - & - & None\\
 FracFemale GP 1 & 0.500 & -99 & - & - & None\\
-SR LN(R0) & 7.584 & 1 & OK & 0.0409701 & None\\
+SR LN(R0) & 7.587 & 1 & OK & 0.0400076 & None\\
 SR BH steep & 0.720 & -1 & - & - & None\\
 SR sigmaR & 0.600 & -6 & - & - & None\\
 SR regime & 0.000 & -99 & - & - & None\\
 SR autocorr & 0.000 & -99 & - & - & None\\
-Main RecrDev 1956 & -0.542 & 2 & act & 0.504646 & dev (NA, NA)\\
-Main RecrDev 1957 & -0.557 & 2 & act & 0.501107 & dev (NA, NA)\\
-Main RecrDev 1958 & -0.553 & 2 & act & 0.500135 & dev (NA, NA)\\
-Main RecrDev 1959 & -0.523 & 2 & act & 0.502584 & dev (NA, NA)\\
-Main RecrDev 1960 & -0.462 & 2 & act & 0.508523 & dev (NA, NA)\\
-Main RecrDev 1961 & -0.371 & 2 & act & 0.517537 & dev (NA, NA)\\
-Main RecrDev 1962 & -0.271 & 2 & act & 0.524653 & dev (NA, NA)\\
-Main RecrDev 1963 & -0.221 & 2 & act & 0.520706 & dev (NA, NA)\\
-Main RecrDev 1964 & -0.273 & 2 & act & 0.510623 & dev (NA, NA)\\
-Main RecrDev 1965 & -0.334 & 2 & act & 0.496888 & dev (NA, NA)\\
-Main RecrDev 1966 & -0.309 & 2 & act & 0.496178 & dev (NA, NA)\\
-Main RecrDev 1967 & -0.103 & 2 & act & 0.512087 & dev (NA, NA)\\
-Main RecrDev 1968 & 0.156 & 2 & act & 0.465572 & dev (NA, NA)\\
-Main RecrDev 1969 & -0.138 & 2 & act & 0.502059 & dev (NA, NA)\\
-Main RecrDev 1970 & -0.167 & 2 & act & 0.486724 & dev (NA, NA)\\
-Main RecrDev 1971 & 0.021 & 2 & act & 0.436301 & dev (NA, NA)\\
-Main RecrDev 1972 & -0.072 & 2 & act & 0.478677 & dev (NA, NA)\\
-Main RecrDev 1973 & 0.318 & 2 & act & 0.363871 & dev (NA, NA)\\
-Main RecrDev 1974 & 0.390 & 2 & act & 0.298539 & dev (NA, NA)\\
-Main RecrDev 1975 & -0.244 & 2 & act & 0.394486 & dev (NA, NA)\\
-Main RecrDev 1976 & 0.036 & 2 & act & 0.262285 & dev (NA, NA)\\
-Main RecrDev 1977 & -0.076 & 2 & act & 0.262621 & dev (NA, NA)\\
-Main RecrDev 1978 & 0.376 & 2 & act & 0.169949 & dev (NA, NA)\\
-Main RecrDev 1979 & 0.074 & 2 & act & 0.197728 & dev (NA, NA)\\
-Main RecrDev 1980 & -0.103 & 2 & act & 0.200962 & dev (NA, NA)\\
-Main RecrDev 1981 & -0.029 & 2 & act & 0.16638 & dev (NA, NA)\\
-Main RecrDev 1982 & -0.256 & 2 & act & 0.19119 & dev (NA, NA)\\
-Main RecrDev 1983 & 0.283 & 2 & act & 0.129618 & dev (NA, NA)\\
-Main RecrDev 1984 & -0.080 & 2 & act & 0.167281 & dev (NA, NA)\\
-Main RecrDev 1985 & 0.159 & 2 & act & 0.123045 & dev (NA, NA)\\
-Main RecrDev 1986 & -0.166 & 2 & act & 0.146325 & dev (NA, NA)\\
-Main RecrDev 1987 & 0.130 & 2 & act & 0.117056 & dev (NA, NA)\\
-Main RecrDev 1988 & -0.216 & 2 & act & 0.158126 & dev (NA, NA)\\
-Main RecrDev 1989 & 0.298 & 2 & act & 0.115491 & dev (NA, NA)\\
-Main RecrDev 1990 & 0.122 & 2 & act & 0.140171 & dev (NA, NA)\\
-Main RecrDev 1991 & -0.092 & 2 & act & 0.163661 & dev (NA, NA)\\
-Main RecrDev 1992 & -0.198 & 2 & act & 0.17024 & dev (NA, NA)\\
-Main RecrDev 1993 & -0.070 & 2 & act & 0.15452 & dev (NA, NA)\\
-Main RecrDev 1994 & 0.268 & 2 & act & 0.121279 & dev (NA, NA)\\
-Main RecrDev 1995 & 0.214 & 2 & act & 0.127919 & dev (NA, NA)\\
-Main RecrDev 1996 & -0.239 & 2 & act & 0.180078 & dev (NA, NA)\\
-Main RecrDev 1997 & 0.083 & 2 & act & 0.144256 & dev (NA, NA)\\
-Main RecrDev 1998 & 0.099 & 2 & act & 0.153225 & dev (NA, NA)\\
-Main RecrDev 1999 & 0.264 & 2 & act & 0.140638 & dev (NA, NA)\\
-Main RecrDev 2000 & 0.471 & 2 & act & 0.118008 & dev (NA, NA)\\
-Main RecrDev 2001 & -0.325 & 2 & act & 0.201609 & dev (NA, NA)\\
-Main RecrDev 2002 & -0.479 & 2 & act & 0.207466 & dev (NA, NA)\\
-Main RecrDev 2003 & 0.194 & 2 & act & 0.14057 & dev (NA, NA)\\
-Main RecrDev 2004 & 0.107 & 2 & act & 0.168413 & dev (NA, NA)\\
-Main RecrDev 2005 & 0.027 & 2 & act & 0.19251 & dev (NA, NA)\\
-Main RecrDev 2006 & 0.489 & 2 & act & 0.150089 & dev (NA, NA)\\
-Main RecrDev 2007 & 0.500 & 2 & act & 0.162365 & dev (NA, NA)\\
-Main RecrDev 2008 & 0.634 & 2 & act & 0.153711 & dev (NA, NA)\\
-Main RecrDev 2009 & 0.386 & 2 & act & 0.181671 & dev (NA, NA)\\
-Main RecrDev 2010 & 0.281 & 2 & act & 0.19161 & dev (NA, NA)\\
-Main RecrDev 2011 & 0.809 & 2 & act & 0.149486 & dev (NA, NA)\\
-Main RecrDev 2012 & 0.498 & 2 & act & 0.172686 & dev (NA, NA)\\
-Main RecrDev 2013 & 0.438 & 2 & act & 0.176528 & dev (NA, NA)\\
-Main RecrDev 2014 & 0.186 & 2 & act & 0.196466 & dev (NA, NA)\\
-Main RecrDev 2015 & -0.121 & 2 & act & 0.224077 & dev (NA, NA)\\
-Main RecrDev 2016 & -0.070 & 2 & act & 0.228156 & dev (NA, NA)\\
-Main RecrDev 2017 & -0.652 & 2 & act & 0.320455 & dev (NA, NA)\\
+Main RecrDev 1956 & -0.546 & 2 & act & 0.504006 & dev (NA, NA)\\
+Main RecrDev 1957 & -0.561 & 2 & act & 0.500473 & dev (NA, NA)\\
+Main RecrDev 1958 & -0.557 & 2 & act & 0.499499 & dev (NA, NA)\\
+Main RecrDev 1959 & -0.527 & 2 & act & 0.501928 & dev (NA, NA)\\
+Main RecrDev 1960 & -0.466 & 2 & act & 0.507823 & dev (NA, NA)\\
+Main RecrDev 1961 & -0.375 & 2 & act & 0.516757 & dev (NA, NA)\\
+Main RecrDev 1962 & -0.275 & 2 & act & 0.523778 & dev (NA, NA)\\
+Main RecrDev 1963 & -0.225 & 2 & act & 0.519813 & dev (NA, NA)\\
+Main RecrDev 1964 & -0.277 & 2 & act & 0.509803 & dev (NA, NA)\\
+Main RecrDev 1965 & -0.338 & 2 & act & 0.496162 & dev (NA, NA)\\
+Main RecrDev 1966 & -0.312 & 2 & act & 0.49546 & dev (NA, NA)\\
+Main RecrDev 1967 & -0.106 & 2 & act & 0.511165 & dev (NA, NA)\\
+Main RecrDev 1968 & 0.151 & 2 & act & 0.46484 & dev (NA, NA)\\
+Main RecrDev 1969 & -0.142 & 2 & act & 0.501204 & dev (NA, NA)\\
+Main RecrDev 1970 & -0.171 & 2 & act & 0.485965 & dev (NA, NA)\\
+Main RecrDev 1971 & 0.017 & 2 & act & 0.435708 & dev (NA, NA)\\
+Main RecrDev 1972 & -0.075 & 2 & act & 0.477889 & dev (NA, NA)\\
+Main RecrDev 1973 & 0.315 & 2 & act & 0.363422 & dev (NA, NA)\\
+Main RecrDev 1974 & 0.387 & 2 & act & 0.298201 & dev (NA, NA)\\
+Main RecrDev 1975 & -0.246 & 2 & act & 0.394017 & dev (NA, NA)\\
+Main RecrDev 1976 & 0.032 & 2 & act & 0.262064 & dev (NA, NA)\\
+Main RecrDev 1977 & -0.079 & 2 & act & 0.262384 & dev (NA, NA)\\
+Main RecrDev 1978 & 0.373 & 2 & act & 0.169735 & dev (NA, NA)\\
+Main RecrDev 1979 & 0.072 & 2 & act & 0.197538 & dev (NA, NA)\\
+Main RecrDev 1980 & -0.105 & 2 & act & 0.200787 & dev (NA, NA)\\
+Main RecrDev 1981 & -0.031 & 2 & act & 0.1662 & dev (NA, NA)\\
+Main RecrDev 1982 & -0.258 & 2 & act & 0.19104 & dev (NA, NA)\\
+Main RecrDev 1983 & 0.280 & 2 & act & 0.129437 & dev (NA, NA)\\
+Main RecrDev 1984 & -0.082 & 2 & act & 0.167147 & dev (NA, NA)\\
+Main RecrDev 1985 & 0.157 & 2 & act & 0.122885 & dev (NA, NA)\\
+Main RecrDev 1986 & -0.168 & 2 & act & 0.146202 & dev (NA, NA)\\
+Main RecrDev 1987 & 0.129 & 2 & act & 0.116921 & dev (NA, NA)\\
+Main RecrDev 1988 & -0.217 & 2 & act & 0.158039 & dev (NA, NA)\\
+Main RecrDev 1989 & 0.297 & 2 & act & 0.115392 & dev (NA, NA)\\
+Main RecrDev 1990 & 0.121 & 2 & act & 0.140106 & dev (NA, NA)\\
+Main RecrDev 1991 & -0.093 & 2 & act & 0.163621 & dev (NA, NA)\\
+Main RecrDev 1992 & -0.200 & 2 & act & 0.170212 & dev (NA, NA)\\
+Main RecrDev 1993 & -0.072 & 2 & act & 0.154498 & dev (NA, NA)\\
+Main RecrDev 1994 & 0.266 & 2 & act & 0.121269 & dev (NA, NA)\\
+Main RecrDev 1995 & 0.212 & 2 & act & 0.127939 & dev (NA, NA)\\
+Main RecrDev 1996 & -0.241 & 2 & act & 0.180088 & dev (NA, NA)\\
+Main RecrDev 1997 & 0.080 & 2 & act & 0.144279 & dev (NA, NA)\\
+Main RecrDev 1998 & 0.096 & 2 & act & 0.15325 & dev (NA, NA)\\
+Main RecrDev 1999 & 0.261 & 2 & act & 0.140663 & dev (NA, NA)\\
+Main RecrDev 2000 & 0.468 & 2 & act & 0.11801 & dev (NA, NA)\\
+Main RecrDev 2001 & -0.326 & 2 & act & 0.201461 & dev (NA, NA)\\
+Main RecrDev 2002 & -0.479 & 2 & act & 0.207393 & dev (NA, NA)\\
+Main RecrDev 2003 & 0.196 & 2 & act & 0.140387 & dev (NA, NA)\\
+Main RecrDev 2004 & 0.111 & 2 & act & 0.168145 & dev (NA, NA)\\
+Main RecrDev 2005 & 0.033 & 2 & act & 0.192336 & dev (NA, NA)\\
+Main RecrDev 2006 & 0.496 & 2 & act & 0.149647 & dev (NA, NA)\\
+Main RecrDev 2007 & 0.508 & 2 & act & 0.16179 & dev (NA, NA)\\
+Main RecrDev 2008 & 0.643 & 2 & act & 0.152861 & dev (NA, NA)\\
+Main RecrDev 2009 & 0.395 & 2 & act & 0.180578 & dev (NA, NA)\\
+Main RecrDev 2010 & 0.291 & 2 & act & 0.190447 & dev (NA, NA)\\
+Main RecrDev 2011 & 0.820 & 2 & act & 0.147218 & dev (NA, NA)\\
+Main RecrDev 2012 & 0.509 & 2 & act & 0.170609 & dev (NA, NA)\\
+Main RecrDev 2013 & 0.450 & 2 & act & 0.174317 & dev (NA, NA)\\
+Main RecrDev 2014 & 0.197 & 2 & act & 0.194564 & dev (NA, NA)\\
+Main RecrDev 2015 & -0.111 & 2 & act & 0.222699 & dev (NA, NA)\\
+Main RecrDev 2016 & -0.060 & 2 & act & 0.22685 & dev (NA, NA)\\
+Main RecrDev 2017 & -0.643 & 2 & act & 0.319943 & dev (NA, NA)\\
 Late RecrDev 2018 & 0.000 & - & - & - & dev (NA, NA)\\
 Late RecrDev 2019 & 0.000 & - & - & - & dev (NA, NA)\\
 Late RecrDev 2020 & 0.000 & - & - & - & dev (NA, NA)\\
@@ -1093,50 +1035,50 @@ ForeRecr 2023 & 0.000 & - & - & - & dev (NA, NA)\\
 InitF seas 1 flt 1Trawl & 0.000 & -1 & - & - & None\\
 InitF seas 1 flt 2NonTRWL & 0.000 & -1 & - & - & None\\
 InitF seas 1 flt 3Recreational & 0.000 & -1 & - & - & None\\
-LnQ base Tagging(4) & -5.571 & -1 & - & - & None\\
-LnQ base Nearshore survey(5) & -7.127 & -1 & - & - & None\\
-Q extraSD Nearshore survey(5) & 0.118 & 3 & OK & 0.118648 & None\\
-LnQ base OCNMS(6) & -7.398 & -1 & - & - & None\\
-LnQ base OCNMS YOY(7) & -6.575 & -1 & - & - & None\\
-Q extraSD OCNMS YOY(7) & 1.796 & 3 & OK & 0.545567 & None\\
-LnQ base Private Boat(8) & -6.238 & -1 & - & - & None\\
-Q extraSD Private Boat(8) & 0.378 & 3 & OK & 0.0594576 & None\\
-LnQ base Charter(9) & -5.728 & -1 & - & - & None\\
-Q extraSD Charter(9) & 0.140 & 3 & OK & 0.055222 & None\\
-Size DblN peak Trawl(1) & 50.023 & 5 & OK & 0.608916 & None\\
-Size DblN top logit Trawl(1) & 0.811 & 5 & OK & 26.383 & None\\
-Size DblN ascend se Trawl(1) & 3.462 & 5 & OK & 0.131308 & None\\
+LnQ base Tagging(4) & -5.586 & -1 & - & - & None\\
+LnQ base Nearshore survey(5) & -7.145 & -1 & - & - & None\\
+Q extraSD Nearshore survey(5) & 0.118 & 3 & OK & 0.1186 & None\\
+LnQ base OCNMS(6) & -7.414 & -1 & - & - & None\\
+LnQ base OCNMS YOY(7) & -6.586 & -1 & - & - & None\\
+Q extraSD OCNMS YOY(7) & 1.794 & 3 & OK & 0.545064 & None\\
+LnQ base Private Boat(8) & -6.241 & -1 & - & - & None\\
+Q extraSD Private Boat(8) & 0.376 & 3 & OK & 0.0590053 & None\\
+LnQ base Charter(9) & -5.729 & -1 & - & - & None\\
+Q extraSD Charter(9) & 0.140 & 3 & OK & 0.0551848 & None\\
+Size DblN peak Trawl(1) & 50.022 & 5 & OK & 0.608876 & None\\
+Size DblN top logit Trawl(1) & 0.809 & 5 & OK & 26.4409 & None\\
+Size DblN ascend se Trawl(1) & 3.462 & 5 & OK & 0.131316 & None\\
 Size DblN descend se Trawl(1) & 2.200 & -1 & - & - & None\\
 Size DblN start logit Trawl(1) & -5.000 & -2 & - & - & None\\
 Size DblN end logit Trawl(1) & 5.000 & -1 & - & - & None\\
-Size DblN peak NonTRWL(2) & 48.827 & 5 & OK & 1.42586 & None\\
-Size DblN top logit NonTRWL(2) & -0.795 & 5 & OK & 43.1572 & None\\
-Size DblN ascend se NonTRWL(2) & 4.302 & 5 & OK & 0.196343 & None\\
+Size DblN peak NonTRWL(2) & 48.826 & 5 & OK & 1.4258 & None\\
+Size DblN top logit NonTRWL(2) & -0.716 & 5 & OK & 62.0666 & None\\
+Size DblN ascend se NonTRWL(2) & 4.302 & 5 & OK & 0.196338 & None\\
 Size DblN descend se NonTRWL(2) & 3.000 & -1 & - & - & None\\
 Size DblN start logit NonTRWL(2) & -4.000 & -2 & - & - & None\\
 Size DblN end logit NonTRWL(2) & 5.000 & -1 & - & - & None\\
-Size DblN peak Recreational(3) & 43.518 & 5 & OK & 0.292059 & None\\
-Size DblN top logit Recreational(3) & 2.497 & 5 & OK & 47.6645 & None\\
-Size DblN ascend se Recreational(3) & 3.653 & 5 & OK & 0.0646033 & None\\
+Size DblN peak Recreational(3) & 43.516 & 5 & OK & 0.291823 & None\\
+Size DblN top logit Recreational(3) & 2.497 & 5 & OK & 47.6394 & None\\
+Size DblN ascend se Recreational(3) & 3.653 & 5 & OK & 0.0645798 & None\\
 Size DblN descend se Recreational(3) & 3.000 & -1 & - & - & None\\
 Size DblN start logit Recreational(3) & -4.000 & -2 & - & - & None\\
 Size DblN end logit Recreational(3) & 5.000 & -1 & - & - & None\\
-Size DblN peak Tagging(4) & 41.717 & 5 & OK & 0.856535 & None\\
-Size DblN top logit Tagging(4) & -3.708 & 5 & OK & 22.608 & None\\
-Size DblN ascend se Tagging(4) & 3.354 & 5 & OK & 0.239297 & None\\
+Size DblN peak Tagging(4) & 41.706 & 5 & OK & 0.854928 & None\\
+Size DblN top logit Tagging(4) & -3.688 & 5 & OK & 22.169 & None\\
+Size DblN ascend se Tagging(4) & 3.352 & 5 & OK & 0.239167 & None\\
 Size DblN descend se Tagging(4) & 2.200 & -1 & - & - & None\\
 Size DblN start logit Tagging(4) & -4.000 & -2 & - & - & None\\
 Size DblN end logit Tagging(4) & 5.000 & -1 & - & - & None\\
-Size DblN peak Nearshore survey(5) & 32.245 & 2 & OK & 3.00104 & None\\
-Size DblN top logit Nearshore survey(5) & -2.601 & 1 & OK & 7.10136 & None\\
-Size DblN ascend se Nearshore survey(5) & 3.750 & 2 & OK & 0.772931 & None\\
+Size DblN peak Nearshore survey(5) & 32.215 & 2 & OK & 3.00031 & None\\
+Size DblN top logit Nearshore survey(5) & -2.588 & 1 & OK & 7.01265 & None\\
+Size DblN ascend se Nearshore survey(5) & 3.749 & 2 & OK & 0.774609 & None\\
 Size DblN descend se Nearshore survey(5) & 2.200 & -1 & - & - & None\\
 Size DblN start logit Nearshore survey(5) & -4.000 & -2 & - & - & None\\
 Size DblN end logit Nearshore survey(5) & 5.000 & -1 & - & - & None\\
-Size DblN peak OCNMS(6) & 26.674 & 2 & OK & 1.26215 & None\\
-Size DblN top logit OCNMS(6) & 3.505 & 1 & OK & 45.9922 & None\\
+Size DblN peak OCNMS(6) & 26.655 & 2 & OK & 1.2663 & None\\
+Size DblN top logit OCNMS(6) & 3.506 & 1 & OK & 46.0167 & None\\
 Size DblN ascend se OCNMS(6) & 3.585 & -2 & - & - & None\\
-Size DblN descend se OCNMS(6) & -4.500 & 1 & OK & 235.007 & None\\
+Size DblN descend se OCNMS(6) & -4.500 & 1 & OK & 235.002 & None\\
 Size DblN start logit OCNMS(6) & -15.000 & -2 & - & - & None\\
 Size DblN end logit OCNMS(6) & -15.000 & -1 & - & - & None\\
 SizeSel P1 Private Boat(8) & -1.000 & -99 & - & - & None\\
@@ -1196,6 +1138,7 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 <!-- ****************  Reference Points  ******************* --> 
 <!-- ======================================================= -->
 
+\include{tex_tables/ReferencePoints.tex}
 
 #\include{tex_tables/project.tex}
 
@@ -1235,6 +1178,24 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 
 
 ![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Length compositions by year from the commercial trawl fleet.\label{fig:trawl-length-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt1mkt0_page2.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Length compositions by year from the commercial nontrawl fleet.\label{fig:nontrawl-length-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt2mkt0.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Length compositions by year from the recreational fleet.\label{fig:rec-length-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt3mkt0_page2.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1332,6 +1293,17 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 ![Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
+
+
+<!-- ====================================================================== -->
+<!-- ***********************  Model Build  ************************************ --> 
+<!-- ====================================================================== -->
+
+
+![Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show.\label{fig:modbuild-data-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+
+![Spawning output (in millions of eggs) time series by data treatment compared to the reference model.\label{fig:modbuild-data-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 <!-- ====================================================================== -->
 <!-- ***********************  Model convergence and Jitters  ************************************ --> 
@@ -1621,6 +1593,24 @@ SizeSel P2 Charter(9) & -1.000 & -99 & - & - & None\\*
 ![Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
+
+
+
+![Estimated time series of fishing intensity, 1-SPR.\label{fig:1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+
+\pagebreak
+
+
+
+![Yield curve with reference points.\label{fig:yield-curve}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+
+\pagebreak
 
 
 <!--chapter:end:53figures.Rmd-->
