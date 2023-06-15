@@ -112,6 +112,8 @@ Recent removals since 2017 have been at or below the point estimate of potential
 
 The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is `r 100*depl_curr`%, above the management target of 40% of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and limit relative biomass, and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
 
+\include{tex_tables/e_ReferencePoints_ES.tex}
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "SPR4_phase.png"), 
@@ -151,7 +153,7 @@ The model-estimated uncertainty around the `r endyr+1` spawning biomass was $\si
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The `r spp` assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Whitney Roberts, pers. comm.) is provided in Table \ref{tab:project_ES}. 
+The `r spp` assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:project_ES}. 
 
 
 **NEED TO UPDATE THE TABLE BELOW**
