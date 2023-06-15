@@ -5,7 +5,7 @@
 #_User_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
 #_Source_code_at:_https://github.com/nmfs-stock-synthesis/stock-synthesis
 
-#_Start_time: Sun Jun 11 14:04:10 2023
+#_Start_time: Thu Jun 15 09:20:26 2023
 #_echo_input_data
 #C data file created using the SS_writedat function in the R package r4ss
 #C should work with SS version:
@@ -328,15 +328,15 @@
 2005 6 4 8.43253 0.433058 #_ Tagging
 2006 6 4 12.9755 0.574965 #_ Tagging
 2007 6 4 12.6295 0.537215 #_ Tagging
-2008 6 4 6.55943 0.266229 #_ Tagging
-2009 6 4 7.79824 0.311215 #_ Tagging
-2010 6 4 9.35569 0.397704 #_ Tagging
-2011 6 4 11.4545 0.45214 #_ Tagging
-2012 6 4 12.0956 0.463289 #_ Tagging
-2013 6 4 11.8253 0.532117 #_ Tagging
-2014 6 4 15.6334 0.570974 #_ Tagging
-2015 6 4 8.98323 0.631471 #_ Tagging
-2016 6 4 11.0545 0.481179 #_ Tagging
+2009 6 4 6.55943 0.266229 #_ Tagging
+2010 6 4 7.79824 0.311215 #_ Tagging
+2011 6 4 9.35569 0.397704 #_ Tagging
+2012 6 4 11.4545 0.45214 #_ Tagging
+2013 6 4 12.0956 0.463289 #_ Tagging
+2014 6 4 11.8253 0.532117 #_ Tagging
+2015 6 4 15.6334 0.570974 #_ Tagging
+2016 6 4 8.98323 0.631471 #_ Tagging
+2018 6 4 11.0545 0.481179 #_ Tagging
 2019 6 5 4.13531 0.757761 #_ Nearshore_survey
 2021 6 -5 4.54411 0.169194 #_ Nearshore_survey
 2022 6 -5 2.61959 0.102014 #_ Nearshore_survey
