@@ -219,8 +219,6 @@ The following text will be modified, as appropriate, after the STAR panel and SS
 
 The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:project_ES}. 
 
-
-**NEED TO UPDATE THE TABLE BELOW**
 \input{tex_tables/project_ES.tex}
 
 Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations are considering alternative specifications of natural mortality and population scale. The resultant decision table will be provided in Table \ref{tab:es-dec-tab}. 
@@ -428,9 +426,25 @@ Indices of abundance can provide another source to inform the trend and dynamics
 
 #### Dockside Catch-Per-Unit-Effort for Washington
 
-The WDFW provided recreational dockside fisheries data from 1981 through 2022 for consideration in this assessment. Data were collected at the trip level, with the number of landed fish and the number of anglers on each vessel being recorded. The amount of time fished by each angler was not recorded. This data had also been provided for the 2015 Black Rockfish Assessment where authors used the Stephens-MacCall method [@stephens_multispecies_2004] as an objective approach for identifying trip records of catch/effort data, and several covariates including year, month, boat type, area, daily bag limits and depth restrictions. For the 2015 Assessment data were modeled using a delta-GLM approach, where the catch occurrence (binomial) component was modeled using a logit link function and the positive catch component was modeled using either lognormal or gamma distributions. 
+WDFW’s Ocean Sampling Program (OSP) collects data on catch and effort in the state’s coastal recreational fisheries. This dockside data was considered for use as a fishery-dependent index of abundance for 1981-2022. OSP collects trip level data with key data fields including the number of landed fish by species or species category, the number of anglers, marine area fished, and trip and boat type. The number of released fish has only been recorded since 2003. Finer scale measures of effort, such as the amount of time fished by each angler, are not recorded.
 
-The recreational dockside data was considered for use in this assessment, however, management measures implemented over the past several decades impeded extracting a reliable signal for use as abundance indices. In 2003, management restricted summer fishing depths to shallower than 20-fathoms in WDFW marine areas 3 and 4, and in 2006 modified this depth restriction to 30-fathoms in marine areas 2, 3, and 4. Additionally, daily rockfish limits were 15 fish from 1981-1991, 12 fish from 1992-1994 (except in area 1 where it remained at 15), 10 fish from 1995-2016, and a reduction to 7 fish from 2017-2022. The effects of these management changes to CPUE of Black Rockfish could not be reconciled with changes in the abundance indices and therefore this dataset was not used in this assessment. 
+This data was used to produce an index of abundance for the 2015 Black Rockfish Assessment using the available years at the time. The analysts used the Stephens-MacCall method (Stephens and MacCall 2004) as an objective approach for identifying trips that visited Black Rockfish habitat. Black rockfish were found to be extremely common in bottomfish catches, so the Stephens-MacCall filtering made little difference in the data sets. The index was standardized using a delta-GLM approach, where the catch occurrence (binomial) component was modeled using a logit link function and the positive catch component was modeled using either lognormal or gamma distributions. 
+
+For this assessment, the recreational dockside data in its entirety was evaluated for use again as an index of abundance. However, changes in management measure enacted after the 2015 assessment led to further consideration of whether the data could provide a reliable signal on abundance. Black rockfish are subject to a total rockfish bag limit in Washington but make up the bulk of the retained rockfish, especially in Marine Area 2 and increasingly so over time in Marine Areas 3 and 4 (Figure \ref{fig:blackrock_percentage}). Since 2003, the rockfish limit has been a subset of a total bag limit on bottomfish. After the bag limit decreased from 10 to 7 rockfish in 2017, there was a clear drop in Black Rockfish CPUE limit for both private and charter boats in most every marine area (Figure \ref{fig:baglimit_numbers}). With no finer scale measure of effort available, it is not possible to determine if there were changes in the fishing or search time needed to reach the bag limit. Trips may have spent less time fishing for Black Rockfish than in years when the bag limit was higher.
+
+There were several bag limit changes over the time series prior to 2017. Further evaluation of the time series showed past periods where the bag limit was also reached on a high percentage of trips, especially for charter boats in Marine Area 2 (Figure \ref{fig:baglimit_percentage}). Daily rockfish limits were 15 fish from 1981-1991, 12 fish from 1992-1994 (except in area 1 where it remained at 15), and 10 fish from 1995-2016. The fishery has seen other management measure changes where the affect on the relationship between CPUE and abundance is difficult to determine. In 2003, management restricted summer fishing depths to shallower than 20-fathoms in WDFW marine areas 3 and 4, and in 2006 modified this depth restriction to 30-fathoms in marine areas 2, 3, and 4. And sub-bag limits for desirable species like canary rockfish have also changed and could affect fishing behavior for Black Rockfish. General bottomfish bag limit changes also occurred reducing retention of total bottomfish from no limit to 15 fish in 2002 and 12 fish in 2011.  
+
+In consideration of management changes and the potential for non-abundance related effects on CPUE, OSP dockside data was separated by fleet and filtered to create two indices, as described below. Sensitivity runs that excluded the OSP dockside data entirely were also considered.
+
+#### Dockside CPUE Private Fleet 1981-2016
+Dockside data was filtered for interviews with private boats and several covariates including year, month, area, daily bag limits and depth restrictions were considered. Depth was not consistently recorded, so depth-based management could not be filtered out. Instead, covariates for depth restrictions and daily bag limits were included to represent management changes. To be certain that the characteristics of a “trip” were comparable, the analysis was restricted to bottomfish only trips, in areas specific to rockfish, for private boats from 1981 through 2016 (43,187 records). The truncation of the data series excluded the latest large bag limit restriction that took effect in 2017.
+
+CPUE was calculated for each angler trip, where total catch was defined as the sum of all reported retained catch (in numbers) and total effort was defined by the number of anglers. CPUE was modeled using the same delta-GLM approach used in 2015. A gamma distribution for the positive catch component was also evaluated, but graphical summary diagnostics favored the choice of a lognormal distribution. A bootstrap analysis (N=500) was used to estimate the standard errors and CVs of the year effects (Figure XX).
+
+#### Dockside CPUE Charter Fleet 1981-1994
+For the charter boat fleet interview data collected from 1981 through 1994 was modeled as being less sensitive to the effects of bag limits. It was also a key period in the fishery where effort was ramping up. As with the private fleet analysis, data was restricted to bottomfish only trips in areas specific to rockfish, for charter boats from 1981 through 1994 (16,364 records).
+
+Several covariates were considered in the full model including year, month, area, daily bag limit and depth restriction. As with private boats, depth was not consistently recorded and could not be used.  A covariate for daily bag limits was included to represent management changes but depth restrictions didn’t go into effect until after this data time series and were not incorporated. AIC was not used to choose between error distributions for the positive catches. This was instead done using quantile-quantile plots (Figure XX and Figure XX). The full model with gamma distribution was chosen and a bootstrap analysis (N=500) was used to estimate the standard errors and CVs of the year effects (Figure XX).
 
 <!--chapter:end:21f-.Rmd-->
 
@@ -938,6 +952,11 @@ Here are all the mad props!
 
 \include{tex_tables/rec_age_sample.tex}
 
+\include{tex_tables/WA_Comm_Lt_samps.tex}
+
+\include{tex_tables/WA_Comm_Age_samps.tex}
+
+
 <!-- ======================================================= -->
 <!-- ***************     Biology   ************************* --> 
 <!-- ======================================================= -->
@@ -1260,6 +1279,17 @@ This table is included below and referenced in the management section
 
 \pagebreak
 
+
+
+![Trip average (points) and interquartile range (vertical solid lines) of the number of total rockfish retained per angler, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_numbers}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-n-min10.png){width=100% height=100% alt="."}
+
+
+
+![Trip average (points) and interquartile range (vertical solid lines) of the percentage of the rockfish bag limit reached, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_percentage}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-p-min10.png){width=100% height=100% alt="."}
+
+
+
+![Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were black rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:blackrock_percentage}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP_blackrock_p_total_rockfish.png){width=100% height=100% alt="."}
 
 
 ## Biology
