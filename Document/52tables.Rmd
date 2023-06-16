@@ -5,19 +5,49 @@
 <!-- ***************     Data      ************************* --> 
 <!-- ======================================================= -->
 
+
+<!---
+This tex table does not exist, replacing it with WA_Blck_Removals_All_Years.tex
 \include{tex_tables/all_removals.tex}
+-->
 
+\include{tex_tables/WA_Blck_Removals_All_Years.tex}
+
+<!---
+This tex table does not exist, replacing it with WA_BLCK_Rec_Catch_History.tex
 \include{tex_tables/rec_catch_reconstr.tex}
+-->
 
+\include{tex_tables/WA_BLCK_Rec_Catch_History.tex}
+
+<!---
+\include{tex_tables/WA_Blck_Annual_Discards}
+-->
+
+<!---
+This tex table does not exist, replacing it with WA_BLCK_Rec_Length_Sample.tex
 \include{tex_tables/rec_length_sample.tex}
+-->
 
+\include{tex_tables/WA_BLCK_Rec_Length_Sample.tex}
+
+
+<!---
+This tex table does not exist, replacing it with WA_BLCK_Rec_Age_Sample.tex
 \include{tex_tables/rec_age_sample.tex}
+-->
+
+\include{tex_tables/WA_BLCK_Rec_Age_Sample.tex}
+
 
 \include{tex_tables/WA_Comm_Lt_samps.tex}
 
+
 \include{tex_tables/WA_Comm_Age_samps.tex}
 
+
 \include{tex_tables/dockside_samples.tex}
+
 
 \include{tex_tables/nearshore_hurdle_modsel.tex}
 
