@@ -66,6 +66,8 @@ base_name = "Reference model"
 
 bridge_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/Bridge")
 
+catch_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/catches")
+
 stock_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/stock")
 
 bio_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/biology_plots")
