@@ -106,7 +106,7 @@ _**These materials do not constitute a formal publication and are for informatio
 
 ## Stock{-}
 
-This assessment reports the status of Black Rockfish (*Sebastes melanops*) off Washington state using data through 2022. Black Rockfish are also found in California and Oregon waters of the U.S. West Coast, and those are treated in separate area-based stock assessments given different management considerations and exploitation histories as discussed at the pre-stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. The biogeographic separation and differing exploitation histories in the populations off Oregon and Washington is believed substantial enough to justify separating those populations into different management units and stock assessments. Black Rockfish are also caught from the waters off British Columbia and Alaska. The state of Alaska is currently conducting assessments of stock status in Alaskan waters. Genetic studies of stock structure indicate fish in Alaska are more differentiated than those along the contiguous west coast of the United States, and that genetic diversity varies in a non-systematic way from California to Oregon [@hess_comparative_2023].
+This assessment reports the status of Black Rockfish (*Sebastes melanops*) off Washington state using data through 2022. Black Rockfish are also found in California and Oregon waters off the U.S. West Coast, and those are treated in separate area-based stock assessments given different management considerations and exploitation histories as discussed at the pre-stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. The biogeographic separation and differing exploitation histories in the populations off Oregon and Washington is believed substantial enough to justify separating those populations into different management units and stock assessments. Black Rockfish are also caught from the waters off British Columbia and Alaska. The state of Alaska is currently conducting assessments of stock status in Alaskan waters. Genetic studies of stock structure indicate fish in Alaska are more differentiated than those along the contiguous West Coast of the U.S., and that genetic diversity varies in a non-systematic way from California to Oregon [@hess_comparative_2023].
 
 ## Removals{-}
 
@@ -127,20 +127,22 @@ Overall, removals of Black Rockfish remained relatively low (less than 100 mt) u
 
 ## Data and assessment{-}
 
-The first Black Rockfish stock assessment along the west coast of the United States that included the majority of Oregon waters was completed in 1994, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. The first assessment for waters off Washington was done in 1994, with additional stock assessments in 1999 and 2007. In 2015, a subsequent assessment was completed that included Washington waters only as one of three (also Oregon and California) separate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Washington waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
+The first Black Rockfish stock assessment along the West Coast of the U.S. that included the majority of Oregon waters was completed in 1994, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. The first assessment for waters off Washington was done in 1994, with additional stock assessments in 1999 and 2007. In 2015, a subsequent assessment was completed that included Washington waters only as one of three (also Oregon and California) separate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Washington waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
 
-This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for Black Rockfish is informed by catch data from two commercial fleets and one recreational fleet, six abundance indices, six sets of length composition data, and three sets of conditional age-at-length compositions. It also uses two ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at estimates from the previous assessment (but rationalized through life history theory) and most growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and extra survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (which were estimated), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning biomass, age and size structure, and current and projected future stock status. The model covers the years 1940 to 2022, with a 12 year forecast beginning in 2023.
+This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for Black Rockfish is informed by catch data from two commercial fleets and one recreational fleet, six abundance indices, length composition data from commercial, recreational, and surveys, and conditional age-at-length compositions from the commercial and recreational fisheries. It also uses two ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at estimates from the previous assessment (but rationalized through life history theory) and most growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and added survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (with estimated added variance as needed), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning biomass, age and size structure, and current and projected future stock status. The model covers the years 1940 to 2022, with a 12 year forecast beginning in 2023.
 
 Within model uncertainty is explicitly included in this assessment by parameter estimation uncertainty, while among model uncertainty is explored through sensitivity analyses addressing alternative input assumptions such as data treatment and weighting, and model specification sensitivity to the treatment of life history parameters, selectivity, recruitment, and survey catchability. A reference model was selected that best fit the observed data while concomitantly balancing the desire to capture the central tendency across those sources of uncertainty, ensure model realism and tractability, and promote robustness to potential model misspecification.
 
 ## Stock biomass and dynamics{-}
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 440 meggs (~95 percent asymptotic intervals: 267 to 613 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (950) meggs gives a relative stock status level of 46 percent (~95 percent asymptotic intervals: 31 to 61 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of commercial fishing, further decreasing with the increasing recreational removals in the 1980s and continued to decline until the commercial fisheries were shutdown in the late 1990s. Notable recent estimated recruitment pulses occurred in 2000, 2008, and 2011. A decade of positive recruitments of varying strengths support a increase in the time series despite recent lower recruitment deviations. The minimum relative stock size of 17 percent of unfished levels is estimated to have occurred in 1995. The stock may have been below the overfished threshhold in the 1980s. Currently the stock is estimated to be above the management target of $SO_{40\%}$ in 2023 and is estimated to have surpassed the target only recently (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was 440 meggs (~95 percent asymptotic intervals: 267 to 613 meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (950) meggs gives a relative stock status level of 46 percent (~95 percent asymptotic intervals: 31 to 61 percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of commercial fishing, further decreasing with the increasing recreational removals in the 1980s and continued to decline until the commercial fisheries were shutdown in the late 1990s. Notable recent estimated recruitment pulses occurred in 2000, 2008, and 2011. A decade of positive recruitments of varying strengths support a increase in the time series despite recent lower recruitment deviations. The minimum relative stock size of 17 percent of unfished levels is estimated to have occurred in 1995. The stock may have been below the overfished threshold in the 1980s. Currently, the stock is estimated to be above the management target of $SO_{40\%}$ in 2023 and is estimated to have surpassed the target only recently (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
 
 
+
 ![Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
+
 
 
 ![Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
@@ -151,14 +153,16 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 
 Recruitment is informed by the data and estimated from 1970s to 2017, before and after which it is assumed taken from the stock-recruit relationship (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}).  The highest recruitment years occurred in 2000, 2008, and 2011. The large 2008 and 2011 year classes, as well as several above average year classes in the mid 2000s to early 2010s, contributed to the recent increase in Black Rockfish biomass. Recruitment is informed mostly by the composition data. While the Black Rockfish stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter given that most of the data was collected after the major decline in the spawning output and/or did not show much contrast.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = 0.72) and recruitment variability ($\sigma_R$ = 0.6).
 
-
 \input{tex_tables/c_Recr_ES.tex}
+
 
 
 ![Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
 
+
 ![Estimated time series of recruitment deviations.\label{fig:es-recdev}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
+
 
 ## Exploitation status{-}
 
@@ -174,7 +178,7 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and 
 
 ## Ecosystem considerations{-}
 
-This stock assessment does not explicitly incorporate trophic interactions, habitat factors, or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. McClure et al. [-@mcclure_vulnerability_2023] report the climate vulnerability for several west coast groundfishes, including Black Rockfish. Black Rockfish demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to Black Rockfish and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
+This stock assessment does not explicitly incorporate trophic interactions, habitat factors, or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. @mcclure_vulnerability_2023 report the climate vulnerability for several west coast groundfishes, including Black Rockfish. Black Rockfish demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to Black Rockfish and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
 
 ## Reference points{-}
 
@@ -190,6 +194,7 @@ The 2023 spawning biomass relative to unfished equilibrium spawning biomass, bas
 ![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
 
 
+
 ![Equilibrium yield curve for the base case model. Values are based on (the time invariant)
 fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
@@ -198,7 +203,7 @@ fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/
 
 ## Management performance{-}
 
-Black Rockfish removals have been below the equivalent ABC-ACL over the recent decade (Table \ref{tab:manageES}). Exploitation on Black Rockfish increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of Black Rockfish acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}).
+Black Rockfish removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manageES}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of Black Rockfish [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022.  
 
 \input{tex_tables/f_Manage_ES.tex}
 
@@ -217,7 +222,7 @@ The model-estimated uncertainty around the 2023 spawning biomass was $\sigma$ = 
 
 The following text will be modified, as appropriate, after the STAR panel and SSC meeting.
 
-The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:project_ES}. 
+The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL.  These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:projectionES}. 
 
 \input{tex_tables/g_Projections_ES.tex}
 
@@ -359,7 +364,7 @@ Rogers [-@rogers_species_2003] developed catch reconstructions for removals by f
 
 ### Recreational Removals
 
-The Washington recreational catch history of Black Rockfish was reconstructed using several direct and indirect records of Black Rockfish catch (Table \ref{tab:allcatches}). All primary sources report catch in numbers of fish. As sources have been modified and re-evaluated, a completely new catch reconstruction for Washington was developed for 2015 assessment. This catch history was updated to include 2015-2022 estimates in this assessment. 
+The Washington recreational catch history of Black Rockfish was reconstructed using several direct and indirect records of Black Rockfish catch (Table \ref{tab:rec_catch_recontruction}). All primary sources report catch in numbers of fish. As sources have been modified and re-evaluated, a completely new catch reconstruction for Washington was developed for 2015 assessment. This catch history was updated to include 2015-2022 estimates in this assessment. 
 
 Comparisons of total fishery removals in the current and previous assessments are in Figure XX.
 
@@ -556,7 +561,7 @@ The length-weight relationship for Black Rockfish was estimated outside the mode
 
 Black Rockfish maturity was assumed to be based on length, as in past assessments. This assessment used functional maturity instead of biological maturity to describe the maturity schedule. Functional maturity was classified by a more stringent definition of maturity that considered abortive maturation (delayed participation in reproductive event), skipped spawning (mature individuals forgo spawning), and level of follicular atresia as opposed to biological maturity that only considers physiological development. Functional maturity included the biologically mature individuals that were actually expected to contribute to spawning in a given year.
 
-Claire Rosemond (Oregon State University) and Melissa Head (Northwest Fisheries Science Center) provided estimates of both biological and functional maturity for Black Rockfish sampled in 2014 to 2021 from September through April (the time period that includes yolk development and spawning). Samples were collected for fish caught in Oregon and Washington waters by biologists at Oregon State University, ODFW, and WDFW. Biological maturity and functional maturity observations were fitted in separate models. Biological maturity and functional maturity status observations (0 = immature and 1 = mature, n = 644) were fitted in a logistic regression model (glm function, family = binomial, link = “logit”) and flexible spline model (Head et al. 2020). The estimated model parameters were used to calculate length at 50% maturity (L50%; Table \ref{tab:bio-fxn-maturity}) and maturity ogives (Figure \ref{fig:bio-fxn-mat-color}). The delta method was used to calculate 95% confidence intervals for estimated L50% in the logistic regression and a bootstrapping method was used to calculate 95% confidence intervals for L50% in the flexible spline model.
+Claire Rosemond (Oregon State University) and Melissa Head (Northwest Fisheries Science Center) provided estimates of both biological and functional maturity for Black Rockfish sampled in 2014 to 2021 from September through April (the time period that includes yolk development and spawning). Samples were collected for fish caught in Oregon and Washington waters by biologists at Oregon State University, ODFW, and WDFW. Biological maturity and functional maturity observations were fitted in separate models. Biological maturity and functional maturity status observations (0 = immature and 1 = mature, n = 644) were fitted in a logistic regression model (glm function, family = binomial, link = “logit”) and flexible spline model [@head_applying_2020]. The estimated model parameters were used to calculate length at 50% maturity (L50%; Table \ref{tab:bio-fxn-maturity}) and maturity ogives (Figure \ref{fig:bio-fxn-mat-color}). The delta method was used to calculate 95% confidence intervals for estimated L50% in the logistic regression and a bootstrapping method was used to calculate 95% confidence intervals for L50% in the flexible spline model.
 
 A flexible spline model can capture skipped spawning in the maturity ogive by allowing a decreased asymptote from 1.0. There was evidence of skipped spawning in larger size classes and so the flexible spline model was determined to be the best representation of the reproductive biology of Black Rockfish for the sampled time period (Figure \ref{fig:fxn-spline-mat-color}). The maturity vector input into the model as a fixed relationship is shown in Figure \ref{fig:maturity}. Sensitivity of model output to the use of the biological and functional logistic relationships are explored.
 
@@ -965,7 +970,7 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Catch_History.tex
 \include{tex_tables/rec_catch_reconstr.tex}
 -->
 
-\include{tex_tables/WA_BLCK_Rec_Catch_History.tex}
+\include{tex_tables/WA_Blck_Rec_Catch_History.tex}
 
 <!---
 \include{tex_tables/WA_Blck_Annual_Discards}
@@ -976,7 +981,7 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Length_Sample.tex
 \include{tex_tables/rec_length_sample.tex}
 -->
 
-\include{tex_tables/WA_BLCK_Rec_Length_Sample.tex}
+\include{tex_tables/WA_Blck_Rec_Length_Sample.tex}
 
 
 <!---
@@ -984,7 +989,7 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Age_Sample.tex
 \include{tex_tables/rec_age_sample.tex}
 -->
 
-\include{tex_tables/WA_BLCK_Rec_Age_Sample.tex}
+\include{tex_tables/WA_Blck_Rec_Age_Sample.tex}
 
 
 \include{tex_tables/WA_Comm_Lt_samps.tex}
@@ -998,6 +1003,11 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Age_Sample.tex
 
 \include{tex_tables/nearshore_hurdle_modsel.tex}
 
+
+\include{tex_tables/WA_Blck_Nearshore_Survey.tex}
+
+
+\include{tex_tables/WA_Blck_Survey_Tagging.tex}
 
 
 <!-- ======================================================= -->
