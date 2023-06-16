@@ -35,7 +35,7 @@ These provide reasonable bookends for likely natural mortality values for `r spp
 Exploratory runs first attempted to estimate natural mortality with not unrealistic, but slightly low, estimates. The base model instead fixes natural mortality to the values from the last assessment,`r round(model$MGparmAdj$NatM_uniform_Fem_GP_1[1], 3)` for females and `r round(model$MGparmAdj$NatM_uniform_Mal_GP_1[1], 3)` for males, that align with a maximum age of `r 54/round(model$MGparmAdj$NatM_uniform_Fem_GP_1[1], 0)` for females and `r 54/round(model$MGparmAdj$NatM_uniform_Mal_GP_1[1], 0)` for males. Multiple sensitivities were conducted examining the impact of the assumed value within the base model. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is also included to explore model sensitivity, as this parameter may be a useful parameter to establish different states of nature for uncertainty analysis. 
 
 
-#### Age and growth relationship
+### Age and growth relationship
 
 The length-at-age was estimated for female and male `r spp` using data from collections sampling the commercial and recreational fisheries off the coast of Washington (Figure \ref{fig:len-age-data-sex} and Figure \ref{fig:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated external to the model at the following values:
 
@@ -67,7 +67,7 @@ The calculated bias relationships from the best fit model are shown in Figure \r
 
 ### Length-Weight Relationship
 
-The length-weight relationship for `r spp` was estimated outside the model using biological data available from the Oregon commercial and recreational fisheries (Figure \ref{fig:len-weight-data}). The resultant relationship is very similar for both males and females, and is very close also to what is seen in the state of Washington (Figure \ref{fig:len-weight-or-wa}). The estimated length-weight relationship for female fish was $W$=`r format(model$MGparmAdj$Wtlen_1_Fem[1], scientific = TRUE, digits = 3)`$L$^`r round(model$MGparmAdj$Wtlen_2_Fem[1],2)`^ and males at $W$=`r format(model$MGparmAdj$Wtlen_1_Mal[1], scientific = TRUE, digits = 3)`$L$^`r round(model$MGparmAdj$Wtlen_2_Mal[1], 2)`^ where length is in centimeters and weight in kilograms.
+The length-weight relationship for `r spp` was estimated outside the model using biological data available from the Washington commercial and recreational fisheries (Figure \ref{fig:len-weight-data}), as well as research collections. The resultant relationship is very similar for both males and females, and is very close also to what is seen in the state of Washington (Figure \ref{fig:len-weight-or-wa}). The estimated length-weight relationship for female fish was $W$=`r format(model$MGparmAdj$Wtlen_1_Fem[1], scientific = TRUE, digits = 3)`$L$^`r round(model$MGparmAdj$Wtlen_2_Fem[1],2)`^ and males at $W$=`r format(model$MGparmAdj$Wtlen_1_Mal[1], scientific = TRUE, digits = 3)`$L$^`r round(model$MGparmAdj$Wtlen_2_Mal[1], 2)`^ where length is in centimeters and weight in kilograms.
 
 
 ### Maturation and Fecundity

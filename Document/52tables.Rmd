@@ -11,10 +11,10 @@ This tex table does not exist, replacing it with WA_Blck_Removals_All_Years.tex
 \include{tex_tables/all_removals.tex}
 -->
 
-\include{tex_tables/WA_Blck_Removals_All_Years.tex}
+\include{tex_tables/WA_Removals_all.tex}
 
 
-\include{tex_tables/WA_Blck_Rec_Catch_History.tex}
+\include{tex_tables/WA_Rec_recons.tex}
 
 
 \include{tex_tables/WA_Blck_Annual_Discards.tex}
@@ -47,9 +47,6 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Age_Sample.tex
 
 
 \include{tex_tables/WA_Blck_Survey_Tagging.tex}
-
-
-\include{tex_tables/WA_Blck_Annual_Discards}
 
 
 <!-- ======================================================= -->

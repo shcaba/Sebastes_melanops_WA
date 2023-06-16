@@ -230,6 +230,30 @@ label = 'tag-nearshore-index')
 
 \pagebreak
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "comp_lendat_flt6mkt0.png"), 
+caption = "Length compositions by year for the OCNMS scuba survey.",
+label = 'ocnms-ltcomps')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "Black_Rockfish_time_series_OCNMS.pdf"), 
+caption = "Time-series of estimated black rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year",
+label = 'ocnms-adult-index')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(index_fig_loc, "Black_Rockfish_YOY_time_series_OCNMS.pdf"), 
+caption = "Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95% intervals for each year. Note y-axis is square root",
+label = 'ocnms-yoy-index')
+```
+
+\pagebreak
+
+
 <!-- ====================================================================== -->
 <!-- *************************     Biology     **************************** --> 
 <!-- ====================================================================== -->

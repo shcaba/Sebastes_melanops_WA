@@ -5,18 +5,32 @@ Dir.tables<-"C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/
 Dir.tables.tex<-"C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/tex_tables/"
 
 
-out<-read.csv("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tables/OR_vermilion_catches.csv")
+out<-read.csv(paste0(Dir.tables,"WA_Blck_Total_Removals.csv"))
 t = table_format(x = out,
-      caption = 'Catches (mt) by fleet for all years, including estimates of discards, and total catches (mt) by year summed by year',
-      label = 'OR_vermilion_catches',
+      caption = 'Catches (mt) by fleet and total for each year',
+      label = 'BRF_total_removals',
       longtable = TRUE,
       font_size = 9,
       digits = 2,
       landscape = TRUE,
-      col_names = c("Year","Commercial","Recreational","Total Removals"))
+      col_names = c("Year","Trawl","Non-trawl","Recreational","Total Removals","","Year","Trawl","Non-trawl","Recreational","Total Removals"))
 
 kableExtra::save_kable(t,
-file = file.path("C:/Users/Jason.Cope/Documents/Github/Vermilion rockfish OR WA assessment 2021/OR/write_up/tex_tables/OR_vermilion_catches.tex"))
+                       file = file.path(paste0(Dir.tables.tex,"WA_Removals_all.tex")))
+
+out<-read.csv(paste0(Dir.tables,"WA_Blck_Rec_Catch_Reconstruction.csv"))
+t = table_format(x = out,
+                 caption = 'Recreational catch history of Black Rockfish. All retained and released dead are in numbers; removals are in metric tons',
+                 label = 'rec_catch_recontruction',
+                 longtable = TRUE,
+                 font_size = 9,
+                 digits = 2,
+                 landscape = TRUE,
+                 col_names = c("Year","Retained","Released dead","Avg Wt","Removals","","Year","Retained","Released dead","Avg Wt","Removals"))
+
+kableExtra::save_kable(t,
+                       file = file.path(paste0(Dir.tables.tex,"WA_Rec_recons.tex")))
+
 
 out<-read.csv(paste0(Dir.tables,"WA_Comm_lts_year_fleet_sex.csv"))
 t = table_format(x = out,
