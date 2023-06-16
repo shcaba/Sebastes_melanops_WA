@@ -9,7 +9,7 @@ executive[["stock"]] <- paste0("This assessment reports the status of ",
 
 ## Stock{-}
 
-This assessment reports the status of `r spp` (*Sebastes melanops*) off Washington state using data through `r endyr`. `r Spp` are also found in California and Oregon waters of the U.S. West Coast, and those are treated in separate area-based stock assessments given different management considerations and exploitation histories as discussed at the pre-stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. The biogeographic separation and differing exploitation histories in the populations off Oregon and Washington is believed substantial enough to justify separating those populations into different management units and stock assessments. `r spp` are also caught from the waters off British Columbia and Alaska. The state of Alaska is currently conducting assessments of stock status in Alaskan waters. Genetic studies of stock structure indicate fish in Alaska are more differentiated than those along the contiguous west coast of the United States, and that genetic diversity varies in a non-systematic way from California to Oregon [@hess_comparative_2023].
+This assessment reports the status of `r spp` (*Sebastes melanops*) off Washington state using data through `r endyr`. `r Spp` are also found in California and Oregon waters off the U.S. West Coast, and those are treated in separate area-based stock assessments given different management considerations and exploitation histories as discussed at the pre-stock assessment workshop in February 2023 [@PFMC_dataworkshop_2023]. The biogeographic separation and differing exploitation histories in the populations off Oregon and Washington is believed substantial enough to justify separating those populations into different management units and stock assessments. `r spp` are also caught from the waters off British Columbia and Alaska. The state of Alaska is currently conducting assessments of stock status in Alaskan waters. Genetic studies of stock structure indicate fish in Alaska are more differentiated than those along the contiguous West Coast of the U.S., and that genetic diversity varies in a non-systematic way from California to Oregon [@hess_comparative_2023].
 
 ## Removals{-}
 
@@ -34,17 +34,18 @@ label = 'es-catch')
 
 ## Data and assessment{-}
 
-The first `r spp` stock assessment along the west coast of the United States that included the majority of Oregon waters was completed in 1994, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. The first assessment for waters off Washington was done in 1994, with additional stock assessments in 1999 and 2007. In 2015, a subsequent assessment was completed that included Washington waters only as one of three (also Oregon and California) separate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Washington waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
+The first `r spp` stock assessment along the West Coast of the U.S. that included the majority of Oregon waters was completed in 1994, covering the area south of Cape Falcon, Oregon to north of Point Piedros Blancos, California [@sampson_status_2007]. The first assessment for waters off Washington was done in 1994, with additional stock assessments in 1999 and 2007. In 2015, a subsequent assessment was completed that included Washington waters only as one of three (also Oregon and California) separate assessment areas delineated by state lines [@cope_assessments_2016]. Similarly, this assessment treats Washington waters as a single assessment area. The previous two assessments used Stock Synthesis software, as does this one (version 3.30.21.00).
 
-This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for `r spp` is informed by catch data from two commercial fleets and one recreational fleet, six abundance indices, six sets of length composition data, and three sets of conditional age-at-length compositions. It also uses two ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at estimates from the previous assessment (but rationalized through life history theory) and most growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and extra survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (which were estimated), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning biomass, age and size structure, and current and projected future stock status. The model covers the years `r startyr` to `r endyr`, with a 12 year forecast beginning in `r endyr + 1`.
+This assessment integrates data and information from multiple sources into one modeling framework. The stock assessment model for `r spp` is informed by catch data from two commercial fleets and one recreational fleet, six abundance indices, length composition data from commercial, recreational, and surveys, and conditional age-at-length compositions from the commercial and recreational fisheries. It also uses two ageing error matrices to incorporate ageing imprecision and applies fixed parameterizations of weight-at-length, maturity-at-length, fecundity-at-length, the Beverton-Holt stock-recruitment steepness value, and recruitment variability. Life history parameters were sex-specific (i.e., a two-sex model) with natural mortality fixed at estimates from the previous assessment (but rationalized through life history theory) and most growth and recruitment parameters estimated.  Additional parameters that were estimated include initial population scale ($lnR_0$), selectivity for each fishery and survey, and added survey variance. The base model was tuned to account for the weighting of the length and age data and index variances (with estimated added variance as needed), as well as the specification of the recruitment bias adjustments.  Derived quantities include, among other things, the time series of spawning biomass, age and size structure, and current and projected future stock status. The model covers the years `r startyr` to `r endyr`, with a 12 year forecast beginning in `r endyr + 1`.
 
 Within model uncertainty is explicitly included in this assessment by parameter estimation uncertainty, while among model uncertainty is explored through sensitivity analyses addressing alternative input assumptions such as data treatment and weighting, and model specification sensitivity to the treatment of life history parameters, selectivity, recruitment, and survey catchability. A reference model was selected that best fit the observed data while concomitantly balancing the desire to capture the central tendency across those sources of uncertainty, ensure model realism and tractability, and promote robustness to potential model misspecification.
 
 ## Stock biomass and dynamics{-}
 
-Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was `r ssb_curr` meggs (~95 percent asymptotic intervals: `r ssb_curr_low` to `r ssb_curr_hi` meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (`r ssb0`) meggs gives a relative stock status level of `r round(100*depl_curr,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_curr_low,0)` to `r round(100*depl_curr_hi,0)` percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of commercial fishing, further decreasing with the increasing recreational removals in the 1980s and continued to decline until the commercial fisheries were shutdown in the late 1990s. Notable recent estimated recruitment pulses occurred in 2000, 2008, and 2011. A decade of positive recruitments of varying strengths support a increase in the time series despite recent lower recruitment deviations. The minimum relative stock size of `r round(100*as.numeric(depl_min),0)` percent of unfished levels is estimated to have occurred in `r depl_min_yr`. The stock may have been below the overfished threshhold in the 1980s. Currently the stock is estimated to be above the management target of $SO_{40\%}$ in 2023 and is estimated to have surpassed the target only recently (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
+Spawning output (in millions of eggs; meggs) instead of spawning biomass is used to report the functionally mature population scale because fecundity is nonlinearly related to body female weight. The estimated spawning output at the beginning of 2023 was `r ssb_curr` meggs (~95 percent asymptotic intervals: `r ssb_curr_low` to `r ssb_curr_hi` meggs, Table \ref{tab:ssbES} and Figure \ref{fig:es-ssb}), which when compared to unfished spawning output (`r ssb0`) meggs gives a relative stock status level of `r round(100*depl_curr,0)` percent (~95 percent asymptotic intervals: `r round(100*depl_curr_low,0)` to `r round(100*depl_curr_hi,0)` percent, Figure \ref{fig:es-depl}).  Overall, spawning output declined with the onset of commercial fishing, further decreasing with the increasing recreational removals in the 1980s and continued to decline until the commercial fisheries were shutdown in the late 1990s. Notable recent estimated recruitment pulses occurred in 2000, 2008, and 2011. A decade of positive recruitments of varying strengths support a increase in the time series despite recent lower recruitment deviations. The minimum relative stock size of `r round(100*as.numeric(depl_min),0)` percent of unfished levels is estimated to have occurred in `r depl_min_yr`. The stock may have been below the overfished threshold in the 1980s. Currently, the stock is estimated to be above the management target of $SO_{40\%}$ in 2023 and is estimated to have surpassed the target only recently (Table \ref{tab:ssbES} and Figure \ref{fig:es-depl}).
 
 \input{tex_tables/b_SSB_ES.tex}
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -53,6 +54,7 @@ filein = file.path(mod_loc, "plots",
 caption = "Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model",
 label = 'es-ssb')
 ```
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -67,8 +69,8 @@ label = 'es-depl')
 
 Recruitment is informed by the data and estimated from 1970s to 2017, before and after which it is assumed taken from the stock-recruit relationship (Table \ref{tab:recrES} and Figure \ref{fig:es-recruits}).  The highest recruitment years occurred in 2000, 2008, and 2011. The large 2008 and 2011 year classes, as well as several above average year classes in the mid 2000s to early 2010s, contributed to the recent increase in `r spp` biomass. Recruitment is informed mostly by the composition data. While the `r spp` stock has been reduced to levels that theoretically would provide some information on how recruitment compensation changes across spawning biomass levels (i.e., inform the steepness parameter), the assessment model could not adequately estimate a reasonable steepness parameter given that most of the data was collected after the major decline in the spawning output and/or did not show much contrast.  Thus, recruitment is based on a fixed assumption about steepness ($h$ = `r model$parameters[model$parameters$Label == "SR_BH_steep", "Value"]`) and recruitment variability ($\sigma_R$ = `r model$parameters[model$parameters$Label == "SR_sigmaR", "Value"]`).
 
-
 \input{tex_tables/c_Recr_ES.tex}
+
 
 ```{r, results = 'asis'}
 add_figure(
@@ -77,12 +79,14 @@ caption = "Estimated time series of age-0 recruits (1000s) for the base model wi
 label = 'es-recruits')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
 caption = "Estimated time series of recruitment deviations",
 label = 'es-recdev')
 ```
+
 
 ## Exploitation status{-}
 
@@ -102,7 +106,7 @@ label = 'es-1-spr')
 
 ## Ecosystem considerations{-}
 
-This stock assessment does not explicitly incorporate trophic interactions, habitat factors, or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. McClure et al. [-@mcclure_vulnerability_2023] report the climate vulnerability for several west coast groundfishes, including `r spp`. `r spp` demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to `r spp` and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
+This stock assessment does not explicitly incorporate trophic interactions, habitat factors, or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. @mcclure_vulnerability_2023 report the climate vulnerability for several west coast groundfishes, including `r spp`. `r spp` demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to `r spp` and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
 
 ## Reference points{-}
 
@@ -121,6 +125,7 @@ caption = "Phase plot of estimated 1-SPR versus fraction unfished for the base m
 label = 'es-phase')
 ```
 
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "yield2_yield_curve_with_refpoints.png"), 
@@ -134,7 +139,7 @@ label = 'es-yield')
 
 ## Management performance{-}
 
-`r spp` removals have been below the equivalent ABC-ACL over the recent decade (Table \ref{tab:manageES}). Exploitation on `r spp` increased starting around 1940 and reached a high in the late 1970s. Since that time, catch has mostly fluctuated between 300 and 500 mt per year, with some years exceeding 600 mt. Removals have averaged 483 mt over the past decade. The last ten years of `r spp` acceptable biological catch (ABC) and annual catch limit (ACL) (which are equivalent) has been set, by definition, below the overfishing limit (OFL) (Table \ref{tab:manageES}).
+`r spp` removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manageES}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of `r Spp` [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022.  
 
 \input{tex_tables/f_Manage_ES.tex}
 
