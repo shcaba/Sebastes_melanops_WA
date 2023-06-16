@@ -37,6 +37,15 @@ label = 'data-plot')
 
 \pagebreak
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "catch-ts-comparison.png"), 
+caption = "Comparison of total removals and removals by fleet between this assessment and those in 2007 and 2015. The lines showing the Non-Trawl and Recreational removal time series for the 2015 assessment cannot be seen as they are masked by the lines for the 2023 time series.",
+label = 'catch-ts-comparison')
+```
+
+\pagebreak
+
 
 ```{r, results = 'asis'}
 add_figure(
