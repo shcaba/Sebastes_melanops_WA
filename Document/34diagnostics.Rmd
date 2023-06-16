@@ -58,7 +58,7 @@ Model specifications looked at the estimation of individual and combinations of 
 	13. Estimate dome-shaped selectivity for all fleets
 	
 	
-Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Tables \ref{tab:modspec_LH_sensis} and \ref{tab:modspec_RecMisc_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:modspec_LH_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.
 
 Estimating $M$ either as a constant value or in an age-specific manner using the Lorenzen approach both result in lower $M$ values, and thus lower stock scale, especially in current stock size, with a significantly different stock status when estimating age-specific $M$. 
 
