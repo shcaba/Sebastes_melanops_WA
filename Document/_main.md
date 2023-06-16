@@ -372,7 +372,7 @@ Comparisons of total fishery removals in the current and previous assessments ar
 
 In the previous assessment, commercial discards were not accounted for due to the information provided by the West Coast Groundfish Observer Program (WCGOP) at that time, showing about a 1% discard rate in their survey.  We evaluated the WCGOP estimates of Black Rockfish discards from 2002-2013, which showed a total of 32.2 mt in estimated discards and total landings of 2,042.5 mt coastwide, resulting in a rough discard rate estimate of 1.58%.  
 
-Recreational discard estimates were not available until 2002.  Numbers of discarded-by-depth Black Rockfish were estimated using the same catch expansion algorithm for landed catch.  Surface release mortalities adopted by the Groundfish Management Team (GMT) in their death-by-depth matrix (11%, 20%, 29%, and 63%) were then applied to the number of released Black Rockfish for each of 4 release depth bins (0-10 fm, 11-20 fm, 21-30 fm, and >30fm), respectively. Total dead released Black Rockfish were then summed across each depth bin. The average weights of discards were assumed to be the same as the average weights of landed and multiplied by the number of released dead to get total dead in metric tons.   For pre-2002 release, proportions of releases based on a ratio estimator using 2003-2007 data were applied.  For the split between charter and private vessels, the same algorithm used for splitting retained catch was applied. The overall average discard rate in the recreational fisheries was 1.37%. There was no information on Washington commercial discards, so the rate of 1.37% (same as the historical recreational discards) was also applied to the entire commercial time series. This low rate was similar to discard rates estimated in the other states. Annual retained and discarded catches are summarized in Table \ref{tab:rec_catch_reconstruction}.
+Recreational discard estimates were not available until 2002.  Numbers of discarded-by-depth Black Rockfish were estimated using the same catch expansion algorithm for landed catch.  Surface release mortalities adopted by the Groundfish Management Team (GMT) in their death-by-depth matrix (11%, 20%, 29%, and 63%) were then applied to the number of released Black Rockfish for each of 4 release depth bins (0-10 fm, 11-20 fm, 21-30 fm, and >30fm), respectively. Total dead released Black Rockfish were then summed across each depth bin. The average weights of discards were assumed to be the same as the average weights of landed and multiplied by the number of released dead to get total dead in metric tons.   For pre-2002 release, proportions of releases based on a ratio estimator using 2003-2007 data were applied.  For the split between charter and private vessels, the same algorithm used for splitting retained catch was applied. The overall average discard rate in the recreational fisheries was 1.37%. There was no information on Washington commercial discards, so the rate of 1.37% (same as the historical recreational discards) was also applied to the entire commercial time series. This low rate was similar to discard rates estimated in the other states. Annual retained and discarded catches are summarized in Table \ref{tab:annual_discards}.
 
 ## Composition Data
 
@@ -406,7 +406,7 @@ The length composition data indicate some general differences between the three 
 
 ##### Commercial
 
-Biological data for the commercial fishery were extracted from PacFIN on 23 March, 2023. These data are from trawl and non-trawl (hook-and-line) fisheries (there has been no live-fish fishery off Washington). Of the 9,009 records available within PacFIN (each representing a single specimen), 4,990 were from the commercial trawl fishery (Table \ref{tab:WA_Comm_Lt_samps}).
+Biological data for the commercial fishery were extracted from PacFIN on 23 March, 2023. These data are from trawl and non-trawl (hook-and-line) fisheries (there has been no live-fish fishery off Washington). Of the 8,807 records available within PacFIN (each representing a single specimen), 4,990 were from the commercial trawl fishery (Table \ref{tab:WA_Comm_Lt_samps}).
 
 For use as compositional data in the assessment, lengths undergo a two-stage expansion as implemented in the [PacFIN.Utilities R library](https://github.com/pfmc-assessments/PacFIN.Utilities). The expansions are by weight, catch/sampled catch; first on a per-trip level, and then on a per-year, per-fishery level.  Expansion factors have a minimum value of 1, and are capped at their 90th percentile value. The final sample size is the product of the two expansion factors, which is then capped at its 90th percentile value.
 
@@ -423,7 +423,7 @@ The WDFW provided sampled length data from the tagging survey for sexed and unse
 
 #### Age Compositions
 
-Commercial age composition data were a subset of the length data, 7,833 records in total, and were expanded in the same manner as the lengths (Table \ref{tab:WA_Comm_Lt_samps}).  Ages were stratified by fishery and sex (female, male and unsexed), and binned in 1-year bins from 0 to 40. 
+Commercial age composition data were a subset of the length data, 7,863 records in total, and were expanded in the same manner as the lengths (Table \ref{tab:WA_Comm_Lt_samps}).  Ages were stratified by fishery and sex (female, male and unsexed), and binned in 1-year bins from 0 to 40. 
 
 Samples were also available by sex for several years in the recreational data (Table \ref{tab:rec_age_sample}).  Age samples are available by sex from 1980 until 2022 in the recreational data, and comprise the largest amount of age data in the model.  Ages are binned in 1 year bins from 0 to 40 stratified by sex.
 
@@ -983,21 +983,12 @@ This tex table does not exist, replacing it with WA_Blck_Removals_All_Years.tex
 
 \include{tex_tables/WA_Blck_Removals_All_Years.tex}
 
-<!---
-This tex table does not exist, replacing it with WA_BLCK_Rec_Catch_History.tex
-\include{tex_tables/rec_catch_reconstr.tex}
--->
 
 \include{tex_tables/WA_Blck_Rec_Catch_History.tex}
 
-<!---
-\include{tex_tables/WA_Blck_Annual_Discards}
--->
 
-<!---
-This tex table does not exist, replacing it with WA_BLCK_Rec_Length_Sample.tex
-\include{tex_tables/rec_length_sample.tex}
--->
+\include{tex_tables/WA_Blck_Annual_Discards.tex}
+
 
 \include{tex_tables/WA_Blck_Rec_Length_Sample.tex}
 
