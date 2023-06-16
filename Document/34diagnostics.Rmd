@@ -1,5 +1,5 @@
 ## Characterizing uncertainty
-### Sensitivity Analyses
+### Sensitivity Analyses {#sensitivity-analyses}
 Sensitivity analyses were conducted to evaluate model sensitivity to alternative data treatment and model specifications.
 
 #### Data treatment sensitivities
