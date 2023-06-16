@@ -1,5 +1,7 @@
 ## Fishery-Dependent Data
 
+The following subsections describe the removal histories for each fleet. Some assumptions about historical removals were revisited and changed from the last assessment. Comparisons of total fishery removals in the current and previous assessments are shown in (Figure \ref{fig:catch-ts-comparison}).
+
 ### Commercial Removals
 
 #### Landings {#com-landings}
@@ -24,7 +26,7 @@ Rogers [-@rogers_species_2003] developed catch reconstructions for removals by f
 
 The Washington recreational catch history of `r spp` was reconstructed using several direct and indirect records of `r spp` catch (Table \ref{tab:rec_catch_reconstruction}). All primary sources report catch in numbers of fish. As sources have been modified and re-evaluated, a completely new catch reconstruction for Washington was developed for 2015 assessment. This catch history was updated to include 2015-2022 estimates in this assessment. 
 
-Comparisons of total fishery removals in the current and previous assessments are in Figure .
+
 
 ### Estimated Discards
 
