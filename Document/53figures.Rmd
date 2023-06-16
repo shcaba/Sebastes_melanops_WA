@@ -75,6 +75,7 @@ caption = "Trip average (points) and interquartile range (vertical solid lines) 
 label = 'baglimit_numbers')
 ```
 
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -83,6 +84,7 @@ caption = "Trip average (points) and interquartile range (vertical solid lines) 
 label = 'baglimit_percentage')
 ```
 
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -91,12 +93,16 @@ caption = "Trip average (points) and interquartile range (vertical solid lines) 
 label = 'blackrock_percentage')
 ```
 
+\pagebreak
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Private.png"), 
 caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'private-log-diags')
 ```
+
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -105,12 +111,16 @@ caption = "Diagnostic plots for the positive catch component of the gamma delta-
 label = 'private-gam-diags')
 ```
 
+\pagebreak
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "WA_dockside_Private_Index.png"), 
 caption = "Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index",
 label = 'private-index')
 ```
+
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -119,12 +129,16 @@ caption = "Bootstrapped estimates of variation for each model of the Washington 
 label = 'private-CVs')
 ```
 
+\pagebreak
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Charter.png"), 
 caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'charter-log-diags')
 ```
+
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -133,6 +147,7 @@ caption = "Diagnostic plots for the positive catch component of the gamma delta-
 label = 'charter-gam-diags')
 ```
 
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -141,6 +156,8 @@ caption = "Abundance indices for the WDFW charter boat CPUE analysis. Vertical l
 label = 'charter-index')
 ```
 
+\pagebreak
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "WA_dockside_Charter94_CV.png"), 
@@ -148,6 +165,7 @@ caption = "Bootstrapped estimates of variation for each model of the Washington 
 label = 'charter-CVs')
 ```
 
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -156,12 +174,16 @@ caption = "Estimated and observed proportion zero for the negative binomial tagg
 label = 'prop-zero-tag')
 ```
 
+\pagebreak
+
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "HistoricTagging_1998_2018_Index.png"), 
 caption = "Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model",
 label = 'tag-index')
 ```
+
+\pagebreak
 
 ```{r, results = 'asis'}
 add_figure(
@@ -170,6 +192,7 @@ caption = "Nearshore index time series",
 label = 'nearshore-index')
 ```
 
+\pagebreak
 
 
 <!-- ====================================================================== -->
