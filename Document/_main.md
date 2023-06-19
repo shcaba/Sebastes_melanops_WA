@@ -984,9 +984,10 @@ The biggest uncertainty is in the life history values, especially longevity and 
 
 The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL. These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve-year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:project}. 
 
-Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table. Initial explorations are considering alternative specifications of natural mortality and population scale. The resultant decision table will be provided in Table \ref{tab:dec-tab}. 
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table, with the desire for states of nature to represent uncertainty in both scale and relative stock status  Initial explorations are considering alternative specifications of natural mortality. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spawning output and relative stock status, respectively, of the three states of nature.
 
-Further details about selecting the decision table states of nature will be added here after the STAR panel.  
+Further details about selecting the decision table states of nature will be added here after the STAR panel. The resultant decision table will be provided in Table \ref{tab:dec-tab}. 
+
 
 ## Evaluation of Scientific Uncertainty
 
@@ -1923,6 +1924,13 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \pagebreak
 
+
+![Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington black rockfish.\label{fig:stateofnature_SO}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+
+
+![Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington black rockfish.\label{fig:stateofnature_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+
+\newpage
 
 <!--chapter:end:53figures.Rmd-->
 

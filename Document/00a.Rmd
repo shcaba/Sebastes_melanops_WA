@@ -88,6 +88,8 @@ likeprof_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/li
 
 retro_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/retro")
 
+manage_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/management")
+
 sb0 <- round(model$derived_quants[model$derived_quants$Label == "SSB_Virgin", "Value"], 2)
 sb_final <- round(model$derived_quants[model$derived_quants$Label %in% paste0("SSB_", model$endyr + 1), "Value"], 2)
 

@@ -927,3 +927,18 @@ label = 'yield')
 
 \pagebreak
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(manage_loc, "compare2_spawnbio_uncertainty.png"), 
+caption = "Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington black rockfish",
+label = 'stateofnature_SO')
+```
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(manage_loc, "compare4_Bratio_uncertainty.png"), 
+caption = "Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington black rockfish",
+label = 'stateofnature_depl')
+```
+
+\newpage
