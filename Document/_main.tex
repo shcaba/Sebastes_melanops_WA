@@ -39,7 +39,7 @@
 \usepackage{xcolor}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \hypersetup{
-  pdftitle={Status of Black Rockfish (Sebastes melanops) off Washington and federal waters in 2023},
+  pdftitle={Status of Black Rockfish (Sebastes melanops) in 2023 in state and federal waters off Washington state},
   pdflang={en},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -112,7 +112,7 @@
 
 
 \date{}
-\newcommand{\trTitle}{Status of Black Rockfish (\emph{Sebastes melanops}) off Washington and federal waters in 2023}
+\newcommand{\trTitle}{Status of Black Rockfish (\emph{Sebastes melanops}) in 2023 in state and federal waters off Washington state}
 \newcommand{\trYear}{2023}
 \newcommand{\trMonth}{June}
 \newcommand{\trAuthsLong}{truetruetruetruetruetrue}
@@ -136,10 +136,10 @@
 \pagenumbering{roman}
 \noindent
 \begin{center}
-\title{Status of Black Rockfish (\emph{Sebastes melanops}) off Washington and federal waters in 2023}
+\title{Status of Black Rockfish (\emph{Sebastes melanops}) in 2023 in state and federal waters off Washington state}
 % \textnormal{\MakeTextUppercase{\trTitle{}}}
 \vspace{1.5cm}
-{\Large\textbf\newline{Status of Black Rockfish (\emph{Sebastes melanops}) off Washington and federal waters in 2023}}
+{\Large\textbf\newline{Status of Black Rockfish (\emph{Sebastes melanops}) in 2023 in state and federal waters off Washington state}}
 
 \includegraphicsifexists[width=4in]{figure_title.png}
 \vfill
@@ -896,9 +896,6 @@ Since several years have passed from the last assessment model, the Stock Synthe
 
 Results are similar between models when all parameters are fixed from the 2015 model in the updated SS3 files, although there are scale differences (Figure \ref{fig:ssb_bridge_comps}) and small relative stock status differences (Figure \ref{fig:deps_bridge_comps}) when the new SS3 version is allowed to estimate the same parameters as estimated in the 2015 version. These model comparisons are adequate to move ahead using the newest version of SS3 3.30.21 without expecting large differences in reference models being due to versions of SS3.
 
-\hypertarget{model-structure-and-assumptions}{%
-\subsection{Model Structure and Assumptions}\label{model-structure-and-assumptions}}
-
 \hypertarget{model-structure-evaluation-and-specification}{%
 \subsection{Model Structure, Evaluation, and Specification}\label{model-structure-evaluation-and-specification}}
 
@@ -1538,180 +1535,168 @@ Wallace, Y.W., F. R. aand Cheng, and Tsou, T.S. 2007. Status of the black rockfi
 
 \begin{landscape}\begingroup\fontsize{9}{11}\selectfont
 
-\begin{longtable}[t]{>{\raggedright\arraybackslash}p{6cm}lllll>{\raggedright\arraybackslash}p{4cm}}
-\caption{\label{tab:model-param}List of parameters used in the base model, including estimated values and standard deviations (SD), bounds (minimum and maximum), estimation phase (negative values not estimated), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
+\begin{longtable}[t]{>{\raggedright\arraybackslash}p{7.5cm}lllll>{\raggedright\arraybackslash}p{3.5cm}}
+\caption{\label{tab:params}List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
 \toprule
-Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
+Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endfirsthead
-\caption[]{\label{tab:model-param}List of parameters used in the base model, including estimated values and standard deviations (SD), bounds (minimum and maximum), estimation phase (negative values not estimated), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
+\caption[]{\label{tab:params}List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
 \toprule
-Parameter & Value & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
+Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endhead
 
 \endfoot
 \bottomrule
 \endlastfoot
-NatM uniform Fem GP 1 & 0.17 & -2 & - & - & Log Norm (-1.89, 0.2)\\
-L at Amin Fem GP 1 & 0 & -3 & - & - & None\\
-L at Amax Fem GP 1 & 52.726 & 3 & OK & 0.177535 & Normal (51.19, 0.2)\\
-VonBert K Fem GP 1 & 0.118 & 3 & OK & 0.000866878 & Normal (0.1513, 0.01)\\
-CV young Fem GP 1 & 0.1 & -1 & - & - & None\\
-CV old Fem GP 1 & 0.1 & -4 & - & - & None\\
-Wtlen 1 Fem GP 1 & 5.25e-05 & -99 & - & - & None\\
-Wtlen 2 Fem GP 1 & 2.721 & -99 & - & - & None\\
-Mat50\% Fem GP 1 & 40.36 & -99 & - & - & None\\
-Mat slope Fem GP 1 & -0.38 & -99 & - & - & None\\
-Eggs scalar Fem GP 1 & 1.41e-08 & -3 & - & - & None\\
-Eggs exp len Fem GP 1 & 4.685 & -3 & - & - & None\\
-NatM uniform Mal GP 1 & 0.152 & -2 & - & - & Log Norm (-1.89712, 0.2)\\
-L at Amin Mal GP 1 & 3.662 & -3 & - & - & None\\
-L at Amax Mal GP 1 & 47.646 & 3 & OK & 0.170151 & Normal (47.26, 0.2)\\
-VonBert K Mal GP 1 & 0.14 & 3 & OK & 0.00127584 & Normal (0.1656, 0.01)\\
-CV young Mal GP 1 & 0.1 & -4 & - & - & None\\
-CV old Mal GP 1 & 0.1 & -4 & - & - & None\\
-Wtlen 1 Mal GP 1 & 2.48e-05 & -99 & - & - & None\\
-Wtlen 2 Mal GP 1 & 2.911 & -99 & - & - & None\\
-CohortGrowDev & 1 & -1 & - & - & None\\
-FracFemale GP 1 & 0.5 & -99 & - & - & None\\
-SR LN(R0) & 7.588 & 1 & OK & 0.0400274 & None\\
-SR BH steep & 0.72 & -1 & - & - & None\\
-SR sigmaR & 0.6 & -6 & - & - & None\\
-SR regime & 0 & -99 & - & - & None\\
-SR autocorr & 0 & -99 & - & - & None\\
-Main RecrDev 1956 & -0.546 & 2 & act & 0.503969 & dev (NA, NA)\\
-Main RecrDev 1957 & -0.561 & 2 & act & 0.500437 & dev (NA, NA)\\
-Main RecrDev 1958 & -0.557 & 2 & act & 0.499464 & dev (NA, NA)\\
-Main RecrDev 1959 & -0.527 & 2 & act & 0.501893 & dev (NA, NA)\\
-Main RecrDev 1960 & -0.466 & 2 & act & 0.507785 & dev (NA, NA)\\
-Main RecrDev 1961 & -0.376 & 2 & act & 0.516716 & dev (NA, NA)\\
-Main RecrDev 1962 & -0.275 & 2 & act & 0.523733 & dev (NA, NA)\\
-Main RecrDev 1963 & -0.225 & 2 & act & 0.519769 & dev (NA, NA)\\
-Main RecrDev 1964 & -0.277 & 2 & act & 0.509764 & dev (NA, NA)\\
-Main RecrDev 1965 & -0.338 & 2 & act & 0.49613 & dev (NA, NA)\\
-Main RecrDev 1966 & -0.313 & 2 & act & 0.49543 & dev (NA, NA)\\
-Main RecrDev 1967 & -0.106 & 2 & act & 0.511129 & dev (NA, NA)\\
-Main RecrDev 1968 & 0.151 & 2 & act & 0.464813 & dev (NA, NA)\\
-Main RecrDev 1969 & -0.142 & 2 & act & 0.501174 & dev (NA, NA)\\
-Main RecrDev 1970 & -0.171 & 2 & act & 0.485944 & dev (NA, NA)\\
-Main RecrDev 1971 & 0.017 & 2 & act & 0.435698 & dev (NA, NA)\\
-Main RecrDev 1972 & -0.075 & 2 & act & 0.477878 & dev (NA, NA)\\
-Main RecrDev 1973 & 0.315 & 2 & act & 0.363433 & dev (NA, NA)\\
-Main RecrDev 1974 & 0.387 & 2 & act & 0.298185 & dev (NA, NA)\\
-Main RecrDev 1975 & -0.246 & 2 & act & 0.394025 & dev (NA, NA)\\
-Main RecrDev 1976 & 0.032 & 2 & act & 0.262063 & dev (NA, NA)\\
-Main RecrDev 1977 & -0.079 & 2 & act & 0.262387 & dev (NA, NA)\\
-Main RecrDev 1978 & 0.373 & 2 & act & 0.169735 & dev (NA, NA)\\
-Main RecrDev 1979 & 0.072 & 2 & act & 0.197535 & dev (NA, NA)\\
-Main RecrDev 1980 & -0.105 & 2 & act & 0.200786 & dev (NA, NA)\\
-Main RecrDev 1981 & -0.031 & 2 & act & 0.166198 & dev (NA, NA)\\
-Main RecrDev 1982 & -0.258 & 2 & act & 0.19104 & dev (NA, NA)\\
-Main RecrDev 1983 & 0.28 & 2 & act & 0.129436 & dev (NA, NA)\\
-Main RecrDev 1984 & -0.082 & 2 & act & 0.167146 & dev (NA, NA)\\
-Main RecrDev 1985 & 0.157 & 2 & act & 0.122885 & dev (NA, NA)\\
-Main RecrDev 1986 & -0.168 & 2 & act & 0.146202 & dev (NA, NA)\\
-Main RecrDev 1987 & 0.129 & 2 & act & 0.116921 & dev (NA, NA)\\
-Main RecrDev 1988 & -0.217 & 2 & act & 0.158039 & dev (NA, NA)\\
-Main RecrDev 1989 & 0.297 & 2 & act & 0.115392 & dev (NA, NA)\\
-Main RecrDev 1990 & 0.121 & 2 & act & 0.140105 & dev (NA, NA)\\
-Main RecrDev 1991 & -0.093 & 2 & act & 0.163621 & dev (NA, NA)\\
-Main RecrDev 1992 & -0.199 & 2 & act & 0.170212 & dev (NA, NA)\\
-Main RecrDev 1993 & -0.072 & 2 & act & 0.1545 & dev (NA, NA)\\
-Main RecrDev 1994 & 0.266 & 2 & act & 0.12127 & dev (NA, NA)\\
-Main RecrDev 1995 & 0.212 & 2 & act & 0.127939 & dev (NA, NA)\\
-Main RecrDev 1996 & -0.241 & 2 & act & 0.180089 & dev (NA, NA)\\
-Main RecrDev 1997 & 0.08 & 2 & act & 0.144278 & dev (NA, NA)\\
-Main RecrDev 1998 & 0.096 & 2 & act & 0.153252 & dev (NA, NA)\\
-Main RecrDev 1999 & 0.261 & 2 & act & 0.140664 & dev (NA, NA)\\
-Main RecrDev 2000 & 0.469 & 2 & act & 0.118014 & dev (NA, NA)\\
-Main RecrDev 2001 & -0.326 & 2 & act & 0.201464 & dev (NA, NA)\\
-Main RecrDev 2002 & -0.479 & 2 & act & 0.2074 & dev (NA, NA)\\
-Main RecrDev 2003 & 0.197 & 2 & act & 0.140393 & dev (NA, NA)\\
-Main RecrDev 2004 & 0.111 & 2 & act & 0.168151 & dev (NA, NA)\\
-Main RecrDev 2005 & 0.033 & 2 & act & 0.192344 & dev (NA, NA)\\
-Main RecrDev 2006 & 0.496 & 2 & act & 0.149654 & dev (NA, NA)\\
-Main RecrDev 2007 & 0.508 & 2 & act & 0.161799 & dev (NA, NA)\\
-Main RecrDev 2008 & 0.643 & 2 & act & 0.152868 & dev (NA, NA)\\
-Main RecrDev 2009 & 0.395 & 2 & act & 0.180585 & dev (NA, NA)\\
-Main RecrDev 2010 & 0.291 & 2 & act & 0.190452 & dev (NA, NA)\\
-Main RecrDev 2011 & 0.821 & 2 & act & 0.147221 & dev (NA, NA)\\
-Main RecrDev 2012 & 0.509 & 2 & act & 0.170611 & dev (NA, NA)\\
-Main RecrDev 2013 & 0.45 & 2 & act & 0.174317 & dev (NA, NA)\\
-Main RecrDev 2014 & 0.197 & 2 & act & 0.194565 & dev (NA, NA)\\
-Main RecrDev 2015 & -0.111 & 2 & act & 0.222704 & dev (NA, NA)\\
-Main RecrDev 2016 & -0.06 & 2 & act & 0.226855 & dev (NA, NA)\\
-Main RecrDev 2017 & -0.643 & 2 & act & 0.319952 & dev (NA, NA)\\
-Late RecrDev 2018 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2019 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2020 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2021 & 0 & - & - & - & dev (NA, NA)\\
-Late RecrDev 2022 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2023 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2024 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2025 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2026 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2027 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2028 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2029 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2030 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2031 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2032 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2033 & 0 & - & - & - & dev (NA, NA)\\
-ForeRecr 2034 & 0 & - & - & - & dev (NA, NA)\\
-InitF seas 1 flt 1Trawl & 0 & -1 & - & - & None\\
-InitF seas 1 flt 2NonTRWL & 0 & -1 & - & - & None\\
-InitF seas 1 flt 3Recreational & 0 & -1 & - & - & None\\
-LnQ base Tagging(4) & -5.587 & -1 & - & - & None\\
-LnQ base Nearshore survey(5) & -7.146 & -1 & - & - & None\\
-Q extraSD Nearshore survey(5) & 0.118 & 3 & OK & 0.118597 & None\\
-LnQ base OCNMS(6) & -7.412 & -1 & - & - & None\\
-LnQ base OCNMS YOY(7) & -6.586 & -1 & - & - & None\\
-Q extraSD OCNMS YOY(7) & 1.794 & 3 & OK & 0.54505 & None\\
-LnQ base Private Boat(8) & -6.241 & -1 & - & - & None\\
-Q extraSD Private Boat(8) & 0.376 & 3 & OK & 0.0589846 & None\\
-LnQ base Charter(9) & -5.729 & -1 & - & - & None\\
-Q extraSD Charter(9) & 0.139 & 3 & OK & 0.0551519 & None\\
-Size DblN peak Trawl(1) & 50.022 & 5 & OK & 0.608875 & None\\
-Size DblN top logit Trawl(1) & 0.809 & 5 & OK & 26.4426 & None\\
-Size DblN ascend se Trawl(1) & 3.462 & 5 & OK & 0.131322 & None\\
-Size DblN descend se Trawl(1) & 2.2 & -1 & - & - & None\\
-Size DblN start logit Trawl(1) & -5 & -2 & - & - & None\\
-Size DblN end logit Trawl(1) & 5 & -1 & - & - & None\\
-Size DblN peak NonTRWL(2) & 48.826 & 5 & OK & 1.42586 & None\\
-Size DblN top logit NonTRWL(2) & -0.711 & 5 & OK & 61.0127 & None\\
-Size DblN ascend se NonTRWL(2) & 4.302 & 5 & OK & 0.196344 & None\\
-Size DblN descend se NonTRWL(2) & 3 & -1 & - & - & None\\
-Size DblN start logit NonTRWL(2) & -4 & -2 & - & - & None\\
-Size DblN end logit NonTRWL(2) & 5 & -1 & - & - & None\\
-Size DblN peak Recreational(3) & 43.518 & 5 & OK & 0.292041 & None\\
-Size DblN top logit Recreational(3) & -2.545 & 5 & OK & 5.48326 & None\\
-Size DblN ascend se Recreational(3) & 3.653 & 5 & OK & 0.0645994 & None\\
-Size DblN descend se Recreational(3) & 3 & -1 & - & - & None\\
-Size DblN start logit Recreational(3) & -4 & -2 & - & - & None\\
-Size DblN end logit Recreational(3) & 5 & -1 & - & - & None\\
-Size DblN peak Tagging(4) & 41.705 & 5 & OK & 0.854792 & None\\
-Size DblN top logit Tagging(4) & -3.688 & 5 & OK & 22.1696 & None\\
-Size DblN ascend se Tagging(4) & 3.352 & 5 & OK & 0.239162 & None\\
-Size DblN descend se Tagging(4) & 2.2 & -1 & - & - & None\\
-Size DblN start logit Tagging(4) & -4 & -2 & - & - & None\\
-Size DblN end logit Tagging(4) & 5 & -1 & - & - & None\\
-Size DblN peak Nearshore survey(5) & 32.214 & 2 & OK & 2.99999 & None\\
-Size DblN top logit Nearshore survey(5) & -2.587 & 1 & OK & 7.00608 & None\\
-Size DblN ascend se Nearshore survey(5) & 3.749 & 2 & OK & 0.774646 & None\\
-Size DblN descend se Nearshore survey(5) & 2.2 & -1 & - & - & None\\
-Size DblN start logit Nearshore survey(5) & -4 & -2 & - & - & None\\
-Size DblN end logit Nearshore survey(5) & 5 & -1 & - & - & None\\
-Size DblN peak OCNMS(6) & 26.655 & 2 & OK & 1.26636 & None\\
-Size DblN top logit OCNMS(6) & 1.036 & 1 & OK & 0.333591 & None\\
-Size DblN ascend se OCNMS(6) & 3.585 & -2 & - & - & None\\
-Size DblN descend se OCNMS(6) & 1.328 & 1 & OK & 21.1532 & None\\
-Size DblN start logit OCNMS(6) & -15 & -2 & - & - & None\\
-Size DblN end logit OCNMS(6) & -15 & -1 & - & - & None\\
-SizeSel P1 Private Boat(8) & -1 & -99 & - & - & None\\
-SizeSel P2 Private Boat(8) & -1 & -99 & - & - & None\\
-SizeSel P1 Charter(9) & -1 & -99 & - & - & None\\
-SizeSel P2 Charter(9) & -1 & -99 & - & - & None\\*
+NatM uniform Fem GP 1 & 0.17 & NA & -2 & (0.001, 2) & NA & Log Norm (-1.89, 0.2)\\
+L at Amin Fem GP 1 & 0 & NA & -3 & (-50, 100) & NA & None\\
+L at Amax Fem GP 1 & 52.726 & 0.178 & 3 & (1, 500) & OK & Normal (51.19, 0.2)\\
+VonBert K Fem GP 1 & 0.118 & 0.001 & 3 & (0.001, 2) & OK & Normal (0.1513, 0.01)\\
+CV young Fem GP 1 & 0.1 & NA & -1 & (0.001, 5) & NA & None\\
+CV old Fem GP 1 & 0.1 & NA & -4 & (0.001, 5) & NA & None\\
+Wtlen 1 Fem GP 1 & 5.24556e-05 & NA & -99 & (0, 3) & NA & None\\
+Wtlen 2 Fem GP 1 & 2.721 & NA & -99 & (2, 4) & NA & None\\
+Mat50\% Fem GP 1 & 40.36 & NA & -99 & (1e-04, 1000) & NA & None\\
+Mat slope Fem GP 1 & -0.38 & NA & -99 & (-2, 4) & NA & None\\
+Eggs scalar Fem GP 1 & 1.41e-08 & NA & -3 & (0, 3) & NA & None\\
+Eggs exp len Fem GP 1 & 4.685 & NA & -3 & (0, 10) & NA & None\\
+NatM uniform Mal GP 1 & 0.152 & NA & -2 & (0.001, 2) & NA & Log Norm (-1.89712, 0.2)\\
+L at Amin Mal GP 1 & 3.662 & NA & -3 & (-50, 100) & NA & None\\
+L at Amax Mal GP 1 & 47.646 & 0.170 & 3 & (1, 500) & OK & Normal (47.26, 0.2)\\
+VonBert K Mal GP 1 & 0.14 & 0.001 & 3 & (0.001, 2) & OK & Normal (0.1656, 0.01)\\
+CV young Mal GP 1 & 0.1 & NA & -4 & (0.001, 5) & NA & None\\
+CV old Mal GP 1 & 0.1 & NA & -4 & (0.001, 5) & NA & None\\
+Wtlen 1 Mal GP 1 & 2.47904e-05 & NA & -99 & (0, 3) & NA & None\\
+Wtlen 2 Mal GP 1 & 2.911 & NA & -99 & (2, 4) & NA & None\\
+CohortGrowDev & 1 & NA & -1 & (0.1, 10) & NA & None\\
+FracFemale GP 1 & 0.5 & NA & -99 & (0.01, 0.99) & NA & None\\
+SR LN(R0) & 7.588 & 0.040 & 1 & (1e-04, 20) & OK & None\\
+SR BH steep & 0.72 & NA & -1 & (0.2, 1) & NA & None\\
+SR sigmaR & 0.6 & NA & -6 & (0, 2) & NA & None\\
+SR regime & 0 & NA & -99 & (-5, 5) & NA & None\\
+SR autocorr & 0 & NA & -99 & (0, 2) & NA & None\\
+Main RecrDev 1956 & -0.546 & 0.504 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1957 & -0.561 & 0.500 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1958 & -0.557 & 0.499 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1959 & -0.527 & 0.502 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1960 & -0.466 & 0.508 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1961 & -0.376 & 0.517 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1962 & -0.275 & 0.524 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1963 & -0.225 & 0.520 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1964 & -0.277 & 0.510 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1965 & -0.338 & 0.496 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1966 & -0.313 & 0.495 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1967 & -0.106 & 0.511 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1968 & 0.151 & 0.465 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1969 & -0.142 & 0.501 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1970 & -0.171 & 0.486 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1971 & 0.017 & 0.436 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1972 & -0.075 & 0.478 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1973 & 0.315 & 0.363 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1974 & 0.387 & 0.298 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1975 & -0.246 & 0.394 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1976 & 0.032 & 0.262 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1977 & -0.079 & 0.262 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1978 & 0.373 & 0.170 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1979 & 0.072 & 0.198 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1980 & -0.105 & 0.201 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1981 & -0.031 & 0.166 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1982 & -0.258 & 0.191 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1983 & 0.28 & 0.129 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1984 & -0.082 & 0.167 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1985 & 0.157 & 0.123 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1986 & -0.168 & 0.146 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1987 & 0.129 & 0.117 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1988 & -0.217 & 0.158 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1989 & 0.297 & 0.115 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1990 & 0.121 & 0.140 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1991 & -0.093 & 0.164 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1992 & -0.199 & 0.170 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1993 & -0.072 & 0.154 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1994 & 0.266 & 0.121 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1995 & 0.212 & 0.128 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1996 & -0.241 & 0.180 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1997 & 0.08 & 0.144 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1998 & 0.096 & 0.153 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 1999 & 0.261 & 0.141 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2000 & 0.469 & 0.118 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2001 & -0.326 & 0.201 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2002 & -0.479 & 0.207 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2003 & 0.197 & 0.140 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2004 & 0.111 & 0.168 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2005 & 0.033 & 0.192 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2006 & 0.496 & 0.150 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2007 & 0.508 & 0.162 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2008 & 0.643 & 0.153 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2009 & 0.395 & 0.181 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2010 & 0.291 & 0.190 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2011 & 0.821 & 0.147 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2012 & 0.509 & 0.171 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2013 & 0.45 & 0.174 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2014 & 0.197 & 0.195 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2015 & -0.111 & 0.223 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2016 & -0.06 & 0.227 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Main RecrDev 2017 & -0.643 & 0.320 & 2 & (-5, 5) & act & dev (NA, NA)\\
+Late RecrDev 2018 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2019 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2020 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2021 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+Late RecrDev 2022 & 0 & NA & NA & (NA, NA) & NA & dev (NA, NA)\\
+InitF seas 1 flt 1Trawl & 0 & NA & -1 & (0, 1000) & NA & None\\
+InitF seas 1 flt 2NonTRWL & 0 & NA & -1 & (0, 1000) & NA & None\\
+InitF seas 1 flt 3Recreational & 0 & NA & -1 & (0, 1000) & NA & None\\
+LnQ base Tagging(4) & -5.587 & NA & -1 & (-15, 15) & NA & None\\
+LnQ base Nearshore survey(5) & -7.146 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Nearshore survey(5) & 0.118 & 0.119 & 3 & (0, 5) & OK & None\\
+LnQ base OCNMS(6) & -7.412 & NA & -1 & (-15, 15) & NA & None\\
+LnQ base OCNMS YOY(7) & -6.586 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD OCNMS YOY(7) & 1.794 & 0.545 & 3 & (0, 5) & OK & None\\
+LnQ base Private Boat(8) & -6.241 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Private Boat(8) & 0.376 & 0.059 & 3 & (0, 5) & OK & None\\
+LnQ base Charter(9) & -5.729 & NA & -1 & (-15, 15) & NA & None\\
+Q extraSD Charter(9) & 0.139 & 0.055 & 3 & (0, 5) & OK & None\\
+Size DblN peak Trawl(1) & 50.022 & 0.609 & 5 & (16, 63) & OK & None\\
+Size DblN top logit Trawl(1) & 0.809 & 26.443 & 5 & (-15, 15) & OK & None\\
+Size DblN ascend se Trawl(1) & 3.462 & 0.131 & 5 & (-4, 12) & OK & None\\
+Size DblN descend se Trawl(1) & 2.2 & NA & -1 & (-15, 6) & NA & None\\
+Size DblN start logit Trawl(1) & -5 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Trawl(1) & 5 & NA & -1 & (-15, 20) & NA & None\\
+Size DblN peak NonTRWL(2) & 48.826 & 1.426 & 5 & (16, 63) & OK & None\\
+Size DblN top logit NonTRWL(2) & -0.711 & 61.013 & 5 & (-15, 15) & OK & None\\
+Size DblN ascend se NonTRWL(2) & 4.302 & 0.196 & 5 & (-4, 12) & OK & None\\
+Size DblN descend se NonTRWL(2) & 3 & NA & -1 & (-15, 6) & NA & None\\
+Size DblN start logit NonTRWL(2) & -4 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit NonTRWL(2) & 5 & NA & -1 & (-15, 20) & NA & None\\
+Size DblN peak Recreational(3) & 43.518 & 0.292 & 5 & (16, 63) & OK & None\\
+Size DblN top logit Recreational(3) & -2.545 & 5.483 & 5 & (-15, 15) & OK & None\\
+Size DblN ascend se Recreational(3) & 3.653 & 0.065 & 5 & (-4, 12) & OK & None\\
+Size DblN descend se Recreational(3) & 3 & NA & -1 & (-15, 6) & NA & None\\
+Size DblN start logit Recreational(3) & -4 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Recreational(3) & 5 & NA & -1 & (-15, 20) & NA & None\\
+Size DblN peak Tagging(4) & 41.705 & 0.855 & 5 & (16, 63) & OK & None\\
+Size DblN top logit Tagging(4) & -3.688 & 22.170 & 5 & (-15, 15) & OK & None\\
+Size DblN ascend se Tagging(4) & 3.352 & 0.239 & 5 & (-4, 12) & OK & None\\
+Size DblN descend se Tagging(4) & 2.2 & NA & -1 & (-15, 6) & NA & None\\
+Size DblN start logit Tagging(4) & -4 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Tagging(4) & 5 & NA & -1 & (-15, 20) & NA & None\\
+Size DblN peak Nearshore survey(5) & 32.214 & 3.000 & 2 & (16, 63) & OK & None\\
+Size DblN top logit Nearshore survey(5) & -2.587 & 7.006 & 1 & (-15, 15) & OK & None\\
+Size DblN ascend se Nearshore survey(5) & 3.749 & 0.775 & 2 & (-4, 12) & OK & None\\
+Size DblN descend se Nearshore survey(5) & 2.2 & NA & -1 & (-15, 6) & NA & None\\
+Size DblN start logit Nearshore survey(5) & -4 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit Nearshore survey(5) & 5 & NA & -1 & (-15, 20) & NA & None\\
+Size DblN peak OCNMS(6) & 26.655 & 1.266 & 2 & (10, 55) & OK & None\\
+Size DblN top logit OCNMS(6) & 1.036 & 0.334 & 1 & (-15, 15) & OK & None\\
+Size DblN ascend se OCNMS(6) & 3.585 & NA & -2 & (-4, 12) & NA & None\\
+Size DblN descend se OCNMS(6) & 1.328 & 21.153 & 1 & (-15, 6) & OK & None\\
+Size DblN start logit OCNMS(6) & -15 & NA & -2 & (-999, 15) & NA & None\\
+Size DblN end logit OCNMS(6) & -15 & NA & -1 & (-15, 20) & NA & None\\
+SizeSel P1 Private Boat(8) & -1 & NA & -99 & (-5, 5) & NA & None\\
+SizeSel P2 Private Boat(8) & -1 & NA & -99 & (-5, 5) & NA & None\\
+SizeSel P1 Charter(9) & -1 & NA & -99 & (-5, 5) & NA & None\\
+SizeSel P2 Charter(9) & -1 & NA & -99 & (-5, 5) & NA & None\\*
 \end{longtable}
 \endgroup{}
 \end{landscape}

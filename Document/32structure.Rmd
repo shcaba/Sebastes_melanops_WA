@@ -1,5 +1,3 @@
-## Model Structure and Assumptions
-
 ## Model Structure, Evaluation, and Specification
 
 ### Fleet and Survey Designations
