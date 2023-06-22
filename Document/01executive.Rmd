@@ -13,7 +13,7 @@ This assessment reports the status of `r spp` (*Sebastes melanops*) off Washingt
 
 ## Removals{-}
 
-`r spp` have been caught by a wide variety of gear types in Washington and since the late 1990s are almost exclusively caught recreationally by charter-boats and private sport anglers (Figure \ref{fig:es-catch}). There has been almost no trawl or non-trawl landings of `r spp` in recent years (Table \ref{tab:removalsES}), but trawl landings in the 1940s to 1970s and the commercial jig fishery in the 1980s were more prominent (Figure \ref{fig:es-catch}).
+`r up_spp` have been caught by a wide variety of gear types in Washington and since the late 1990s are almost exclusively caught recreationally by charter-boats and private sport anglers (Figure \ref{fig:es-catch}). There has been almost no trawl or non-trawl landings of `r spp` in recent years (Table \ref{tab:removalsES}), but trawl landings in the 1940s to 1970s and the commercial jig fishery in the 1980s were more prominent (Figure \ref{fig:es-catch}).
 
 Commercial landings of `r spp` are generally considered negligible prior to 1940.  The catch series prior to 1981 for these assessments were derived by applying available estimates or assumed values for the proportion of `r spp` landings in reported landings of rockfish.  Observer data, which are available since the early 2000s, indicate low levels of discarding of `r spp`, generally less than 2% of total catch. While `r spp` are unlikely to have ever comprised a large percentage of overall rockfish landings due to their low abundance compared to other rockfish species, it seems plausible that they have been more than a trivial component due to their nearshore distribution for many years. 
 
@@ -107,7 +107,7 @@ label = 'es-1-spr')
 
 ## Ecosystem considerations{-}
 
-This stock assessment does not explicitly incorporate trophic interactions, habitat factors, or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. @mcclure_vulnerability_2023 report the climate vulnerability for several west coast groundfishes, including `r spp`. `r spp` demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to `r spp` and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
+This stock assessment does not explicitly incorporate trophic interactions, habitat factors, or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. @mcclure_vulnerability_2023 report the climate vulnerability for several west coast groundfishes, including `r spp`. `r up_spp` demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to `r spp` and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Additional stressors such as fishing and climate change that possibly truncate longevity could bring significant challenges to population sustainability.
 
 ## Reference points{-}
 
@@ -140,7 +140,7 @@ label = 'es-yield')
 
 ## Management performance{-}
 
-`r spp` removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manageES}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of `r Spp` [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022.  
+`r up_spp` removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manageES}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of `r Spp` [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022.  
 
 \input{tex_tables/f_Manage_ES.tex}
 
