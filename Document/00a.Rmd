@@ -37,7 +37,6 @@ if(file.exists("00mod.Rdata")){
 
 spp = 'Black Rockfish'
 Spp = 'Black Rockfish'
-up_spp = 'Black rockfish'
 
 if(file.exists("00mod.Rdata")){
   load("00mod.Rdata")
