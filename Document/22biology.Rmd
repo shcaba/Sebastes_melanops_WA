@@ -35,7 +35,7 @@ These provide reasonable bookends for likely natural mortality values for `r spp
 Exploratory runs first attempted to estimate natural mortality with not unrealistic, but slightly low, estimates. The base model instead fixes natural mortality to the values from the last assessment,`r round(model$MGparmAdj$NatM_uniform_Fem_GP_1[1], 3)` for females and `r round(model$MGparmAdj$NatM_uniform_Mal_GP_1[1], 3)` for males, that align with a maximum age of `r 54/round(model$MGparmAdj$NatM_uniform_Fem_GP_1[1], 0)` for females and `r 54/round(model$MGparmAdj$NatM_uniform_Mal_GP_1[1], 0)` for males. Multiple sensitivities were conducted examining the impact of the assumed value within the base model. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is also included to explore model sensitivity, as this parameter may be a useful parameter to establish different states of nature for uncertainty analysis. 
 
 
-### Age and growth relationship
+### Age and Growth Relationship
 
 The length-at-age was estimated for female and male `r spp` using data from collections sampling the commercial and recreational fisheries off the coast of Washington (Figure \ref{fig:len-age-data-sex} and Figure \ref{fig:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated external to the model at the following values:
 
@@ -81,7 +81,7 @@ A flexible spline model can capture skipped spawning in the maturity ogive by al
 The `r spp` fecundity-at-length relationship was provided by E.J. Dick (Southwest Fisheries Science Center) and based on the work from -@dick_modeling_2009. The fecundity relationship was estimated equal to $\text{Fecundity}$=`r format(model$MGparmAdj$Eggs_scalar_Fem[1], scientific = TRUE)`$L$^`r round(model$MGparmAdj$Eggs_exp_len_Fem[1],2)`^ in millions of eggs where $L$ is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
 
 
-### Stock-recruitment function and compensation
+### Stock-Recruitment Function and Compensation
 
 The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002]. The Thorson-Dorn rockfish prior (developed for use West Coast rockfish assessments) was reviewed and endorsed by the Scientific and Statistical Committee (SSC) in 2017, and is the primary source of information on steepness for west coast rockfishes. The prior ($h$; beta distribution with $\mu$=`r round(model$parameters[model$parameters$Label == "SR_BH_steep","Value"],2)` and $\sigma$=0.15) is used in this assessment, but attempts to estimate steepness were not successful, so it is fixed and its influence is explored via a likelihood profile.
 
