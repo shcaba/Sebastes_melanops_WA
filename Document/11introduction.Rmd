@@ -4,11 +4,7 @@ This assessment report describes the stock of `r spp` (*Sebastes melanops*) off 
 
 ## Basic Information
 
-<<<<<<< HEAD
 `r spp` are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
-=======
-`r Spp` are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
->>>>>>> 56b361e29f9973b934f922237a0642b8f002c6c9
 
 Previous assessments of `r spp` off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal `r spp` genetic structure using 10 sampled sites collected from northern California to southern British Columbia between 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of `r spp` collected from eight sites along the northern Oregon coast concluded that `r spp` from north and south of Cape Falcon were genetically very similar.
 
@@ -28,11 +24,7 @@ Although tagging studies have documented some individuals moving long distances 
 
 Like all members of the genus Sebastes, `r spp` have internal fertilization and bear live young approximately two months after insemination. `r spp` are quite fecund, with a six-year-old female annually producing about 300,000 embryos and a 16-year-old producing about 950,000 embryos [@bobko_berkeley_2004].  Recent studies have demonstrated that the relative number and quality of larvae increase with age in female `r spp` [@berkeley_etal_2004; @hixon_etal_1987]. Parturition of larvae occurs during winter [@wyllie_echeverria_1987] and larvae and small juveniles are pelagic for several months to a year [@boehlert_yoklavich_1983].  Settlement occurs in estuaries, tide-pools, and in the nearshore at depths less than 20 m [@stein_hassler_1989].  
 
-<<<<<<< HEAD
 `r spp` begin recruiting to nearshore fisheries at 3-4 years of age, corresponding to a fork length of about 25-30 cm, and 50% of females attain maturity between 6-8 years of age, corresponding to a fork length of about 38-42 cm.  Adult female `r spp` grow 3-5 cm larger than males, with a few females attaining fork lengths greater than 55 cm.
-=======
-`r Spp` begin recruiting to nearshore fisheries at 3-4 years of age, corresponding to a fork length of about 25-30 cm, and 50% of females attain maturity between 6-8 years of age, corresponding to a fork length of about 38-42 cm.  Adult female `r spp` grow 3-5 cm larger than males, with a few females attaining fork lengths greater than 55 cm.
->>>>>>> 56b361e29f9973b934f922237a0642b8f002c6c9
 
 ## Ecosystem Considerations
 
@@ -40,11 +32,7 @@ No formal ecosystem considerations have been made given the lack of data for suc
 
 ## Historical and Current Fishery Information
 
-<<<<<<< HEAD
 `r spp` are harvested by a wide variety of fishing methods including trawling, trolling, and hook-and-line fishing with jigs and long-lines since at least the 1940s.  Although `r spp` have never been a dominant component of any commercial fisheries, they have been important incidental catch in the troll fishery for salmon and the troll and jig fisheries for groundfish.  With the decline of salmon fishing opportunities in the late 1970s and early 1980s `r spp` became a vital target of marine recreational fisheries in Oregon and Washington, especially during periods of restricted or slack fishing for salmon, halibut, and tuna.  
-=======
-`r Spp` are harvested by a wide variety of fishing methods including trawling, trolling, and hook-and-line fishing with jigs and long-lines since at least the 1940s.  Although `r spp` have never been a dominant component of any commercial fisheries, they have been important incidental catch in the troll fishery for salmon and the troll and jig fisheries for groundfish.  With the decline of salmon fishing opportunities in the late 1970s and early 1980s `r spp` became a vital target of marine recreational fisheries in Oregon and Washington, especially during periods of restricted or slack fishing for salmon, halibut, and tuna.  
->>>>>>> 56b361e29f9973b934f922237a0642b8f002c6c9
 
 Since 1990 annual recreational harvests of `r spp` have averaged 272.5 tons off Washington. Commercial annual harvests by non-trawl gear types during the same period averaged 14.7 tons in Washington. Harvests by trawl on average during this period have been very low (Table \ref{tab:total_removals}).
 
@@ -61,12 +49,7 @@ In recent years regulations for the marine sport fisheries, which has been the m
 
 Washington had a recreational daily bag limit for rockfish (all species) of 15 fish per day from 1961 to 1991, 12 fish per day from 1992 to 1994,  10 fish per day from 1995 to 2016, and 7 fish per day from 2017 to 2022.  The bag limit for Blue Rockfish plus `r spp` in Marine Area 4B (Neah Bay) has been 6 fish per day since 2010.  Fishing seasons for groundfish species are structured to provide year-round fishing opportunities, if possible.  Depth restrictions vary by state management area, being more restrictive in the north compared to the south due to higher encounter rates with overfished Yelloweye Rockfish and Canary Rockfish (declared rebuilt in 2015).  There is no minimum size limit for `r spp`.
 
-<<<<<<< HEAD
 `r spp` removals have been below the equivalent Overfishing Limit (OFL) and Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manage}).In the last ten years, catches peaked in 2016 at 369 mt and have since declined.
-=======
-## Canadian and Alaska fisheries
-`r Spp` is a "Non-Quota" species in the Department of Fisheries and Oceans╔ Management Plan, and is not formally assessed in nearshore Canada waters [@dfo_fmp_2014].
->>>>>>> 56b361e29f9973b934f922237a0642b8f002c6c9
 
 ## Canadian and Alaska fisheries
 `r spp` is one of multiple Inshore Rockfish species on the West Coast of British Columbia. The most recent evaluation was completed by Yamanaka and Lacko [-@yamanaka_inshore_2001], which determined that there was insufficient information to recommend a `r spp`-specific catch quotas for the five management areas on the Pacific coast of British Columbia. `r spp` continues to be a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan [@dfo_fmp_2014]. 
