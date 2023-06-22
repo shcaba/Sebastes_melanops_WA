@@ -247,6 +247,9 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and 
 
 ![Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
 
+
+![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+
 \clearpage
 
 
@@ -262,16 +265,13 @@ Recent removals since 2017 have been at or below the point estimate of potential
 
 The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is 46%, above the management target of 40% of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:es-phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and limit relative biomass, and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
 
-\include{tex_tables/e_ReferencePoints_ES.tex}
-
-
-![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
-
-
 
 ![Equilibrium yield curve for the base case model. Values are based on (the time invariant)
 fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
+\clearpage
+
+\include{tex_tables/e_ReferencePoints_ES.tex}
 
 \clearpage
 
@@ -286,7 +286,7 @@ Black Rockfish removals have been below the equivalent Annual Catch Limit (ACL) 
 
 ## Unresolved problems and major uncertainties{-}
 
-The biggest uncertainty is in the life history values, especially longevity and natural mortality. Lack of contrast in the biological data, despite generous sample sizes, can also make interpreting the population dynamics difficult, though current stock status does seem to be robust to this data.
+The biggest uncertainty is in the life history values, especially longevity and natural mortality. Lack of contrast in the biological data, despite generous sample sizes, can also make interpreting the population dynamics difficult, though current stock status does seem to be robust to this data. The catch history, especially the historical trawl portion, remains uncertainty. Recruitment estimation, will indicative of other prominent years in other rockfishes, in most uncertain in the most recent years, thus forecasts will also be uncertain.  
 
 ## Scientific uncertainty{-}
 
@@ -394,10 +394,12 @@ In recent years regulations for the marine sport fisheries, which has been the m
 
 Washington had a recreational daily bag limit for rockfish (all species) of 15 fish per day from 1961 to 1991, 12 fish per day from 1992 to 1994,  10 fish per day from 1995 to 2016, and 7 fish per day from 2017 to 2022.  The bag limit for Blue Rockfish plus Black Rockfish in Marine Area 4B (Neah Bay) has been 6 fish per day since 2010.  Fishing seasons for groundfish species are structured to provide year-round fishing opportunities, if possible.  Depth restrictions vary by state management area, being more restrictive in the north compared to the south due to higher encounter rates with overfished Yelloweye Rockfish and Canary Rockfish (declared rebuilt in 2015).  There is no minimum size limit for Black Rockfish.
 
-## Canadian and Alaska fisheries
-Black Rockfish is a "Non-Quota" species in the Department of Fisheries and Oceans╔ Management Plan, and is not formally assessed in nearshore Canada waters [@dfo_fmp_2014].
+Black Rockfish removals have been below the equivalent Overfishing Limit (OFL) and Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manage}).In the last ten years, catches peaked in 2016 at 369 mt and have since declined.
 
-Alaska has initiated stock assessments for Black Rockfish throughout the state. These efforts are ongoing.
+## Canadian and Alaska fisheries
+Black Rockfish is one of multiple Inshore Rockfish species on the West Coast of British Columbia. The most recent evaluation was completed by Yamanaka and Lacko [-@yamanaka_inshore_2001], which determined that there was insufficient information to recommend a Black Rockfish-specific catch quotas for the five management areas on the Pacific coast of British Columbia. Black Rockfish continues to be a "Non-Quota" species in the Department of Fisheries and Oceans Management Plan [@dfo_fmp_2014]. 
+
+Directed fisheries for Black Rockfish in Alaska are limited. In the Westward region (Kodiak area) of Alaska, an acoustic visual survey has been the primary management tool used to determine population size. An age-structured assessment for Black Rockfish is under development by the Alaska Department of Fish and Game that will use the data from this acoustic visual survey as the primary data source. Assessments are also under development for Black Rockfish for the Southeast or Central regions in the Gulf of Alaska. 
 
 <!--chapter:end:11introduction.Rmd-->
 
@@ -600,7 +602,7 @@ These provide reasonable bookends for likely natural mortality values for Black 
 Exploratory runs first attempted to estimate natural mortality with not unrealistic, but slightly low, estimates. The base model instead fixes natural mortality to the values from the last assessment,0.17 for females and 0.152 for males, that align with a maximum age of \ensuremath{\infty{}} for females and \ensuremath{\infty{}} for males. Multiple sensitivities were conducted examining the impact of the assumed value within the base model. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is also included to explore model sensitivity, as this parameter may be a useful parameter to establish different states of nature for uncertainty analysis. 
 
 
-### Age and growth relationship
+### Age and Growth Relationship
 
 The length-at-age was estimated for female and male Black Rockfish using data from collections sampling the commercial and recreational fisheries off the coast of Washington (Figure \ref{fig:len-age-data-sex} and Figure \ref{fig:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated external to the model at the following values:
 
@@ -646,7 +648,7 @@ A flexible spline model can capture skipped spawning in the maturity ogive by al
 The Black Rockfish fecundity-at-length relationship was provided by E.J. Dick (Southwest Fisheries Science Center) and based on the work from -@dick_modeling_2009. The fecundity relationship was estimated equal to $\text{Fecundity}$=1.41e-08$L$^4.68^ in millions of eggs where $L$ is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
 
 
-### Stock-recruitment function and compensation
+### Stock-Recruitment Function and Compensation
 
 The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for black rockfish.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002]. The Thorson-Dorn rockfish prior (developed for use West Coast rockfish assessments) was reviewed and endorsed by the Scientific and Statistical Committee (SSC) in 2017, and is the primary source of information on steepness for west coast rockfishes. The prior ($h$; beta distribution with $\mu$=0.72 and $\sigma$=0.15) is used in this assessment, but attempts to estimate steepness were not successful, so it is fixed and its influence is explored via a likelihood profile.
 
@@ -658,6 +660,8 @@ No information on the sex ratio at birth was available so it was assumed to be 5
 <!--chapter:end:22biology.Rmd-->
 
 ## Environmental and Ecosystem Data
+
+This stock assessment does not explicitly incorporate trophic interactions, habitat factors or environmental factors into the assessment model. More predation, diet and habitat work, and mechanistic linkages to environmental conditions would be needed to incorporate these elements into the stock assessment and should remain a priority. McClure et al. [-@mcclure_vulnerability_2023] report the climate vulnerability for several west coast groundfishes, including Black Rockfish. Black Rockfish demonstrated both high biological sensitivity and high climate exposure risk, to give it an overall high vulnerability score to climate change. This result should also be considered with the fact that, like many rockfishes, periods of low productivity is not unusual to Black Rockfish and their extended longevity (though admittedly this seems shorter than previously believed and should be reconsidered) has historically allowed them to wait for advantageous productivity periods. Stressors such as habitat degradation and climate change could bring significant challenges to population sustainability. Regardless, no environmental or ecosystem data are directly incorporated into the stock assessment model.
 
 <!--chapter:end:23enviro.Rmd-->
 
@@ -786,7 +790,7 @@ After much consideration, it was determined that some parameters were inestimabl
 
 The selectivity of all fisheries were estimated as logistic even if dome-shaped selectivity was an option (and starting values begin at a strong dome-shaped position). Constant selectivity was assumed for the whole time period as there was no reason to suggest otherwise, and is consistent with the previous stock assessment treatment.
 
-The full list of estimate and fixed parameters are found in Table \ref{tab:model-param}. 
+The full list of estimate and fixed parameters are found in Table \ref{tab:model-params}. 
 
 The biggest uncertainty was in the treatment of sex-specific $M$, as estimation came in very low for both sexes versus observed ages in the population and the treatment in the last assessment. This parameter affects both scale and status, and thus is a valuable parameter to consider for characterizing model specification error and defining states of nature. Both likelihood profiles and sensitivities explore the influence of this parameter on derived model outputs.
 
@@ -855,9 +859,9 @@ The two fishery independent surveys, the OCNMS dive (Figure \ref{fig:ocnms-index
 
 #### Parameter Estimates
 
-A total of five population parameters, four survey variances and eightteen selectivity parameters were estimated, along with sixty-two recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-param} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived outputs and reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
+A total of five population parameters, four survey variances and eightteen selectivity parameters were estimated, along with sixty-two recruitment deviations. The reference model parameter estimates along with asymptotic standard errors are shown in Table \ref{tab:model-params} and the likelihood components are shown in Table \ref{tab:likes}. Estimates of derived outputs and reference points and approximate 95 percent asymptotic confidence intervals are provided in Table \ref{tab:referenceES}. 
 
-The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-param} and Figure \ref{fig:len-age-ss}). The estimated $L_{\infty}$ and $k$ for females and males were slightly greater and lower than the values estimated externally, respectively.  The majority of female and male Black Rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female Black Rockfish reaching larger maximum lengths (Figure \ref{fig:len-age-ss}).
+The estimates of sex-specific growth parameters showed some differences from the externally estimated starting values (Table \ref{tab:model-params} and Figure \ref{fig:len-age-ss}). The estimated $L_{\infty}$ and $k$ for females and males were slightly greater and lower than the values estimated externally, respectively.  The majority of female and male Black Rockfish growth occurs at younger ages, reaching near maximum length by age 20-25, depending upon sex, with female Black Rockfish reaching larger maximum lengths (Figure \ref{fig:len-age-ss}).
 
 The time series of estimated recruitment deviations and annual recruitment deviations are shown in Figures \ref{fig:recruits} and \ref{fig:rec-devs}. Years with major recruitment deviations were estimated to have occurred  around 1999, 2007, and 2010. These years are very similar to recruitment deviations seen in other rockfishes. One curious signal is the string of positive deviations from 2005-2013, though this is consistently apparent in most model runs. The variance check on the recruitment deviations indicates well informed recruitments from the early 1960s to 2017, providing justification for the estimation of recruitment (Figure \ref{fig:varcheck}). Recruitment deviations after 2017 are relatively uninformed and are not estimated, as is not unexpected from the lag in selectivity with the biological compositions. The recruitment bias adjustment applied within the model across years is shown in Figure \ref{fig:bias-adj}. The Beverton-Holt stock-recruitment relationship compared to the recruitment deviations are given in Figure \ref{fig:bh-curve}.
 
@@ -952,7 +956,9 @@ The profile on the assumption of $lnR_0$, which sets the initial scale of the po
 
 The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of current stock size, especially when steepness drops below 0.7. The lower steepness values rapidly decrease the relative stock size. The likelihood components except lengths pushed the steepness to the highest value; length cause the value to race to a minimum value. (Figure \ref{fig:steepness-profile-components}). There seems to be no real information on the value of this parameter in this model.
 
-The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrates the model wants natural mortality values to be near the low end of reasonable natural mortlality values (Figure \ref{fig:M-multiprofile-combo}). This lowering of the stock productivity results in stock status near the overfished limit. This type of sensitivity to stock productivity (similar to what we see with the steepness profile) makes natural mortality a strong candidate for exploring model specification uncertainty in order to build alternative states of nature for decision tables.
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrates the model wants natural mortality values to be near the low end of reasonable natural mortality values (Figure \ref{fig:M-multiprofile-combo}). The information content of the components is mixed (Figure \ref{fig:M-multiprofile-like-components}), as the length compositions all push toward very low $M$ values (Figure \ref{fig:M-multiprofile-length-components}), the ages support moderate to high $M$ values (Figure \ref{fig:M-multiprofile-age-components}), and the survey information supporting very high $M$ values (Figure \ref{fig:M-multiprofile-survey-components}). If one considers the age components only, the non-trawl data support values around the reference value, whereas the recreational data for high $M$ values. 
+
+Overall, this mixed signal does not support estimation of $M$ despite the model providing an estimate of low $M$ values. This lowering of the stock productivity results in stock status near the overfished limit. This type of sensitivity to stock productivity (similar to what we see with the steepness profile) makes natural mortality a strong candidate for exploring model specification uncertainty in order to build alternative states of nature for decision tables.
 
 ### Retrospective Analysis
 
@@ -972,6 +978,11 @@ Reference points were based on the rockfish FMSY proxy ($\text{SPR}_{50\%}$), ta
 Recent removals since 2017 have been at or below the point estimate of potential long-term yields calculated using an $\text{SPR}_{50\%}$ reference point (Figure \ref{fig:1-spr}), leading to a  population that has continued to increase over recent years with the assistance of above average recruitment between 2003-2014, despite below average recruitment starting in 2015. The equilibrium estimates of yield relative to biomass based on a steepness value fixed at 0.72 are provided in Figure \ref{fig:yield}, where vertical dashed lines indicate the estimate of fraction unfished at the start of 2023 (current) and the estimated management targets calculated based on the relative target biomass (B target), the SPR target, and the maximum sustainable yield (MSY). 
 
 The 2023 spawning biomass relative to unfished equilibrium spawning biomass, based on the 2022 fishing year, is 46%, above the management target of 40% of unfished spawning output. The relative biomass and the ratio of the estimated SPR to the management target ($\text{SPR}_{50\%}$) across all model years are shown in Figure \ref{fig:phase} where warmer colors (red) represent early years and colder colors (blue) represent recent years.  There have been periods where the stock status has decreased below the target and limit relative biomass, and fishing intensity has been higher than the target fishing intensity based on $\text{SPR}_{50\%}$.
+
+## Management performance
+
+Black Rockfish removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manage}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of Black Rockfish [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022. The OFL has not been exceeded in any year over the past 10 years.
+
 
 ## Unresolved Problems and Major Uncertainties
 
@@ -1023,7 +1034,8 @@ Recommended avenues for research to help improve future Black Rockfish stock ass
 <!--chapter:end:40management.Rmd-->
 
 # Acknowledgments
-Here are all the mad props!
+
+Thank you to Chantel Wetzel for reviewing and offering many great edits. Owen Hamel, John Budrick and Marlene Bellman also reviewed a pre-STAR draft. The STAT would also like to thank the STAR panel members for their comments and review. 
 
 <!--chapter:end:41acknowledgments.Rmd-->
 
@@ -1060,6 +1072,7 @@ This tex table does not exist, replacing it with WA_Blck_Removals_All_Years.tex
 
 \include{tex_tables/WA_Removals_all.tex}
 
+\include{tex_tables/manage.tex}
 
 \include{tex_tables/WA_Rec_recons.tex}
 
@@ -1120,12 +1133,12 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Age_Sample.tex
 \begin{landscape}\begingroup\fontsize{9}{11}\selectfont
 
 \begin{longtable}[t]{>{\raggedright\arraybackslash}p{7.5cm}lllll>{\raggedright\arraybackslash}p{3.5cm}}
-\caption{(\#tab:params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
+\caption{(\#tab:model-params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
 \toprule
 Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endfirsthead
-\caption[]{(\#tab:params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
+\caption[]{(\#tab:model-params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
 \toprule
 Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
@@ -1872,6 +1885,27 @@ This table is included below and referenced in the management section
 ![Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/M_fm_multilikelihood_profile.png){width=100% height=100% alt="."}
 
 \pagebreak
+
+
+![Likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/like_component_profile.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Length likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-length-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/length_component_profile.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Age likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-age-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/age_component_profile.png){width=100% height=100% alt="."}
+
+\newpage
+
+
+![Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-survey-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/survey_component_profile.png){width=100% height=100% alt="."}
+
+\newpage
+
 
 ### Retrospectives
 

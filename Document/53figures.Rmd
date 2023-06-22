@@ -687,7 +687,7 @@ label = 'bias-adj')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"),
-caption = "Recruitment deviations variance check. Low standard deviations indicate years with informative deviations ",
+caption = "Recruitment deviations variance check. Low standard deviations indicate years with informative deviations",
 label = 'varcheck')
 ```
 
@@ -869,6 +869,43 @@ label = 'M-multiprofile-combo')
 ```
 
 \pagebreak
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"like_component_profile.png"), 
+caption = "Likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-like-components')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"length_component_profile.png"), 
+caption = "Length likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-length-components')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"age_component_profile.png"), 
+caption = "Age likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-age-components')
+```
+
+\newpage
+
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(likeprof_fig_loc,"survey_component_profile.png"), 
+caption = "Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+label = 'M-multiprofile-survey-components')
+```
+
+\newpage
+
 
 ### Retrospectives
 

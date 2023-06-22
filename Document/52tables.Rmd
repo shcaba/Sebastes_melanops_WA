@@ -13,6 +13,7 @@ This tex table does not exist, replacing it with WA_Blck_Removals_All_Years.tex
 
 \include{tex_tables/WA_Removals_all.tex}
 
+\include{tex_tables/manage.tex}
 
 \include{tex_tables/WA_Rec_recons.tex}
 
@@ -113,7 +114,7 @@ col_names = c('Parameter',
                          'Prior (Exp.Val, SD)')
 table_format(x = mod_params,
              caption = "List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).",
-             label = "params",
+             label = "model-params",
              align = 'l',
              col_names = col_names,
              longtable = TRUE,

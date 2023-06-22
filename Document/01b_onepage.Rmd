@@ -5,7 +5,7 @@
 
 \item This assessment for `r spp` in Washington waters incorporates a wide range of data sources: removals from two commercial and one recreational fleets; two fishery-dependent indices of abundance, four fishery-independent indices of abundance (including a new nearshore survey), length and conditional age-at-length composition data for several fisheries and surveys; information on weight-at-length, maturity-at-length, and fecundity-at-length; information on natural mortality and the steepness of the Beverton-Holt stock-recruitment relationship; and estimates of ageing error.
 
-\item `r up_spp` off the U.S. west coast appear to have complex sex-specific growth and mortality dynamics that are captured in this assessment through sex-specific parameterizations. In particular, observations of older females are lacking in the available data and is addressed by allowing for higher female natural mortality relative to males.
+\item `r spp` off the U.S. west coast appear to have complex sex-specific growth and mortality dynamics that are captured in this assessment through sex-specific parameterizations. In particular, observations of older females are lacking in the available data and is addressed by allowing for higher female natural mortality relative to males.
 
 \item The model was highly sensitive to model specifications natural mortality. 
 

@@ -30,7 +30,7 @@ author:
     first: F
     middle: P
     family: Caltabellotta
-author_list: Cope, J.M. , L.K. Hillier, C.B. Niles , T.-. Tsou, K.E. Hinton, F.P. Caltabellotta
+author_list: Cope, J.M., L.K. Hillier, C.B. Niles , T. Tsou, K.E. Hinton, F.P. Caltabellotta
 affiliation:
   - code: 1
     address: Northwest Fisheries Science Center, U.S. Department of Commerce, National

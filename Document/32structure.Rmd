@@ -4,10 +4,10 @@
 
 The Washington model is structured to track several fleets and include data from several surveys:
 
-* Fleet 1: Commerical trawlfishery
+* Fleet 1: Commerical trawl fishery
 * Fleet 2: Commercial non-trawl (mostly jig) fishery
 * Fleet 3: Recreational boat fishery
-* Survey 1: Private Boat  
+* Survey 1: Private boat  
 * Survey 2: Charter
 * Survey 3: Tagging 
 * Survey 4: Nearshore
@@ -22,7 +22,7 @@ There are five primary likelihood components for each assessment model:
 
 1. Fit to survey indices of abundance.
 2. Fit to length composition samples.
-3. Fit to age composition samples (all fit as conditional age-at-length).  
+3. Fit to age composition samples (all fit as conditional age-at-length).
 4. Penalties on recruitment deviations (specified differently for each model).
 5. Prior distribution penalties
 
@@ -57,7 +57,7 @@ After much consideration, it was determined that some parameters were inestimabl
 
 The selectivity of all fisheries were estimated as logistic even if dome-shaped selectivity was an option (and starting values begin at a strong dome-shaped position). Constant selectivity was assumed for the whole time period as there was no reason to suggest otherwise, and is consistent with the previous stock assessment treatment.
 
-The full list of estimate and fixed parameters are found in Table \ref{tab:model-param}. 
+The full list of estimate and fixed parameters are found in Table \ref{tab:model-params}. 
 
 The biggest uncertainty was in the treatment of sex-specific $M$, as estimation came in very low for both sexes versus observed ages in the population and the treatment in the last assessment. This parameter affects both scale and status, and thus is a valuable parameter to consider for characterizing model specification error and defining states of nature. Both likelihood profiles and sensitivities explore the influence of this parameter on derived model outputs.
 
