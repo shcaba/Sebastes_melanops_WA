@@ -14,7 +14,7 @@
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(stock_fig_loc, "black_rockfish_map.png"), 
-caption = "Map of the management and assessment areas for Black Rockfish.",
+caption = "Map of the management and assessment areas for black rockfish.",
 label = 'map')
 ```
 
@@ -107,7 +107,7 @@ label = 'blackrock_percentage')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Private.png"), 
-caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'private-log-diags')
 ```
 
@@ -116,7 +116,7 @@ label = 'private-log-diags')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Private.png"), 
-caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'private-gam-diags')
 ```
 
@@ -152,7 +152,7 @@ label = 'charter-log-diags')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Charter.png"), 
-caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'charter-gam-diags')
 ```
 
@@ -397,7 +397,7 @@ label = 'len-weight-or-wa')
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_SB_comp_plot.png"), 
-  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'ssb_bridge_comps')
 
 ``` 
@@ -407,7 +407,7 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_Dep_comp_plot.png"), 
-  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'deps_bridge_comps')
 
 ``` 
