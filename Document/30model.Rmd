@@ -4,7 +4,7 @@
 
 ### History of Modeling Approaches Used for this Stock
 
-#### Black rockfish South of Cape Falcon
+#### Black Rockfish South of Cape Falcon
 
 The first stock assessment of `r spp` off Oregon [@stewart_status_1993], which was limited in geographic scope to the northern portion of Oregon, was a Cohort Analysis based on age composition data collected from fish landed at Garibaldi.  The first comprehensive analysis of the `r spp` stock off Oregon and California was by Ralston and Dick [-@ralston_status_2003], who developed a statistical catch-at-age model using Stock Synthesis. @sampson_status_2007 used a similar model configuration and approach.
 
@@ -13,7 +13,7 @@ In the 2007 assessment model the data were organized into three basic gear-types
 The landings data series in the 2007 assessment differed quite substantially from the series developed by Ralston and Dick [-@ralston_status_2003] for the 2003 assessment.  Neither of those assessments attempted to account for discards, instead assuming that discards were negligible.
 
 
-#### Black rockfish North of Cape Falcon
+#### Black Rockfish North of Cape Falcon
 
 Three full assessments for `r spp`, conducted in 1994, 1999, and 2007, modeled the `r spp` population found in coastal waters between Cape Falcon, Oregon and north to the U.S./Canadian border [@wallace_status_1994; @wallace_status_1999; @wallace_status_1999; @wallace_status_2007]. The 2007 assessment was the last assessment that applied this area stratification of the model areas. 
 
