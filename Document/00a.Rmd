@@ -35,7 +35,7 @@ if(file.exists("00mod.Rdata")){
   print("Model output not being read. Please run the read_model() function.")
 }
 
-spp = 'Black Rockfish'
+spp = 'black rockfish'
 Spp = 'Black Rockfish'
 
 if(file.exists("00mod.Rdata")){
