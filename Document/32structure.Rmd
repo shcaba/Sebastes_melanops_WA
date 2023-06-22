@@ -4,10 +4,10 @@
 
 The Washington model is structured to track several fleets and include data from several surveys:
 
-* Fleet 1: Commerical trawlfishery
+* Fleet 1: Commerical trawl fishery
 * Fleet 2: Commercial non-trawl (mostly jig) fishery
 * Fleet 3: Recreational boat fishery
-* Survey 1: Private Boat  
+* Survey 1: Private boat  
 * Survey 2: Charter
 * Survey 3: Tagging 
 * Survey 4: Nearshore
