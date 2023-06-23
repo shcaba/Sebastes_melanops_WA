@@ -4,7 +4,7 @@ This assessment report describes the stock of `r spp` (*Sebastes melanops*) off 
 
 ## Basic Information
 
-`r spp` are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
+`r Spp` are an important component of the recreational fisheries in the nearshore waters off central and northern California, Oregon, and Washington, as well as the non-trawl commercial fisheries in California and Oregon. They range as far north as Amchitka and Kodiak islands in Alaska and are considered uncommon south of central California [@love_rockfishes_2002].  
 
 Previous assessments of `r spp` off Washington [@wallace_status_1999; @wallace_status_2007] describe a study of coastal `r spp` genetic structure using 10 sampled sites collected from northern California to southern British Columbia between 1995-97.  Results of that study support the notion of separate genetic stocks north and south of Cape Falcon.  However, a later study [@baker_genetic_1999] of `r spp` collected from eight sites along the northern Oregon coast concluded that `r spp` from north and south of Cape Falcon were genetically very similar.
 
