@@ -120,7 +120,7 @@ for (a in plot.vec){
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex1_beg.png"), 
-caption = "Female black rockfish mean age over time",
+caption = "Female Black Rockfish mean age over time",
 label = 'num_age_females')
 ```
 
@@ -129,7 +129,7 @@ label = 'num_age_females')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers1_sex2_beg.png"), 
-caption = "Male black rockfish mean age over time",
+caption = "Male Black Rockfish mean age over time",
 label = 'num_age_males')
 ```
 
@@ -141,7 +141,7 @@ label = 'num_age_males')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex1.png"), 
-caption = "Female black rockfish mean length (cm) over time",
+caption = "Female Black Rockfish mean length (cm) over time",
 label = 'num_lts_females')
 ```
 
@@ -152,7 +152,7 @@ label = 'num_lts_females')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "numbers6_len_sex2.png"), 
-caption = "Male black rockfish mean length over time",
+caption = "Male Black Rockfish mean length over time",
 label = 'num_lts_males')
 ```
 
