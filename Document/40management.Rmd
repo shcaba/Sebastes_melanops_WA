@@ -10,7 +10,7 @@ The 2023 spawning biomass relative to unfished equilibrium spawning biomass, bas
 
 ## Management performance
 
-`r spp` removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manage}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of `r Spp` [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022. The OFL has not been exceeded in any year over the past 10 years.
+`r Spp` removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manage}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of `r Spp` [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022. The OFL has not been exceeded in any year over the past 10 years.
 
 
 ## Unresolved Problems and Major Uncertainties
