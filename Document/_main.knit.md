@@ -1585,7 +1585,7 @@ This table is included below and referenced in the management section
 \pagebreak
 
 
-![Sex-specific length (cm)-weight (kg) data for Black Rockfish samples by source.\label{fig:len-weight-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png){width=100% height=100% alt="."}
+![Sex-specific length (cm)-weight (kg) data for black rockfish samples by source.\label{fig:len-weight-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1631,11 +1631,11 @@ This table is included below and referenced in the management section
 
 
 
-![Jitter runs (using a value of 0.01) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
+![Jitter runs (using a value of 0.01) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
 
 
 
-![Jitter runs (using a value of 0.0005) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter0005}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot0005.png){width=100% height=100% alt="."}
+![Jitter runs (using a value of 0.0005) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter0005}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot0005.png){width=100% height=100% alt="."}
 
 
 
@@ -1982,33 +1982,29 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 # Appendix B: Fit to Conditional-Age-at-Length Composition Data {#app-b}
 
 
-![Pearson residuals, whole catch, Trawl (max=8.72) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl (max=8.71) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Trawl (max=8.72) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl (max=8.71) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Trawl (max=8.72) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl (max=8.71) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, NonTRWL (max=18.53) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, NonTRWL (max=18.54) (plot 1 of 2).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, NonTRWL (max=18.53) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, NonTRWL (max=18.54) (plot 2 of 2).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, NonTRWL (max=18.53) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 1 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 1 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 2 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 2 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 3 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 3 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 4 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 4 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 5 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 5 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 6 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page6}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page6.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 6 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page6}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page6.png){width=100% height=100% alt="."}
-
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 7 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page7}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page7.png){width=100% height=100% alt="."}
-
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 8 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page8}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page8.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 7 of 7).\label{fig:comp_condAALfit_residsflt3mkt0_page7}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page7.png){width=100% height=100% alt="."}
 
 \clearpage
 

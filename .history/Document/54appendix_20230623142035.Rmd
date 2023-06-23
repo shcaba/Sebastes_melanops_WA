@@ -1,0 +1,160 @@
+\clearpage
+
+# Appendix A: Detailed Fit to Length Composition Data {#app-a}
+
+```{r, results='asis'}
+plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
+len_fit = plot_info[which(plot_info$category == "LenComp"), ]
+plot.vec = grep("comp_lenfit_flt", len_fit$label)
+filein = file.path(mod_loc, "plots")
+
+for (a in plot.vec){
+	cap = len_fit$caption[a]
+	lab = len_fit$label[a]
+	add_figure(filein = file.path(filein, len_fit$file[a]), 
+			   caption = cap, 
+			   label = lab)
+}
+
+```
+
+\clearpage
+
+# Appendix B: Fit to Conditional-Age-at-Length Composition Data {#app-b}
+
+```{r, results='asis'}
+plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
+aal_fit = plot_info[which(plot_info$category == "A@LComp"), ]
+plot.vec = c(grep("comp_condAALfit_residsflt1mkt0", aal_fit$label),
+			 grep("comp_condAALfit_residsflt2mkt0", aal_fit$label),
+			 grep("comp_condAALfit_residsflt3mkt0", aal_fit$label))
+find = sort(aal_fit$label[plot.vec], index.return = TRUE)$ix
+plot.vec = plot.vec[find[1:length(find)]]
+filein = file.path(mod_loc, "plots")
+
+for (a in plot.vec){
+	cap = aal_fit$caption[a]
+	lab = aal_fit$label[a]
+	add_figure(filein = file.path(filein, aal_fit$file[a]), 
+			   caption = cap, 
+			   label = lab)
+}
+
+```
+
+\clearpage
+
+# Appendix C: Fit to Conditional-Age-at-Length Composition Data {#app-c}
+
+```{r, results='asis'}
+mod_loc = file.path(getwd(), "models", base_name)
+plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
+age_fit = plot_info[which(plot_info$category == "A@LComp"), ]
+plot.vec = c(grep("comp_condAALfit_Andre_plotsflt1mkt0", age_fit$label),
+			 grep("comp_condAALfit_Andre_plotsflt2mkt0", age_fit$label),
+			 grep("comp_condAALfit_Andre_plotsflt3mkt0", age_fit$label))
+find = sort(age_fit$label[plot.vec], index.return = TRUE)$ix
+plot.vec = plot.vec[find[1:length(find)]]
+filein = file.path(mod_loc, "plots")
+cap.in=c("Trawl fishery conditional AAL plot (plot 1 of 5) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs)",
+"Trawl conditional AAL plot (plot 2 of 5)",
+"Trawl conditional AAL plot (plot 3 of 5)",
+"Trawl conditional AAL plot (plot 4 of 5)",
+"Trawl conditional AAL plot (plot 5 of 5)",
+"Non-trawl (jig) fishery conditional AAL plot (plot 1 of 2) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs)",
+"Non-trawl (jig) conditional AAL plot (plot 2 of 2)",
+"Non-trawl (jig) conditional AAL plot (plot 3 of 3)",
+"Ocean boat conditional AAL plot (plot 1 of 11) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs)",
+"Ocean boat conditional AAL plot (plot 2 of 11)",
+"Ocean boat conditional AAL plot (plot 3 of 11)",
+"Ocean boat conditional AAL plot (plot 3 of 11)",
+"Ocean boat conditional AAL plot (plot 4 of 11)",
+"Ocean boat conditional AAL plot (plot 5 of 11)",
+"Ocean boat conditional AAL plot (plot 6 of 11)",
+"Ocean boat conditional AAL plot (plot 7 of 11)",
+"Ocean boat conditional AAL plot (plot 8 of 11)",
+"Ocean boat conditional AAL plot (plot 9 of 11)",
+"Ocean boat conditional AAL plot (plot 10 of 11)",
+"Ocean boat conditional AAL plot (plot 11 of 11)"
+	)
+
+for (a in plot.vec){
+#	cap = age_fit$caption[a]
+	cap = cap.in[match(a,plot.vec)]
+	lab = age_fit$label[a]
+	add_figure(filein = file.path(filein, age_fit$file[a]), 
+			   caption = cap, 
+			   label = lab)
+
+}
+
+```
+
+\clearpage
+
+# Appendix D: Passive Fit to Marginal Age Composition Data {#app-d}
+
+```{r, results='asis'}
+plot_info = read.csv(file.path(mod_loc, "plots", "plotinfotable_for_doc.csv"))
+age_fit = plot_info[which(plot_info$category == "AgeComp"), ]
+plot.vec = grep("comp_gstagefit_flt", age_fit$label)
+filein = file.path(mod_loc, "plots")
+
+for (a in plot.vec){
+	cap = age_fit$caption[a]
+	lab = age_fit$label[a]
+	add_figure(filein = file.path(filein, age_fit$file[a]), 
+			   caption = cap, 
+			   label = lab)
+}
+
+
+```
+
+\clearpage
+
+
+# Appendix E: Numbers at Age Plot {#app-e}
+
+## Females
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "numbers1_sex1_beg.png"), 
+caption = "Female Black Rockfish mean age over time",
+label = 'num_age_females')
+```
+
+
+## Males
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "numbers1_sex2_beg.png"), 
+caption = "Male Black Rockfish mean age over time",
+label = 'num_age_males')
+```
+
+\clearpage
+
+# Appendix F: Numbers at Length Plot {#app-f}
+
+## Females
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "numbers6_len_sex1.png"), 
+caption = "Female Black Rockfish mean length (cm) over time",
+label = 'num_lts_females')
+```
+
+\clearpage
+
+
+## Males
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(mod_loc, "plots", "numbers6_len_sex2.png"), 
+caption = "Male Black Rockfish mean length over time",
+label = 'num_lts_males')
+```
+
+
+\clearpage

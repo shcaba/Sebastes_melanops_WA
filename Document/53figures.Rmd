@@ -14,7 +14,7 @@
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(stock_fig_loc, "black_rockfish_map.png"), 
-caption = "Map of the management and assessment areas for black rockfish.",
+caption = "Map of the management and assessment areas for Black Rockfish.",
 label = 'map')
 ```
 
@@ -107,7 +107,7 @@ label = 'blackrock_percentage')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Private.png"), 
-caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'private-log-diags')
 ```
 
@@ -116,7 +116,7 @@ label = 'private-log-diags')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Private.png"), 
-caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'private-gam-diags')
 ```
 
@@ -152,7 +152,7 @@ label = 'charter-log-diags')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Charter.png"), 
-caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat black rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
+caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
 label = 'charter-gam-diags')
 ```
 
@@ -240,7 +240,7 @@ label = 'ocnms-ltcomps')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "Black_Rockfish_time_series_OCNMS.pdf"), 
-caption = "Time-series of estimated black rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year",
+caption = "Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year",
 label = 'ocnms-adult-index')
 ```
 
@@ -281,6 +281,8 @@ label = 'len-age-sex-year')
 add_figure(
 filein = file.path(bio_fig_loc, "WA_VBGF_fit.png"), 
 caption = "External fits to the observed length-at-age by sex",
+width=100,
+height=100,
 label = 'len-age-fit')
 ```	
 
@@ -309,6 +311,8 @@ label = 'len-age-ss')
 add_figure(
 filein = file.path(bio_fig_loc, "Age1_1plots.png"), 
 caption = "Ageing bias plots by reader comparisons",
+width=100,
+height=100,
 label = 'a1-bias')
 ```
 
@@ -397,7 +401,7 @@ label = 'len-weight-or-wa')
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_SB_comp_plot.png"), 
-  caption = "Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'ssb_bridge_comps')
 
 ``` 
@@ -407,7 +411,7 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_Dep_comp_plot.png"), 
-  caption = "Comparison of spawning output for black rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'deps_bridge_comps')
 
 ``` 
@@ -443,7 +447,7 @@ label = 'modbuild-data-ssb')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(modconv_fig_loc, "jitterplot.png"), 
-caption = "Jitter runs (using a value of 0.01) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+caption = "Jitter runs (using a value of 0.01) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
 label = 'jitter')
 ```
 
@@ -451,7 +455,7 @@ label = 'jitter')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(modconv_fig_loc, "jitterplot0005.png"), 
-caption = "Jitter runs (using a value of 0.0005) for the black rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+caption = "Jitter runs (using a value of 0.0005) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
 label = 'jitter0005')
 ```
 
