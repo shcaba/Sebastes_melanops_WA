@@ -17,7 +17,7 @@ Starting in 1994 `r spp` landed into Oregon were legally required to be sorted a
 The Washington Department of Fish and Wildlife (WDFW) provided commercial fishery landings based on fish ticket records of `r spp` harvested off Oregon by vessels landing at ports in Washington.  Landings were less than 1 mt per year for the period of 1971 to 2014; therefore, all landings to Washington ports were assumed to occur in waters off Washington in this assessment.
 
 
-#### Foreign Fishery Removals of `r spp`
+#### Foreign Fishery Removals of `r Spp`
 
 Rogers [-@rogers_species_2003] developed catch reconstructions for removals by foreign trawlers operating off the U.S. West Coast during the late 1960s to mid-1970s. Although this study reports that Japanese vessels operating in the Columbia and Eureka statistical areas (Oregon and northern California) caught substantial amounts of `r spp`, with cumulative catches of more than 500 mt over 10 years, it seems very unlikely that foreign vessels could have operated sufficiently close to shore to catch appreciable amounts of `r spp`. This assessment does not include Rogers' [-@rogers_species_2003] small estimates of foreign fleet removals of `r spp`. 
 
