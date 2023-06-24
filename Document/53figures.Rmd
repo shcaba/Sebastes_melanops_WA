@@ -375,7 +375,7 @@ label = 'fecundity')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "LW_WA_State_Source_Sex.png"), 
-caption = "Sex-specific length (cm)-weight (kg) data for black rockfish samples by source",
+caption = "Sex-specific length (cm)-weight (kg) data for Black Rockfish samples by source",
 label = 'len-weight-data')
 ```
 
@@ -426,15 +426,13 @@ add_figure(
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(mod_build_fig_loc, "Mod build stock status/compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
-label = 'modbuild-data-depl')
+caption = "Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history", label = 'modbuild-data-depl')
 ```
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(mod_build_fig_loc, "Mod build stock scale/compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
-label = 'modbuild-data-ssb')
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history", label = 'modbuild-data-ssb')
 ```
 
 <!-- ====================================================================== -->
@@ -447,18 +445,9 @@ label = 'modbuild-data-ssb')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(modconv_fig_loc, "jitterplot.png"), 
-caption = "Jitter runs (using a value of 0.01) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
+caption = "Jitter runs (using a value of 0.001) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
 label = 'jitter')
 ```
-
-
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(modconv_fig_loc, "jitterplot0005.png"), 
-caption = "Jitter runs (using a value of 0.0005) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
-label = 'jitter0005')
-```
-
 
 ```{r, results = 'asis'}
 add_figure(
@@ -773,7 +762,7 @@ label = 'comp_depl')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
-caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model",
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-RE')
 ```
 
@@ -782,7 +771,7 @@ label = 'sensi-data-RE')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model",
+caption = "Spawning output (in millions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-ssb')
 ```
 
@@ -791,7 +780,7 @@ label = 'sensi-data-ssb')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by data treatment compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+caption = "Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-depl')
 ```
 
@@ -800,7 +789,7 @@ label = 'sensi-data-depl')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
-caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model",
+caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-RE')
 ```
 
@@ -809,7 +798,7 @@ label = 'sensi-modspec-RE')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. Missing scenarios mean the spawning output was too large to show",
+caption = "Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-ssb')
 ```
 
@@ -818,7 +807,7 @@ label = 'sensi-modspec-ssb')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by model specification scenario compared to the reference model",
+caption = "Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-depl')
 ```
 
@@ -971,14 +960,14 @@ label = 'yield')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(manage_loc, "compare2_spawnbio_uncertainty.png"), 
-caption = "Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington black rockfish",
+caption = "Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish",
 label = 'stateofnature_SO')
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(manage_loc, "compare4_Bratio_uncertainty.png"), 
-caption = "Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington black rockfish",
+caption = "Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish",
 label = 'stateofnature_depl')
 ```
 
