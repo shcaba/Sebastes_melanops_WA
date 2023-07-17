@@ -156,7 +156,8 @@
 24	0	0	0	#_2 NonTRWL         
 24	0	0	0	#_3 Recreational    
 24	0	0	0	#_4 Tagging         
-24	0	0	0	#_5 Nearshore_survey
+#24	0	0	0	#_5 Nearshore_survey
+ 5  0 0 4 #_5 Nearshore_survey
 24	0	0	0	#_6 OCNMS           
  0	0	0	0	#_7 OCNMS_YOY       
  5	0	0	3	#_8 Private_Boat    
@@ -171,8 +172,8 @@
 10	0	0	0	#_5 Nearshore_survey
 10	0	0	0	#_6 OCNMS           
  0	0	0	0	#_7 OCNMS_YOY       
-10	0	0	3	#_8 Private_Boat    
-10	0	0	3	#_9 Charter         
+10	0	0	0	#_8 Private_Boat    
+10	0	0	0	#_9 Charter         
 #
 #_SizeSelex
 #_LO	HI	INIT	PRIOR	PR_SD	PR_type	PHASE	env-var	use_dev	dev_mnyr	dev_mxyr	dev_PH	Block	Blk_Fxn  #  parm_name
@@ -199,13 +200,15 @@
   -4	12	3.58539	3.58539	99	0	 5	0	0	0	0	0	0	0	#_SizeSel_P_3_Tagging(4)         
  -15	 6	    2.2	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Tagging(4)         
 -999	15	     -4	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Tagging(4)         
- -15	20	      5	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Tagging(4)         
-  16	63	     40	     40	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_Nearshore_survey(5)
- -15	15	      4	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_Nearshore_survey(5)
-  -4	12	3.58539	3.58539	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_Nearshore_survey(5)
- -15	 6	    2.2	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Nearshore_survey(5)
--999	15	     -4	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Nearshore_survey(5)
- -15	20	      5	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Nearshore_survey(5)
+ -15	20	      5	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Tagging(4)
+  -5   5       -1      -1 99  0 -4  0 0 0 0 0 0 0 #_SizeSel_P_1_Nearshore_survey(5)    
+  -5   5       -1      -1 99  0 -5  0 0 0 0 0 0 0 #_SizeSel_P_2_Nearshore_survey(5)     
+#  16	63	     40	     40	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_Nearshore_survey(5)
+# -15	15	      4	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_Nearshore_survey(5)
+#  -4	12	3.58539	3.58539	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_3_Nearshore_survey(5)
+# -15	 6	    2.2	      3	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_4_Nearshore_survey(5)
+#-999	15	     -4	    -10	99	0	-2	0	0	0	0	0	0	0	#_SizeSel_P_5_Nearshore_survey(5)
+# -15	20	      5	    -15	99	0	-1	0	0	0	0	0	0	0	#_SizeSel_P_6_Nearshore_survey(5)
   10	55	     25	     25	99	0	 2	0	0	0	0	0	0	0	#_SizeSel_P_1_OCNMS(6)           
  -15	15	     12	     15	99	0	 1	0	0	0	0	0	0	0	#_SizeSel_P_2_OCNMS(6)           
   -4	12	3.58539	3.58539	99	0	 -2	0	0	0	0	0	0	0	#_SizeSel_P_3_OCNMS(6)           
