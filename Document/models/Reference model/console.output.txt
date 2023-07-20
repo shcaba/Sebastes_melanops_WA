@@ -1,0 +1,68 @@
+###
+console output
+2023-07-20 01:52:39.849572
+###
+ 
+ reading from starter.ss
+ reading from data file
+Data read sucessful 999
+
+ reading forecast file 
+ reading from control file
+End of control file successful! 999
+Begin setting up parameters ...  end of parameter section 
+Evaluating biology calculations once ... done
+Starting optimization of 'ss' in phase 1 of 5 at Thu Jul 20 01:49:01 2023
+phase= 1 | nvar=  3 | iter=  0 | nll=7.18e+04 | mag=6.57e+06 | par[  1]=SR_parm[1]
+phase= 1 | nvar=  3 | iter= 20 | nll=3.07e+04 | mag=1.46e+02 | par[  1]=SR_parm[1]
+phase= 1 | nvar=  3 | iter= 26 | nll=3.07e+04 | mag=6.79e+00 | par[  1]=SR_parm[1]
+phase= 2 | nvar= 66 | iter=  0 | nll=3.07e+04 | mag=3.34e+02 | par[ 48]=recdev1[47]
+phase= 2 | nvar= 66 | iter= 20 | nll=3.02e+04 | mag=1.52e+02 | par[ 54]=recdev1[53]
+phase= 2 | nvar= 66 | iter= 40 | nll=3.01e+04 | mag=8.10e+01 | par[ 41]=recdev1[40]
+phase= 2 | nvar= 66 | iter= 60 | nll=3.01e+04 | mag=2.84e+01 | par[ 55]=recdev1[54]
+Exiting without success due to excessive function evaluations (maxfn=100) | mag=13.5288
+phase= 2 | nvar= 66 | iter= 71 | nll=3.01e+04 | mag=1.35e+01 | par[ 55]=recdev1[54]
+phase= 3 | nvar= 74 | iter=  0 | nll=3.25e+04 | mag=6.13e+04 | par[  1]=MGparm[3]
+phase= 3 | nvar= 74 | iter= 20 | nll=3.05e+04 | mag=3.96e+04 | par[  2]=MGparm[4]
+phase= 3 | nvar= 74 | iter= 40 | nll=3.02e+04 | mag=3.83e+04 | par[  2]=MGparm[4]
+phase= 3 | nvar= 74 | iter= 60 | nll=2.99e+04 | mag=2.86e+04 | par[  2]=MGparm[4]
+Exiting without success due to excessive function evaluations (maxfn=100) | mag=17427.2
+phase= 3 | nvar= 74 | iter= 75 | nll=2.97e+04 | mag=1.74e+04 | par[  2]=MGparm[4]
+phase= 4 | nvar= 74 | iter=  0 | nll=2.97e+04 | mag=1.74e+04 | par[  2]=MGparm[4]
+phase= 4 | nvar= 74 | iter= 20 | nll=2.92e+04 | mag=5.24e+04 | par[  1]=MGparm[3]
+phase= 4 | nvar= 74 | iter= 40 | nll=2.89e+04 | mag=9.02e+04 | par[  1]=MGparm[3]
+phase= 4 | nvar= 74 | iter= 43 | nll=nan | mag=9.30e+04 | par[  1]=MGparm[3]
+variable out of bounds in boundpin: variable = -5.20018; min = -5; max = 5
+variable out of bounds in boundpin: variable = -5.39691; min = -5; max = 5
+variable out of bounds in boundpin: variable = -5.0016; min = -5; max = 5
+phase= 5 | nvar= 86 | iter=  0 | nll=1.85e+04 | mag=2.87e+05 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter= 20 | nll=9.07e+03 | mag=1.85e+05 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter= 40 | nll=8.68e+03 | mag=1.60e+05 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter= 60 | nll=7.35e+03 | mag=8.10e+04 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter= 80 | nll=6.20e+03 | mag=7.46e+04 | par[  3]=MGparm[15]
+phase= 5 | nvar= 86 | iter=100 | nll=4.78e+03 | mag=5.71e+03 | par[  3]=MGparm[15]
+phase= 5 | nvar= 86 | iter=120 | nll=4.22e+03 | mag=1.61e+04 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter=140 | nll=3.97e+03 | mag=1.44e+03 | par[  3]=MGparm[15]
+phase= 5 | nvar= 86 | iter=160 | nll=3.95e+03 | mag=6.76e+01 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter=180 | nll=3.95e+03 | mag=1.79e+02 | par[  3]=MGparm[15]
+phase= 5 | nvar= 86 | iter=200 | nll=3.95e+03 | mag=2.97e+00 | par[  2]=MGparm[4]
+phase= 5 | nvar= 86 | iter=220 | nll=3.95e+03 | mag=2.65e+01 | par[  1]=MGparm[3]
+phase= 5 | nvar= 86 | iter=222 | nll=nan | mag=1.93e+01 | par[  1]=MGparm[3]
+Optimization completed after 3 m 31 s with final statistics:
+  nll=nan | mag=1.93001e+01 | par[  1]=MGparm[3]
+
+Iterations: 662
+Finished calculating benchmarks
+Finished forecast
+Writing wtatage.ss_new
+mceval counter: 0
+Finished posteriors
+Finished final writing of report.sso
+Begin writing *.ss_new output files ... Finished writing *.ss_new output files
+
+ N parameters that are on or within 1% of min-max bound: 2
+
+!!  Run has completed  !! 
+!!  See warning.sso for 4 warnings  and 1 note 
+
+Finished running model 'ss' after 3 m 38 s.
