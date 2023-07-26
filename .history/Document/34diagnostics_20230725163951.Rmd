@@ -1,0 +1,95 @@
+## Characterizing uncertainty
+### Sensitivity Analyses {#sensitivity-analyses}
+Sensitivity analyses were conducted to evaluate model sensitivity to alternative data treatment and model specifications.
+
+#### Data treatment sensitivities
+Data treatments explored were as follows:
+
+- Treatment of abundance indiecs 
+	  1. 2015 dockside survey
+    2. 2015 dockside survey, no extra variance estimated
+  	3. No extra variance on private boat index
+  	4. No private boat index
+  	5. No charter index
+  	6. No private or dockside indices
+  	7. No tagging survey index
+  	8. No neashore survey
+  	9. No OCNMS survey
+  	10. No OCNMS YOY index
+
+- Data weighting
+  	11. No data-weighting
+  	12. Dirichlet data-weighting
+  	13. McAllister-Ianelli data weighting
+
+- Other
+  	14. 2015 removal history
+  	15. 2015 removal history and dockside index with no extra variance (as used in the 2015 assessment)
+  	16. Sex = 3 option to maintain sex ratio within sampled length and age data
+
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
+
+The treatment of the index data did not have major effects on either the scale or relative status of the black rockfish stock. More weight on the dockside data, either the combined version from 2015, or the current version of the private boat index, led to more optimistic stock status due to a change in current stock size. These indices generally bring up the stock status even when downweighted with additional variance estimation on the index. This result is seen clearly when the private boat data is removed from the model, as the current stock size decreases, as does the current stock status. No other indices had much effect on the results. 
+
+Using other data weighting options caused the biggest change among the data treatment sensitivity runs, leading to changes in both initial and current stock status, as well as more optimistic current stock status, but the intensity of the increasing stock trajectory test our expectations of a rockfish population. 
+
+#### Model Specification Sensitivities {#senstivities}
+
+Model specifications looked at the estimation of individual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
+
+- Life history estimation
+	- Natural mortality ($M$)
+		1. Estimate $M$
+		2. Lorenzen age varying $M$
+		3. Use Oregon 2023 assessment sex-specific M values (females = 0.19; males = 0.17)
+		4. Matain sex ratio in age and length data (sex option 3) and estimate $M$
+	
+	- Growth parameters
+	 	6. Fix all growth parameters to external values
+	 	5. Fix all growth parameters to external values, estimate $M$
+		7. Estimate $L_min$
+	 	8. Fix $t_0$ = 0
+	 	9. Estimate $CV_{young}$ and $CV_{old}$
+	
+	- Reproductive Biology
+	 	10. Use biological maturity ogive
+	 	11. Use functional maturity ogive
+	 	12. Fecundity proportional to weight
+
+	- Recruitment estimation
+	 	13. No recruitment estimation
+	 	14. Estimate recruitment for all years in the model
+ 
+ Other
+	15. Estimate dome-shaped selectivity for all fleets
+	
+	
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:modspec_LH_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.
+
+Estimating $M$ either as a constant value or in an age-specific manner using the Lorenzen approach both result in lower $M$ values, and thus lower stock scale, especially in current stock size, with a significantly different stock status when estimating age-specific $M$. 
+
+Fixing growth to the externally estimated values raised the initial stock status, but still lowered current stock status when $M$ was estimated. Changes in the values of the smallest individuals, either in estimating the smallest size at age or fixing $t_0$ to 0 resulted in higher current stock size, and thus significantly higher current stock status. Estimating the coefficient of variation had no effect on the model (one of the reasons it was fixed). 
+
+Treatment of the assumed maturity relationship had little affect on model results, though using the biological maturity did significantly change the scale of the current stock size. Assuming fecundity was proportional to weight did not effect relative stock status, but did raise the initial and current stock scale significantly to compensate for the reduced productivity. 
+
+Forging the estimation of recruitment did caused one of the bigger changes in current stock size, and thus one of the lower estimates of stock status. Estimating recruitment for the whole time series made little difference to results. Lastly, allowing for dome-shaped selectivity resulted in mostly logistic selectivity and no significant changes to model output.
+
+
+### Likelihood Profiles
+
+Likelihood profiles were conducted for the the log of initial recruitment (ln($R_0$)), steepness ($h$), and female and male natural mortality ($M$) varying together with a constant ratio matching the reference model (0.17/0.152, female and male values respectively). Likelihood profiles were conducted by fixing the featured parameter(s) at specific values across a range of values and estimating all remaining parameters. A likelihood profile offers insight into model sensitivity to changing model parameter values, while providing an additional way to describe uncertainty in the parameter by indentifying the range of parameters within 1.96 likelihood units of the reference model.
+
+The profile on the assumption of $lnR_0$, which sets the initial scale of the population) demonstrates the expected scaling up and down of the population with increasing and decreasing initial recruitment, respectively (Figure \ref{fig:R0-profile}). The likelihood profile is highly informed to the ultimate maximum likelihood estimate. The change in the current spawning output is steeper than the initial spawning output, leading to a u-shaped relationship in relative biomass. Once the $lnR_0$ approaches 7, the population approaches an overfished state. The age (all sources) and recruitment data are most supportive of a well-informed initial scale, whereas lengths (mainly the recreational data) tend to push the population very low and the index data quite high (Figure \ref{fig:R0-profile-components}).
+
+The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of current stock size, especially when steepness drops below 0.7. The lower steepness values rapidly decrease the relative stock size. The likelihood components except lengths pushed the steepness to the highest value; length cause the value to race to a minimum value. (Figure \ref{fig:steepness-profile-components}). There seems to be no real information on the value of this parameter in this model.
+
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrates the model wants natural mortality values to be near the low end of reasonable natural mortality values (Figure \ref{fig:M-multiprofile-combo}). The information content of the components is mixed (Figure \ref{fig:M-multiprofile-like-components}), as the length compositions all push toward very low $M$ values (Figure \ref{fig:M-multiprofile-length-components}), the ages support moderate to high $M$ values (Figure \ref{fig:M-multiprofile-age-components}), and the survey information supporting very high $M$ values (Figure \ref{fig:M-multiprofile-survey-components}). If one considers the age components only, the non-trawl data support values around the reference value, whereas the recreational data for high $M$ values. 
+
+Overall, this mixed signal does not support estimation of $M$ despite the model providing an estimate of low $M$ values. This lowering of the stock productivity results in stock status near the overfished limit. This type of sensitivity to stock productivity (similar to what we see with the steepness profile) makes natural mortality a strong candidate for exploring model specification uncertainty in order to build alternative states of nature for decision tables.
+
+### Retrospective Analysis
+
+A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a generally consistent pattern in population scale and trend. All models show the population increasing, with the models removing the most data showing the increasing starting sooner and trending stronger upward. This results in a stock status firmly in the precautionary zone, whereas the models with more data put those same years closer to the overfished level. Some of this is due to the change in stock scale, though overall scale estimates are not strikingly different. Overall, the variation in scale and status are within the uncertainty bounds of the reference model, except the model that removes 9 and 10 years of data, which is slightly higher in both scale and stock status. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
+
+
+### Unresolved Problems and Major Uncertainties

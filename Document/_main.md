@@ -837,7 +837,7 @@ While there is no definitive measure of model convergence, several measures are 
 
 Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2,000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value [@monnahan_overcoming_2019]. This resulted in the fixing of five selectivity parameters (Figure \ref{fig:pairs_plot_fast}).
 
-An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 7 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). There were another 26 models within 1 -log likelihood unit from the reference model, and another 44 within 2 -log likleihood units, all returning very similar model results. Out of the 100 jitter runs, a better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
+An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.0001. This was repeated 100 times with 5 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). There were another 11 models within 1 -log likelihood unit from the reference model, and another 18 within 2 -log likleihood units, all returning very similar model results. Out of the 100 jitter runs, a better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made. 
 
 
 ## Base Model Results
@@ -914,6 +914,10 @@ Data treatments explored were as follows:
   	12. Dirichlet data-weighting
   	13. McAllister-Ianelli data weighting
 
+- Other
+  	14. 2015 removal history
+  	15. 2015 removal history and dockside index with no extra variance (as used in the 2015 assessment)
+  	16. Sex = 3 option to maintain sex ratio within sampled length and age data
 
 Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
 
@@ -927,27 +931,29 @@ Model specifications looked at the estimation of individual and combinations of 
 
 - Life history estimation
 	- Natural mortality ($M$)
-		1. Estimate $M$ 
+		1. Estimate $M$
 		2. Lorenzen age varying $M$
+		3. Use Oregon 2023 assessment sex-specific M values (females = 0.19; males = 0.17)
+		4. Matain sex ratio in age and length data (sex option 3) and estimate $M$
 	
 	- Growth parameters
-	 	3. Fix all growth parameters to external values, estimate $M$
-		4. Fix all growth parameters to external values
-	 	5. Estimate $L_min$
-	 	6. Fix $t_0$ = 0
-	 	7. Estimate $CV_{young}$ and $CV_{old}$
+	 	6. Fix all growth parameters to external values
+	 	5. Fix all growth parameters to external values, estimate $M$
+		7. Estimate $L_min$
+	 	8. Fix $t_0$ = 0
+	 	9. Estimate $CV_{young}$ and $CV_{old}$
 	
 	- Reproductive Biology
-	 	8. Use biological maturity ogive
-	 	9. Use functional maturity ogive
-	 	10. Fecundity proportional to weight
+	 	10. Use biological maturity ogive
+	 	11. Use functional maturity ogive
+	 	12. Fecundity proportional to weight
 
 	- Recruitment estimation
-	 	11. No recruitment estimation
-	 	12. Estimate recruitment for all years in the model
+	 	13. No recruitment estimation
+	 	14. Estimate recruitment for all years in the model
  
- Miscellaneous
-	13. Estimate dome-shaped selectivity for all fleets
+ Other
+	15. Estimate dome-shaped selectivity for all fleets
 	
 	
 Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:modspec_LH_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.

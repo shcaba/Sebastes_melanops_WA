@@ -1058,7 +1058,7 @@ While there is no definitive measure of model convergence, several measures are 
 
 Model efficiency was explored by doing a short run Bayesian analysis using the Random Walk Metropolis with 2,000 draws, keeping all the draws and examining the fast mixing parameters. Those estimated parameters that do not move much from the initial values slow the model down and are recommended to be fixed at the starting value (Monnahan et al. 2019). This resulted in the fixing of five selectivity parameters (Figure \ref{fig:pairs_plot_fast}).
 
-An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.001. This was repeated 100 times with 7 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). There were another 26 models within 1 -log likelihood unit from the reference model, and another 44 within 2 -log likleihood units, all returning very similar model results. Out of the 100 jitter runs, a better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made.
+An extra effort was given to ensure the model did not rest on a local likelihood minimum. This was done by starting the minimization process from dispersed parameter values away from the maximum likelihood estimates to determine if the approach found a better model fit (i.e., minimum negative log-likelihood value). Starting parameters used a jitter shift value of 0.0001. This was repeated 100 times with 5 out of 100 runs returned to the reference model likelihood (Figure \ref{fig:jitter}). There were another 11 models within 1 -log likelihood unit from the reference model, and another 18 within 2 -log likleihood units, all returning very similar model results. Out of the 100 jitter runs, a better fit, lower negative log-likelihood model was not found in any of the remaining runs. The model did not experience convergence issues when provided reasonable starting values. Through the jittering and likelihood profiles, the present reference model represents the best fit to the data given the assumptions made.
 
 \hypertarget{base-model-results}{%
 \subsection{Base Model Results}\label{base-model-results}}
@@ -1172,6 +1172,20 @@ Data treatments explored were as follows:
   \item
     McAllister-Ianelli data weighting
   \end{enumerate}
+\item
+  Other
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{13}
+  \tightlist
+  \item
+    2015 removal history
+  \item
+    2015 removal history and dockside index with no extra variance (as used in the 2015 assessment)
+  \item
+    Sex = 3 option to maintain sex ratio within sampled length and age data
+  \end{enumerate}
 \end{itemize}
 
 Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:data_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-data-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-data-ssb} and \ref{fig:sensi-data-depl}.
@@ -1202,18 +1216,22 @@ Model specifications looked at the estimation of individual and combinations of 
       Estimate \(M\)
     \item
       Lorenzen age varying \(M\)
+    \item
+      Use Oregon 2023 assessment sex-specific M values (females = 0.19; males = 0.17)
+    \item
+      Matain sex ratio in age and length data (sex option 3) and estimate \(M\)
     \end{enumerate}
   \item
     Growth parameters
 
     \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
-    \setcounter{enumi}{2}
+    \setcounter{enumi}{5}
     \tightlist
     \item
-      Fix all growth parameters to external values, estimate \(M\)
-    \item
       Fix all growth parameters to external values
+    \item
+      Fix all growth parameters to external values, estimate \(M\)
     \item
       Estimate \(L_min\)
     \item
@@ -1226,7 +1244,7 @@ Model specifications looked at the estimation of individual and combinations of 
 
     \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
-    \setcounter{enumi}{7}
+    \setcounter{enumi}{9}
     \tightlist
     \item
       Use biological maturity ogive
@@ -1240,7 +1258,7 @@ Model specifications looked at the estimation of individual and combinations of 
 
     \begin{enumerate}
     \def\labelenumi{\arabic{enumi}.}
-    \setcounter{enumi}{10}
+    \setcounter{enumi}{12}
     \tightlist
     \item
       No recruitment estimation
@@ -1250,7 +1268,7 @@ Model specifications looked at the estimation of individual and combinations of 
   \end{itemize}
 \end{itemize}
 
-Miscellaneous 13. Estimate dome-shaped selectivity for all fleets
+Other 15. Estimate dome-shaped selectivity for all fleets
 
 Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:modspec_LH_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.
 
