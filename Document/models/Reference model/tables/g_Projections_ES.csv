@@ -1,4 +1,4 @@
-"Year","Predicted OFL (mt)","ABC Catch (mt)","Age 0+ Biomass (mt)","Spawning Output","Fraction Unfished"
+"Year","Predicted OFL (mt)","ABC Catch (mt)","Age 0+ Biomass (mt)","Spawning Output (millions of eggs)","Fraction Unfished"
 2023,266.118,201,5281.08,426.151,0.451491
 2024,262.964,201,5338.69,426.547,0.45191
 2025,261.565,244.563,5403.93,423.322,0.448493

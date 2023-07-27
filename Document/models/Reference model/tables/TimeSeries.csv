@@ -1,4 +1,4 @@
-"Year","Total Biomass (mt)","Spawning Output","Total Biomass 0+ (mt)","Fraction Unfished","Age-0 Recruits","Total Mortality (mt)","1-SPR","Exploitation Rate"
+"Year","Total Biomass (mt)","Spawning Output (millions of eggs)","Total Biomass 0+ (mt)","Fraction Unfished","Age-0 Recruits (1,000s)","Total Mortality (mt)","1-SPR","Exploitation Rate"
 1940,8704.38,943.875,8704.38,1,1959.45,5.35338,0.00905569,0.000615021403017791
 1941,8700.13,942.842,8700.13,0.998905575420474,1959.24,12.79643,0.0213366,0.00147083204503841
 1942,8690.36,940.497,8690.36,0.996421136273341,1958.76,22.44526,0.0368786,0.00258277677794706

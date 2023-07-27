@@ -761,7 +761,7 @@ label = 'comp_depl')
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
-filein = file.path(sensi_data_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
+filein = file.path(sensi_data_fig_loc, "Sensi_logREplot_SB_Dep_F_Yield.png"),
 caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-data-RE')
 ```
@@ -788,7 +788,7 @@ label = 'sensi-data-depl')
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
-filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_MSY.png"),
+filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_Yield.png"),
 caption = "Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
 label = 'sensi-modspec-RE')
 ```
@@ -924,7 +924,20 @@ label = 'retro-depl')
 
 \newpage
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(retro_loc,  "retro_percent_difference_3_panel.png"),
+caption = "Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs",
+label = 'retro-RE_comps')
+```
 
+\newpage
+
+### Management Quantities
+
+<!-- ====================================================================== -->
+<!-- ******************     Retrospectives    ***************************** --> 
+<!-- ====================================================================== -->
 
 
 ```{r, results = 'asis'}

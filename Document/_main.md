@@ -925,6 +925,10 @@ The treatment of the index data did not have major effects on either the scale o
 
 Using other data weighting options caused the biggest change among the data treatment sensitivity runs, leading to changes in both initial and current stock status, as well as more optimistic current stock status, but the intensity of the increasing stock trajectory test our expectations of a rockfish population. 
 
+Data treatment sensitivities based on using the 2015 catch history showed how the scale changes upward with the massive spikes in the former catch history. When adding the treatment of the 2015 combined dockside index with no additional variance (thus tightly fit given the very low CVs on the index), once gets closer to the 2015 stock assessment.
+
+Finally, the treatment of the biological compositions can be done either by using each composition separately by sex or entering them as one composition that assumes the sex ratio is measured explicitly in the samples (sex option 3). While preserving the sex ratio within biological composition data makes theoretical sense, it can also lead to strange model behavior that should be explored. In this case, the reference model that preserves the sex ratio in the sampled data causes a more aggressive increase in the population, though within the uncertainty of both scale and status of the reference model, so not a significant source of uncertainty.
+
 #### Model Specification Sensitivities {#senstivities}
 
 Model specifications looked at the estimation of individual and combinations of life history parameters, the estimation of recruitment, and the treatment of fecundity and selectivity. All scenarios match the reference model specifications in all other aspects unless otherwise stated.
@@ -934,7 +938,7 @@ Model specifications looked at the estimation of individual and combinations of 
 		1. Estimate $M$
 		2. Lorenzen age varying $M$
 		3. Use Oregon 2023 assessment sex-specific M values (females = 0.19; males = 0.17)
-		4. Matain sex ratio in age and length data (sex option 3) and estimate $M$
+		4. Maintain sex ratio in age and length data (sex option 3) and estimate $M$
 	
 	- Growth parameters
 	 	6. Fix all growth parameters to external values
@@ -956,9 +960,9 @@ Model specifications looked at the estimation of individual and combinations of 
 	15. Estimate dome-shaped selectivity for all fleets
 	
 	
-Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:modspec_LH_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indiacated an overfished stock.
+Likelihood values and estimates of key parameters and derived quantities from each sensitivity are available in Table \ref{tab:modspec_LH_sensis}. Derived quantities relative to the reference model are provided in Figure \ref{fig:sensi-modspec-RE}. Time series of spawning output and relative spawning output are shown in Figures \ref{fig:sensi-modspec-ssb} and \ref{fig:sensi-modspec-depl}. None of the sensitivities indicated an overfished stock.
 
-Estimating $M$ either as a constant value or in an age-specific manner using the Lorenzen approach both result in lower $M$ values, and thus lower stock scale, especially in current stock size, with a significantly different stock status when estimating age-specific $M$. 
+Estimating $M$ either as a constant value or in an age-specific manner using the Lorenzen approach both result in lower $M$ values, and thus lower stock scale, especially in current stock size, with a notably different (i.e., below target biomass) stock status. Using the $M$ values from the adjacent 2023 Oregon stock assessment increases the current spawning output and thus gives a higher stock status. The scenario that maintains sex ratios within length and age samples (sex=3 option) while also estimating $M$ lead to much less difference in stock scale and status, but it did estimate higher natural mortality for males than females, which is not believed to be the case. 
 
 Fixing growth to the externally estimated values raised the initial stock status, but still lowered current stock status when $M$ was estimated. Changes in the values of the smallest individuals, either in estimating the smallest size at age or fixing $t_0$ to 0 resulted in higher current stock size, and thus significantly higher current stock status. Estimating the coefficient of variation had no effect on the model (one of the reasons it was fixed). 
 
@@ -981,10 +985,14 @@ Overall, this mixed signal does not support estimation of $M$ despite the model 
 
 ### Retrospective Analysis
 
-A ten-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 10 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a generally consistent pattern in population scale and trend. All models show the population increasing, with the models removing the most data showing the increasing starting sooner and trending stronger upward. This results in a stock status firmly in the precautionary zone, whereas the models with more data put those same years closer to the overfished level. Some of this is due to the change in stock scale, though overall scale estimates are not strikingly different. Overall, the variation in scale and status are within the uncertainty bounds of the reference model, except the model that removes 9 and 10 years of data, which is slightly higher in both scale and stock status. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho}.
+A five-year retrospective analysis was conducted by running the model and sequentially removing one year of data up through minus 5 years. Retrospective spawning output (Figure \ref{fig:retro-ssb}) and relatives stock status (Figure \ref{fig:retro-depl}) estimates show a generally consistent pattern in population scale and trend, within the error of the reference model. All models show the population increasing. This results in a stock status in the precautionary zone over the 5 year consideration. The Mohn's rho evaluation of the degree of retrospective pattern in given in Table \ref{tab:RetroMohnsrho} and shown in Figure \ref{fig:retro-RE_comps}. The relative error in the data peels are below significant levels. 
 
 
 ### Unresolved Problems and Major Uncertainties
+
+There are no major unresolved problems in the stock assessment, but there are many sources of uncertainty. Natural mortality remains a large source of uncertainty. The estimation of growth also required fixing certain parameters, leading to an underestimation of uncertainty in the model. The stock-recruit relationship is assumed to be a Beverton-Holt relationship with a fixed steepness of 0.72. Large uncertainty was shown if the nature of this relationship varies either deterministically or over time. The full time series of recruitment deviations were not informed, which creates some historical and contemporary uncertainty. Likewise, all life history values are assumed constant, so any time-varying issues that are directional could create more uncertainty. 
+
+Regarding input data, this assessment assumes a different treatment of the recreational index. The poor historical fit to the private boat data begs further questions on how best to treat that index. The nearshore survey is too short to have much information on current trends, thus significant uncertainty remains in the information content of all index data. There is also a lack of general contrast in the length data that makes it less informative than the age data that do shore more contrast.
 
 <!--chapter:end:34diagnostics.Rmd-->
 
@@ -1003,18 +1011,11 @@ The 2023 spawning biomass relative to unfished equilibrium spawning biomass, bas
 Black Rockfish removals have been below the equivalent Annual Catch Limit (ACL) over the recent decade (Table \ref{tab:manage}). The ACL declined in 2017 relative to earlier years based on the 2015 assessment of Black Rockfish [@cope_assessments_2016]. In the last ten years, catches peaked in 2016 at 369 mt. Since then catches have declined to a recent low of 130 mt in 2020 with the catches in the final two model years remaining low with 197 mt in 2021 and 166 mt in 2022. The OFL has not been exceeded in any year over the past 10 years.
 
 
-## Unresolved Problems and Major Uncertainties
-
-
-The biggest uncertainty is in the life history values, especially longevity and natural mortality. Lack of contrast in the biological data, despite generous sample sizes, can also make interpreting the population dynamics difficult, though current stock status does seem to be robust to this data.
-
 ## Harvest Projections and Decision Tables
 
 The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL. These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve-year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:project}. 
 
-Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table, with the desire for states of nature to represent uncertainty in both scale and relative stock status  Initial explorations are considering alternative specifications of natural mortality. Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl} present spawning output and relative stock status, respectively, of the three states of nature.
-
-Further details about selecting the decision table states of nature will be added here after the STAR panel. The resultant decision table will be provided in Table \ref{tab:dec-tab}. 
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table, with the desire for states of nature to represent uncertainty in both scale and relative stock status  Initial explorations considering alternative specifications of natural mortality. This was based on using the estimated $M$ scenario as a low state of nature and applying the sex-specific $M$ values from the 2023 Oregon model as the high state of nature. These produced wide states of nature (Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl}). Discussion with the STAR panel led to defining two other states of nature based on the reference model uncertainty in ending spawning output. Low and high states of nature were determined by applying an initial recruitment ($lnR_0$) value that lead to current spawning output values equivalent to the 12.5% and 87.5% percentile values from the current spawning output distribution (Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl}) that are not as widely spread as the initial states of nature, but are constructed from the current model specifications. The resultant decision table (Table \ref{tab:dec-tab}) was built around the initial $lnR_0$ states of nature approach. 
 
 
 ## Evaluation of Scientific Uncertainty
@@ -1043,12 +1044,18 @@ Research and data needs identified in the last assessment (italics) are listed h
 Recommended avenues for research to help improve future Black Rockfish stock assessments:
 
 1. Continue to develop the nearshore fishery-independent survey, as the other available surveys provide week information for the trend in the population.
-2. Improve understanding of broader ecosystem considerations within the context of Black Rockfish (and other nearshore species) management. Evaluate and develop linkages between Black Rockfish population dynamics and environmental, oceanographic, and climate variables.  In particular, develop multi-scale models (e.g., species distribution models) that can evaluate spatial patterns (e.g., multi-use areas or closures to fishing) and climate impacts (e.g., growth or distribution shifts) for vulnerable nearshore species. Utilize the growing body of ecosystem information available for the California Current Large Marine Ecosystem, as exemplified in the PFMC IEA report. 
+2. Improve understanding of broader ecosystem considerations within the context of Black Rockfish (and other nearshore species) management. Evaluate and develop linkages between Black Rockfish population dynamics and environmental, oceanographic, and climate variables.  In particular, develop multi-scale models (e.g., species distribution models) that can evaluate spatial patterns (e.g., multi-use areas or closures to fishing) and climate impacts (e.g., growth or distribution shifts) for vulnerable nearshore species. Utilize the growing body of ecosystem information available for the California Current Large Marine Ecosystem, as exemplified in the PFMC Integrated Ecosystem Assessment (IEA) report. 
 3. Continue work on the investigation into the movement, behavior or mortality of older (> age 10) females to further reconcile their absence in fisheries data. In particular, conduct genetics studies on fish observed off of the continental shelf (middle of the gyre and at sea mounts) to determine their association with the nearshore stocks. 
 4. Continue to build evidence for appropriate natural mortality values for females and males. This will help resolve the extent to which dome-shaped age-based selectivity may be occurring for each.
 5. Continued consideration of historical catch reconstruction, specifically where there are periods of uncertainty.
 6. Stock structure for Black Rockfish is a complicated topic that needs further analysis. How this is determined (e.g., exploitation history, genetics, life history variability, biogeography, etc.) and what this means for management units needs to be further refined. This is a general issue for all nearshore stocks that likely have significant and small scale stock structure among and within states, but limited data collections to support small-scale management.
 7. Conduct early life history studies that provide a better understanding of the ecology and habitats of Black Rockfish from settlement to age-1.
+8. Simulation analyses or make a standard sensitivity exploration to examine circumstances in which options for treatment sex data for composition data are preferable under Option 1 or 2 treating them as separate or Option 3 treating them as combined and preserving sex ratio within samples.  Such studies should aim to provide criteria for their application to inform guidance in the PFMC’s Groundfish  Terms of  Reference and Accepted Practices documents.
+9. Further evaluation of temporal and spatial variability in biological and functional maturity may facilitate accounting for uncertainty or help account for trends and identify drivers. Data informing the functional maturity ogive were collected during a period of extreme variability in ocean conditions and further examination of the drivers of variability observed may prove beneficial.
+10. Compare trends in abundance and patterns of recruitment across species to examine commonalities, differences and their causes may help inform accounting for environmental determinants.
+11. Explore how best to account for variance in catch history to help reflect the full degree of uncertainty in the assessment.
+12. Re-examine  methods to generate estimates of abundance from the WDFW Tagging Program using approaches used for similar data sets from analogous studies in Oregon.
+
 
 <!--chapter:end:40management.Rmd-->
 
@@ -1837,7 +1844,7 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_MSY.png){width=100% height=100% alt="."}
+![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1852,7 +1859,7 @@ This table is included below and referenced in the management section
 \pagebreak
 
 
-![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_MSY.png){width=100% height=100% alt="."}
+![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1934,6 +1941,15 @@ This table is included below and referenced in the management section
 \newpage
 
 
+![Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs.\label{fig:retro-RE_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/retro_percent_difference_3_panel.png){width=100% height=100% alt="."}
+
+\newpage
+
+### Management Quantities
+
+<!-- ====================================================================== -->
+<!-- ******************     Retrospectives    ***************************** --> 
+<!-- ====================================================================== -->
 
 
 
