@@ -979,7 +979,7 @@ The profile on the assumption of $lnR_0$, which sets the initial scale of the po
 
 The steepness profile showed little information content for this parameter (Figure \ref{fig:steepness-profile}) as the best fit value went towards the bound of 1. Changing steepness mostly changed the estimate of current stock size, especially when steepness drops below 0.7. The lower steepness values rapidly decrease the relative stock size. The likelihood components except lengths pushed the steepness to the highest value; length cause the value to race to a minimum value. (Figure \ref{fig:steepness-profile-components}). There seems to be no real information on the value of this parameter in this model.
 
-The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrates the model wants natural mortality values to be near the low end of reasonable natural mortality values (Figure \ref{fig:M-multiprofile-combo}). The information content of the components is mixed (Figure \ref{fig:M-multiprofile-like-components}), as the length compositions all push toward very low $M$ values (Figure \ref{fig:M-multiprofile-length-components}), the ages support moderate to high $M$ values (Figure \ref{fig:M-multiprofile-age-components}), and the survey information supporting very high $M$ values (Figure \ref{fig:M-multiprofile-survey-components}). If one considers the age components only, the non-trawl data support values around the reference value, whereas the recreational data for high $M$ values. 
+The combined profile that varies female and male $M$ while maintaining the reference model offset demonstrates the model wants natural mortality values to be near the low end of reasonable natural mortality values (Figure \ref{fig:M-multiprofile-combo}). The information content of the components is mixed, as the length compositions all push toward very low $M$ values, the ages support moderate to high $M$ values, and the survey information supporting very high $M$ values (Figure \ref{fig:M-multiprofile-like-components}). If one considers the age components only, the non-trawl data support values around the reference value, whereas the recreational data for high $M$ values. 
 
 Overall, this mixed signal does not support estimation of $M$ despite the model providing an estimate of low $M$ values. This lowering of the stock productivity results in stock status near the overfished limit. This type of sensitivity to stock productivity (similar to what we see with the steepness profile) makes natural mortality a strong candidate for exploring model specification uncertainty in order to build alternative states of nature for decision tables.
 
@@ -1015,7 +1015,7 @@ Black Rockfish removals have been below the equivalent Annual Catch Limit (ACL) 
 
 The Black Rockfish assessment is being considered as a category 1 assessment with a $P^*$ = 0.45, $\sigma$ = 0.50, and a time-varying buffer applied to set the ABC below the OFL. These multipliers are also combined with the rockfish MSY proxy of SPR\textsubscript{50} and the 40-10 harvest control rule to calculate OFLs and ACLs. A twelve-year (2023-2034) projection of the reference model using these specifications along with input removals for 2023 and 2024 provided by the Groundfish Management Team (Katie Pierson, ODFW, pers. comm.) is provided in Table \ref{tab:project}. 
 
-Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table, with the desire for states of nature to represent uncertainty in both scale and relative stock status  Initial explorations considering alternative specifications of natural mortality. This was based on using the estimated $M$ scenario as a low state of nature and applying the sex-specific $M$ values from the 2023 Oregon model as the high state of nature. These produced wide states of nature (Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl}). Discussion with the STAR panel led to defining two other states of nature based on the reference model uncertainty in ending spawning output. Low and high states of nature were determined by applying an initial recruitment ($lnR_0$) value that lead to current spawning output values equivalent to the 12.5% and 87.5% percentile values from the current spawning output distribution (Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl}) that are not as widely spread as the initial states of nature, but are constructed from the current model specifications. The resultant decision table (Table \ref{tab:dec-tab}) was built around the initial $lnR_0$ states of nature approach. 
+Uncertainty in management quantities for the reference model was characterized by exploring various model specifications in a decision table, with the desire for states of nature to represent uncertainty in both scale and relative stock status  Initial explorations considering alternative specifications of natural mortality. This was based on using the estimated $M$ scenario as a low state of nature and applying the sex-specific $M$ values from the 2023 Oregon model as the high state of nature. These produced wide states of nature (Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl}). Discussion with the STAR panel led to defining two other states of nature based on the reference model uncertainty in ending spawning output. Low and high states of nature were determined by applying an initial recruitment ($lnR_0$) value that lead to current spawning output values equivalent to the 12.5% and 87.5% percentile values from the current spawning output distribution (Figure \ref{fig:stateofnature_SO} and Figure \ref{fig:stateofnature_depl}) that are not as widely spread as the initial states of nature, but are constructed from the current model specifications. The resultant decision table (Table \ref{tab:dec-tab}) was built around the initial $lnR_0$ states of nature approach. The catch rows assume P* values of 0.45 and 0.4, then a constant catch using the yield at FSPR=0.5.
 
 
 ## Evaluation of Scientific Uncertainty
@@ -1904,24 +1904,10 @@ This table is included below and referenced in the management section
 \pagebreak
 
 
-![Likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/like_component_profile.png){width=100% height=100% alt="."}
+![Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/LC_plots.png){width=100% height=100% alt="."}
 
 \newpage
 
-
-![Length likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-length-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/length_component_profile.png){width=100% height=100% alt="."}
-
-\newpage
-
-
-![Age likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-age-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/age_component_profile.png){width=100% height=100% alt="."}
-
-\newpage
-
-
-![Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-survey-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/survey_component_profile.png){width=100% height=100% alt="."}
-
-\newpage
 
 
 ### Retrospectives
@@ -1931,12 +1917,12 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1948,7 +1934,7 @@ This table is included below and referenced in the management section
 ### Management Quantities
 
 <!-- ====================================================================== -->
-<!-- ******************     Retrospectives    ***************************** --> 
+<!-- ******************     Management    ***************************** --> 
 <!-- ====================================================================== -->
 
 
