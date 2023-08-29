@@ -205,7 +205,7 @@ Overall, removals of Black Rockfish remained relatively low (less than 100 mt) u
 
 
 
-![Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:es-catch}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png){width=100% height=100% alt="."}
+![Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:es-catch}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -225,11 +225,11 @@ Spawning output (in millions of eggs; meggs) instead of spawning biomass is used
 
 
 
-![Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
 
 
 
-![Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -241,11 +241,11 @@ Recruitment is informed by the data and estimated from 1970s to 2017, before and
 
 
 
-![Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
 
 
-![Estimated time series of recruitment deviations.\label{fig:es-recdev}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
+![Estimated time series of recruitment deviations.\label{fig:es-recdev}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
 \clearpage
 
 
@@ -256,10 +256,10 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and 
 \input{tex_tables/d_SPR_ES.tex}
 
 
-![Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+![Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
 
 
-![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+![Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -278,7 +278,7 @@ The 2023 spawning biomass relative to unfished equilibrium spawning biomass, bas
 
 
 ![Equilibrium yield curve for the base case model. Values are based on (the time invariant)
-fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -1166,12 +1166,12 @@ This tex table does not exist, replacing it with WA_BLCK_Rec_Age_Sample.tex
 \begin{landscape}\begingroup\fontsize{9}{11}\selectfont
 
 \begin{longtable}[t]{>{\raggedright\arraybackslash}p{7.5cm}lllll>{\raggedright\arraybackslash}p{3.5cm}}
-\caption{(\#tab:model-params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
+\caption{\label{tab:model-params}List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD).}\\
 \toprule
 Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
 \endfirsthead
-\caption[]{(\#tab:model-params)List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). \textit{(continued)}}\\
+\caption[]{List of parameters used in the base model, including estimated values and standard deviations (SD), estimation phase (negative values not estimated), bounds (minimum and maximum), status (indicates if parameters are near bounds), and prior type information (mean and SD). (\textit{continued)}}\\
 \toprule
 Parameter & Value & SD & Phase & Bounds & Status & Prior (Exp.Val, SD)\\
 \midrule
@@ -1407,7 +1407,7 @@ This table is included below and referenced in the management section
 
 
 
-![Map of the management and assessment areas for Black Rockfish.\label{fig:map}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/stock/black_rockfish_map.png){width=100% height=100% alt="."}
+![Map of the management and assessment areas for Black Rockfish.\label{fig:map}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/stock/black_rockfish_map.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1420,127 +1420,127 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== --> 
 
 
-![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
+![Summary of data sources used in the reference model.\label{fig:data-plot}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Comparison of total removals and removals by fleet between this assessment and those in 2007 and 2015. The lines showing the Non-Trawl and Recreational removal time series for the 2015 assessment cannot be seen as they are masked by the lines for the 2023 time series.\label{fig:catch-ts-comparison}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/catches/catch-time-series-comparison.png){width=100% height=100% alt="."}
-
-\pagebreak
-
-
-
-![Length compositions by year from the commercial trawl fleet.\label{fig:trawl-length-comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt1mkt0_page2.png){width=100% height=100% alt="."}
+![Comparison of total removals and removals by fleet between this assessment and those in 2007 and 2015. The lines showing the Non-Trawl and Recreational removal time series for the 2015 assessment cannot be seen as they are masked by the lines for the 2023 time series.\label{fig:catch-ts-comparison}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/catches/catch-time-series-comparison.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
 
-![Length compositions by year from the commercial nontrawl fleet.\label{fig:nontrawl-length-comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt2mkt0.png){width=100% height=100% alt="."}
+![Length compositions by year from the commercial trawl fleet.\label{fig:trawl-length-comps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt1mkt0_page2.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
 
-![Length compositions by year from the recreational fleet.\label{fig:rec-length-comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt3mkt0_page2.png){width=100% height=100% alt="."}
+![Length compositions by year from the commercial nontrawl fleet.\label{fig:nontrawl-length-comps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt2mkt0.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
 
-![Trip average (points) and interquartile range (vertical solid lines) of the number of total rockfish retained per angler, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_numbers}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-n-min10.png){width=100% height=100% alt="."}
+![Length compositions by year from the recreational fleet.\label{fig:rec-length-comps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt3mkt0_page2.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Trip average (points) and interquartile range (vertical solid lines) of the percentage of the rockfish bag limit reached, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_percentage}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-p-min10.png){width=100% height=100% alt="."}
+
+![Trip average (points) and interquartile range (vertical solid lines) of the number of total rockfish retained per angler, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_numbers}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-n-min10.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were Black Rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:blackrock_percentage}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP_blackrock_p_total_rockfish.png){width=100% height=100% alt="."}
+![Trip average (points) and interquartile range (vertical solid lines) of the percentage of the rockfish bag limit reached, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_percentage}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-p-min10.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-log-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Private.png){width=100% height=100% alt="."}
+![Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were Black Rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:blackrock_percentage}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/OSP_blackrock_p_total_rockfish.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-gam-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Private.png){width=100% height=100% alt="."}
+![Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-log-diags}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Private.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:private-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Private_Index.png){width=100% height=100% alt="."}
+![Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-gam-diags}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Private.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Bootstrapped estimates of variation for each model of the Washington private boat index.\label{fig:private-CVs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_private_CV.png){width=100% height=100% alt="."}
+![Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:private-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Private_Index.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-log-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Charter.png){width=100% height=100% alt="."}
+![Bootstrapped estimates of variation for each model of the Washington private boat index.\label{fig:private-CVs}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/WA_dockside_private_CV.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-gam-diags}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Charter.png){width=100% height=100% alt="."}
+![Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-log-diags}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Charter.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Abundance indices for the WDFW charter boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:charter-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_Index.png){width=100% height=100% alt="."}
+![Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-gam-diags}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Charter.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Bootstrapped estimates of variation for each model of the Washington charter boat index.\label{fig:charter-CVs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_CV.png){width=100% height=100% alt="."}
+![Abundance indices for the WDFW charter boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:charter-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_Index.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Estimated and observed proportion zero for the negative binomial tagging model.\label{fig:prop-zero-tag}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png){width=100% height=100% alt="."}
+![Bootstrapped estimates of variation for each model of the Washington charter boat index.\label{fig:charter-CVs}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_CV.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model.\label{fig:tag-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/HistoricTagging_1998_2018_Index.png){width=100% height=100% alt="."}
+![Estimated and observed proportion zero for the negative binomial tagging model.\label{fig:prop-zero-tag}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Nearshore survey index and 95% confidence intervals using different factors in the negative binomial hurdle model.\label{fig:model-sel-nearshore}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Nearshore Survey_Hurdle.png){width=100% height=100% alt="."}
+![Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB_hurdle refers to a Bayesian negative binomial hurdle model.\label{fig:tag-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/HistoricTagging_1998_2018_Index.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Estimated and observed proportion zero for the negative binomial nearshore survey model.\label{fig:prop-zero-nearshore}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png){width=100% height=100% alt="."}
+![Nearshore survey index and 95% confidence intervals using different factors in the negative binomial hurdle model.\label{fig:model-sel-nearshore}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/Nearshore Survey_Hurdle.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Nearshore index time series with 95% confidence intervals.\label{fig:nearshore-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Hurdles_NearshoreSurveyIndex.png){width=100% height=100% alt="."}
+![Estimated and observed proportion zero for the negative binomial nearshore survey model.\label{fig:prop-zero-nearshore}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Tagging index with and without the nearshore data added (vertical lines are 95% confidence internvals). The synoptic survey uses only one marine area (MA2).\label{fig:tag-nearshore-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Indices_Tagging_Nearshore.png){width=100% height=100% alt="."}
+![Nearshore index time series with 95% confidence intervals.\label{fig:nearshore-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/Hurdles_NearshoreSurveyIndex.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Length compositions by year for the OCNMS scuba survey.\label{fig:ocnms-ltcomps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_flt6mkt0.png){width=100% height=100% alt="."}
+![Tagging index with and without the nearshore data added (vertical lines are 95% confidence internvals). The synoptic survey uses only one marine area (MA2).\label{fig:tag-nearshore-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/Indices_Tagging_Nearshore.png){width=100% height=100% alt="."}
+
+\pagebreak
 
 
-![Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year.\label{fig:ocnms-adult-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_time_series_OCNMS.pdf){width=100% height=100% alt="."}
+![Length compositions by year for the OCNMS scuba survey.\label{fig:ocnms-ltcomps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_flt6mkt0.png){width=100% height=100% alt="."}
 
 
-![Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95% intervals for each year. Note y-axis is square root.\label{fig:ocnms-yoy-index}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_YOY_time_series_OCNMS.pdf){width=100% height=100% alt="."}
+![Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year.\label{fig:ocnms-adult-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_time_series_OCNMS.pdf){width=100% height=100% alt="."}
+
+
+![Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95% intervals for each year. Note y-axis is square root.\label{fig:ocnms-yoy-index}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_YOY_time_series_OCNMS.pdf){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1551,73 +1551,73 @@ This table is included below and referenced in the management section
 ## Biology
 
 
-![Observed length-at-age by data source and sex.\label{fig:len-age-data-sex}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Source_Sex.png){width=100% height=100% alt="."}
+![Observed length-at-age by data source and sex.\label{fig:len-age-data-sex}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Source_Sex.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Observed length-at-age by sex and year. Total samples are indicated in parentheses.\label{fig:len-age-sex-year}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Sex_Year.png){width=100% height=100% alt="."}
+![Observed length-at-age by sex and year. Total samples are indicated in parentheses.\label{fig:len-age-sex-year}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Sex_Year.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![External fits to the observed length-at-age by sex.\label{fig:len-age-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_VBGF_fit.png){width=100% height=100% alt="."}
+![External fits to the observed length-at-age by sex.\label{fig:len-age-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/WA_VBGF_fit.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex.\label{fig:cv-lt-age}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_CV_Sex_plot.png){width=100% height=100% alt="."}
+![Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex.\label{fig:cv-lt-age}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/WA_CV_Sex_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
+![Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/bio1_sizeatage.png){width=100% height=100% alt="."}
 
 \clearpage
 
 
 
-![Ageing bias plots by reader comparisons.\label{fig:a1-bias}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Age1_1plots.png){width=100% height=100% alt="."}
+![Ageing bias plots by reader comparisons.\label{fig:a1-bias}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/Age1_1plots.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-bias}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_Bias_plot.png){width=100% height=100% alt="."}
+![Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-bias}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_Bias_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-sd}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_SD_plot.png){width=100% height=100% alt="."}
+![Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-sd}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_SD_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue).\label{fig:bio-fxn-mat-color}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Fig1_bio_and_func_color.png){width=100% height=100% alt="."}
+![Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue).\label{fig:bio-fxn-mat-color}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/Fig1_bio_and_func_color.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue) and sample size is denoted by the size of the bubbles).\label{fig:fxn-spline-mat-color}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Fig2_func_samplesize_color.png){width=100% height=100% alt="."}
+![Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue) and sample size is denoted by the size of the bubbles).\label{fig:fxn-spline-mat-color}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/Fig2_func_samplesize_color.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Maturity as a function of length (cm).\label{fig:maturity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
+![Maturity as a function of length (cm).\label{fig:maturity}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/bio6_maturity.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Fecundity (kg) as a function of length (cm).\label{fig:fecundity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
+![Fecundity (kg) as a function of length (cm).\label{fig:fecundity}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/bio9_fecundity_len.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Sex-specific length (cm)-weight (kg) data for Black Rockfish samples by source.\label{fig:len-weight-data}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png){width=100% height=100% alt="."}
+![Sex-specific length (cm)-weight (kg) data for Black Rockfish samples by source.\label{fig:len-weight-data}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison.\label{fig:len-weight-or-wa}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_lines_States_Sex.png){width=100% height=100% alt="."}
+![Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison.\label{fig:len-weight-or-wa}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/biology_plots/LW_lines_States_Sex.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -1630,12 +1630,12 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== --> 
 
 
-![Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_SB_comp_plot.png){width=100% height=100% alt="."}
+![Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb_bridge_comps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/Bridge/WA_SB_comp_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png){width=100% height=100% alt="."}
+![Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1645,10 +1645,10 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history.\label{fig:modbuild-data-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history.\label{fig:modbuild-data-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 
-![Spawning output (in millions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history.\label{fig:modbuild-data-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Spawning output (in millions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history.\label{fig:modbuild-data-ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 <!-- ====================================================================== -->
 <!-- ***********************  Model convergence and Jitters  ************************************ --> 
@@ -1658,10 +1658,10 @@ This table is included below and referenced in the management section
 
 
 
-![Jitter runs (using a value of 0.001) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
+![Jitter runs (using a value of 0.001) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png){width=100% height=100% alt="."}
 
 
-![Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/pairs_plot_fast.png){width=100% height=100% alt="."}
+![Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/modconverge/pairs_plot_fast.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -1672,42 +1672,42 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).\label{fig:lt-pearson-resids}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png){width=100% height=100% alt="."}
+![Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).\label{fig:lt-pearson-resids}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:trawl-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl.png){width=100% height=100% alt="."}
+![Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:trawl-mean-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nontrawl-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_NonTRWL.png){width=100% height=100% alt="."}
+![Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nontrawl-mean-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_NonTRWL.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:rec-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Recreational.png){width=100% height=100% alt="."}
+![Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:rec-mean-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Recreational.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean length (cm) index from tagging survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:tag-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Tagging.png){width=100% height=100% alt="."}
+![Mean length (cm) index from tagging survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:tag-mean-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Tagging.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean length (cm) index from the Nearshore survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nearshore-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Nearshore_survey.png){width=100% height=100% alt="."}
+![Mean length (cm) index from the Nearshore survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nearshore-mean-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Nearshore_survey.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean length (cm) index from the OCNMS adult dive survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:ocnms-mean-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_OCNMS.png){width=100% height=100% alt="."}
+![Mean length (cm) index from the OCNMS adult dive survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:ocnms-mean-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_OCNMS.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Aggregated length (cm) compositions over all years.\label{fig:agg-len-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="."}
+![Aggregated length (cm) compositions over all years.\label{fig:agg-len-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png){width=100% height=100% alt="."}
 
 
 \pagebreak
@@ -1717,17 +1717,17 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Mean age from conditional age-at-length data for the commercial trawl fishery.\label{fig:trawl-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl.png){width=100% height=100% alt="."}
+![Mean age from conditional age-at-length data for the commercial trawl fishery.\label{fig:trawl-mean-caal}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean age observations from the conditional age-at-length data from the commercial non-trawl fishery.\label{fig:nontrawl-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNonTRWL.png){width=100% height=100% alt="."}
+![Mean age observations from the conditional age-at-length data from the commercial non-trawl fishery.\label{fig:nontrawl-mean-caal}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNonTRWL.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Mean age observations from the conditional age-at-length data from the recreational fishery.\label{fig:rec-mean-caal}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png){width=100% height=100% alt="."}
+![Mean age observations from the conditional age-at-length data from the recreational fishery.\label{fig:rec-mean-caal}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1736,32 +1736,32 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Fit to the charter fishery index of abundance.\label{fig:charter-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Charter.png){width=100% height=100% alt="."}
+![Fit to the charter fishery index of abundance.\label{fig:charter-index-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Charter.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Fit to the private fishery index of abundance.\label{fig:private-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Private_Boat.png){width=100% height=100% alt="."}
+![Fit to the private fishery index of abundance.\label{fig:private-index-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Private_Boat.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Fit to the tagging survey index of abundance.\label{fig:tag-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Tagging.png){width=100% height=100% alt="."}
+![Fit to the tagging survey index of abundance.\label{fig:tag-index-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Tagging.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Fit to the nearshore survey index of abundance.\label{fig:nearshore-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Nearshore_survey.png){width=100% height=100% alt="."}
+![Fit to the nearshore survey index of abundance.\label{fig:nearshore-index-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Nearshore_survey.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS.png){width=100% height=100% alt="."}
+![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-index-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-yoy-index-fit}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS_YOY.png){width=100% height=100% alt="."}
+![Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-yoy-index-fit}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS_YOY.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1775,29 +1775,29 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Estimated time series of age-0 recruits (1000s).\label{fig:recruits}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of age-0 recruits (1000s).\label{fig:recruits}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Estimated time series of recruitment deviations.\label{fig:rec-devs}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
+![Estimated time series of recruitment deviations.\label{fig:rec-devs}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations.\label{fig:rec-devs-sigmas}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
+![Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations.\label{fig:rec-devs-sigmas}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years.\label{fig:bh-curve}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SR_curve.png){width=100% height=100% alt="."}
+![Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years.\label{fig:bh-curve}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/SR_curve.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Recruitment bias adjustment applied in the reference model.\label{fig:bias-adj}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recruit_fit_bias_adjust.png){width=100% height=100% alt="."}
+![Recruitment bias adjustment applied in the reference model.\label{fig:bias-adj}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/recruit_fit_bias_adjust.png){width=100% height=100% alt="."}
 
-![Recruitment deviations variance check. Low standard deviations indicate years with informative deviations.\label{fig:varcheck}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
+![Recruitment deviations variance check. Low standard deviations indicate years with informative deviations.\label{fig:varcheck}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1808,7 +1808,7 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Length-based selectivity curves for each fleet and survey.\label{fig:fleet_selectivity}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png){width=100% height=100% alt="."}
+![Length-based selectivity curves for each fleet and survey.\label{fig:fleet_selectivity}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1820,27 +1820,27 @@ This table is included below and referenced in the management section
 
 
 
-![Estimated time series of spawning output (in millions of eggs).\label{fig:ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of spawning output (in millions of eggs).\label{fig:ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Estimated time series of total biomass (mt).\label{fig:tot-bio}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png){width=100% height=100% alt="."}
+![Estimated time series of total biomass (mt).\label{fig:tot-bio}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Estimated time series of fraction of unfished spawning output.\label{fig:depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
+![Estimated time series of fraction of unfished spawning output.\label{fig:depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Comparison of the time series of spawning output between the 2015 and 2023 assessment results.\label{fig:comp_ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Comparison of the time series of spawning output between the 2015 and 2023 assessment results.\label{fig:comp_ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp_depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 
 \pagebreak
@@ -1851,32 +1851,32 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
+![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-RE}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Spawning output (in millions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Spawning output (in millions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/sensi_data/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
+![Log relative change (log((Model_sensi-Model_ref)/Model_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Spawning output (in millions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
@@ -1886,32 +1886,32 @@ This table is included below and referenced in the management section
 <!-- ============================================================================== -->
 
 
-![Initial recruitment ($lnR_0$) likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:R0-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png){width=100% height=100% alt="."}
+![Initial recruitment ($lnR_0$) likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:R0-profile}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Initial recruitment ($ln(R0)$) likelihood profile for each of the likelihood components.\label{fig:R0-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_LN(R0).png){width=100% height=100% alt="."}
+![Initial recruitment ($ln(R0)$) likelihood profile for each of the likelihood components.\label{fig:R0-profile-components}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_LN(R0).png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:steepness-profile}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png){width=100% height=100% alt="."}
+![Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:steepness-profile}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_BH_steep.png){width=100% height=100% alt="."}
+![Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_BH_steep.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/M_fm_multilikelihood_profile.png){width=100% height=100% alt="."}
+![Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/likelihoods/M_fm_multilikelihood_profile.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/LC_plots.png){width=100% height=100% alt="."}
+![Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/likelihoods/LC_plots.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1924,17 +1924,17 @@ This table is included below and referenced in the management section
 <!-- ====================================================================== -->
 
 
-![Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially.\label{fig:retro-ssb}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially.\label{fig:retro-depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 
 
-![Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs.\label{fig:retro-RE_comps}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/retro_percent_difference_3_panel.png){width=100% height=100% alt="."}
+![Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs.\label{fig:retro-RE_comps}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/retro/retro_percent_difference_3_panel.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1946,28 +1946,28 @@ This table is included below and referenced in the management section
 
 
 
-![Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
+![Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
 
-![Estimated time series of fishing intensity, 1-SPR.\label{fig:1-spr}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
+![Estimated time series of fishing intensity, 1-SPR.\label{fig:1-spr}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
 
 ![Equilibrium yield curve for the base case model. Values are based on (the time
-invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
+invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png){width=100% height=100% alt="."}
 
 \pagebreak
 
 
-![Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_SO}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
+![Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_SO}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/management/compare2_spawnbio_uncertainty.png){width=100% height=100% alt="."}
 
 
-![Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_depl}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
+![Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_depl}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/figures/management/compare4_Bratio_uncertainty.png){width=100% height=100% alt="."}
 
 \newpage
 
@@ -1978,110 +1978,110 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 # Appendix A: Detailed Fit to Length Composition Data {#app-a}
 
 
-![Length comps, whole catch, Trawl (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page1.png){width=100% height=100% alt="."}
+![Length comps, whole catch, Trawl (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt1mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page1.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, Trawl (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page2.png){width=100% height=100% alt="."}
+![Length comps, whole catch, Trawl (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt1mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page2.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, NonTRWL.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt2mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt2mkt0.png){width=100% height=100% alt="."}
+![Length comps, whole catch, NonTRWL.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt2mkt0}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt2mkt0.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png){width=100% height=100% alt="."}
+![Length comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt3mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png){width=100% height=100% alt="."}
+![Length comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt3mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, Tagging.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt4mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png){width=100% height=100% alt="."}
+![Length comps, whole catch, Tagging.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt4mkt0}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, Nearshore_survey.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt5mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png){width=100% height=100% alt="."}
+![Length comps, whole catch, Nearshore_survey.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt5mkt0}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png){width=100% height=100% alt="."}
 
-![Length comps, whole catch, OCNMS.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt6mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt6mkt0.png){width=100% height=100% alt="."}
+![Length comps, whole catch, OCNMS.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt6mkt0}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt6mkt0.png){width=100% height=100% alt="."}
 
 \clearpage
 
 # Appendix B: Fit to Conditional-Age-at-Length Composition Data {#app-b}
 
 
-![Pearson residuals, whole catch, Trawl (max=8.71) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl (max=8.71) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Trawl (max=8.71) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl (max=8.71) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Trawl (max=8.71) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Trawl (max=8.71) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 1 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 1 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 2 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 2 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 3 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 3 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 4 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 4 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page4}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 5 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 5 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page5}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 6 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page6}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page6.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 6 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page6}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page6.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 7 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page7}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page7.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 7 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page7}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page7.png){width=100% height=100% alt="."}
 
-![Pearson residuals, whole catch, Recreational (max=25.87) (plot 8 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page8}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page8.png){width=100% height=100% alt="."}
+![Pearson residuals, whole catch, Recreational (max=25.87) (plot 8 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page8}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page8.png){width=100% height=100% alt="."}
 
 \clearpage
 
 # Appendix C: Fit to Conditional-Age-at-Length Composition Data {#app-c}
 
 
-![Trawl fishery conditional AAL plot (plot 1 of 5) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png){width=100% height=100% alt="."}
+![Trawl fishery conditional AAL plot (plot 1 of 5) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png){width=100% height=100% alt="."}
 
-![Trawl conditional AAL plot (plot 2 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png){width=100% height=100% alt="."}
+![Trawl conditional AAL plot (plot 2 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png){width=100% height=100% alt="."}
 
-![Trawl conditional AAL plot (plot 3 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png){width=100% height=100% alt="."}
+![Trawl conditional AAL plot (plot 3 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png){width=100% height=100% alt="."}
 
-![Trawl conditional AAL plot (plot 4 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png){width=100% height=100% alt="."}
+![Trawl conditional AAL plot (plot 4 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page4}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png){width=100% height=100% alt="."}
 
-![Trawl conditional AAL plot (plot 5 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png){width=100% height=100% alt="."}
+![Trawl conditional AAL plot (plot 5 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page5}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png){width=100% height=100% alt="."}
 
-![Non-trawl (jig) fishery conditional AAL plot (plot 1 of 2) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png){width=100% height=100% alt="."}
+![Non-trawl (jig) fishery conditional AAL plot (plot 1 of 2) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png){width=100% height=100% alt="."}
 
-![Non-trawl (jig) conditional AAL plot (plot 2 of 2).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png){width=100% height=100% alt="."}
+![Non-trawl (jig) conditional AAL plot (plot 2 of 2).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png){width=100% height=100% alt="."}
 
-![Non-trawl (jig) conditional AAL plot (plot 3 of 3).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png){width=100% height=100% alt="."}
+![Non-trawl (jig) conditional AAL plot (plot 3 of 3).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 1 of 11) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 1 of 11) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 2 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page10}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page10.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 2 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page10}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page10.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 3 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page11}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page11.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 3 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page11}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page11.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 3 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 3 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 4 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page3}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 4 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page3}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 5 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page4}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 5 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page4}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 6 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page5}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 6 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page5}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 7 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page6}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 7 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page6}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 8 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page7}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page7.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 8 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page7}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page7.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 9 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page8}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page8.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 9 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page8}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page8.png){width=100% height=100% alt="."}
 
-![Ocean boat conditional AAL plot (plot 10 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page9}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page9.png){width=100% height=100% alt="."}
+![Ocean boat conditional AAL plot (plot 10 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page9}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page9.png){width=100% height=100% alt="."}
 
 \clearpage
 
 # Appendix D: Passive Fit to Marginal Age Composition Data {#app-d}
 
 
-![Excluded age comps, whole catch, Trawl.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt1mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt1mkt0.png){width=100% height=100% alt="."}
+![Excluded age comps, whole catch, Trawl.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt1mkt0}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt1mkt0.png){width=100% height=100% alt="."}
 
-![Excluded age comps, whole catch, NonTRWL.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt2mkt0}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt2mkt0.png){width=100% height=100% alt="."}
+![Excluded age comps, whole catch, NonTRWL.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt2mkt0}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt2mkt0.png){width=100% height=100% alt="."}
 
-![Excluded age comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt3mkt0_page1}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page1.png){width=100% height=100% alt="."}
+![Excluded age comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt3mkt0_page1}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page1.png){width=100% height=100% alt="."}
 
-![Excluded age comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_gstagefit_flt3mkt0_page2}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page2.png){width=100% height=100% alt="."}
+![Excluded age comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_gstagefit_flt3mkt0_page2}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page2.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -2090,12 +2090,12 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 ## Females
 
-![Female Black Rockfish mean age over time.\label{fig:num_age_females}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex1_beg.png){width=100% height=100% alt="."}
+![Female Black Rockfish mean age over time.\label{fig:num_age_females}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex1_beg.png){width=100% height=100% alt="."}
 
 
 ## Males
 
-![Male Black Rockfish mean age over time.\label{fig:num_age_males}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex2_beg.png){width=100% height=100% alt="."}
+![Male Black Rockfish mean age over time.\label{fig:num_age_males}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex2_beg.png){width=100% height=100% alt="."}
 
 \clearpage
 
@@ -2103,14 +2103,14 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 ## Females
 
-![Female Black Rockfish mean length (cm) over time.\label{fig:num_lts_females}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex1.png){width=100% height=100% alt="."}
+![Female Black Rockfish mean length (cm) over time.\label{fig:num_lts_females}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex1.png){width=100% height=100% alt="."}
 
 \clearpage
 
 
 ## Males
 
-![Male Black Rockfish mean length over time.\label{fig:num_lts_males}](C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex2.png){width=100% height=100% alt="."}
+![Male Black Rockfish mean length over time.\label{fig:num_lts_males}](C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex2.png){width=100% height=100% alt="."}
 
 
 \clearpage

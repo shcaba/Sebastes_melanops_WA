@@ -50,12 +50,12 @@ if( grepl("Chantel", user) ){
   user_dir <- "C:/Assessments/2023/black_rockfish/"
 } else {
   # Fill in Jasons's document directory below
-  user_dir <- "C:/Users/Jason.Cope/Documents/Github"
+  user_dir <- getwd()
 }
 
 base_name = "Reference model"
  mod_loc = file.path(user_dir,
-   "Sebastes_melanops_WA/Document/models",
+   "models",
    base_name)
    
 #base_name = "Reference model"
@@ -64,31 +64,31 @@ base_name = "Reference model"
 #   base_name)
 
 
-bridge_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/Bridge")
+bridge_fig_loc = file.path(user_dir, "figures/Bridge")
 
-catch_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/catches")
+catch_fig_loc = file.path(user_dir, "figures/catches")
 
-stock_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/stock")
+stock_fig_loc = file.path(user_dir, "figures/stock")
 
-bio_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/biology_plots")
+bio_fig_loc = file.path(user_dir, "figures/biology_plots")
 
-index_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/index")
+index_fig_loc = file.path(user_dir, "figures/index")
 
-sensi_data_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/sensi_data")
+sensi_data_fig_loc = file.path(user_dir, "figures/sensi_data")
 
-sensi_modspex_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/sensi_modspex")
+sensi_modspex_fig_loc = file.path(user_dir, "figures/sensi_modspex")
 
-modconv_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/modconverge")
+modconv_fig_loc = file.path(user_dir, "figures/modconverge")
 
-mod_build_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/modbuild")
+mod_build_fig_loc = file.path(user_dir, "figures/modbuild")
 
-comp_ass_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/comp_2015_2023")
+comp_ass_loc = file.path(user_dir, "figures/comp_2015_2023")
 
-likeprof_fig_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/likelihoods")
+likeprof_fig_loc = file.path(user_dir, "figures/likelihoods")
 
-retro_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/retro")
+retro_loc = file.path(user_dir, "figures/retro")
 
-manage_loc = file.path(user_dir, "Sebastes_melanops_WA/Document/figures/management")
+manage_loc = file.path(user_dir, "figures/management")
 
 sb0 <- round(model$derived_quants[model$derived_quants$Label == "SSB_Virgin", "Value"], 2)
 sb_final <- round(model$derived_quants[model$derived_quants$Label %in% paste0("SSB_", model$endyr + 1), "Value"], 2)
