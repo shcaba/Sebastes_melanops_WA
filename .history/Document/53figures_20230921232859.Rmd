@@ -411,7 +411,7 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_Dep_comp_plot.png"), 
-  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
+  caption = "Comparison of relative spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
   label = 'deps_bridge_comps')
 
 ``` 
@@ -865,39 +865,13 @@ label = 'M-multiprofile-combo')
 
 ```{r, results = 'asis'}
 add_figure(
-filein = file.path(likeprof_fig_loc,"like_component_profile.png"), 
-caption = "Likelihood component values for the female and male $M$ multi-parameter likelihood profile",
+filein = file.path(likeprof_fig_loc,"LC_plots.png"), 
+caption = "Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile",
 label = 'M-multiprofile-like-components')
 ```
 
 \newpage
 
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(likeprof_fig_loc,"length_component_profile.png"), 
-caption = "Length likelihood component values for the female and male $M$ multi-parameter likelihood profile",
-label = 'M-multiprofile-length-components')
-```
-
-\newpage
-
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(likeprof_fig_loc,"age_component_profile.png"), 
-caption = "Age likelihood component values for the female and male $M$ multi-parameter likelihood profile",
-label = 'M-multiprofile-age-components')
-```
-
-\newpage
-
-```{r, results = 'asis'}
-add_figure(
-filein = file.path(likeprof_fig_loc,"survey_component_profile.png"), 
-caption = "Survey likelihood component values for the female and male $M$ multi-parameter likelihood profile",
-label = 'M-multiprofile-survey-components')
-```
-
-\newpage
 
 
 ### Retrospectives
@@ -909,7 +883,7 @@ label = 'M-multiprofile-survey-components')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(retro_loc,  "compare2_spawnbio_uncertainty.png"), 
-caption = "Change in the estimate of spawning output when the most recent 10 years of data area removed sequentially",
+caption = "Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially",
 label = 'retro-ssb')
 ```
 
@@ -918,13 +892,26 @@ label = 'retro-ssb')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(retro_loc,  "compare4_Bratio_uncertainty.png"),
-caption = "Change in the estimate of fraction unfished when the most recent 10 years of data area removed sequentially",
+caption = "Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially",
 label = 'retro-depl')
 ```
 
 \newpage
 
+```{r, results = 'asis'}
+add_figure(
+filein = file.path(retro_loc,  "retro_percent_difference_3_panel.png"),
+caption = "Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs",
+label = 'retro-RE_comps')
+```
 
+\newpage
+
+### Management Quantities
+
+<!-- ====================================================================== -->
+<!-- ******************     Management    ***************************** --> 
+<!-- ====================================================================== -->
 
 
 ```{r, results = 'asis'}
