@@ -1,8 +1,8 @@
 #detach("package:sa4ss", unload = TRUE)
 #remotes::install_github("nwfsc-assess/sa4ss")
 #devtools::load_all("C:/Users/Chantel.Wetzel/Documents/GitHub/r4ss")
-  library(sa4ss)
   library(r4ss)
+  library(sa4ss)
 
 # Specify the directory for the document
 setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document")
@@ -70,6 +70,32 @@ sa4ss::es_table_tex(dir = file.path(getwd(), 'tables'),
 ###########################################################################
 # Render Call 
 ###########################################################################
+
+if(file.exists("_main.Rmd")){
+  file.remove("_main.Rmd")
+}
+# Render the pdf
+bookdown::render_book("00a.Rmd", clean=FALSE, output_dir = getwd())
+
+#########################################################################
+
+
+
+#####################################################
+#### CODE TO USE ONCE YOU JUST NEED TO RENDER PDF ###
+#####################################################
+
+###########################################################################
+# Render Call 
+###########################################################################
+  library(r4ss)
+  library(sa4ss)
+
+# Specify the directory for the document
+setwd("C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document")
+
+setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/Document")
+setwd("C:/Users/copej/Documents/GitHub/Sebastes_melanops_WA/temp")
 
 if(file.exists("_main.Rmd")){
   file.remove("_main.Rmd")

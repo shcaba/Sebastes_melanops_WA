@@ -1,0 +1,91 @@
+## Biological Data and Parameters
+
+The major biological inputs to the models are natural mortality, age and growth parameters, weight-length, maturity and stock-recruitment parameters. The following sections outline the treatment of each section.
+
+### Natural Mortality
+
+Natural mortality is a critical parameter that drives much of the outcome of stock assessments. This value is not directly measured for `r spp`, so it either needs to be estimated or fixed in the model. Prior treatments have either used fixed ramps from lower to higher female natural mortality values (0.16 to 0.24 yr^-1^ for females [@wallace_status_2007]; 0.17 to 0.20 yr^-1^ [@cope_assessments_2016]) to constant male natural mortality value (0.16  yr^-1^ in 2007; 0.17 yr^-1^ in 2015). Females rapidly disappear from the population after 20 years of age, whereas whereas males can still be found in their 30 and 40s, with the oldest individuals along the coast aged at 56 years [@love_2011]. Females are rarely found in their 30s and males in their 40s in Oregon.
+
+The reason for the lack of females has been debated for many years. The "hide them" using age-based selectivity curves to hide older females or "kill them" using the above mentioned ramps of death to account for no older females in samples was specifically considered since the last assessment among researchers from California to Alaska, and it was agreed that the "hide them" hypothesis is the least feasible situation (see Rasmuson et al. [-@Rasmuson_noBOFFFs_2023] for a specific study that went looking for old females). It was also agreed a constant natural mortality rate should be used for this assessment. 
+
+Determining reasonable natural mortality values is also challenging as the quick disappearance of females from the population after 20 years old challenges typical biological assumptions, especially since `r spp` have been the focus species when developing the theory of big old fat fecund female contributions to spawning output [@bobko_maturity_2004; @hixon_boffffs_2014]. In a study confirming the advanced capacity for output of older females [@berkeley_maternal_2008] the oldest aged females in the study were under 20 years, so the enhanced reproductive capacity, despite the loss of females after 20 years of age, is still intact. 
+
+Using the Hamel and Cope [-@hamel_Mprior_2022] longevity-based estimator of natural mortality as implemented in the natural mortality tool [-@cope_NMT_2022], the point estimate and median of the prior for natural mortality is calculated as:
+
+\begin{centering}
+
+$M=\frac{5.4}{A_{\text{max}}}$
+
+\end{centering}
+
+\vspace{0.5cm}
+
+where $M$ is natural mortality and ${A_{\text{max}}}$ is the assumed maximum age. The prior is defined as a lognormal distribution with mean $ln(5.4/A_{\text{max}})$ and standard error = 0.31.
+
+Examining a range maximum ages the resulting prior for natural mortality are:
+
+- 0.108 yr^-1^ at 50 years
+- 0.135 yr^-1^ at 40 years
+- 0.180 yr^-1^ at 30 years
+- 0.216 yr^-1^ at 25 years
+- 0.270 yr^-1^ at 20 years
+
+These provide reasonable bookends for likely natural mortality values for `r spp`. For females, estimates based on the von Bertalanffy growth function range from 0.27-0.32 yr^-1^ and for males, 0.34 to 0.38 yr^-1^. Those estimates are on the very high side, and thus are not considered further. 
+
+Exploratory runs first attempted to estimate natural mortality with not unrealistic, but slightly low, estimates. The base model instead fixes natural mortality to the values from the last assessment,`r round(model$MGparmAdj$NatM_uniform_Fem_GP_1[1], 3)` for females and `r round(model$MGparmAdj$NatM_uniform_Mal_GP_1[1], 3)` for males, that align with a maximum age of `r 54/round(model$MGparmAdj$NatM_uniform_Fem_GP_1[1], 0)` for females and `r 54/round(model$MGparmAdj$NatM_uniform_Mal_GP_1[1], 0)` for males. Multiple sensitivities were conducted examining the impact of the assumed value within the base model. A likelihood profile across the above mentioned range of natural mortality values, but maintaining the above ratio of female to male natural mortality, is also included to explore model sensitivity, as this parameter may be a useful parameter to establish different states of nature for uncertainty analysis. 
+
+
+### Age and Growth Relationship
+
+The length-at-age was estimated for female and male `r spp` using data from collections sampling the commercial and recreational fisheries off the coast of Washington (Figure \ref{fig:len-age-data-sex} and Figure \ref{fig:len-age-sex-year}), with all lengths in fork length and all ages in years. Figure \ref{fig:len-age-fit} shows the predicted von Bertalanffy growth function (VBGF) fits to the data. Females grow larger than males and sex-specific growth parameters were estimated external to the model at the following values:
+
+\begin{centering}
+
+Females $L_{\infty}$ = 51.19 cm; $k$ = 0.15 per year; $t_0$ = -2.50
+
+Males $L_{\infty}$ = 47.26 cm; $k$ = 0.17 per year; $t_0$ = -2.99
+
+\end{centering}
+
+\vspace{0.5cm}
+
+The coefficient of variation of length by age fluctuated around 0.07 to 0.1 for the most well sampled ages and was similar for each sex (Figure \ref{fig:cv-lt-age}). When estimated in the models, these same values would often be produced, but it was ultimately determined it is more parsimonious to fix to 0.1 for both sexes. The value for $t_0$ is also fixed in the base model, as estimation of that parameter lead to extremely high current biomass values.
+
+The estimated VBGF parameters provided initial values for the estimation of growth in the model, as all age and length data are included in the model and parameters $L_{\infty}$ and $k$ are estimated. The resultant growth curves estimated by the model are presented in Figure \ref{fig:len-age-ss}. Sensitivity to fixing the growth parameters to the external values, fixing $t_0$ to 0, and estimating $t_0$ are explored through sensitivity analyses.
+
+
+### Ageing Bias and Precision
+
+Counting ages from ageing structures in long-lived, temparate fishes is challenging. Ages derived from these structures can be hard to reproduce within and between readers (i.e., imprecision), and may not contain the true age (i.e., bias). Stock assessment outputs can be affected by bias and imprecision in ageing, thus it is important to quantify and integrate this source of variability when fitting age data in assessments. In Stock Synthesis, this is done by including ageing error matrices that include the mean age (row 1) and standard deviation in age (row 2). Ageing bias is implemented when the inputted mean age deviates from the expected middle age for any given age bin (e.g., 1.75 inputted versus 1.5 being the true age); ageing imprecision is given as the standard deviation for each age bin.
+
+WDFW has two main readers to assign to the available ages. Reader 1 read samples from the earliest period through 2018 and Reader 2 read samples from 2019 to 2022. Age bias plots show little bias within and between the readers (Figure \ref{fig:a1-bias}). 
+
+Estimation of ageing error matrices used the approach of -@punt_quantifying_2008 and release 1.1.0 of the R package \href{https://github.com/pfmc-assessments/nwfscAgeingError}{nwfscAgeingError} [@thorson_nwfscageingerror:_2012]. The ageing error matrix offers a way to calculate both bias and imprecision in age reads. Reader 1 is always considered unbiased, but may be imprecise. Bias relative to the primary reader is given for the second or additional readers. Several model configurations are available for exploration based on either the functional form (e.g., constant CV, curvilinear standard deviation, or curvilinear CV) of the bias in the second read or reader or in the precision of the readers. Model selection uses AIC corrected for small sample size (AICc), which converges to AIC when sample sizes are large. Bayesian Information Criterion (BIC) was also considered when selecting a final model. Table \ref{tab:age-error-models} provides model selection results of intra-reader comparisons for the two readers.
+
+The calculated bias relationships from the best fit model are shown in Figure \ref{fig:age-error-bias} and confirm small to little bias between readers. Figure \ref{fig:age-error-sd} shows the imprecision estimates of the best fit models. Each ageing error matrix was then applied to the appropriate time and fleet combination.
+
+
+### Length-Weight Relationship
+
+The length-weight relationship for `r spp` was estimated outside the model using biological data available from the Washington commercial and recreational fisheries (Figure \ref{fig:len-weight-data}), as well as research collections. The resultant relationship is very similar for both males and females, and is very close also to what is seen in the state of Washington (Figure \ref{fig:len-weight-or-wa}). The estimated length-weight relationship for female fish was $W$=`r format(model$MGparmAdj$Wtlen_1_Fem[1], scientific = TRUE, digits = 3)`$L$^`r round(model$MGparmAdj$Wtlen_2_Fem[1],2)`^ and males at $W$=`r format(model$MGparmAdj$Wtlen_1_Mal[1], scientific = TRUE, digits = 3)`$L$^`r round(model$MGparmAdj$Wtlen_2_Mal[1], 2)`^ where length is in centimeters and weight in kilograms.
+
+
+### Maturation and Fecundity
+
+`r Spp` maturity was assumed to be based on length, as in past assessments. This assessment used functional maturity instead of biological maturity to describe the maturity schedule. Functional maturity was classified by a more stringent definition of maturity that considered abortive maturation (delayed participation in reproductive event), skipped spawning (mature individuals forgo spawning), and level of follicular atresia as opposed to biological maturity that only considers physiological development. Functional maturity included the biologically mature individuals that were actually expected to contribute to spawning in a given year.
+
+Claire Rosemond (Oregon State University) and Melissa Head (Northwest Fisheries Science Center) provided estimates of both biological and functional maturity for `r spp` sampled in 2014 to 2021 from September through April (the time period that includes yolk development and spawning). Samples were collected for fish caught in Oregon and Washington waters by biologists at Oregon State University, ODFW, and WDFW. Biological maturity and functional maturity observations were fitted in separate models. Biological maturity and functional maturity status observations (0 = immature and 1 = mature, n = 644) were fitted in a logistic regression model (glm function, family = binomial, link = “logit”) and flexible spline model [@head_applying_2020]. The estimated model parameters were used to calculate length at 50% maturity (L50%; Table \ref{tab:bio-fxn-maturity}) and maturity ogives (Figure \ref{fig:bio-fxn-mat-color}). The delta method was used to calculate 95% confidence intervals for estimated L50% in the logistic regression and a bootstrapping method was used to calculate 95% confidence intervals for L50% in the flexible spline model.
+
+A flexible spline model can capture skipped spawning in the maturity ogive by allowing a decreased asymptote from 1.0. There was evidence of skipped spawning in larger size classes and so the flexible spline model was determined to be the best representation of the reproductive biology of `r spp` for the sampled time period (Figure \ref{fig:fxn-spline-mat-color}). The maturity vector input into the model as a fixed relationship is shown in Figure \ref{fig:maturity}. Sensitivity of model output to the use of the biological and functional logistic relationships are explored.
+
+The `r spp` fecundity-at-length relationship was provided by E.J. Dick (Southwest Fisheries Science Center) and based on the work from -@dick_modeling_2009. The fecundity relationship was estimated equal to $\text{Fecundity}$=`r format(model$MGparmAdj$Eggs_scalar_Fem[1], scientific = TRUE)`$L$^`r round(model$MGparmAdj$Eggs_exp_len_Fem[1],2)`^ in millions of eggs where $L$ is length in cm. Fecundity-at-length is shown in Figure \ref{fig:fecundity}.
+
+
+### Stock-Recruitment Function and Compensation
+
+The Beverton-Holt stock-recruit model [@beverton_holt_1957] has been the traditional recruitment function for rockfishes and is assumed for `r spp`.  Specifically, the re-parameterized Beverton-Holt that uses a steepness parameter defined as the proportion of average recruitment for an unfished population expected for a population at 20% of unfished spawning output (Mace and Doonan) was used in these assessments.  This is a notoriously difficult parameter to estimate, thus several attempts to derive a prior of steepness have been attempted [@myers_etal_1995; @dorn_advice_2002]. The Thorson-Dorn rockfish prior (developed for use West Coast rockfish assessments) was reviewed and endorsed by the Scientific and Statistical Committee (SSC) in 2017, and is the primary source of information on steepness for west coast rockfishes. The prior ($h$; beta distribution with $\mu$=`r round(model$parameters[model$parameters$Label == "SR_BH_steep","Value"],2)` and $\sigma$=0.15) is used in this assessment, but attempts to estimate steepness were not successful, so it is fixed and its influence is explored via a likelihood profile.
+
+
+### Sex Ratio
+
+No information on the sex ratio at birth was available so it was assumed to be 50:50. 

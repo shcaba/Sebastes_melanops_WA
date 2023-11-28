@@ -44,6 +44,13 @@ sa4ss::read_model(
   save_loc = file.path(getwd(), "tex_tables"),
   )
 
+sa4ss::read_model(
+  mod_loc = mod_loc,
+  create_plots = FALSE, 
+  html = FALSE,
+  save_loc = file.path(getwd(), "models/Reference model/tex_tables"),
+)
+
 ###########################################################################
 # Create tex files from the executive summary tables
 ###########################################################################
