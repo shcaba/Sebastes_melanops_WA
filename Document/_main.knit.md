@@ -207,7 +207,7 @@ Overall, removals of Black Rockfish remained relatively low (less than 100 mt) u
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png}
+\includegraphics[alt=These values can be found in the model data file and tables in this document.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/catch2 landings stacked.png}
 }
 \caption{Landings by fleet used in the reference model where catches in metric tons by fleet are stacked.\label{fig:es-catch}}
 \end{figure}
@@ -232,7 +232,7 @@ Spawning output (in billions of eggs; beggs) instead of spawning biomass is used
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png}
 }
 \caption{Estimated time series of spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-ssb}}
 \end{figure}
@@ -241,7 +241,7 @@ Spawning output (in billions of eggs; beggs) instead of spawning biomass is used
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png}
 }
 \caption{Estimated time series of fraction of unfished spawning output (circles and line: median; light broken lines: 95 percent intervals) for the base model.\label{fig:es-depl}}
 \end{figure}
@@ -258,7 +258,7 @@ Recruitment is informed by the data and estimated from 1970s to 2017, before and
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png}
 }
 \caption{Estimated time series of age-0 recruits (1000s) for the base model with 95 percent intervals.\label{fig:es-recruits}}
 \end{figure}
@@ -267,7 +267,7 @@ Recruitment is informed by the data and estimated from 1970s to 2017, before and
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png}
 }
 \caption{Estimated time series of recruitment deviations.\label{fig:es-recdev}}
 \end{figure}
@@ -283,7 +283,7 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and 
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png}
 }
 \caption{Estimated 1 - relative spawning ratio (SPR) by year for the base model. The management target is plotted as a red horizontal line and values above this reflect harvest in excess of the proxy harvest rate.\label{fig:es-1-spr}}
 \end{figure}
@@ -291,7 +291,7 @@ Fishing intensity, as measured by the SPR rate (1 - SPR), has remained high and 
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png}
 }
 \caption{Phase plot of estimated 1-SPR versus fraction unfished for the base model.\label{fig:es-phase}}
 \end{figure}
@@ -314,7 +314,7 @@ The 2023 spawning biomass relative to unfished equilibrium spawning biomass, bas
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png}
+\includegraphics[alt=These values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png}
 }
 \caption{Equilibrium yield curve for the base case model. Values are based on (the time invariant)
 fishery selectivities and with steepness fixed at 0.72.\label{fig:es-yield}}
