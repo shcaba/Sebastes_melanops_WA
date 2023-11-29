@@ -1,0 +1,49 @@
+# Acronyms Used in the Document{-}
+
+
+The following will include a list of common acronyms used in this document.  It will be fully populated prior to the final post-review draft.
+
+ABC – Acceptable Biological Catch  
+AIC – Akaike Information Criterion  
+CDFW – California Department of Fish and Wildlife  
+CFIS – Commercial Fisheries Information System  
+CI – Confidence interval  
+CPFV – Commercial Passenger Fishing Vessel  
+CPUE – Catch per unit of effort  
+CV – Coefficient of variation  
+EEZ – Exclusive Economic Zone  
+ENSO - El Ni\~{n}o Southern Oscillation
+FMP – Groundfish Fishery Management Plan  
+GLM – Generalized Linear Model  
+MPA – Marine Protected Area  
+MPD – Maximum of the posterior density function  
+MRFSS - Marine Recreational Fisheries Statistics Survey  
+MSY – Maximum Sustainable Yield  
+mt – Metric tons  
+NFMP – Nearshore Fishery Management Plan  
+NMT – Natural Mortality Tool  
+NWFSC – Northwest Fisheries Science Center  
+OCNMS - Olympic Coast National Marine Sanctuary
+ODFW – Oregon Department of Fish and Wildlife  
+OFL – Overfishing Limit  
+ORBS – Ocean Recreational Boat Survey  
+OY- Optimum Yield  
+PacFIN - Pacific Fisheries Information Network  
+PBR – Private Boat and Rental recreational mode  
+PFEL – Pacific Fisheries Environmental Laboratory  
+PFMC – Pacific Fishery Management Council  
+PISCO - Partnership for Interdisciplinary Studies of Coastal Oceans  
+PSMFC – Pacific States Marine Fisheries Commission  
+RCA – Rockfish Conservation Area  
+RecFIN – Recreational Fisheries Information Network  
+SMURF - Standard Monitoring Units for the Recruitment of (temperate reef) Fishes  
+SPR – Spawning Potential Ratio  
+SS – Stock Synthesis  
+STAR – Stock Assessment Review (panel)  
+STAT – Stock Assessment Team  
+TL – Total Length  
+TOR – Terms of Reference  
+WCGOP – West Coast Groundfish Observer Program  
+WDFW - Washington Department of Fish and Wildlife
+
+\newpage

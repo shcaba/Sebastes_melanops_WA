@@ -15,7 +15,8 @@
 add_figure(
 filein = file.path(stock_fig_loc, "black_rockfish_map.png"), 
 caption = "Map of the management and assessment areas for Black Rockfish.",
-label = 'map')
+label = 'map',
+alt_caption= "Black Rockfish range from California up to Alaska")
 ```
 
 \pagebreak
@@ -32,7 +33,8 @@ label = 'map')
 add_figure(
 filein = file.path(mod_loc, "plots", "data_plot.png"), 
 caption = "Summary of data sources used in the reference model",
-label = 'data-plot')
+label = 'data-plot',
+alt_caption= "Data can be found in the provided tables and model files")
 ```
 
 \pagebreak
@@ -41,7 +43,8 @@ label = 'data-plot')
 add_figure(
 filein = file.path(catch_fig_loc, "catch-time-series-comparison.png"), 
 caption = "Comparison of total removals and removals by fleet between this assessment and those in 2007 and 2015. The lines showing the Non-Trawl and Recreational removal time series for the 2015 assessment cannot be seen as they are masked by the lines for the 2023 time series.",
-label = 'catch-ts-comparison')
+label = 'catch-ts-comparison',
+alt_caption= "Removals by fleet can be found in Table 1 and in the model data file")
 ```
 
 \pagebreak
@@ -51,7 +54,8 @@ label = 'catch-ts-comparison')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt1mkt0_page2.png"), 
 caption = "Length compositions by year from the commercial trawl fleet",
-label = 'trawl-length-comps')
+label = 'trawl-length-comps',
+alt_caption= "Length compositions can be found in tables and in the model data file")
 ```
 
 \pagebreak
@@ -61,7 +65,8 @@ label = 'trawl-length-comps')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt2mkt0.png"), 
 caption = "Length compositions by year from the commercial nontrawl fleet",
-label = 'nontrawl-length-comps')
+label = 'nontrawl-length-comps',
+alt_caption= "Length compositions can be found in tables and in the model data file")
 ```
 
 \pagebreak
@@ -71,7 +76,8 @@ label = 'nontrawl-length-comps')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_bubflt3mkt0_page2.png"), 
 caption = "Length compositions by year from the recreational fleet",
-label = 'rec-length-comps')
+label = 'rec-length-comps',
+alt_caption= "Length compositions can be found in tables and in the model data file")
 ```
 
 \pagebreak
@@ -81,7 +87,8 @@ label = 'rec-length-comps')
 add_figure(
 filein = file.path(index_fig_loc, "OSP-rockfish-bag-limit-n-min10.png"), 
 caption = "Trip average (points) and interquartile range (vertical solid lines) of the number of total rockfish retained per angler, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.",
-label = 'baglimit_numbers')
+label = 'baglimit_numbers',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -90,7 +97,8 @@ label = 'baglimit_numbers')
 add_figure(
 filein = file.path(index_fig_loc, "OSP-rockfish-bag-limit-p-min10.png"), 
 caption = "Trip average (points) and interquartile range (vertical solid lines) of the percentage of the rockfish bag limit reached, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.",
-label = 'baglimit_percentage')
+label = 'baglimit_percentage',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -99,7 +107,8 @@ label = 'baglimit_percentage')
 add_figure(
 filein = file.path(index_fig_loc, "OSP_blackrock_p_total_rockfish.png"), 
 caption = "Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were Black Rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.",
-label = 'blackrock_percentage')
+label = 'blackrock_percentage',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -108,7 +117,8 @@ label = 'blackrock_percentage')
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Private.png"), 
 caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
-label = 'private-log-diags')
+label = 'private-log-diags',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -117,7 +127,8 @@ label = 'private-log-diags')
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Private.png"), 
 caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
-label = 'private-gam-diags')
+label = 'private-gam-diags',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -126,7 +137,8 @@ label = 'private-gam-diags')
 add_figure(
 filein = file.path(index_fig_loc, "WA_dockside_Private_Index.png"), 
 caption = "Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index",
-label = 'private-index')
+label = 'private-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -135,7 +147,8 @@ label = 'private-index')
 add_figure(
 filein = file.path(index_fig_loc, "WA_dockside_private_CV.png"), 
 caption = "Bootstrapped estimates of variation for each model of the Washington private boat index",
-label = 'private-CVs')
+label = 'private-CVs',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -144,7 +157,8 @@ label = 'private-CVs')
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics lognormal_Charter.png"), 
 caption = "Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
-label = 'charter-log-diags')
+label = 'charter-log-diags',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -153,7 +167,8 @@ label = 'charter-log-diags')
 add_figure(
 filein = file.path(index_fig_loc, "GLMdiagnostics gamma_Charter.png"), 
 caption = "Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right)",
-label = 'charter-gam-diags')
+label = 'charter-gam-diags',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -162,7 +177,8 @@ label = 'charter-gam-diags')
 add_figure(
 filein = file.path(index_fig_loc, "WA_dockside_Charter94_Index.png"), 
 caption = "Abundance indices for the WDFW charter boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index",
-label = 'charter-index')
+label = 'charter-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -171,7 +187,8 @@ label = 'charter-index')
 add_figure(
 filein = file.path(index_fig_loc, "WA_dockside_Charter94_CV.png"), 
 caption = "Bootstrapped estimates of variation for each model of the Washington charter boat index",
-label = 'charter-CVs')
+label = 'charter-CVs',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -180,7 +197,8 @@ label = 'charter-CVs')
 add_figure(
 filein = file.path(index_fig_loc, "ProportionZero_Tagging_1998_2018.png"), 
 caption = "Estimated and observed proportion zero for the negative binomial tagging model",
-label = 'prop-zero-tag')
+label = 'prop-zero-tag',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -189,7 +207,8 @@ label = 'prop-zero-tag')
 add_figure(
 filein = file.path(index_fig_loc, "HistoricTagging_1998_2018_Index.png"), 
 caption = "Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB\\_hurdle refers to a Bayesian negative binomial hurdle model",
-label = 'tag-index')
+label = 'tag-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -197,8 +216,9 @@ label = 'tag-index')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "Nearshore Survey_Hurdle.png"), 
-caption = "Nearshore survey index and 95% confidence intervals using different factors in the negative binomial hurdle model",
-label = 'model-sel-nearshore')
+caption = "Nearshore survey index and 95\\% confidence intervals using different factors in the negative binomial hurdle model",
+label = 'model-sel-nearshore',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -207,7 +227,8 @@ label = 'model-sel-nearshore')
 add_figure(
 filein = file.path(index_fig_loc, "ProportionZero_Tagging_1998_2018.png"), 
 caption = "Estimated and observed proportion zero for the negative binomial nearshore survey model",
-label = 'prop-zero-nearshore')
+label = 'prop-zero-nearshore',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -215,8 +236,9 @@ label = 'prop-zero-nearshore')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "Hurdles_NearshoreSurveyIndex.png"), 
-caption = "Nearshore index time series with 95% confidence intervals",
-label = 'nearshore-index')
+caption = "Nearshore index time series with 95\\% confidence intervals",
+label = 'nearshore-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -224,8 +246,9 @@ label = 'nearshore-index')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "Indices_Tagging_Nearshore.png"), 
-caption = "Tagging index with and without the nearshore data added (vertical lines are 95% confidence internvals). The synoptic survey uses only one marine area (MA2)",
-label = 'tag-nearshore-index')
+caption = "Tagging index with and without the nearshore data added (vertical lines are 95\\% confidence internvals). The synoptic survey uses only one marine area (MA2)",
+label = 'tag-nearshore-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -234,21 +257,24 @@ label = 'tag-nearshore-index')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lendat_flt6mkt0.png"), 
 caption = "Length compositions by year for the OCNMS scuba survey.",
-label = 'ocnms-ltcomps')
+label = 'ocnms-ltcomps',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "Black_Rockfish_time_series_OCNMS.pdf"), 
-caption = "Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year",
-label = 'ocnms-adult-index')
+caption = "Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95\\% intervals for each year",
+label = 'ocnms-adult-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(index_fig_loc, "Black_Rockfish_YOY_time_series_OCNMS.pdf"), 
-caption = "Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95% intervals for each year. Note y-axis is square root",
-label = 'ocnms-yoy-index')
+caption = "Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95\\% intervals for each year. Note y-axis is square root",
+label = 'ocnms-yoy-index',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -263,7 +289,8 @@ label = 'ocnms-yoy-index')
 add_figure(
 filein = file.path(bio_fig_loc, "WA_AG_Source_Sex.png"), 
 caption = "Observed length-at-age by data source and sex",
-label = 'len-age-data-sex')
+label = 'len-age-data-sex',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```	
 
 \pagebreak
@@ -272,7 +299,8 @@ label = 'len-age-data-sex')
 add_figure(
 filein = file.path(bio_fig_loc, "WA_AG_Sex_Year.png"), 
 caption = "Observed length-at-age by sex and year. Total samples are indicated in parentheses",
-label = 'len-age-sex-year')
+label = 'len-age-sex-year',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```	
 
 \pagebreak
@@ -283,7 +311,8 @@ filein = file.path(bio_fig_loc, "WA_VBGF_fit.png"),
 caption = "External fits to the observed length-at-age by sex",
 width=100,
 height=100,
-label = 'len-age-fit')
+label = 'len-age-fit',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```	
 
 \pagebreak
@@ -292,7 +321,8 @@ label = 'len-age-fit')
 add_figure(
 filein = file.path(bio_fig_loc, "WA_CV_Sex_plot.png"), 
 caption = "Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex",
-label = 'cv-lt-age')
+label = 'cv-lt-age',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```	
 
 \pagebreak
@@ -301,7 +331,8 @@ label = 'cv-lt-age')
 add_figure(
 filein = file.path(mod_loc, "plots", "bio1_sizeatage.png"), 
 caption = "Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve",
-label = 'len-age-ss')
+label = 'len-age-ss',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \clearpage
@@ -313,7 +344,8 @@ filein = file.path(bio_fig_loc, "Age1_1plots.png"),
 caption = "Ageing bias plots by reader comparisons",
 width=100,
 height=100,
-label = 'a1-bias')
+label = 'a1-bias',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -322,7 +354,8 @@ label = 'a1-bias')
 add_figure(
 filein = file.path(bio_fig_loc, "WA_Reader_Bias_plot.png"), 
 caption = "Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix",
-label = 'age-error-bias')
+label = 'age-error-bias',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -331,7 +364,8 @@ label = 'age-error-bias')
 add_figure(
 filein = file.path(bio_fig_loc, "WA_Reader_SD_plot.png"), 
 caption = "Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix",
-label = 'age-error-sd')
+label = 'age-error-sd',
+alt_caption= "The raw data can be found in the stock assessment data archives")
 ```
 
 \pagebreak
@@ -339,8 +373,9 @@ label = 'age-error-sd')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "Fig1_bio_and_func_color.png"), 
-caption = "Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue)",
-label = 'bio-fxn-mat-color')
+caption = "Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95\\% CI is grey, flexible spline and 95\\% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95\\% CI is grey, flexible spline and 95\\% CI is light blue)",
+label = 'bio-fxn-mat-color',
+alt_caption= "The data are available upon equest from the authors")
 ```
 
 \pagebreak
@@ -348,8 +383,9 @@ label = 'bio-fxn-mat-color')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(bio_fig_loc, "Fig2_func_samplesize_color.png"), 
-caption = "Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue) and sample size is denoted by the size of the bubbles)",
-label = 'fxn-spline-mat-color')
+caption = "Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95\\% CI is grey, flexible spline and 95\\% CI is light blue) and sample size is denoted by the size of the bubbles)",
+label = 'fxn-spline-mat-color',
+alt_caption= "The data are available upon equest from the authors")
 ```
 
 \pagebreak
@@ -358,7 +394,8 @@ label = 'fxn-spline-mat-color')
 add_figure(
 filein = file.path(mod_loc, "plots", "bio6_maturity.png"), 
 caption = "Maturity as a function of length (cm)",
-label = 'maturity')
+label = 'maturity',
+alt_caption= "The data are available upon equest from the authors")
 ```
 
 \pagebreak
@@ -367,7 +404,8 @@ label = 'maturity')
 add_figure(
 filein = file.path(mod_loc, "plots", "bio9_fecundity_len.png"), 
 caption = "Fecundity (kg) as a function of length (cm)",
-label = 'fecundity')
+label = 'fecundity',
+alt_caption= "This relationship was developed and provided by E.J. Dick")
 ```
 
 \pagebreak
@@ -376,7 +414,8 @@ label = 'fecundity')
 add_figure(
 filein = file.path(bio_fig_loc, "LW_WA_State_Source_Sex.png"), 
 caption = "Sex-specific length (cm)-weight (kg) data for Black Rockfish samples by source",
-label = 'len-weight-data')
+label = 'len-weight-data',
+alt_caption= "The raw data are found in the stock assessment archive")
 ```
 
 \pagebreak
@@ -385,7 +424,8 @@ label = 'len-weight-data')
 add_figure(
 filein = file.path(bio_fig_loc, "LW_lines_States_Sex.png"), 
 caption = "Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison",
-label = 'len-weight-or-wa')
+label = 'len-weight-or-wa',
+alt_caption= "The raw data are found in the stock assessment archive")
 ```
 
 \clearpage
@@ -401,8 +441,9 @@ label = 'len-weight-or-wa')
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_SB_comp_plot.png"), 
-  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
-  label = 'ssb_bridge_comps')
+  caption = "Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\\% confidence intervals",
+  label = 'ssb_bridge_comps',
+  alt_caption= "These model files are available in the stock assessment archive")
 
 ``` 
 
@@ -411,8 +452,10 @@ add_figure(
 ```{r, results = 'asis'}
 add_figure(
   filein = file.path(bridge_fig_loc, "WA_Dep_comp_plot.png"), 
-  caption = "Comparison of relative spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals",
-  label = 'deps_bridge_comps')
+  caption = "Comparison of relative spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\\% confidence intervals",
+  label = 'deps_bridge_comps',
+  alt_caption= "These model files are available in the stock assessment archive")
+
 
 ``` 
 
@@ -426,13 +469,16 @@ add_figure(
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(mod_build_fig_loc, "Mod build stock status/compare4_Bratio_uncertainty.png"),
-caption = "Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history", label = 'modbuild-data-depl')
+caption = "Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history", label = 'modbuild-data-depl',
+alt_caption= "These model files are available in the stock assessment archive")
+
 ```
 
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(mod_build_fig_loc, "Mod build stock scale/compare2_spawnbio_uncertainty.png"),
-caption = "Spawning output (in billions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history", label = 'modbuild-data-ssb')
+caption = "Spawning output (in billions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history", label = 'modbuild-data-ssb',
+alt_caption= "These model files are available in the stock assessment archive")
 ```
 
 <!-- ====================================================================== -->
@@ -446,14 +492,16 @@ caption = "Spawning output (in billions of eggs) time series by data treatment c
 add_figure(
 filein = file.path(modconv_fig_loc, "jitterplot.png"), 
 caption = "Jitter runs (using a value of 0.001) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found",
-label = 'jitter')
+label = 'jitter',
+alt_caption= "These model files are available in the stock assessment archive")
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(modconv_fig_loc, "pairs_plot_fast.png"), 
 caption = "Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency",
-label = 'pairs_plot_fast')
+label = 'pairs_plot_fast',
+alt_caption= "The model output that produce these plots are available upon request")
 ```
 
 \clearpage
@@ -468,7 +516,8 @@ label = 'pairs_plot_fast')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit__multi-fleet_comparison.png"), 
 caption = "Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected)",
-label = 'lt-pearson-resids')
+label = 'lt-pearson-resids',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -477,7 +526,8 @@ label = 'lt-pearson-resids')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Trawl.png"), 
 caption = "Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
-label = 'trawl-mean-len-fit')
+label = 'trawl-mean-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -486,7 +536,8 @@ label = 'trawl-mean-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_NonTRWL.png"), 
 caption = "Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting",
-label = 'nontrawl-mean-len-fit')
+label = 'nontrawl-mean-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -495,7 +546,8 @@ label = 'nontrawl-mean-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Recreational.png"), 
 caption = "Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting",
-label = 'rec-mean-len-fit')
+label = 'rec-mean-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -504,7 +556,8 @@ label = 'rec-mean-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Tagging.png"), 
 caption = "Mean length (cm) index from tagging survey with 95 percent confidence intervals based on sample sizes and data weighting",
-label = 'tag-mean-len-fit')
+label = 'tag-mean-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -513,7 +566,8 @@ label = 'tag-mean-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_Nearshore_survey.png"), 
 caption = "Mean length (cm) index from the Nearshore survey with 95 percent confidence intervals based on sample sizes and data weighting",
-label = 'nearshore-mean-len-fit')
+label = 'nearshore-mean-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -522,7 +576,8 @@ label = 'nearshore-mean-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit_data_weighting_TA1.8_OCNMS.png"), 
 caption = "Mean length (cm) index from the OCNMS adult dive survey with 95 percent confidence intervals based on sample sizes and data weighting",
-label = 'ocnms-mean-len-fit')
+label = 'ocnms-mean-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -531,7 +586,8 @@ label = 'ocnms-mean-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_lenfit__aggregated_across_time.png"), 
 caption = "Aggregated length (cm) compositions over all years",
-label = 'agg-len-fit')
+label = 'agg-len-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 
@@ -545,7 +601,8 @@ label = 'agg-len-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeTrawl.png"), 
 caption = "Mean age from conditional age-at-length data for the commercial trawl fishery",
-label = 'trawl-mean-caal')
+label = 'trawl-mean-caal',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -554,7 +611,8 @@ label = 'trawl-mean-caal')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeNonTRWL.png"), 
 caption = "Mean age observations from the conditional age-at-length data from the commercial non-trawl fishery",
-label = 'nontrawl-mean-caal')
+label = 'nontrawl-mean-caal',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -563,7 +621,8 @@ label = 'nontrawl-mean-caal')
 add_figure(
 filein = file.path(mod_loc, "plots", "comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png"), 
 caption = "Mean age observations from the conditional age-at-length data from the recreational fishery",
-label = 'rec-mean-caal')
+label = 'rec-mean-caal',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -576,7 +635,8 @@ label = 'rec-mean-caal')
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_Charter.png"),
 caption = "Fit to the charter fishery index of abundance",
-label = 'charter-index-fit')
+label = 'charter-index-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -585,7 +645,8 @@ label = 'charter-index-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_Private_Boat.png"),
 caption = "Fit to the private fishery index of abundance",
-label = 'private-index-fit')
+label = 'private-index-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -594,7 +655,8 @@ label = 'private-index-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_Tagging.png"),
 caption = "Fit to the tagging survey index of abundance",
-label = 'tag-index-fit')
+label = 'tag-index-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -603,7 +665,8 @@ label = 'tag-index-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_Nearshore_survey.png"),
 caption = "Fit to the nearshore survey index of abundance",
-label = 'nearshore-index-fit')
+label = 'nearshore-index-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -612,7 +675,8 @@ label = 'nearshore-index-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_OCNMS.png"),
 caption = "Fit to the OCNMS dive survey index of abundance",
-label = 'ocnms-index-fit')
+label = 'ocnms-index-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -621,7 +685,8 @@ label = 'ocnms-index-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "index2_cpuefit_OCNMS_YOY.png"),
 caption = "Fit to the OCNMS dive survey index of abundance",
-label = 'ocnms-yoy-index-fit')
+label = 'ocnms-yoy-index-fit',
+alt_caption="The numbers behind these figures can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -639,7 +704,8 @@ label = 'ocnms-yoy-index-fit')
 add_figure(
 filein = file.path(mod_loc, "plots", "ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png"), 
 caption = "Estimated time series of age-0 recruits (1000s)",
-label = 'recruits')
+label = 'recruits',
+alt_caption="The values are provided in the model output Report file")
 ```
 
 \pagebreak
@@ -648,7 +714,8 @@ label = 'recruits')
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs2_withbars.png"), 
 caption = "Estimated time series of recruitment deviations",
-label = 'rec-devs')
+label = 'rec-devs',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -657,7 +724,8 @@ label = 'rec-devs')
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"), 
 caption = "Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations",
-label = 'rec-devs-sigmas')
+label = 'rec-devs-sigmas',
+alt_caption="The values are calculated and found in the model output Report file")
 ```
 
 \pagebreak
@@ -666,7 +734,8 @@ label = 'rec-devs-sigmas')
 add_figure(
 filein = file.path(mod_loc, "plots", "SR_curve.png"), 
 caption = "Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years",
-label = 'bh-curve')
+label = 'bh-curve',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -675,13 +744,15 @@ label = 'bh-curve')
 add_figure(
 filein = file.path(mod_loc, "plots", "recruit_fit_bias_adjust.png"),
 caption = "Recruitment bias adjustment applied in the reference model",
-label = 'bias-adj')
+label = 'bias-adj',
+alt_caption="The values can be found in the model output Report file")
 ```
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(mod_loc, "plots", "recdevs3_varcheck.png"),
 caption = "Recruitment deviations variance check. Low standard deviations indicate years with informative deviations",
-label = 'varcheck')
+label = 'varcheck',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -696,7 +767,8 @@ label = 'varcheck')
 add_figure(
 filein = file.path(mod_loc, "plots", "sel01_multiple_fleets_length1.png"),
 caption = "Length-based selectivity curves for each fleet and survey",
-label = 'fleet_selectivity')
+label = 'fleet_selectivity',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -712,7 +784,8 @@ label = 'fleet_selectivity')
 add_figure(
 filein = file.path(mod_loc, "plots", "ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png"), 
 caption = "Estimated time series of spawning output (in billions of eggs)",
-label = 'ssb')
+label = 'ssb',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -721,7 +794,8 @@ label = 'ssb')
 add_figure(
 filein = file.path(mod_loc, "plots", "ts1_Total_biomass_(mt).png"), 
 caption = "Estimated time series of total biomass (mt)",
-label = 'tot-bio')
+label = 'tot-bio',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -730,7 +804,8 @@ label = 'tot-bio')
 add_figure(
 filein = file.path(mod_loc, "plots", "ts9_Relative_spawning_output_intervals.png"), 
 caption = "Estimated time series of fraction of unfished spawning output",
-label = 'depl')
+label = 'depl',
+alt_caption="The values can be found in the model output Report file")
 ```
 
 \pagebreak
@@ -739,7 +814,8 @@ label = 'depl')
 add_figure(
 filein = file.path(comp_ass_loc, "compare2_spawnbio_uncertainty.png"), 
 caption = "Comparison of the time series of spawning output between the 2015 and 2023 assessment results",
-label = 'comp_ssb')
+label = 'comp_ssb',
+alt_caption="The values can be found in the respective model output Report files")
 ```
 
 \pagebreak
@@ -748,7 +824,8 @@ label = 'comp_ssb')
 add_figure(
 filein = file.path(comp_ass_loc, "compare4_Bratio_uncertainty.png"), 
 caption = "Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results",
-label = 'comp_depl')
+label = 'comp_depl',
+alt_caption="The values can be found in the respective model output Report files")
 ```
 
 
@@ -762,7 +839,8 @@ label = 'comp_depl')
 ```{r, echo=FALSE, results='asis'}
 add_figure(
 filein = file.path(sensi_data_fig_loc, "Sensi_logREplot_SB_Dep_F_Yield.png"),
-caption = "Log relative change (log((Model\\_sensi-Model\\_ref)/Model\\_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See Sensitivity Analysis section for more details on each scenario",label = 'sensi-data-RE')
+caption = "Log relative change (log((Model\\_sensi-Model\\_ref)/Model\\_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See Sensitivity Analysis section for more details on each scenario",label = 'sensi-data-RE',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -771,7 +849,8 @@ caption = "Log relative change (log((Model\\_sensi-Model\\_ref)/Model\\_ref)) in
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare2_spawnbio_uncertainty.png"),
 caption = "Spawning output (in billions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
-label = 'sensi-data-ssb')
+label = 'sensi-data-ssb',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -780,7 +859,8 @@ label = 'sensi-data-ssb')
 add_figure(
 filein = file.path(sensi_data_fig_loc, "compare4_Bratio_uncertainty.png"),
 caption = "Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
-label = 'sensi-data-depl')
+label = 'sensi-data-depl',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -789,7 +869,8 @@ label = 'sensi-data-depl')
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "Sensi_logREplot_SB_Dep_F_Yield.png"),
 caption = "Log relative change (log((Model\\_sensi-Model\\_ref)/Model\\_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
-label = 'sensi-modspec-RE')
+label = 'sensi-modspec-RE',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -798,7 +879,8 @@ label = 'sensi-modspec-RE')
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare2_spawnbio_uncertainty.png"),
 caption = "Spawning output (in billions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
-label = 'sensi-modspec-ssb')
+label = 'sensi-modspec-ssb',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -807,7 +889,8 @@ label = 'sensi-modspec-ssb')
 add_figure(
 filein = file.path(sensi_modspex_fig_loc, "compare4_Bratio_uncertainty.png"),
 caption = "Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario",
-label = 'sensi-modspec-depl')
+label = 'sensi-modspec-depl',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -821,7 +904,8 @@ label = 'sensi-modspec-depl')
 add_figure(
 filein = file.path(likeprof_fig_loc,"parameter_panel_SR_LN(R0).png"), 
 caption = "Initial recruitment ($lnR_0$) likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
-label = 'R0-profile')
+label = 'R0-profile',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -830,7 +914,8 @@ label = 'R0-profile')
 add_figure(
 filein = file.path(likeprof_fig_loc, "piner_panel_SR_LN(R0).png"), 
 caption = "Initial recruitment ($ln(R0)$) likelihood profile for each of the likelihood components",
-label = 'R0-profile-components')
+label = 'R0-profile-components',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -839,7 +924,8 @@ label = 'R0-profile-components')
 add_figure(
 filein = file.path(likeprof_fig_loc,"parameter_panel_SR_BH_steep.png"), 
 caption = "Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference",
-label = 'steepness-profile')
+label = 'steepness-profile',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -848,7 +934,8 @@ label = 'steepness-profile')
 add_figure(
 filein = file.path(likeprof_fig_loc, "piner_panel_SR_BH_steep.png"), 
 caption = "Beverton-Holt steepness parameter likelihood profile for each of the likelihood components",
-label = 'steepness-profile-components')
+label = 'steepness-profile-components',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -857,7 +944,8 @@ label = 'steepness-profile-components')
 add_figure(
 filein = file.path(likeprof_fig_loc, "M_fm_multilikelihood_profile.png"), 
 caption = "Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively",
-label = 'M-multiprofile-combo')
+label = 'M-multiprofile-combo',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -866,7 +954,8 @@ label = 'M-multiprofile-combo')
 add_figure(
 filein = file.path(likeprof_fig_loc,"LC_plots.png"), 
 caption = "Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile",
-label = 'M-multiprofile-like-components')
+label = 'M-multiprofile-like-components',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \newpage
@@ -883,7 +972,8 @@ label = 'M-multiprofile-like-components')
 add_figure(
 filein = file.path(retro_loc,  "compare2_spawnbio_uncertainty.png"), 
 caption = "Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially",
-label = 'retro-ssb')
+label = 'retro-ssb',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \pagebreak
@@ -892,7 +982,8 @@ label = 'retro-ssb')
 add_figure(
 filein = file.path(retro_loc,  "compare4_Bratio_uncertainty.png"),
 caption = "Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially",
-label = 'retro-depl')
+label = 'retro-depl',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \newpage
@@ -901,7 +992,8 @@ label = 'retro-depl')
 add_figure(
 filein = file.path(retro_loc,  "retro_percent_difference_3_panel.png"),
 caption = "Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs",
-label = 'retro-RE_comps')
+label = 'retro-RE_comps',
+alt_caption="The model files are available in the stock assessment archive")
 ```
 
 \newpage
@@ -917,7 +1009,8 @@ label = 'retro-RE_comps')
 add_figure(
 filein = file.path(mod_loc, "plots", "SPR4_phase.png"), 
 caption = "Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.",
-label = 'phase')
+label = 'phase',
+alt_caption="Values behind this figure are found in the model output Report file")
 ```
 
 \pagebreak
@@ -927,7 +1020,8 @@ label = 'phase')
 add_figure(
 filein = file.path(mod_loc, "plots", "SPR2_minusSPRseries.png"), 
 caption = "Estimated time series of fishing intensity, 1-SPR.",
-label = '1-spr')
+label = '1-spr',
+alt_caption="Values behind this figure are found in the model output Report file")
 ```
 
 \pagebreak
@@ -938,7 +1032,8 @@ add_figure(
 filein = file.path(mod_loc, "plots", "yield2_yield_curve_with_refpoints.png"), 
 caption = "Equilibrium yield curve for the base case model. Values are based on (the time
 invariant) fishery selectivities and with steepness fixed at 0.72.",
-label = 'yield')
+label = 'yield',
+alt_caption="Values behind this figure are found in the model output Report file")
 ```
 
 \pagebreak
@@ -946,15 +1041,17 @@ label = 'yield')
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(manage_loc, "compare2_spawnbio_uncertainty.png"), 
-caption = "Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish",
-label = 'stateofnature_SO')
+caption = "Time series of spawning output (with 95\\% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish",
+label = 'stateofnature_SO',
+alt_caption="Values behind this figure can be found in the Decision Table")
 ```
 
 ```{r, results = 'asis'}
 add_figure(
 filein = file.path(manage_loc, "compare4_Bratio_uncertainty.png"), 
-caption = "Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish",
-label = 'stateofnature_depl')
+caption = "Time series of relative stock status (with 95\\% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish",
+label = 'stateofnature_depl',
+alt_caption="Values behind this figure can be found in the Decision Table")
 ```
 
 \newpage

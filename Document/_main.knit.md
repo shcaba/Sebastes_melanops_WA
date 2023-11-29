@@ -1449,7 +1449,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/stock/black_rockfish_map.png}
+\includegraphics[alt=Black Rockfish range from California up to Alaska.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/stock/black_rockfish_map.png}
 }
 \caption{Map of the management and assessment areas for Black Rockfish.\label{fig:map}}
 \end{figure}
@@ -1467,7 +1467,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png}
+\includegraphics[alt=Data can be found in the provided tables and model files.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/data_plot.png}
 }
 \caption{Summary of data sources used in the reference model.\label{fig:data-plot}}
 \end{figure}
@@ -1477,7 +1477,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/catches/catch-time-series-comparison.png}
+\includegraphics[alt=Removals by fleet can be found in Table 1 and in the model data file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/catches/catch-time-series-comparison.png}
 }
 \caption{Comparison of total removals and removals by fleet between this assessment and those in 2007 and 2015. The lines showing the Non-Trawl and Recreational removal time series for the 2015 assessment cannot be seen as they are masked by the lines for the 2023 time series.\label{fig:catch-ts-comparison}}
 \end{figure}
@@ -1488,7 +1488,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt1mkt0_page2.png}
+\includegraphics[alt=Length compositions can be found in tables and in the model data file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt1mkt0_page2.png}
 }
 \caption{Length compositions by year from the commercial trawl fleet.\label{fig:trawl-length-comps}}
 \end{figure}
@@ -1499,7 +1499,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt2mkt0.png}
+\includegraphics[alt=Length compositions can be found in tables and in the model data file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt2mkt0.png}
 }
 \caption{Length compositions by year from the commercial nontrawl fleet.\label{fig:nontrawl-length-comps}}
 \end{figure}
@@ -1510,7 +1510,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt3mkt0_page2.png}
+\includegraphics[alt=Length compositions can be found in tables and in the model data file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_bubflt3mkt0_page2.png}
 }
 \caption{Length compositions by year from the recreational fleet.\label{fig:rec-length-comps}}
 \end{figure}
@@ -1521,7 +1521,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-n-min10.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-n-min10.png}
 }
 \caption{Trip average (points) and interquartile range (vertical solid lines) of the number of total rockfish retained per angler, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_numbers}}
 \end{figure}
@@ -1531,7 +1531,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-p-min10.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP-rockfish-bag-limit-p-min10.png}
 }
 \caption{Trip average (points) and interquartile range (vertical solid lines) of the percentage of the rockfish bag limit reached, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:baglimit_percentage}}
 \end{figure}
@@ -1541,7 +1541,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP_blackrock_p_total_rockfish.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/OSP_blackrock_p_total_rockfish.png}
 }
 \caption{Trip average (points) and interquartile range (vertical solid lines) of the percentage of total rockfish retained that were Black Rockfish, 1981-2022, by boat type and marine area. Years in which there less than 10 records are indicated by the cross symbol. The vertical dashed lines indicate a change in the bag limit. Note that the bag limit change in 1992 did not apply to Marine Area 1.\label{fig:blackrock_percentage}}
 \end{figure}
@@ -1551,7 +1551,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Private.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Private.png}
 }
 \caption{Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-log-diags}}
 \end{figure}
@@ -1561,7 +1561,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Private.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Private.png}
 }
 \caption{Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington private boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:private-gam-diags}}
 \end{figure}
@@ -1571,7 +1571,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Private_Index.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Private_Index.png}
 }
 \caption{Abundance indices for the WDFW private boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:private-index}}
 \end{figure}
@@ -1581,7 +1581,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_private_CV.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_private_CV.png}
 }
 \caption{Bootstrapped estimates of variation for each model of the Washington private boat index.\label{fig:private-CVs}}
 \end{figure}
@@ -1591,7 +1591,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Charter.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics lognormal_Charter.png}
 }
 \caption{Diagnostic plots for the positive catch component of the lognormal delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-log-diags}}
 \end{figure}
@@ -1601,7 +1601,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Charter.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/GLMdiagnostics gamma_Charter.png}
 }
 \caption{Diagnostic plots for the positive catch component of the gamma delta-GLM model for the Washington charter boat Black Rockfish dataset.  These plots are used to evaluate model fit (top left), assumptions of normality (top right), assumptions of constant variance (bottom left), and the presence of outliers (bottom right).\label{fig:charter-gam-diags}}
 \end{figure}
@@ -1611,7 +1611,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_Index.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_Index.png}
 }
 \caption{Abundance indices for the WDFW charter boat CPUE analysis. Vertical lines are notable management actions (mainly bag limit changes). Colors and line type indicates different distributional treatments of the index.\label{fig:charter-index}}
 \end{figure}
@@ -1621,7 +1621,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_CV.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/WA_dockside_Charter94_CV.png}
 }
 \caption{Bootstrapped estimates of variation for each model of the Washington charter boat index.\label{fig:charter-CVs}}
 \end{figure}
@@ -1631,7 +1631,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png}
 }
 \caption{Estimated and observed proportion zero for the negative binomial tagging model.\label{fig:prop-zero-tag}}
 \end{figure}
@@ -1641,7 +1641,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/HistoricTagging_1998_2018_Index.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/HistoricTagging_1998_2018_Index.png}
 }
 \caption{Time series of the tagging index as produced by two separate standardization approaches. Gamma refers to the gamma distribution used in a delta glm model (as done in 2015). The NB\_hurdle refers to a Bayesian negative binomial hurdle model.\label{fig:tag-index}}
 \end{figure}
@@ -1651,9 +1651,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Nearshore Survey_Hurdle.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Nearshore Survey_Hurdle.png}
 }
-\caption{Nearshore survey index and 95% confidence intervals using different factors in the negative binomial hurdle model.\label{fig:model-sel-nearshore}}
+\caption{Nearshore survey index and 95\% confidence intervals using different factors in the negative binomial hurdle model.\label{fig:model-sel-nearshore}}
 \end{figure}
 
 \pagebreak
@@ -1661,7 +1661,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/ProportionZero_Tagging_1998_2018.png}
 }
 \caption{Estimated and observed proportion zero for the negative binomial nearshore survey model.\label{fig:prop-zero-nearshore}}
 \end{figure}
@@ -1671,9 +1671,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Hurdles_NearshoreSurveyIndex.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Hurdles_NearshoreSurveyIndex.png}
 }
-\caption{Nearshore index time series with 95% confidence intervals.\label{fig:nearshore-index}}
+\caption{Nearshore index time series with 95\% confidence intervals.\label{fig:nearshore-index}}
 \end{figure}
 
 \pagebreak
@@ -1681,9 +1681,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Indices_Tagging_Nearshore.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Indices_Tagging_Nearshore.png}
 }
-\caption{Tagging index with and without the nearshore data added (vertical lines are 95% confidence internvals). The synoptic survey uses only one marine area (MA2).\label{fig:tag-nearshore-index}}
+\caption{Tagging index with and without the nearshore data added (vertical lines are 95\% confidence internvals). The synoptic survey uses only one marine area (MA2).\label{fig:tag-nearshore-index}}
 \end{figure}
 
 \pagebreak
@@ -1691,7 +1691,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_flt6mkt0.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lendat_flt6mkt0.png}
 }
 \caption{Length compositions by year for the OCNMS scuba survey.\label{fig:ocnms-ltcomps}}
 \end{figure}
@@ -1699,17 +1699,17 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_time_series_OCNMS.pdf}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_time_series_OCNMS.pdf}
 }
-\caption{Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95% intervals for each year.\label{fig:ocnms-adult-index}}
+\caption{Time-series of estimated Black Rockfish density on the Washington coast. Black points show means and standard errors for individual sites. Red points show coastwide density estimates, interquartile range and 95\% intervals for each year.\label{fig:ocnms-adult-index}}
 \end{figure}
 
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_YOY_time_series_OCNMS.pdf}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/index/Black_Rockfish_YOY_time_series_OCNMS.pdf}
 }
-\caption{Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95% intervals for each year. Note y-axis is square root.\label{fig:ocnms-yoy-index}}
+\caption{Time-series of estimated young-of-year rockfish (black-yellowtail complex) density on the Washington coast. Black points show means and standard errors for individual sites. Blue points show coastwide density estimates, interquartile range and 95\% intervals for each year. Note y-axis is square root.\label{fig:ocnms-yoy-index}}
 \end{figure}
 
 \pagebreak
@@ -1723,7 +1723,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Source_Sex.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Source_Sex.png}
 }
 \caption{Observed length-at-age by data source and sex.\label{fig:len-age-data-sex}}
 \end{figure}
@@ -1733,7 +1733,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Sex_Year.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_AG_Sex_Year.png}
 }
 \caption{Observed length-at-age by sex and year. Total samples are indicated in parentheses.\label{fig:len-age-sex-year}}
 \end{figure}
@@ -1743,7 +1743,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_VBGF_fit.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_VBGF_fit.png}
 }
 \caption{External fits to the observed length-at-age by sex.\label{fig:len-age-fit}}
 \end{figure}
@@ -1753,7 +1753,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_CV_Sex_plot.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_CV_Sex_plot.png}
 }
 \caption{Coefficient of variation of length by age by sex. Numbers indicate samples by age and colors indicate sex.\label{fig:cv-lt-age}}
 \end{figure}
@@ -1763,7 +1763,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio1_sizeatage.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio1_sizeatage.png}
 }
 \caption{Model estimated length-at-age. Shaded area indicates 95 percent distribution of length-at-age around the estimated growth curve.\label{fig:len-age-ss}}
 \end{figure}
@@ -1774,7 +1774,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Age1_1plots.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Age1_1plots.png}
 }
 \caption{Ageing bias plots by reader comparisons.\label{fig:a1-bias}}
 \end{figure}
@@ -1784,7 +1784,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_Bias_plot.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_Bias_plot.png}
 }
 \caption{Estimated bias relationships for each considered matrix. Reader 1 is always considered unbiased. Reader 1a and 1b is an intra-reader comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-bias}}
 \end{figure}
@@ -1794,7 +1794,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_SD_plot.png}
+\includegraphics[alt=The raw data can be found in the stock assessment data archives.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/WA_Reader_SD_plot.png}
 }
 \caption{Ageing error matrix standard deviation (SD) values by comparison. B refers to the bias type and S refers to the imprecision type in the model selection for the ageing error matrix.\label{fig:age-error-sd}}
 \end{figure}
@@ -1804,9 +1804,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Fig1_bio_and_func_color.png}
+\includegraphics[alt=The data are available upon equest from the authors.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Fig1_bio_and_func_color.png}
 }
-\caption{Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue).\label{fig:bio-fxn-mat-color}}
+\caption{Biological and functional maturity ogives. Biological maturity ogives are represented by the dashed lines (logistic regression and 95\% CI is grey, flexible spline and 95\% CI is light green). Functional maturity ogives are represented by the solid lines (logistic regression and 95\% CI is grey, flexible spline and 95\% CI is light blue).\label{fig:bio-fxn-mat-color}}
 \end{figure}
 
 \pagebreak
@@ -1814,9 +1814,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Fig2_func_samplesize_color.png}
+\includegraphics[alt=The data are available upon equest from the authors.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/Fig2_func_samplesize_color.png}
 }
-\caption{Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95% CI is grey, flexible spline and 95% CI is light blue) and sample size is denoted by the size of the bubbles).\label{fig:fxn-spline-mat-color}}
+\caption{Functional maturity ogives and sample size. Functional maturity ogives are represented by the solid lines (logistic regression and 95\% CI is grey, flexible spline and 95\% CI is light blue) and sample size is denoted by the size of the bubbles).\label{fig:fxn-spline-mat-color}}
 \end{figure}
 
 \pagebreak
@@ -1824,7 +1824,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio6_maturity.png}
+\includegraphics[alt=The data are available upon equest from the authors.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio6_maturity.png}
 }
 \caption{Maturity as a function of length (cm).\label{fig:maturity}}
 \end{figure}
@@ -1834,7 +1834,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio9_fecundity_len.png}
+\includegraphics[alt=This relationship was developed and provided by E.J. Dick.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/bio9_fecundity_len.png}
 }
 \caption{Fecundity (kg) as a function of length (cm).\label{fig:fecundity}}
 \end{figure}
@@ -1844,7 +1844,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png}
+\includegraphics[alt=The raw data are found in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_WA_State_Source_Sex.png}
 }
 \caption{Sex-specific length (cm)-weight (kg) data for Black Rockfish samples by source.\label{fig:len-weight-data}}
 \end{figure}
@@ -1854,7 +1854,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_lines_States_Sex.png}
+\includegraphics[alt=The raw data are found in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/biology_plots/LW_lines_States_Sex.png}
 }
 \caption{Sex-specific length (cm)-weight (kg) estimated power function relationships. Washington state estimate relationships are also provided for comparison.\label{fig:len-weight-or-wa}}
 \end{figure}
@@ -1872,9 +1872,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_SB_comp_plot.png}
+\includegraphics[alt=These model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_SB_comp_plot.png}
 }
-\caption{Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:ssb_bridge_comps}}
+\caption{Comparison of spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\% confidence intervals.\label{fig:ssb_bridge_comps}}
 \end{figure}
 
 \pagebreak
@@ -1882,9 +1882,9 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png}
+\includegraphics[alt=These model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/Bridge/WA_Dep_comp_plot.png}
 }
-\caption{Comparison of relative spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95% confidence intervals.\label{fig:deps_bridge_comps}}
+\caption{Comparison of relative spawning output for Black Rockfish in waters off of Washington between Stock Synthesis versions 3.24 and 3.30. Uncertainty envelops are 95\% confidence intervals.\label{fig:deps_bridge_comps}}
 \end{figure}
 
 \pagebreak
@@ -1897,7 +1897,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png}
+\includegraphics[alt=These model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock status/compare4_Bratio_uncertainty.png}
 }
 \caption{Relative spawning output time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history.\label{fig:modbuild-data-depl}}
 \end{figure}
@@ -1905,7 +1905,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png}
+\includegraphics[alt=These model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modbuild/Mod build stock scale/compare2_spawnbio_uncertainty.png}
 }
 \caption{Spawning output (in billions of eggs) time series by data treatment compared to the reference model. Each scenario is labelled to indicate what data are being used in the scenario. For instance, 'Catch Lengths' is a model with catch and lengths only. 'Dome' referes to a dome-shaped selectivity option for all fisheries. LH refers to life history.\label{fig:modbuild-data-ssb}}
 \end{figure}
@@ -1920,7 +1920,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png}
+\includegraphics[alt=These model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/jitterplot.png}
 }
 \caption{Jitter runs (using a value of 0.001) for the Black Rockfish reference model, with jitter run number on the x-axis and -log likelihood value on the y-axis. Blue dot are models that match the likelihood value of the reference model, while red dots deviate from the reference model. All red dots are above the blue dots, indicating no better fit to the reference model was found.\label{fig:jitter}}
 \end{figure}
@@ -1928,7 +1928,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/pairs_plot_fast.png}
+\includegraphics[alt=The model output that produce these plots are available upon request.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/modconverge/pairs_plot_fast.png}
 }
 \caption{Pairs plots of the fastest mixing parameters from running 2000 posterior draws (and keep every draw) using the random walk Metropolis algorithm. Parameters that show little to no movement are recommended to be fixed to improve model speed and efficiency.\label{fig:pairs_plot_fast}}
 \end{figure}
@@ -1944,7 +1944,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__multi-fleet_comparison.png}
 }
 \caption{Pearson residuals for each fishing fleet and the MPA survey. Closed bubble are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).\label{fig:lt-pearson-resids}}
 \end{figure}
@@ -1954,7 +1954,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Trawl.png}
 }
 \caption{Mean length (cm) index from the commercial trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:trawl-mean-len-fit}}
 \end{figure}
@@ -1964,7 +1964,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_NonTRWL.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_NonTRWL.png}
 }
 \caption{Mean length (cm) index from the commercial non-trawl fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nontrawl-mean-len-fit}}
 \end{figure}
@@ -1974,7 +1974,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Recreational.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Recreational.png}
 }
 \caption{Mean length (cm) index from the recreational fishery with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:rec-mean-len-fit}}
 \end{figure}
@@ -1984,7 +1984,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Tagging.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Tagging.png}
 }
 \caption{Mean length (cm) index from tagging survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:tag-mean-len-fit}}
 \end{figure}
@@ -1994,7 +1994,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Nearshore_survey.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_Nearshore_survey.png}
 }
 \caption{Mean length (cm) index from the Nearshore survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:nearshore-mean-len-fit}}
 \end{figure}
@@ -2004,7 +2004,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_OCNMS.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_data_weighting_TA1.8_OCNMS.png}
 }
 \caption{Mean length (cm) index from the OCNMS adult dive survey with 95 percent confidence intervals based on sample sizes and data weighting.\label{fig:ocnms-mean-len-fit}}
 \end{figure}
@@ -2014,7 +2014,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit__aggregated_across_time.png}
 }
 \caption{Aggregated length (cm) compositions over all years.\label{fig:agg-len-fit}}
 \end{figure}
@@ -2029,7 +2029,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeTrawl.png}
 }
 \caption{Mean age from conditional age-at-length data for the commercial trawl fishery.\label{fig:trawl-mean-caal}}
 \end{figure}
@@ -2039,7 +2039,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNonTRWL.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeNonTRWL.png}
 }
 \caption{Mean age observations from the conditional age-at-length data from the commercial non-trawl fishery.\label{fig:nontrawl-mean-caal}}
 \end{figure}
@@ -2049,7 +2049,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_data_weighting_TA1.8_condAgeRecreational.png}
 }
 \caption{Mean age observations from the conditional age-at-length data from the recreational fishery.\label{fig:rec-mean-caal}}
 \end{figure}
@@ -2063,7 +2063,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Charter.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Charter.png}
 }
 \caption{Fit to the charter fishery index of abundance.\label{fig:charter-index-fit}}
 \end{figure}
@@ -2073,7 +2073,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Private_Boat.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Private_Boat.png}
 }
 \caption{Fit to the private fishery index of abundance.\label{fig:private-index-fit}}
 \end{figure}
@@ -2083,7 +2083,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Tagging.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Tagging.png}
 }
 \caption{Fit to the tagging survey index of abundance.\label{fig:tag-index-fit}}
 \end{figure}
@@ -2093,7 +2093,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Nearshore_survey.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_Nearshore_survey.png}
 }
 \caption{Fit to the nearshore survey index of abundance.\label{fig:nearshore-index-fit}}
 \end{figure}
@@ -2103,7 +2103,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS.png}
 }
 \caption{Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-index-fit}}
 \end{figure}
@@ -2113,7 +2113,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS_YOY.png}
+\includegraphics[alt=The numbers behind these figures can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/index2_cpuefit_OCNMS_YOY.png}
 }
 \caption{Fit to the OCNMS dive survey index of abundance.\label{fig:ocnms-yoy-index-fit}}
 \end{figure}
@@ -2132,7 +2132,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png}
+\includegraphics[alt=The values are provided in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png}
 }
 \caption{Estimated time series of age-0 recruits (1000s).\label{fig:recruits}}
 \end{figure}
@@ -2142,7 +2142,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs2_withbars.png}
 }
 \caption{Estimated time series of recruitment deviations.\label{fig:rec-devs}}
 \end{figure}
@@ -2152,7 +2152,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png}
+\includegraphics[alt=The values are calculated and found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png}
 }
 \caption{Recruitment deviations variance by year. This plot tracks the information content contained in each recruitment deviation. Values below the red line (assumed recruitment variability) indicates years with more informed recruitment deviations.\label{fig:rec-devs-sigmas}}
 \end{figure}
@@ -2162,7 +2162,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SR_curve.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SR_curve.png}
 }
 \caption{Stock-recruit curve. Point colors indicate year, with warmer colors indicating earlier years and cooler colors in showing later years.\label{fig:bh-curve}}
 \end{figure}
@@ -2172,14 +2172,14 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recruit_fit_bias_adjust.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recruit_fit_bias_adjust.png}
 }
 \caption{Recruitment bias adjustment applied in the reference model.\label{fig:bias-adj}}
 \end{figure}
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/recdevs3_varcheck.png}
 }
 \caption{Recruitment deviations variance check. Low standard deviations indicate years with informative deviations.\label{fig:varcheck}}
 \end{figure}
@@ -2195,7 +2195,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/sel01_multiple_fleets_length1.png}
 }
 \caption{Length-based selectivity curves for each fleet and survey.\label{fig:fleet_selectivity}}
 \end{figure}
@@ -2212,7 +2212,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png}
 }
 \caption{Estimated time series of spawning output (in billions of eggs).\label{fig:ssb}}
 \end{figure}
@@ -2222,7 +2222,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts1_Total_biomass_(mt).png}
 }
 \caption{Estimated time series of total biomass (mt).\label{fig:tot-bio}}
 \end{figure}
@@ -2232,7 +2232,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png}
+\includegraphics[alt=The values can be found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/ts9_Relative_spawning_output_intervals.png}
 }
 \caption{Estimated time series of fraction of unfished spawning output.\label{fig:depl}}
 \end{figure}
@@ -2242,7 +2242,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png}
+\includegraphics[alt=The values can be found in the respective model output Report files.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare2_spawnbio_uncertainty.png}
 }
 \caption{Comparison of the time series of spawning output between the 2015 and 2023 assessment results.\label{fig:comp_ssb}}
 \end{figure}
@@ -2252,7 +2252,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png}
+\includegraphics[alt=The values can be found in the respective model output Report files.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/comp_2015_2023/compare4_Bratio_uncertainty.png}
 }
 \caption{Comparison of the time series of relative spawning output between the 2015 and 2023 assessment results.\label{fig:comp_depl}}
 \end{figure}
@@ -2268,7 +2268,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/Sensi_logREplot_SB_Dep_F_Yield.png}
 }
 \caption{Log relative change (log((Model\_sensi-Model\_ref)/Model\_ref)) in data treatment for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See Sensitivity Analysis section for more details on each scenario.\label{fig:sensi-data-RE}}
 \end{figure}
@@ -2278,7 +2278,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare2_spawnbio_uncertainty.png}
 }
 \caption{Spawning output (in billions of eggs) time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-ssb}}
 \end{figure}
@@ -2288,7 +2288,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare4_Bratio_uncertainty.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_data/compare4_Bratio_uncertainty.png}
 }
 \caption{Relative spawning output time series by data treatment compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-data-depl}}
 \end{figure}
@@ -2298,7 +2298,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/Sensi_logREplot_SB_Dep_F_Yield.png}
 }
 \caption{Log relative change (log((Model\_sensi-Model\_ref)/Model\_ref)) in model specification scenario for 5 derived quantities. Colored boxes indicate 95 percent confidence interval of the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-RE}}
 \end{figure}
@@ -2308,7 +2308,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare2_spawnbio_uncertainty.png}
 }
 \caption{Spawning output (in billions of eggs) time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-ssb}}
 \end{figure}
@@ -2318,7 +2318,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/sensi_modspex/compare4_Bratio_uncertainty.png}
 }
 \caption{Relative spawning output time series by model specification scenario compared to the reference model. See 'Sensitivity Analysis' section for more details on each scenario.\label{fig:sensi-modspec-depl}}
 \end{figure}
@@ -2333,7 +2333,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_LN(R0).png}
 }
 \caption{Initial recruitment ($lnR_0$) likelihood profile (change in the negative log-likelihood across a range of $ln(R0)$ values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:R0-profile}}
 \end{figure}
@@ -2343,7 +2343,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_LN(R0).png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_LN(R0).png}
 }
 \caption{Initial recruitment ($ln(R0)$) likelihood profile for each of the likelihood components.\label{fig:R0-profile-components}}
 \end{figure}
@@ -2353,7 +2353,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/parameter_panel_SR_BH_steep.png}
 }
 \caption{Beverton-Holt steepness parameter likelihood profile (change in the negative log-likelihood across a range of steepness values) and derived quantities. Red line in the top left figure indicates the significance level in likelihood difference.\label{fig:steepness-profile}}
 \end{figure}
@@ -2363,7 +2363,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_BH_steep.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/piner_panel_SR_BH_steep.png}
 }
 \caption{Beverton-Holt steepness parameter likelihood profile for each of the likelihood components.\label{fig:steepness-profile-components}}
 \end{figure}
@@ -2373,7 +2373,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/M_fm_multilikelihood_profile.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/M_fm_multilikelihood_profile.png}
 }
 \caption{Female and male $M$ multi-parameter likelihood profile and derived quantities. Red lines in the top left figure indicate significantly similar values compared to the reference model. Broken and solid lines in the bottom right figure indicate target and limit referene points, respectively.\label{fig:M-multiprofile-combo}}
 \end{figure}
@@ -2383,7 +2383,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/LC_plots.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/likelihoods/LC_plots.png}
 }
 \caption{Likelihood values by component and within components for the female and male $M$ multi-parameter likelihood profile.\label{fig:M-multiprofile-like-components}}
 \end{figure}
@@ -2401,7 +2401,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare2_spawnbio_uncertainty.png}
 }
 \caption{Change in the estimate of spawning output when the most recent 5 years of data area removed sequentially.\label{fig:retro-ssb}}
 \end{figure}
@@ -2411,7 +2411,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/compare4_Bratio_uncertainty.png}
 }
 \caption{Change in the estimate of fraction unfished when the most recent 5 years of data area removed sequentially.\label{fig:retro-depl}}
 \end{figure}
@@ -2421,7 +2421,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/retro_percent_difference_3_panel.png}
+\includegraphics[alt=The model files are available in the stock assessment archive.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/retro/retro_percent_difference_3_panel.png}
 }
 \caption{Relative error from the reference model for each of the 5 data peels in the restrospective analysis for 3 derived outputs.\label{fig:retro-RE_comps}}
 \end{figure}
@@ -2438,7 +2438,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png}
+\includegraphics[alt=Values behind this figure are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR4_phase.png}
 }
 \caption{Phase plot of biomass ratio vs. SPR ratio. Each point represents the biomass ratio at the start of the year and the relative fishing intensity in that same year. Warmer colors (red) represent early years and colder colors (blue) represent recent years.\label{fig:phase}}
 \end{figure}
@@ -2449,7 +2449,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png}
+\includegraphics[alt=Values behind this figure are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/SPR2_minusSPRseries.png}
 }
 \caption{Estimated time series of fishing intensity, 1-SPR.\label{fig:1-spr}}
 \end{figure}
@@ -2460,7 +2460,7 @@ This table is included below and referenced in the management section
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png}
+\includegraphics[alt=Values behind this figure are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/yield2_yield_curve_with_refpoints.png}
 }
 \caption{Equilibrium yield curve for the base case model. Values are based on (the time
 invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yield}}
@@ -2471,17 +2471,17 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare2_spawnbio_uncertainty.png}
+\includegraphics[alt=Values behind this figure can be found in the Decision Table.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare2_spawnbio_uncertainty.png}
 }
-\caption{Time series of spawning output (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_SO}}
+\caption{Time series of spawning output (with 95\% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_SO}}
 \end{figure}
 
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare4_Bratio_uncertainty.png}
+\includegraphics[alt=Values behind this figure can be found in the Decision Table.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/figures/management/compare4_Bratio_uncertainty.png}
 }
-\caption{Time series of relative stock status (with 95% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_depl}}
+\caption{Time series of relative stock status (with 95\% uncertainty envelops) for three states of nature, based on the treatment of natural mortality, of Washington Black Rockfish.\label{fig:stateofnature_depl}}
 \end{figure}
 
 \newpage
