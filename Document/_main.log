@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.20)  28 NOV 2023 17:13
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.11.20)  28 NOV 2023 17:46
  restricted system commands enabled.
 **_main.tex
 (./_main.tex
@@ -5354,7 +5354,7 @@ Here is how much of LuaTeX's memory you used:
    9 hlist, 2 vlist, 3 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 4 glyph, 19 attribute, 85 glue_spec, 19 attribute_list, 5 write, 1 close, 6 pdf_action nodes
    avail lists: 1:8,2:13749,3:5094,4:161,5:626,6:2580,7:31134,8:177,9:16465,10:22,11:825
  70624 multiletter control sequences out of 65536+600000
- 83 fonts using 25170607 bytes
+ 83 fonts using 25170707 bytes
  117i,14n,128p,2508b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'app_d'

@@ -2495,7 +2495,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page1.png}
 }
 \caption{Length comps, whole catch, Trawl (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt1mkt0_page1}}
 \end{figure}
@@ -2503,7 +2503,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt1mkt0_page2.png}
 }
 \caption{Length comps, whole catch, Trawl (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt1mkt0_page2}}
 \end{figure}
@@ -2511,7 +2511,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt2mkt0.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt2mkt0.png}
 }
 \caption{Length comps, whole catch, NonTRWL.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt2mkt0}}
 \end{figure}
@@ -2519,7 +2519,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page1.png}
 }
 \caption{Length comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt3mkt0_page1}}
 \end{figure}
@@ -2527,7 +2527,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt3mkt0_page2.png}
 }
 \caption{Length comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_lenfit_flt3mkt0_page2}}
 \end{figure}
@@ -2535,7 +2535,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt4mkt0.png}
 }
 \caption{Length comps, whole catch, Tagging.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt4mkt0}}
 \end{figure}
@@ -2543,7 +2543,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt5mkt0.png}
 }
 \caption{Length comps, whole catch, Nearshore survey.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt5mkt0}}
 \end{figure}
@@ -2551,7 +2551,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt6mkt0.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_lenfit_flt6mkt0.png}
 }
 \caption{Length comps, whole catch, OCNMS.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_lenfit_flt6mkt0}}
 \end{figure}
@@ -2563,7 +2563,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page1.png}
 }
 \caption{Pearson residuals, whole catch, Trawl (max=8.71) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page1}}
 \end{figure}
@@ -2571,7 +2571,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page2.png}
 }
 \caption{Pearson residuals, whole catch, Trawl (max=8.71) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page2}}
 \end{figure}
@@ -2579,7 +2579,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt1mkt0_page3.png}
 }
 \caption{Pearson residuals, whole catch, Trawl (max=8.71) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt1mkt0_page3}}
 \end{figure}
@@ -2587,7 +2587,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page1.png}
 }
 \caption{Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 1 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page1}}
 \end{figure}
@@ -2595,7 +2595,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page2.png}
 }
 \caption{Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 2 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page2}}
 \end{figure}
@@ -2603,7 +2603,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt2mkt0_page3.png}
 }
 \caption{Pearson residuals, whole catch, NonTRWL (max=18.55) (plot 3 of 3).\label{fig:comp_condAALfit_residsflt2mkt0_page3}}
 \end{figure}
@@ -2611,7 +2611,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page1.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 1 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page1}}
 \end{figure}
@@ -2619,7 +2619,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page2.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 2 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page2}}
 \end{figure}
@@ -2627,7 +2627,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page3.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 3 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page3}}
 \end{figure}
@@ -2635,7 +2635,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page4.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 4 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page4}}
 \end{figure}
@@ -2643,7 +2643,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page5.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 5 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page5}}
 \end{figure}
@@ -2651,7 +2651,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page6.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page6.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 6 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page6}}
 \end{figure}
@@ -2659,7 +2659,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page7.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page7.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 7 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page7}}
 \end{figure}
@@ -2667,7 +2667,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page8.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_residsflt3mkt0_page8.png}
 }
 \caption{Pearson residuals, whole catch, Recreational (max=25.87) (plot 8 of 8).\label{fig:comp_condAALfit_residsflt3mkt0_page8}}
 \end{figure}
@@ -2679,7 +2679,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page1.png}
 }
 \caption{Trawl fishery conditional AAL plot (plot 1 of 5) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page1}}
 \end{figure}
@@ -2687,7 +2687,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page2.png}
 }
 \caption{Trawl conditional AAL plot (plot 2 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page2}}
 \end{figure}
@@ -2695,7 +2695,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page3.png}
 }
 \caption{Trawl conditional AAL plot (plot 3 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page3}}
 \end{figure}
@@ -2703,7 +2703,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page4.png}
 }
 \caption{Trawl conditional AAL plot (plot 4 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page4}}
 \end{figure}
@@ -2711,7 +2711,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt1mkt0_page5.png}
 }
 \caption{Trawl conditional AAL plot (plot 5 of 5).\label{fig:comp_condAALfit_Andre_plotsflt1mkt0_page5}}
 \end{figure}
@@ -2719,7 +2719,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page1.png}
 }
 \caption{Non-trawl (jig) fishery conditional AAL plot (plot 1 of 2) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page1}}
 \end{figure}
@@ -2727,7 +2727,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page2.png}
 }
 \caption{Non-trawl (jig) conditional AAL plot (plot 2 of 2).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page2}}
 \end{figure}
@@ -2735,7 +2735,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt2mkt0_page3.png}
 }
 \caption{Non-trawl (jig) conditional AAL plot (plot 3 of 3).\label{fig:comp_condAALfit_Andre_plotsflt2mkt0_page3}}
 \end{figure}
@@ -2743,7 +2743,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page1.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 1 of 11) showing mean age (left panel) and standard deviation (right panel. Shaded areas are 90 percent CIs).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page1}}
 \end{figure}
@@ -2751,7 +2751,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page10.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page10.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 2 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page10}}
 \end{figure}
@@ -2759,7 +2759,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page11.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page11.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 3 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page11}}
 \end{figure}
@@ -2767,7 +2767,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page2.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 3 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page2}}
 \end{figure}
@@ -2775,7 +2775,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page3.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 4 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page3}}
 \end{figure}
@@ -2783,7 +2783,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page4.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 5 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page4}}
 \end{figure}
@@ -2791,7 +2791,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page5.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 6 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page5}}
 \end{figure}
@@ -2799,7 +2799,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page6.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 7 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page6}}
 \end{figure}
@@ -2807,7 +2807,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page7.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page7.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 8 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page7}}
 \end{figure}
@@ -2815,7 +2815,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page8.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page8.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 9 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page8}}
 \end{figure}
@@ -2823,7 +2823,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page9.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_condAALfit_Andre_plotsflt3mkt0_page9.png}
 }
 \caption{Ocean boat conditional AAL plot (plot 10 of 11).\label{fig:comp_condAALfit_Andre_plotsflt3mkt0_page9}}
 \end{figure}
@@ -2835,7 +2835,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt1mkt0.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt1mkt0.png}
 }
 \caption{Excluded age comps, whole catch, Trawl.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt1mkt0}}
 \end{figure}
@@ -2843,7 +2843,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt2mkt0.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt2mkt0.png}
 }
 \caption{Excluded age comps, whole catch, NonTRWL.<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt2mkt0}}
 \end{figure}
@@ -2851,7 +2851,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page1.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page1.png}
 }
 \caption{Excluded age comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.\label{fig:comp_gstagefit_flt3mkt0_page1}}
 \end{figure}
@@ -2859,7 +2859,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page2.png}
+\includegraphics[alt=Data can be found in the model data file and in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/comp_gstagefit_flt3mkt0_page2.png}
 }
 \caption{Excluded age comps, whole catch, Recreational (plot 1 of 2).<br><br>'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. (plot 2 of 2).\label{fig:comp_gstagefit_flt3mkt0_page2}}
 \end{figure}
@@ -2873,7 +2873,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex1_beg.png}
+\includegraphics[alt=Number at age are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex1_beg.png}
 }
 \caption{Female Black Rockfish mean age over time.\label{fig:num_age_females}}
 \end{figure}
@@ -2883,7 +2883,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex2_beg.png}
+\includegraphics[alt=Number at age are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers1_sex2_beg.png}
 }
 \caption{Male Black Rockfish mean age over time.\label{fig:num_age_males}}
 \end{figure}
@@ -2896,7 +2896,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex1.png}
+\includegraphics[alt=Mean lengths are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex1.png}
 }
 \caption{Female Black Rockfish mean length (cm) over time.\label{fig:num_lts_females}}
 \end{figure}
@@ -2908,7 +2908,7 @@ invariant) fishery selectivities and with steepness fixed at 0.72.\label{fig:yie
 
 \begin{figure}
 {\centering
-\includegraphics[alt=.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex2.png}
+\includegraphics[alt=Mean lengths are found in the model output Report file.,width=1\textwidth,height=1\textheight]{C:/Users/Jason.Cope/Documents/Github/Sebastes_melanops_WA/Document/models/Reference model/plots/numbers6_len_sex2.png}
 }
 \caption{Male Black Rockfish mean length over time.\label{fig:num_lts_males}}
 \end{figure}

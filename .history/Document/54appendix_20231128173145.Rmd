@@ -11,9 +11,11 @@ filein = file.path(mod_loc, "plots")
 for (a in plot.vec){
 	cap = len_fit$caption[a]
 	lab = len_fit$label[a]
+	altcap = len_fit$altcaption[a]
 	add_figure(filein = file.path(filein, len_fit$file[a]), 
 			   caption = cap, 
-			   label = lab)
+			   label = lab,
+			   alt_caption=altcap)
 }
 
 ```
